@@ -12,7 +12,7 @@ import "ClientGadget.proto";
 import "Weather.proto";
 import "AbilityGadget.proto";
 import "StatueGadget.proto";
-import "BossChest.proto";
+import "BossChestInfo.proto";
 import "BlossomChest.proto";
 import "MpPlayReward.proto";
 import "GeneralReward.proto";
@@ -50,7 +50,7 @@ message SceneGadgetInfo {
 		Weather weather = 17;
 		AbilityGadget ability_gadget = 18;
 		StatueGadget statue_gadget = 19;
-		BossChest boss_chest = 20;
+		BossChestInfo boss_chest = 20;
 		BlossomChest blossom_chest = 41;
 		MpPlayReward mp_play_reward = 42;
 		GeneralReward general_reward = 43;

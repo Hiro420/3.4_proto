@@ -195,19 +195,19 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.StatueGadgetOuterClass.StatueGadgetOrBuilder getStatueGadgetOrBuilder();
 
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      * @return Whether the bossChest field is set.
      */
     boolean hasBossChest();
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      * @return The bossChest.
      */
-    emu.grasscutter.net.proto.BossChestOuterClass.BossChest getBossChest();
+    emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo getBossChest();
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      */
-    emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder getBossChestOrBuilder();
+    emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder getBossChestOrBuilder();
 
     /**
      * <code>.BlossomChest blossom_chest = 41;</code>
@@ -695,14 +695,14 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 162: {
-              emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder subBuilder = null;
+              emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder subBuilder = null;
               if (contentCase_ == 20) {
-                subBuilder = ((emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.BossChestOuterClass.BossChest.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 20;
@@ -1435,7 +1435,7 @@ public final class SceneGadgetInfoOuterClass {
 
     public static final int BOSS_CHEST_FIELD_NUMBER = 20;
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      * @return Whether the bossChest field is set.
      */
     @java.lang.Override
@@ -1443,25 +1443,25 @@ public final class SceneGadgetInfoOuterClass {
       return contentCase_ == 20;
     }
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      * @return The bossChest.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BossChestOuterClass.BossChest getBossChest() {
+    public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo getBossChest() {
       if (contentCase_ == 20) {
-         return (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_;
+         return (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_;
       }
-      return emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+      return emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
     }
     /**
-     * <code>.BossChest boss_chest = 20;</code>
+     * <code>.BossChestInfo boss_chest = 20;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder getBossChestOrBuilder() {
+    public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder getBossChestOrBuilder() {
       if (contentCase_ == 20) {
-         return (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_;
+         return (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_;
       }
-      return emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+      return emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
     }
 
     public static final int BLOSSOM_CHEST_FIELD_NUMBER = 41;
@@ -2092,7 +2092,7 @@ public final class SceneGadgetInfoOuterClass {
         output.writeMessage(19, (emu.grasscutter.net.proto.StatueGadgetOuterClass.StatueGadget) content_);
       }
       if (contentCase_ == 20) {
-        output.writeMessage(20, (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_);
+        output.writeMessage(20, (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_);
       }
       if (markFlag_ != 0) {
         output.writeUInt32(21, markFlag_);
@@ -2244,7 +2244,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       if (contentCase_ == 20) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(20, (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_);
+          .computeMessageSize(20, (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_);
       }
       if (markFlag_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -4626,9 +4626,9 @@ public final class SceneGadgetInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BossChestOuterClass.BossChest, emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder, emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder> bossChestBuilder_;
+          emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder> bossChestBuilder_;
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        * @return Whether the bossChest field is set.
        */
       @java.lang.Override
@@ -4636,27 +4636,27 @@ public final class SceneGadgetInfoOuterClass {
         return contentCase_ == 20;
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        * @return The bossChest.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BossChestOuterClass.BossChest getBossChest() {
+      public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo getBossChest() {
         if (bossChestBuilder_ == null) {
           if (contentCase_ == 20) {
-            return (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_;
+            return (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_;
           }
-          return emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+          return emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
         } else {
           if (contentCase_ == 20) {
             return bossChestBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+          return emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
-      public Builder setBossChest(emu.grasscutter.net.proto.BossChestOuterClass.BossChest value) {
+      public Builder setBossChest(emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo value) {
         if (bossChestBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -4670,10 +4670,10 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
       public Builder setBossChest(
-          emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder builderForValue) {
+          emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder builderForValue) {
         if (bossChestBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -4684,13 +4684,13 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
-      public Builder mergeBossChest(emu.grasscutter.net.proto.BossChestOuterClass.BossChest value) {
+      public Builder mergeBossChest(emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo value) {
         if (bossChestBuilder_ == null) {
           if (contentCase_ == 20 &&
-              content_ != emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.BossChestOuterClass.BossChest.newBuilder((emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_)
+              content_ != emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.newBuilder((emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -4706,7 +4706,7 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
       public Builder clearBossChest() {
         if (bossChestBuilder_ == null) {
@@ -4725,38 +4725,38 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
-      public emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder getBossChestBuilder() {
+      public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder getBossChestBuilder() {
         return getBossChestFieldBuilder().getBuilder();
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder getBossChestOrBuilder() {
+      public emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder getBossChestOrBuilder() {
         if ((contentCase_ == 20) && (bossChestBuilder_ != null)) {
           return bossChestBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 20) {
-            return (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_;
+            return (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_;
           }
-          return emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+          return emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.BossChest boss_chest = 20;</code>
+       * <code>.BossChestInfo boss_chest = 20;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BossChestOuterClass.BossChest, emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder, emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder> 
+          emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder> 
           getBossChestFieldBuilder() {
         if (bossChestBuilder_ == null) {
           if (!(contentCase_ == 20)) {
-            content_ = emu.grasscutter.net.proto.BossChestOuterClass.BossChest.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.getDefaultInstance();
           }
           bossChestBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.BossChestOuterClass.BossChest, emu.grasscutter.net.proto.BossChestOuterClass.BossChest.Builder, emu.grasscutter.net.proto.BossChestOuterClass.BossChestOrBuilder>(
-                  (emu.grasscutter.net.proto.BossChestOuterClass.BossChest) content_,
+              emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo.Builder, emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.BossChestInfoOuterClass.BossChestInfo) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -7251,52 +7251,52 @@ public final class SceneGadgetInfoOuterClass {
       "proto\032\nItem.proto\032\022GatherGadget.proto\032\rW" +
       "orktop.proto\032\022ClientGadget.proto\032\rWeathe" +
       "r.proto\032\023AbilityGadget.proto\032\022StatueGadg" +
-      "et.proto\032\017BossChest.proto\032\022BlossomChest." +
-      "proto\032\022MpPlayReward.proto\032\023GeneralReward" +
-      ".proto\032\022OfferingInfo.proto\032\024FoundationIn" +
-      "fo.proto\032\021VehicleInfo.proto\032\017ShellInfo.p" +
-      "roto\032\020ScreenInfo.proto\032\022FishPoolInfo.pro" +
-      "to\032\032CustomGadgetTreeInfo.proto\032\031Roguelik" +
-      "eGadgetInfo.proto\032\031NightCrowGadgetInfo.p" +
-      "roto\032\036DeshretObeliskGadgetInfo.proto\032\035Co" +
-      "inCollectOperatorInfo.proto\032\022PlatformInf" +
-      "o.proto\032\024GadgetPlayInfo.proto\"\362\n\n\017SceneG" +
-      "adgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007groupId\030\002" +
-      " \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerEntityId\030" +
-      "\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.GadgetBornType" +
-      "\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetType\030\007 \001(" +
-      "\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017authorityPe" +
-      "erId\030\t \001(\r\022\030\n\020isEnableInteract\030\n \001(\010\022\022\n\n" +
-      "interactId\030\013 \001(\r\022\034\n\013trifle_item\030\014 \001(\0132\005." +
-      "ItemH\000\022&\n\rgather_gadget\030\r \001(\0132\r.GatherGa" +
-      "dgetH\000\022\033\n\007worktop\030\016 \001(\0132\010.WorktopH\000\022&\n\rc" +
-      "lient_gadget\030\017 \001(\0132\r.ClientGadgetH\000\022\033\n\007w" +
-      "eather\030\021 \001(\0132\010.WeatherH\000\022(\n\016ability_gadg" +
-      "et\030\022 \001(\0132\016.AbilityGadgetH\000\022&\n\rstatue_gad" +
-      "get\030\023 \001(\0132\r.StatueGadgetH\000\022 \n\nboss_chest" +
-      "\030\024 \001(\0132\n.BossChestH\000\022&\n\rblossom_chest\030) " +
-      "\001(\0132\r.BlossomChestH\000\022\'\n\016mp_play_reward\030*" +
-      " \001(\0132\r.MpPlayRewardH\000\022(\n\016general_reward\030" +
-      "+ \001(\0132\016.GeneralRewardH\000\022&\n\roffering_info" +
-      "\030, \001(\0132\r.OfferingInfoH\000\022*\n\017foundation_in" +
-      "fo\030- \001(\0132\017.FoundationInfoH\000\022$\n\014vehicle_i" +
-      "nfo\030. \001(\0132\014.VehicleInfoH\000\022 \n\nshell_info\030" +
-      "/ \001(\0132\n.ShellInfoH\000\022\"\n\013screen_info\0300 \001(\013" +
-      "2\013.ScreenInfoH\000\022\'\n\016fish_pool_info\030; \001(\0132" +
-      "\r.FishPoolInfoH\000\0228\n\027custom_gadget_tree_i" +
-      "nfo\030< \001(\0132\025.CustomGadgetTreeInfoH\000\0225\n\025ro" +
-      "guelike_gadget_info\030= \001(\0132\024.RoguelikeGad" +
-      "getInfoH\000\0226\n\026night_crow_gadget_info\030> \001(" +
-      "\0132\024.NightCrowGadgetInfoH\000\022@\n\033deshret_obe" +
-      "lisk_gadget_info\030? \001(\0132\031.DeshretObeliskG" +
-      "adgetInfoH\000\022>\n\032coin_collect_operator_inf" +
-      "o\030@ \001(\0132\030.CoinCollectOperatorInfoH\000\022\020\n\010m" +
-      "arkFlag\030\025 \001(\r\022\031\n\021propOwnerEntityId\030\026 \001(\r" +
-      "\022\037\n\010platform\030\027 \001(\0132\r.PlatformInfo\022\027\n\017int" +
-      "eractUidList\030\030 \003(\r\022\017\n\007draftId\030\031 \001(\r\022\027\n\017g" +
-      "adgetTalkState\030\032 \001(\r\022!\n\010playInfo\030d \001(\0132\017" +
-      ".GadgetPlayInfoB\t\n\007contentB\033\n\031emu.grassc" +
-      "utter.net.protob\006proto3"
+      "et.proto\032\023BossChestInfo.proto\032\022BlossomCh" +
+      "est.proto\032\022MpPlayReward.proto\032\023GeneralRe" +
+      "ward.proto\032\022OfferingInfo.proto\032\024Foundati" +
+      "onInfo.proto\032\021VehicleInfo.proto\032\017ShellIn" +
+      "fo.proto\032\020ScreenInfo.proto\032\022FishPoolInfo" +
+      ".proto\032\032CustomGadgetTreeInfo.proto\032\031Rogu" +
+      "elikeGadgetInfo.proto\032\031NightCrowGadgetIn" +
+      "fo.proto\032\036DeshretObeliskGadgetInfo.proto" +
+      "\032\035CoinCollectOperatorInfo.proto\032\022Platfor" +
+      "mInfo.proto\032\024GadgetPlayInfo.proto\"\366\n\n\017Sc" +
+      "eneGadgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007group" +
+      "Id\030\002 \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerEntit" +
+      "yId\030\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.GadgetBorn" +
+      "Type\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetType\030" +
+      "\007 \001(\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017authori" +
+      "tyPeerId\030\t \001(\r\022\030\n\020isEnableInteract\030\n \001(\010" +
+      "\022\022\n\ninteractId\030\013 \001(\r\022\034\n\013trifle_item\030\014 \001(" +
+      "\0132\005.ItemH\000\022&\n\rgather_gadget\030\r \001(\0132\r.Gath" +
+      "erGadgetH\000\022\033\n\007worktop\030\016 \001(\0132\010.WorktopH\000\022" +
+      "&\n\rclient_gadget\030\017 \001(\0132\r.ClientGadgetH\000\022" +
+      "\033\n\007weather\030\021 \001(\0132\010.WeatherH\000\022(\n\016ability_" +
+      "gadget\030\022 \001(\0132\016.AbilityGadgetH\000\022&\n\rstatue" +
+      "_gadget\030\023 \001(\0132\r.StatueGadgetH\000\022$\n\nboss_c" +
+      "hest\030\024 \001(\0132\016.BossChestInfoH\000\022&\n\rblossom_" +
+      "chest\030) \001(\0132\r.BlossomChestH\000\022\'\n\016mp_play_" +
+      "reward\030* \001(\0132\r.MpPlayRewardH\000\022(\n\016general" +
+      "_reward\030+ \001(\0132\016.GeneralRewardH\000\022&\n\roffer" +
+      "ing_info\030, \001(\0132\r.OfferingInfoH\000\022*\n\017found" +
+      "ation_info\030- \001(\0132\017.FoundationInfoH\000\022$\n\014v" +
+      "ehicle_info\030. \001(\0132\014.VehicleInfoH\000\022 \n\nshe" +
+      "ll_info\030/ \001(\0132\n.ShellInfoH\000\022\"\n\013screen_in" +
+      "fo\0300 \001(\0132\013.ScreenInfoH\000\022\'\n\016fish_pool_inf" +
+      "o\030; \001(\0132\r.FishPoolInfoH\000\0228\n\027custom_gadge" +
+      "t_tree_info\030< \001(\0132\025.CustomGadgetTreeInfo" +
+      "H\000\0225\n\025roguelike_gadget_info\030= \001(\0132\024.Rogu" +
+      "elikeGadgetInfoH\000\0226\n\026night_crow_gadget_i" +
+      "nfo\030> \001(\0132\024.NightCrowGadgetInfoH\000\022@\n\033des" +
+      "hret_obelisk_gadget_info\030? \001(\0132\031.Deshret" +
+      "ObeliskGadgetInfoH\000\022>\n\032coin_collect_oper" +
+      "ator_info\030@ \001(\0132\030.CoinCollectOperatorInf" +
+      "oH\000\022\020\n\010markFlag\030\025 \001(\r\022\031\n\021propOwnerEntity" +
+      "Id\030\026 \001(\r\022\037\n\010platform\030\027 \001(\0132\r.PlatformInf" +
+      "o\022\027\n\017interactUidList\030\030 \003(\r\022\017\n\007draftId\030\031 " +
+      "\001(\r\022\027\n\017gadgetTalkState\030\032 \001(\r\022!\n\010playInfo" +
+      "\030d \001(\0132\017.GadgetPlayInfoB\t\n\007contentB\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -7309,7 +7309,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.WeatherOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.AbilityGadgetOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.StatueGadgetOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.BossChestOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.BossChestInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.BlossomChestOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MpPlayRewardOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GeneralRewardOuterClass.getDescriptor(),
@@ -7341,7 +7341,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.WeatherOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AbilityGadgetOuterClass.getDescriptor();
     emu.grasscutter.net.proto.StatueGadgetOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.BossChestOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.BossChestInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.BlossomChestOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MpPlayRewardOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GeneralRewardOuterClass.getDescriptor();
