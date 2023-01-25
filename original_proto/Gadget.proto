@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 import "GadgetBornType.proto";
-import "TrifleItem.proto";
+import "Item.proto";
 import "GatherGadget.proto";
 import "Worktop.proto";
 import "ClientGadget.proto";
@@ -43,7 +43,7 @@ message Gadget {
 	bool isEnableInteract = 10;
 	uint32 interactId = 11;
 	oneof content {
-		TrifleItem trifle_item = 12;
+		Item trifle_item = 12;
 		GatherGadget gather_gadget = 13;
 		Worktop worktop = 14;
 		ClientGadget client_gadget = 15;

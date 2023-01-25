@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 
-import "TrifleItem.proto";
+import "Item.proto";
 
 message GadgetAutoPickDropInfoNotify {
 	//enum HJFBOFFDKBP {
@@ -15,5 +15,5 @@ message GadgetAutoPickDropInfoNotify {
 	//	NNBKOLMPOEA = 1;
 	//}
 
-	repeated TrifleItem itemList = 15;
+	repeated Item itemList = 15;
 }

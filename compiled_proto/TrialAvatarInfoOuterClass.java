@@ -25,27 +25,27 @@ public final class TrialAvatarInfoOuterClass {
     int getTrialAvatarId();
 
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> 
+    java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> 
         getTrialEquipListList();
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrialEquipList(int index);
+    emu.grasscutter.net.proto.ItemOuterClass.Item getTrialEquipList(int index);
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     int getTrialEquipListCount();
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
         getTrialEquipListOrBuilderList();
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrialEquipListOrBuilder(
+    emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrialEquipListOrBuilder(
         int index);
 
     /**
@@ -117,11 +117,11 @@ public final class TrialAvatarInfoOuterClass {
             }
             case 18: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                trialEquipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem>();
+                trialEquipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>();
                 mutable_bitField0_ |= 0x00000001;
               }
               trialEquipList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ItemOuterClass.Item.parser(), extensionRegistry));
               break;
             }
             case 26: {
@@ -184,41 +184,41 @@ public final class TrialAvatarInfoOuterClass {
     }
 
     public static final int TRIALEQUIPLIST_FIELD_NUMBER = 2;
-    private java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> trialEquipList_;
+    private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> trialEquipList_;
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> getTrialEquipListList() {
+    public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getTrialEquipListList() {
       return trialEquipList_;
     }
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
         getTrialEquipListOrBuilderList() {
       return trialEquipList_;
     }
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     @java.lang.Override
     public int getTrialEquipListCount() {
       return trialEquipList_.size();
     }
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrialEquipList(int index) {
+    public emu.grasscutter.net.proto.ItemOuterClass.Item getTrialEquipList(int index) {
       return trialEquipList_.get(index);
     }
     /**
-     * <code>repeated .TrifleItem trialEquipList = 2;</code>
+     * <code>repeated .Item trialEquipList = 2;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrialEquipListOrBuilder(
+    public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrialEquipListOrBuilder(
         int index) {
       return trialEquipList_.get(index);
     }
@@ -669,22 +669,22 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
 
-      private java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> trialEquipList_ =
+      private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> trialEquipList_ =
         java.util.Collections.emptyList();
       private void ensureTrialEquipListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          trialEquipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem>(trialEquipList_);
+          trialEquipList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>(trialEquipList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> trialEquipListBuilder_;
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> trialEquipListBuilder_;
 
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> getTrialEquipListList() {
+      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getTrialEquipListList() {
         if (trialEquipListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(trialEquipList_);
         } else {
@@ -692,7 +692,7 @@ public final class TrialAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public int getTrialEquipListCount() {
         if (trialEquipListBuilder_ == null) {
@@ -702,9 +702,9 @@ public final class TrialAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrialEquipList(int index) {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item getTrialEquipList(int index) {
         if (trialEquipListBuilder_ == null) {
           return trialEquipList_.get(index);
         } else {
@@ -712,10 +712,10 @@ public final class TrialAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder setTrialEquipList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (trialEquipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -729,10 +729,10 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder setTrialEquipList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (trialEquipListBuilder_ == null) {
           ensureTrialEquipListIsMutable();
           trialEquipList_.set(index, builderForValue.build());
@@ -743,9 +743,9 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public Builder addTrialEquipList(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+      public Builder addTrialEquipList(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (trialEquipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -759,10 +759,10 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder addTrialEquipList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (trialEquipListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -776,10 +776,10 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder addTrialEquipList(
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (trialEquipListBuilder_ == null) {
           ensureTrialEquipListIsMutable();
           trialEquipList_.add(builderForValue.build());
@@ -790,10 +790,10 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder addTrialEquipList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (trialEquipListBuilder_ == null) {
           ensureTrialEquipListIsMutable();
           trialEquipList_.add(index, builderForValue.build());
@@ -804,10 +804,10 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder addAllTrialEquipList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemOuterClass.Item> values) {
         if (trialEquipListBuilder_ == null) {
           ensureTrialEquipListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -819,7 +819,7 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder clearTrialEquipList() {
         if (trialEquipListBuilder_ == null) {
@@ -832,7 +832,7 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
       public Builder removeTrialEquipList(int index) {
         if (trialEquipListBuilder_ == null) {
@@ -845,16 +845,16 @@ public final class TrialAvatarInfoOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder getTrialEquipListBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder getTrialEquipListBuilder(
           int index) {
         return getTrialEquipListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrialEquipListOrBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrialEquipListOrBuilder(
           int index) {
         if (trialEquipListBuilder_ == null) {
           return trialEquipList_.get(index);  } else {
@@ -862,9 +862,9 @@ public final class TrialAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
            getTrialEquipListOrBuilderList() {
         if (trialEquipListBuilder_ != null) {
           return trialEquipListBuilder_.getMessageOrBuilderList();
@@ -873,33 +873,33 @@ public final class TrialAvatarInfoOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder addTrialEquipListBuilder() {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addTrialEquipListBuilder() {
         return getTrialEquipListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance());
+            emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder addTrialEquipListBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addTrialEquipListBuilder(
           int index) {
         return getTrialEquipListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .TrifleItem trialEquipList = 2;</code>
+       * <code>repeated .Item trialEquipList = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item.Builder> 
            getTrialEquipListBuilderList() {
         return getTrialEquipListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
           getTrialEquipListFieldBuilder() {
         if (trialEquipListBuilder_ == null) {
           trialEquipListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder>(
+              emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>(
                   trialEquipList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -1095,17 +1095,17 @@ public final class TrialAvatarInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025TrialAvatarInfo.proto\032\034TrialAvatarGran" +
-      "tRecord.proto\032\020TrifleItem.proto\"{\n\017Trial" +
-      "AvatarInfo\022\025\n\rtrialAvatarId\030\001 \001(\r\022#\n\016tri" +
-      "alEquipList\030\002 \003(\0132\013.TrifleItem\022,\n\013grantR" +
-      "ecord\030\003 \001(\0132\027.TrialAvatarGrantRecordB\033\n\031" +
-      "emu.grasscutter.net.protob\006proto3"
+      "tRecord.proto\032\nItem.proto\"u\n\017TrialAvatar" +
+      "Info\022\025\n\rtrialAvatarId\030\001 \001(\r\022\035\n\016trialEqui" +
+      "pList\030\002 \003(\0132\005.Item\022,\n\013grantRecord\030\003 \001(\0132" +
+      "\027.TrialAvatarGrantRecordB\033\n\031emu.grasscut" +
+      "ter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ItemOuterClass.getDescriptor(),
         });
     internal_static_TrialAvatarInfo_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -1114,7 +1114,7 @@ public final class TrialAvatarInfoOuterClass {
         internal_static_TrialAvatarInfo_descriptor,
         new java.lang.String[] { "TrialAvatarId", "TrialEquipList", "GrantRecord", });
     emu.grasscutter.net.proto.TrialAvatarGrantRecordOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ItemOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

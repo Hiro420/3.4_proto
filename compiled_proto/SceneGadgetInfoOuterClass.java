@@ -90,19 +90,19 @@ public final class SceneGadgetInfoOuterClass {
     int getInteractId();
 
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      * @return Whether the trifleItem field is set.
      */
     boolean hasTrifleItem();
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      * @return The trifleItem.
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrifleItem();
+    emu.grasscutter.net.proto.ItemOuterClass.Item getTrifleItem();
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrifleItemOrBuilder();
+    emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrifleItemOrBuilder();
 
     /**
      * <code>.GatherGadget gather_gadget = 13;</code>
@@ -597,14 +597,14 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 98: {
-              emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder subBuilder = null;
+              emu.grasscutter.net.proto.ItemOuterClass.Item.Builder subBuilder = null;
               if (contentCase_ == 12) {
-                subBuilder = ((emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.ItemOuterClass.Item) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.ItemOuterClass.Item.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.ItemOuterClass.Item) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 12;
@@ -1218,7 +1218,7 @@ public final class SceneGadgetInfoOuterClass {
 
     public static final int TRIFLE_ITEM_FIELD_NUMBER = 12;
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      * @return Whether the trifleItem field is set.
      */
     @java.lang.Override
@@ -1226,25 +1226,25 @@ public final class SceneGadgetInfoOuterClass {
       return contentCase_ == 12;
     }
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      * @return The trifleItem.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrifleItem() {
+    public emu.grasscutter.net.proto.ItemOuterClass.Item getTrifleItem() {
       if (contentCase_ == 12) {
-         return (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_;
+         return (emu.grasscutter.net.proto.ItemOuterClass.Item) content_;
       }
-      return emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+      return emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
     }
     /**
-     * <code>.TrifleItem trifle_item = 12;</code>
+     * <code>.Item trifle_item = 12;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrifleItemOrBuilder() {
+    public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrifleItemOrBuilder() {
       if (contentCase_ == 12) {
-         return (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_;
+         return (emu.grasscutter.net.proto.ItemOuterClass.Item) content_;
       }
-      return emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+      return emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
     }
 
     public static final int GATHER_GADGET_FIELD_NUMBER = 13;
@@ -2071,7 +2071,7 @@ public final class SceneGadgetInfoOuterClass {
         output.writeUInt32(11, interactId_);
       }
       if (contentCase_ == 12) {
-        output.writeMessage(12, (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_);
+        output.writeMessage(12, (emu.grasscutter.net.proto.ItemOuterClass.Item) content_);
       }
       if (contentCase_ == 13) {
         output.writeMessage(13, (emu.grasscutter.net.proto.GatherGadgetOuterClass.GatherGadget) content_);
@@ -2216,7 +2216,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       if (contentCase_ == 12) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_);
+          .computeMessageSize(12, (emu.grasscutter.net.proto.ItemOuterClass.Item) content_);
       }
       if (contentCase_ == 13) {
         size += com.google.protobuf.CodedOutputStream
@@ -3639,9 +3639,9 @@ public final class SceneGadgetInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> trifleItemBuilder_;
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> trifleItemBuilder_;
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        * @return Whether the trifleItem field is set.
        */
       @java.lang.Override
@@ -3649,27 +3649,27 @@ public final class SceneGadgetInfoOuterClass {
         return contentCase_ == 12;
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        * @return The trifleItem.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getTrifleItem() {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item getTrifleItem() {
         if (trifleItemBuilder_ == null) {
           if (contentCase_ == 12) {
-            return (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_;
+            return (emu.grasscutter.net.proto.ItemOuterClass.Item) content_;
           }
-          return emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+          return emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
         } else {
           if (contentCase_ == 12) {
             return trifleItemBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+          return emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
         }
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
-      public Builder setTrifleItem(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+      public Builder setTrifleItem(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (trifleItemBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3683,10 +3683,10 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
       public Builder setTrifleItem(
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (trifleItemBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -3697,13 +3697,13 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
-      public Builder mergeTrifleItem(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+      public Builder mergeTrifleItem(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (trifleItemBuilder_ == null) {
           if (contentCase_ == 12 &&
-              content_ != emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.newBuilder((emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_)
+              content_ != emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.ItemOuterClass.Item.newBuilder((emu.grasscutter.net.proto.ItemOuterClass.Item) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -3719,7 +3719,7 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
       public Builder clearTrifleItem() {
         if (trifleItemBuilder_ == null) {
@@ -3738,38 +3738,38 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder getTrifleItemBuilder() {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder getTrifleItemBuilder() {
         return getTrifleItemFieldBuilder().getBuilder();
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getTrifleItemOrBuilder() {
+      public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getTrifleItemOrBuilder() {
         if ((contentCase_ == 12) && (trifleItemBuilder_ != null)) {
           return trifleItemBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 12) {
-            return (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_;
+            return (emu.grasscutter.net.proto.ItemOuterClass.Item) content_;
           }
-          return emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+          return emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
         }
       }
       /**
-       * <code>.TrifleItem trifle_item = 12;</code>
+       * <code>.Item trifle_item = 12;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
           getTrifleItemFieldBuilder() {
         if (trifleItemBuilder_ == null) {
           if (!(contentCase_ == 12)) {
-            content_ = emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance();
           }
           trifleItemBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder>(
-                  (emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem) content_,
+              emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>(
+                  (emu.grasscutter.net.proto.ItemOuterClass.Item) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -7248,61 +7248,61 @@ public final class SceneGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SceneGadgetInfo.proto\032\024GadgetBornType." +
-      "proto\032\020TrifleItem.proto\032\022GatherGadget.pr" +
-      "oto\032\rWorktop.proto\032\022ClientGadget.proto\032\r" +
-      "Weather.proto\032\023AbilityGadget.proto\032\022Stat" +
-      "ueGadget.proto\032\017BossChest.proto\032\022Blossom" +
-      "Chest.proto\032\022MpPlayReward.proto\032\023General" +
-      "Reward.proto\032\022OfferingInfo.proto\032\024Founda" +
-      "tionInfo.proto\032\021VehicleInfo.proto\032\017Shell" +
-      "Info.proto\032\020ScreenInfo.proto\032\022FishPoolIn" +
-      "fo.proto\032\032CustomGadgetTreeInfo.proto\032\031Ro" +
-      "guelikeGadgetInfo.proto\032\031NightCrowGadget" +
-      "Info.proto\032\036DeshretObeliskGadgetInfo.pro" +
-      "to\032\035CoinCollectOperatorInfo.proto\032\022Platf" +
-      "ormInfo.proto\032\024GadgetPlayInfo.proto\"\370\n\n\017" +
-      "SceneGadgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007gro" +
-      "upId\030\002 \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerEnt" +
-      "ityId\030\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.GadgetBo" +
-      "rnType\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetTyp" +
-      "e\030\007 \001(\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017autho" +
-      "rityPeerId\030\t \001(\r\022\030\n\020isEnableInteract\030\n \001" +
-      "(\010\022\022\n\ninteractId\030\013 \001(\r\022\"\n\013trifle_item\030\014 " +
-      "\001(\0132\013.TrifleItemH\000\022&\n\rgather_gadget\030\r \001(" +
-      "\0132\r.GatherGadgetH\000\022\033\n\007worktop\030\016 \001(\0132\010.Wo" +
-      "rktopH\000\022&\n\rclient_gadget\030\017 \001(\0132\r.ClientG" +
-      "adgetH\000\022\033\n\007weather\030\021 \001(\0132\010.WeatherH\000\022(\n\016" +
-      "ability_gadget\030\022 \001(\0132\016.AbilityGadgetH\000\022&" +
-      "\n\rstatue_gadget\030\023 \001(\0132\r.StatueGadgetH\000\022 " +
-      "\n\nboss_chest\030\024 \001(\0132\n.BossChestH\000\022&\n\rblos" +
-      "som_chest\030) \001(\0132\r.BlossomChestH\000\022\'\n\016mp_p" +
-      "lay_reward\030* \001(\0132\r.MpPlayRewardH\000\022(\n\016gen" +
-      "eral_reward\030+ \001(\0132\016.GeneralRewardH\000\022&\n\ro" +
-      "ffering_info\030, \001(\0132\r.OfferingInfoH\000\022*\n\017f" +
-      "oundation_info\030- \001(\0132\017.FoundationInfoH\000\022" +
-      "$\n\014vehicle_info\030. \001(\0132\014.VehicleInfoH\000\022 \n" +
-      "\nshell_info\030/ \001(\0132\n.ShellInfoH\000\022\"\n\013scree" +
-      "n_info\0300 \001(\0132\013.ScreenInfoH\000\022\'\n\016fish_pool" +
-      "_info\030; \001(\0132\r.FishPoolInfoH\000\0228\n\027custom_g" +
-      "adget_tree_info\030< \001(\0132\025.CustomGadgetTree" +
-      "InfoH\000\0225\n\025roguelike_gadget_info\030= \001(\0132\024." +
-      "RoguelikeGadgetInfoH\000\0226\n\026night_crow_gadg" +
-      "et_info\030> \001(\0132\024.NightCrowGadgetInfoH\000\022@\n" +
-      "\033deshret_obelisk_gadget_info\030? \001(\0132\031.Des" +
-      "hretObeliskGadgetInfoH\000\022>\n\032coin_collect_" +
-      "operator_info\030@ \001(\0132\030.CoinCollectOperato" +
-      "rInfoH\000\022\020\n\010markFlag\030\025 \001(\r\022\031\n\021propOwnerEn" +
-      "tityId\030\026 \001(\r\022\037\n\010platform\030\027 \001(\0132\r.Platfor" +
-      "mInfo\022\027\n\017interactUidList\030\030 \003(\r\022\017\n\007draftI" +
-      "d\030\031 \001(\r\022\027\n\017gadgetTalkState\030\032 \001(\r\022!\n\010play" +
-      "Info\030d \001(\0132\017.GadgetPlayInfoB\t\n\007contentB\033" +
-      "\n\031emu.grasscutter.net.protob\006proto3"
+      "proto\032\nItem.proto\032\022GatherGadget.proto\032\rW" +
+      "orktop.proto\032\022ClientGadget.proto\032\rWeathe" +
+      "r.proto\032\023AbilityGadget.proto\032\022StatueGadg" +
+      "et.proto\032\017BossChest.proto\032\022BlossomChest." +
+      "proto\032\022MpPlayReward.proto\032\023GeneralReward" +
+      ".proto\032\022OfferingInfo.proto\032\024FoundationIn" +
+      "fo.proto\032\021VehicleInfo.proto\032\017ShellInfo.p" +
+      "roto\032\020ScreenInfo.proto\032\022FishPoolInfo.pro" +
+      "to\032\032CustomGadgetTreeInfo.proto\032\031Roguelik" +
+      "eGadgetInfo.proto\032\031NightCrowGadgetInfo.p" +
+      "roto\032\036DeshretObeliskGadgetInfo.proto\032\035Co" +
+      "inCollectOperatorInfo.proto\032\022PlatformInf" +
+      "o.proto\032\024GadgetPlayInfo.proto\"\362\n\n\017SceneG" +
+      "adgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007groupId\030\002" +
+      " \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerEntityId\030" +
+      "\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.GadgetBornType" +
+      "\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetType\030\007 \001(" +
+      "\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017authorityPe" +
+      "erId\030\t \001(\r\022\030\n\020isEnableInteract\030\n \001(\010\022\022\n\n" +
+      "interactId\030\013 \001(\r\022\034\n\013trifle_item\030\014 \001(\0132\005." +
+      "ItemH\000\022&\n\rgather_gadget\030\r \001(\0132\r.GatherGa" +
+      "dgetH\000\022\033\n\007worktop\030\016 \001(\0132\010.WorktopH\000\022&\n\rc" +
+      "lient_gadget\030\017 \001(\0132\r.ClientGadgetH\000\022\033\n\007w" +
+      "eather\030\021 \001(\0132\010.WeatherH\000\022(\n\016ability_gadg" +
+      "et\030\022 \001(\0132\016.AbilityGadgetH\000\022&\n\rstatue_gad" +
+      "get\030\023 \001(\0132\r.StatueGadgetH\000\022 \n\nboss_chest" +
+      "\030\024 \001(\0132\n.BossChestH\000\022&\n\rblossom_chest\030) " +
+      "\001(\0132\r.BlossomChestH\000\022\'\n\016mp_play_reward\030*" +
+      " \001(\0132\r.MpPlayRewardH\000\022(\n\016general_reward\030" +
+      "+ \001(\0132\016.GeneralRewardH\000\022&\n\roffering_info" +
+      "\030, \001(\0132\r.OfferingInfoH\000\022*\n\017foundation_in" +
+      "fo\030- \001(\0132\017.FoundationInfoH\000\022$\n\014vehicle_i" +
+      "nfo\030. \001(\0132\014.VehicleInfoH\000\022 \n\nshell_info\030" +
+      "/ \001(\0132\n.ShellInfoH\000\022\"\n\013screen_info\0300 \001(\013" +
+      "2\013.ScreenInfoH\000\022\'\n\016fish_pool_info\030; \001(\0132" +
+      "\r.FishPoolInfoH\000\0228\n\027custom_gadget_tree_i" +
+      "nfo\030< \001(\0132\025.CustomGadgetTreeInfoH\000\0225\n\025ro" +
+      "guelike_gadget_info\030= \001(\0132\024.RoguelikeGad" +
+      "getInfoH\000\0226\n\026night_crow_gadget_info\030> \001(" +
+      "\0132\024.NightCrowGadgetInfoH\000\022@\n\033deshret_obe" +
+      "lisk_gadget_info\030? \001(\0132\031.DeshretObeliskG" +
+      "adgetInfoH\000\022>\n\032coin_collect_operator_inf" +
+      "o\030@ \001(\0132\030.CoinCollectOperatorInfoH\000\022\020\n\010m" +
+      "arkFlag\030\025 \001(\r\022\031\n\021propOwnerEntityId\030\026 \001(\r" +
+      "\022\037\n\010platform\030\027 \001(\0132\r.PlatformInfo\022\027\n\017int" +
+      "eractUidList\030\030 \003(\r\022\017\n\007draftId\030\031 \001(\r\022\027\n\017g" +
+      "adgetTalkState\030\032 \001(\r\022!\n\010playInfo\030d \001(\0132\017" +
+      ".GadgetPlayInfoB\t\n\007contentB\033\n\031emu.grassc" +
+      "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.GadgetBornTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ItemOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GatherGadgetOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WorktopOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ClientGadgetOuterClass.getDescriptor(),
@@ -7334,7 +7334,7 @@ public final class SceneGadgetInfoOuterClass {
         internal_static_SceneGadgetInfo_descriptor,
         new java.lang.String[] { "GadgetId", "GroupId", "ConfigId", "OwnerEntityId", "BornType", "GadgetState", "GadgetType", "IsShowCutscene", "AuthorityPeerId", "IsEnableInteract", "InteractId", "TrifleItem", "GatherGadget", "Worktop", "ClientGadget", "Weather", "AbilityGadget", "StatueGadget", "BossChest", "BlossomChest", "MpPlayReward", "GeneralReward", "OfferingInfo", "FoundationInfo", "VehicleInfo", "ShellInfo", "ScreenInfo", "FishPoolInfo", "CustomGadgetTreeInfo", "RoguelikeGadgetInfo", "NightCrowGadgetInfo", "DeshretObeliskGadgetInfo", "CoinCollectOperatorInfo", "MarkFlag", "PropOwnerEntityId", "Platform", "InteractUidList", "DraftId", "GadgetTalkState", "PlayInfo", "Content", });
     emu.grasscutter.net.proto.GadgetBornTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ItemOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GatherGadgetOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WorktopOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ClientGadgetOuterClass.getDescriptor();

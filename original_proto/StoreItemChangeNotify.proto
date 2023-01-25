@@ -2,10 +2,8 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "StoreType.proto";
-import "TrifleItem.proto";
+import "Item.proto";
 
 message StoreItemChangeNotify {
 	//enum KFIDBCGHEFE {
@@ -16,6 +14,6 @@ message StoreItemChangeNotify {
 	//	NNBKOLMPOEA = 1;
 	//}
 
-	repeated TrifleItem itemList = 13;
+	repeated Item itemList = 13;
 	StoreType storeType = 5;
 }

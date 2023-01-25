@@ -19,27 +19,27 @@ public final class StoreItemChangeNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> 
+    java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> 
         getItemListList();
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getItemList(int index);
+    emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index);
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     int getItemListCount();
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
         getItemListOrBuilderList();
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
-    emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getItemListOrBuilder(
+    emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
         int index);
 
     /**
@@ -119,11 +119,11 @@ public final class StoreItemChangeNotifyOuterClass {
             }
             case 106: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem>();
+                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>();
                 mutable_bitField0_ |= 0x00000001;
               }
               itemList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.parser(), extensionRegistry));
+                  input.readMessage(emu.grasscutter.net.proto.ItemOuterClass.Item.parser(), extensionRegistry));
               break;
             }
             default: {
@@ -162,41 +162,41 @@ public final class StoreItemChangeNotifyOuterClass {
     }
 
     public static final int ITEMLIST_FIELD_NUMBER = 13;
-    private java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> itemList_;
+    private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_;
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> getItemListList() {
+    public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getItemListList() {
       return itemList_;
     }
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
         getItemListOrBuilderList() {
       return itemList_;
     }
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     @java.lang.Override
     public int getItemListCount() {
       return itemList_.size();
     }
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getItemList(int index) {
+    public emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index) {
       return itemList_.get(index);
     }
     /**
-     * <code>repeated .TrifleItem itemList = 13;</code>
+     * <code>repeated .Item itemList = 13;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getItemListOrBuilder(
+    public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
         int index) {
       return itemList_.get(index);
     }
@@ -588,22 +588,22 @@ public final class StoreItemChangeNotifyOuterClass {
       }
       private int bitField0_;
 
-      private java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> itemList_ =
+      private java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> itemList_ =
         java.util.Collections.emptyList();
       private void ensureItemListIsMutable() {
         if (!((bitField0_ & 0x00000001) != 0)) {
-          itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem>(itemList_);
+          itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemOuterClass.Item>(itemList_);
           bitField0_ |= 0x00000001;
          }
       }
 
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> itemListBuilder_;
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> itemListBuilder_;
 
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> getItemListList() {
+      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item> getItemListList() {
         if (itemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(itemList_);
         } else {
@@ -611,7 +611,7 @@ public final class StoreItemChangeNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public int getItemListCount() {
         if (itemListBuilder_ == null) {
@@ -621,9 +621,9 @@ public final class StoreItemChangeNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem getItemList(int index) {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item getItemList(int index) {
         if (itemListBuilder_ == null) {
           return itemList_.get(index);
         } else {
@@ -631,10 +631,10 @@ public final class StoreItemChangeNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder setItemList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -648,10 +648,10 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder setItemList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.set(index, builderForValue.build());
@@ -662,9 +662,9 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public Builder addItemList(emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+      public Builder addItemList(emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -678,10 +678,10 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder addItemList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem value) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item value) {
         if (itemListBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -695,10 +695,10 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder addItemList(
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.add(builderForValue.build());
@@ -709,10 +709,10 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder addItemList(
-          int index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder builderForValue) {
+          int index, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder builderForValue) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           itemList_.add(index, builderForValue.build());
@@ -723,10 +723,10 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder addAllItemList(
-          java.lang.Iterable<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem> values) {
+          java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemOuterClass.Item> values) {
         if (itemListBuilder_ == null) {
           ensureItemListIsMutable();
           com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -738,7 +738,7 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder clearItemList() {
         if (itemListBuilder_ == null) {
@@ -751,7 +751,7 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
       public Builder removeItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -764,16 +764,16 @@ public final class StoreItemChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder getItemListBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder getItemListBuilder(
           int index) {
         return getItemListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder getItemListOrBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder getItemListOrBuilder(
           int index) {
         if (itemListBuilder_ == null) {
           return itemList_.get(index);  } else {
@@ -781,9 +781,9 @@ public final class StoreItemChangeNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
            getItemListOrBuilderList() {
         if (itemListBuilder_ != null) {
           return itemListBuilder_.getMessageOrBuilderList();
@@ -792,33 +792,33 @@ public final class StoreItemChangeNotifyOuterClass {
         }
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder addItemListBuilder() {
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addItemListBuilder() {
         return getItemListFieldBuilder().addBuilder(
-            emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance());
+            emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder addItemListBuilder(
+      public emu.grasscutter.net.proto.ItemOuterClass.Item.Builder addItemListBuilder(
           int index) {
         return getItemListFieldBuilder().addBuilder(
-            index, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.getDefaultInstance());
+            index, emu.grasscutter.net.proto.ItemOuterClass.Item.getDefaultInstance());
       }
       /**
-       * <code>repeated .TrifleItem itemList = 13;</code>
+       * <code>repeated .Item itemList = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.ItemOuterClass.Item.Builder> 
            getItemListBuilderList() {
         return getItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder> 
+          emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder> 
           getItemListFieldBuilder() {
         if (itemListBuilder_ == null) {
           itemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-              emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItem.Builder, emu.grasscutter.net.proto.TrifleItemOuterClass.TrifleItemOrBuilder>(
+              emu.grasscutter.net.proto.ItemOuterClass.Item, emu.grasscutter.net.proto.ItemOuterClass.Item.Builder, emu.grasscutter.net.proto.ItemOuterClass.ItemOrBuilder>(
                   itemList_,
                   ((bitField0_ & 0x00000001) != 0),
                   getParentForChildren(),
@@ -949,16 +949,16 @@ public final class StoreItemChangeNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033StoreItemChangeNotify.proto\032\017StoreType" +
-      ".proto\032\020TrifleItem.proto\"U\n\025StoreItemCha" +
-      "ngeNotify\022\035\n\010itemList\030\r \003(\0132\013.TrifleItem" +
-      "\022\035\n\tstoreType\030\005 \001(\0162\n.StoreTypeB\033\n\031emu.g" +
-      "rasscutter.net.protob\006proto3"
+      ".proto\032\nItem.proto\"O\n\025StoreItemChangeNot" +
+      "ify\022\027\n\010itemList\030\r \003(\0132\005.Item\022\035\n\tstoreTyp" +
+      "e\030\005 \001(\0162\n.StoreTypeB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           emu.grasscutter.net.proto.StoreTypeOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.ItemOuterClass.getDescriptor(),
         });
     internal_static_StoreItemChangeNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -967,7 +967,7 @@ public final class StoreItemChangeNotifyOuterClass {
         internal_static_StoreItemChangeNotify_descriptor,
         new java.lang.String[] { "ItemList", "StoreType", });
     emu.grasscutter.net.proto.StoreTypeOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.TrifleItemOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.ItemOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)

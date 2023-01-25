@@ -5,7 +5,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 import "StoreType.proto";
-import "TrifleItem.proto";
+import "Item.proto";
 
 message PlayerStoreNotify {
 	//enum EKFHNFLEJJC {
@@ -16,7 +16,7 @@ message PlayerStoreNotify {
 	//	NNBKOLMPOEA = 1;
 	//}
 
-	repeated TrifleItem itemList = 5;
+	repeated Item itemList = 5;
 	uint32 weightLimit = 6;
 	StoreType storeType = 10;
 }
