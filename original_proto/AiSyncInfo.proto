@@ -7,6 +7,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 message AiSyncInfo {
 	uint32 entityId = 1;
-	bool Unk3300_EBICCLLGICG = 2;
-	bool Unk3300_NOIPAMJJIDL = 10;
+	bool has_path_to_target = 2;
+	bool is_self_killing = 10;
 }

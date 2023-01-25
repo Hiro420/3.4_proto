@@ -749,19 +749,19 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.PlantFlowerInfoOuterClass.PlantFlowerInfoOrBuilder getPlantFlowerInfoOrBuilder();
 
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      * @return Whether the musicGameInfo field is set.
      */
     boolean hasMusicGameInfo();
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      * @return The musicGameInfo.
      */
-    emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo getMusicGameInfo();
+    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo();
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      */
-    emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder getMusicGameInfoOrBuilder();
+    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder();
 
     /**
      * <code>.RoguelikeDungoenInfo roguelike_dungoen_info = 1817;</code>
@@ -2152,14 +2152,14 @@ public final class ActivityInfoOuterClass {
               break;
             }
             case 9762: {
-              emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder subBuilder = null;
+              emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder subBuilder = null;
               if (detailCase_ == 1220) {
-                subBuilder = ((emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_).toBuilder();
               }
               detail_ =
-                  input.readMessage(emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
                 detail_ = subBuilder.buildPartial();
               }
               detailCase_ = 1220;
@@ -4231,7 +4231,7 @@ public final class ActivityInfoOuterClass {
 
     public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 1220;
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      * @return Whether the musicGameInfo field is set.
      */
     @java.lang.Override
@@ -4239,25 +4239,25 @@ public final class ActivityInfoOuterClass {
       return detailCase_ == 1220;
     }
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      * @return The musicGameInfo.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo getMusicGameInfo() {
+    public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
       if (detailCase_ == 1220) {
-         return (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_;
+         return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
       }
-      return emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
     }
     /**
-     * <code>.MusicGameInfo music_game_info = 1220;</code>
+     * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder getMusicGameInfoOrBuilder() {
+    public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
       if (detailCase_ == 1220) {
-         return (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_;
+         return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
       }
-      return emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+      return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
     }
 
     public static final int ROGUELIKE_DUNGOEN_INFO_FIELD_NUMBER = 1817;
@@ -5633,7 +5633,7 @@ public final class ActivityInfoOuterClass {
         output.writeMessage(1198, (emu.grasscutter.net.proto.BlessingInfoOuterClass.BlessingInfo) detail_);
       }
       if (detailCase_ == 1220) {
-        output.writeMessage(1220, (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_);
+        output.writeMessage(1220, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
       }
       if (detailCase_ == 1273) {
         output.writeMessage(1273, (emu.grasscutter.net.proto.RockBoardExploreInfoOuterClass.RockBoardExploreInfo) detail_);
@@ -6029,7 +6029,7 @@ public final class ActivityInfoOuterClass {
       }
       if (detailCase_ == 1220) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(1220, (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_);
+          .computeMessageSize(1220, (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_);
       }
       if (detailCase_ == 1273) {
         size += com.google.protobuf.CodedOutputStream
@@ -13919,9 +13919,9 @@ public final class ActivityInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder> musicGameInfoBuilder_;
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> musicGameInfoBuilder_;
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        * @return Whether the musicGameInfo field is set.
        */
       @java.lang.Override
@@ -13929,27 +13929,27 @@ public final class ActivityInfoOuterClass {
         return detailCase_ == 1220;
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        * @return The musicGameInfo.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo getMusicGameInfo() {
+      public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1220) {
-            return (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_;
+            return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
           }
-          return emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         } else {
           if (detailCase_ == 1220) {
             return musicGameInfoBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
-      public Builder setMusicGameInfo(emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo value) {
+      public Builder setMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -13963,10 +13963,10 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
       public Builder setMusicGameInfo(
-          emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder builderForValue) {
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder builderForValue) {
         if (musicGameInfoBuilder_ == null) {
           detail_ = builderForValue.build();
           onChanged();
@@ -13977,13 +13977,13 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
-      public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo value) {
+      public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1220 &&
-              detail_ != emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance()) {
-            detail_ = emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.newBuilder((emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_)
+              detail_ != emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance()) {
+            detail_ = emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.newBuilder((emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_)
                 .mergeFrom(value).buildPartial();
           } else {
             detail_ = value;
@@ -13999,7 +13999,7 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
       public Builder clearMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
@@ -14018,38 +14018,38 @@ public final class ActivityInfoOuterClass {
         return this;
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
-      public emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder getMusicGameInfoBuilder() {
+      public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder getMusicGameInfoBuilder() {
         return getMusicGameInfoFieldBuilder().getBuilder();
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder getMusicGameInfoOrBuilder() {
+      public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
         if ((detailCase_ == 1220) && (musicGameInfoBuilder_ != null)) {
           return musicGameInfoBuilder_.getMessageOrBuilder();
         } else {
           if (detailCase_ == 1220) {
-            return (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_;
+            return (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_;
           }
-          return emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+          return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.MusicGameInfo music_game_info = 1220;</code>
+       * <code>.MusicGameActivityDetailInfo music_game_info = 1220;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder> 
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> 
           getMusicGameInfoFieldBuilder() {
         if (musicGameInfoBuilder_ == null) {
           if (!(detailCase_ == 1220)) {
-            detail_ = emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.getDefaultInstance();
+            detail_ = emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
           }
           musicGameInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo.Builder, emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfoOrBuilder>(
-                  (emu.grasscutter.net.proto.MusicGameInfoOuterClass.MusicGameInfo) detail_,
+              emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo) detail_,
                   getParentForChildren(),
                   isClean());
           detail_ = null;
@@ -19368,132 +19368,132 @@ public final class ActivityInfoOuterClass {
       "oto\032\031BounceConjuringInfo.proto\032\023BlitzRus" +
       "hInfo.proto\032\017ChessInfo.proto\032\016SumoInfo.p" +
       "roto\032\026MoonfinTrialInfo.proto\032\022LunaRiteIn" +
-      "fo.proto\032\025PlantFlowerInfo.proto\032\023MusicGa" +
-      "meInfo.proto\032\032RoguelikeDungoenInfo.proto" +
-      "\032\rDigInfo.proto\032\017HachiInfo.proto\032\024Winter" +
-      "CampInfo.proto\032\020PotionInfo.proto\032\036Tanuki" +
-      "TravelActivityInfo.proto\032\035LanternRiteAct" +
-      "ivityInfo.proto\032\030MichiaeMatsuriInfo.prot" +
-      "o\032\023BartenderInfo.proto\032\rUgcInfo.proto\032\025C" +
-      "rystalLinkInfo.proto\032\021IrodoriInfo.proto\032" +
-      "\017PhotoInfo.proto\032\017SpiceInfo.proto\032\017Gacha" +
-      "Info.proto\032!LuminanceStoneChallengeInfo." +
-      "proto\032\024RogueDiaryInfo.proto\032\026SummerTimeV" +
-      "2Info.proto\032\025IslandPartyInfo.proto\032\016Gear" +
-      "Info.proto\032\031GravenInnocenceInfo.proto\032\027I" +
-      "nstableSprayInfo.proto\032\027MuqadasPotionInf" +
-      "o.proto\032\030TreasureSeelieInfo.proto\032\032RockB" +
-      "oardExploreInfo.proto\032\021VintageInfo.proto" +
-      "\032\023WindFieldInfo.proto\032\027FungusFighterInfo" +
-      ".proto\032\027CharAmusementInfo.proto\032\031EffigyC" +
-      "hallengeInfo.proto\032\025CoinCollectInfo.prot" +
-      "o\032\026BrickBreakerInfo.proto\032\023DuelHeartInfo" +
-      ".proto\032\023SeaLampV3Info.proto\032\023TeamChainIn" +
-      "fo.proto\032\037ElectroherculesBattleInfo.prot" +
-      "o\032\025GcgFestivalInfo.proto\032\032ActivityPushTi" +
-      "psData.proto\032\031ActivityWatcherInfo.proto\"" +
-      "\255\037\n\014ActivityInfo\022<\n\017activityCoinMap\030\226\003 \003" +
-      "(\0132\".ActivityInfo.ActivityCoinMapEntry\022\023" +
-      "\n\nscoreLimit\030\331\013 \001(\r\022\030\n\017takenRewardList\030\204" +
-      "\005 \003(\r\022\033\n\023Unk3300_MDBDPIBEGGH\030\007 \001(\010\022\034\n\023Un" +
-      "k3300_MJNPGEKLOCG\030\362\005 \001(\010\022\017\n\007endTime\030\014 \001(" +
-      "\r\022\024\n\014activityType\030\n \001(\r\022\037\n\026selectedAvata" +
-      "rRewardId\030\207\004 \001(\r\022\024\n\014meetCondList\030\002 \003(\r\022\022" +
-      "\n\nactivityId\030\017 \001(\r\022\034\n\023Unk3300_ABJKLALKLD" +
-      "G\030\231\004 \001(\010\022\022\n\nisFinished\030\003 \001(\010\0228\n\030activity" +
-      "PushTipsDataList\030\320\002 \003(\0132\025.ActivityPushTi" +
-      "psData\022-\n\017watcherInfoList\030\016 \003(\0132\024.Activi" +
-      "tyWatcherInfo\022\034\n\023Unk3300_CBCEHLJJOGI\030\346\010 " +
-      "\001(\010\022\022\n\nscheduleId\030\006 \001(\r\022\026\n\016expireCondLis" +
-      "t\030\t \003(\r\022\024\n\013fdjefldhela\030\345\017 \003(\r\022\033\n\023Unk3300" +
-      "_ICNJJKDHPCH\030\013 \001(\010\022\032\n\021firstDayStartTime\030" +
-      "\326\004 \001(\r\022\021\n\010curScore\030\214\003 \001(\r\022:\n\016wishGiftNum" +
-      "Map\030\234\010 \003(\0132!.ActivityInfo.WishGiftNumMap" +
-      "Entry\022\034\n\023Unk3300_NEPKLLBJFKK\030\345\014 \001(\010\022\021\n\tb" +
-      "eginTime\030\005 \001(\r\022%\n\rsam_lamp_info\030\004 \001(\0132\014." +
-      "SamLampInfoH\000\022&\n\rcrucible_info\030\r \001(\0132\r.C" +
-      "rucibleInfoH\000\022&\n\rsalesman_info\030\001 \001(\0132\r.S" +
-      "alesmanInfoH\000\022-\n\021trial_avatar_info\030\010 \001(\013" +
-      "2\020.TrialAvatarInfoH\000\022&\n\rdelivery_info\030  " +
-      "\001(\0132\r.DeliveryInfoH\000\022!\n\naster_info\030\220\016 \001(" +
-      "\0132\n.AsterInfoH\000\022#\n\013flight_info\030\246\010 \001(\0132\013." +
-      "FlightInfoH\000\022.\n\021dragon_spine_info\030\372\002 \001(\013" +
-      "2\020.DragonSpineInfoH\000\022#\n\013effigy_info\030\307\017 \001" +
-      "(\0132\013.EffigyInfoH\000\022.\n\021treasure_map_info\030\242" +
-      "\004 \001(\0132\020.TreasureMapInfoH\000\022\'\n\rblessing_in" +
-      "fo\030\256\t \001(\0132\r.BlessingInfoH\000\022&\n\rsea_lamp_i" +
-      "nfo\030\302\004 \001(\0132\014.SeaLampInfoH\000\022+\n\017expedition" +
-      "_info\030\242\007 \001(\0132\017.ExpeditionInfoH\000\0224\n\024arena" +
-      "_challenge_info\030\273\005 \001(\0132\023.ArenaChallengeI" +
-      "nfoH\000\022*\n\017fleur_fair_info\030\334\010 \001(\0132\016.FleurF" +
-      "airInfoH\000\022.\n\021water_spirit_info\030\363\014 \001(\0132\020." +
-      "WaterSpiritInfoH\000\0224\n\024challneler_slab_inf" +
-      "o\030\357\010 \001(\0132\023.ChallnelerSlabInfoH\000\022;\n\030mist_" +
-      "trial_activity_info\030\250\n \001(\0132\026.MistTrialAc" +
-      "tivityInfoH\000\022/\n\022hide_and_seek_info\030\265\010 \001(" +
-      "\0132\020.HideAndSeekInfoH\000\0222\n\023find_hilichurl_" +
-      "info\030\241\003 \001(\0132\022.FindHilichurlInfoH\000\022,\n\020sum" +
-      "mer_time_info\030\305\013 \001(\0132\017.SummerTimeInfoH\000\022" +
-      "2\n\023buoyant_combat_info\030\375\t \001(\0132\022.BuoyantC" +
-      "ombatInfoH\000\022*\n\017echo_shell_info\030\224\t \001(\0132\016." +
-      "EchoShellInfoH\000\0226\n\025bounce_conjuring_info" +
-      "\030\226\002 \001(\0132\024.BounceConjuringInfoH\000\022*\n\017blitz" +
-      "_rush_info\030\300\001 \001(\0132\016.BlitzRushInfoH\000\022!\n\nc" +
-      "hess_info\030\205\016 \001(\0132\n.ChessInfoH\000\022\037\n\tsumo_i" +
-      "nfo\030\343\n \001(\0132\t.SumoInfoH\000\0220\n\022moonfin_trial" +
-      "_info\030\342\010 \001(\0132\021.MoonfinTrialInfoH\000\022\'\n\016lun" +
-      "a_rite_info\030R \001(\0132\r.LunaRiteInfoH\000\022.\n\021pl" +
-      "ant_flower_info\030\310\016 \001(\0132\020.PlantFlowerInfo" +
-      "H\000\022*\n\017music_game_info\030\304\t \001(\0132\016.MusicGame" +
-      "InfoH\000\0228\n\026roguelike_dungoen_info\030\231\016 \001(\0132" +
-      "\025.RoguelikeDungoenInfoH\000\022\035\n\010dig_info\030\250\001 " +
-      "\001(\0132\010.DigInfoH\000\022!\n\nhachi_info\030\377\014 \001(\0132\n.H" +
-      "achiInfoH\000\022+\n\020winter_camp_info\030r \001(\0132\017.W" +
-      "interCampInfoH\000\022#\n\013potion_info\030\220\014 \001(\0132\013." +
-      "PotionInfoH\000\022A\n\033tanuki_travel_activity_i" +
-      "nfo\030\255\013 \001(\0132\031.TanukiTravelActivityInfoH\000\022" +
-      "?\n\032lantern_rite_activity_info\030\334\n \001(\0132\030.L" +
-      "anternRiteActivityInfoH\000\0224\n\024michiae_mats" +
-      "uri_info\030\254\003 \001(\0132\023.MichiaeMatsuriInfoH\000\022(" +
-      "\n\016bartender_info\030# \001(\0132\016.BartenderInfoH\000" +
-      "\022\035\n\010ugc_info\030\315\004 \001(\0132\010.UgcInfoH\000\022.\n\021cryst" +
-      "al_link_info\030\337\n \001(\0132\020.CrystalLinkInfoH\000\022" +
-      "%\n\014irodori_info\030\366\007 \001(\0132\014.IrodoriInfoH\000\022!" +
-      "\n\nphoto_info\030\265\002 \001(\0132\n.PhotoInfoH\000\022!\n\nspi" +
-      "ce_info\030\246\013 \001(\0132\n.SpiceInfoH\000\022!\n\ngacha_in" +
-      "fo\030\231\t \001(\0132\n.GachaInfoH\000\022G\n\036luminance_sto" +
-      "ne_challenge_info\030\216\001 \001(\0132\034.LuminanceSton" +
-      "eChallengeInfoH\000\022,\n\020rogue_diary_info\030\215\003 " +
-      "\001(\0132\017.RogueDiaryInfoH\000\0220\n\022summer_time_v2" +
-      "info\030\267\007 \001(\0132\021.SummerTimeV2InfoH\000\022.\n\021isla" +
-      "nd_party_info\030\337\014 \001(\0132\020.IslandPartyInfoH\000" +
-      "\022\037\n\tgear_info\030\211\016 \001(\0132\t.GearInfoH\000\0226\n\025gra" +
-      "ven_innocence_info\030\225\t \001(\0132\024.GravenInnoce" +
-      "nceInfoH\000\0222\n\023instable_spray_info\030\260\007 \001(\0132" +
-      "\022.InstableSprayInfoH\000\0222\n\023muqadas_potion_" +
-      "info\030\306\n \001(\0132\022.MuqadasPotionInfoH\000\0224\n\024tre" +
-      "asure_seelie_info\030\366\010 \001(\0132\023.TreasureSeeli" +
-      "eInfoH\000\0229\n\027rock_board_explore_info\030\371\t \001(" +
-      "\0132\025.RockBoardExploreInfoH\000\022%\n\014vintage_in" +
-      "fo\030\244\n \001(\0132\014.VintageInfoH\000\022*\n\017wind_field_" +
-      "info\030\355\017 \001(\0132\016.WindFieldInfoH\000\0222\n\023fungus_" +
-      "fighter_info\030\207\014 \001(\0132\022.FungusFighterInfoH" +
-      "\000\0222\n\023char_amusement_info\030\370\003 \001(\0132\022.CharAm" +
-      "usementInfoH\000\0226\n\025effigy_challenge_info\030\370" +
-      "\010 \001(\0132\024.EffigyChallengeInfoH\000\022.\n\021coin_co" +
-      "llect_info\030\257\004 \001(\0132\020.CoinCollectInfoH\000\0220\n" +
-      "\022brick_breaker_info\030\373\t \001(\0132\021.BrickBreake" +
-      "rInfoH\000\022*\n\017duel_heart_info\030\335\001 \001(\0132\016.Duel" +
-      "HeartInfoH\000\022*\n\017sea_lamp_v3info\030\270\010 \001(\0132\016." +
-      "SeaLampV3InfoH\000\022*\n\017team_chain_info\030\220\001 \001(" +
-      "\0132\016.TeamChainInfoH\000\022B\n\033electrohercules_b" +
-      "attle_info\030\254\001 \001(\0132\032.ElectroherculesBattl" +
-      "eInfoH\000\022-\n\021gcg_festival_info\030G \001(\0132\020.Gcg" +
-      "FestivalInfoH\000\0326\n\024ActivityCoinMapEntry\022\013" +
-      "\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001\0325\n\023WishGi" +
-      "ftNumMapEntry\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(" +
-      "\r:\0028\001B\010\n\006detailB\033\n\031emu.grasscutter.net.p" +
-      "rotob\006proto3"
+      "fo.proto\032\025PlantFlowerInfo.proto\032!MusicGa" +
+      "meActivityDetailInfo.proto\032\032RoguelikeDun" +
+      "goenInfo.proto\032\rDigInfo.proto\032\017HachiInfo" +
+      ".proto\032\024WinterCampInfo.proto\032\020PotionInfo" +
+      ".proto\032\036TanukiTravelActivityInfo.proto\032\035" +
+      "LanternRiteActivityInfo.proto\032\030MichiaeMa" +
+      "tsuriInfo.proto\032\023BartenderInfo.proto\032\rUg" +
+      "cInfo.proto\032\025CrystalLinkInfo.proto\032\021Irod" +
+      "oriInfo.proto\032\017PhotoInfo.proto\032\017SpiceInf" +
+      "o.proto\032\017GachaInfo.proto\032!LuminanceStone" +
+      "ChallengeInfo.proto\032\024RogueDiaryInfo.prot" +
+      "o\032\026SummerTimeV2Info.proto\032\025IslandPartyIn" +
+      "fo.proto\032\016GearInfo.proto\032\031GravenInnocenc" +
+      "eInfo.proto\032\027InstableSprayInfo.proto\032\027Mu" +
+      "qadasPotionInfo.proto\032\030TreasureSeelieInf" +
+      "o.proto\032\032RockBoardExploreInfo.proto\032\021Vin" +
+      "tageInfo.proto\032\023WindFieldInfo.proto\032\027Fun" +
+      "gusFighterInfo.proto\032\027CharAmusementInfo." +
+      "proto\032\031EffigyChallengeInfo.proto\032\025CoinCo" +
+      "llectInfo.proto\032\026BrickBreakerInfo.proto\032" +
+      "\023DuelHeartInfo.proto\032\023SeaLampV3Info.prot" +
+      "o\032\023TeamChainInfo.proto\032\037ElectroherculesB" +
+      "attleInfo.proto\032\025GcgFestivalInfo.proto\032\032" +
+      "ActivityPushTipsData.proto\032\031ActivityWatc" +
+      "herInfo.proto\"\273\037\n\014ActivityInfo\022<\n\017activi" +
+      "tyCoinMap\030\226\003 \003(\0132\".ActivityInfo.Activity" +
+      "CoinMapEntry\022\023\n\nscoreLimit\030\331\013 \001(\r\022\030\n\017tak" +
+      "enRewardList\030\204\005 \003(\r\022\033\n\023Unk3300_MDBDPIBEG" +
+      "GH\030\007 \001(\010\022\034\n\023Unk3300_MJNPGEKLOCG\030\362\005 \001(\010\022\017" +
+      "\n\007endTime\030\014 \001(\r\022\024\n\014activityType\030\n \001(\r\022\037\n" +
+      "\026selectedAvatarRewardId\030\207\004 \001(\r\022\024\n\014meetCo" +
+      "ndList\030\002 \003(\r\022\022\n\nactivityId\030\017 \001(\r\022\034\n\023Unk3" +
+      "300_ABJKLALKLDG\030\231\004 \001(\010\022\022\n\nisFinished\030\003 \001" +
+      "(\010\0228\n\030activityPushTipsDataList\030\320\002 \003(\0132\025." +
+      "ActivityPushTipsData\022-\n\017watcherInfoList\030" +
+      "\016 \003(\0132\024.ActivityWatcherInfo\022\034\n\023Unk3300_C" +
+      "BCEHLJJOGI\030\346\010 \001(\010\022\022\n\nscheduleId\030\006 \001(\r\022\026\n" +
+      "\016expireCondList\030\t \003(\r\022\024\n\013fdjefldhela\030\345\017 " +
+      "\003(\r\022\033\n\023Unk3300_ICNJJKDHPCH\030\013 \001(\010\022\032\n\021firs" +
+      "tDayStartTime\030\326\004 \001(\r\022\021\n\010curScore\030\214\003 \001(\r\022" +
+      ":\n\016wishGiftNumMap\030\234\010 \003(\0132!.ActivityInfo." +
+      "WishGiftNumMapEntry\022\034\n\023Unk3300_NEPKLLBJF" +
+      "KK\030\345\014 \001(\010\022\021\n\tbeginTime\030\005 \001(\r\022%\n\rsam_lamp" +
+      "_info\030\004 \001(\0132\014.SamLampInfoH\000\022&\n\rcrucible_" +
+      "info\030\r \001(\0132\r.CrucibleInfoH\000\022&\n\rsalesman_" +
+      "info\030\001 \001(\0132\r.SalesmanInfoH\000\022-\n\021trial_ava" +
+      "tar_info\030\010 \001(\0132\020.TrialAvatarInfoH\000\022&\n\rde" +
+      "livery_info\030  \001(\0132\r.DeliveryInfoH\000\022!\n\nas" +
+      "ter_info\030\220\016 \001(\0132\n.AsterInfoH\000\022#\n\013flight_" +
+      "info\030\246\010 \001(\0132\013.FlightInfoH\000\022.\n\021dragon_spi" +
+      "ne_info\030\372\002 \001(\0132\020.DragonSpineInfoH\000\022#\n\013ef" +
+      "figy_info\030\307\017 \001(\0132\013.EffigyInfoH\000\022.\n\021treas" +
+      "ure_map_info\030\242\004 \001(\0132\020.TreasureMapInfoH\000\022" +
+      "\'\n\rblessing_info\030\256\t \001(\0132\r.BlessingInfoH\000" +
+      "\022&\n\rsea_lamp_info\030\302\004 \001(\0132\014.SeaLampInfoH\000" +
+      "\022+\n\017expedition_info\030\242\007 \001(\0132\017.ExpeditionI" +
+      "nfoH\000\0224\n\024arena_challenge_info\030\273\005 \001(\0132\023.A" +
+      "renaChallengeInfoH\000\022*\n\017fleur_fair_info\030\334" +
+      "\010 \001(\0132\016.FleurFairInfoH\000\022.\n\021water_spirit_" +
+      "info\030\363\014 \001(\0132\020.WaterSpiritInfoH\000\0224\n\024chall" +
+      "neler_slab_info\030\357\010 \001(\0132\023.ChallnelerSlabI" +
+      "nfoH\000\022;\n\030mist_trial_activity_info\030\250\n \001(\013" +
+      "2\026.MistTrialActivityInfoH\000\022/\n\022hide_and_s" +
+      "eek_info\030\265\010 \001(\0132\020.HideAndSeekInfoH\000\0222\n\023f" +
+      "ind_hilichurl_info\030\241\003 \001(\0132\022.FindHilichur" +
+      "lInfoH\000\022,\n\020summer_time_info\030\305\013 \001(\0132\017.Sum" +
+      "merTimeInfoH\000\0222\n\023buoyant_combat_info\030\375\t " +
+      "\001(\0132\022.BuoyantCombatInfoH\000\022*\n\017echo_shell_" +
+      "info\030\224\t \001(\0132\016.EchoShellInfoH\000\0226\n\025bounce_" +
+      "conjuring_info\030\226\002 \001(\0132\024.BounceConjuringI" +
+      "nfoH\000\022*\n\017blitz_rush_info\030\300\001 \001(\0132\016.BlitzR" +
+      "ushInfoH\000\022!\n\nchess_info\030\205\016 \001(\0132\n.ChessIn" +
+      "foH\000\022\037\n\tsumo_info\030\343\n \001(\0132\t.SumoInfoH\000\0220\n" +
+      "\022moonfin_trial_info\030\342\010 \001(\0132\021.MoonfinTria" +
+      "lInfoH\000\022\'\n\016luna_rite_info\030R \001(\0132\r.LunaRi" +
+      "teInfoH\000\022.\n\021plant_flower_info\030\310\016 \001(\0132\020.P" +
+      "lantFlowerInfoH\000\0228\n\017music_game_info\030\304\t \001" +
+      "(\0132\034.MusicGameActivityDetailInfoH\000\0228\n\026ro" +
+      "guelike_dungoen_info\030\231\016 \001(\0132\025.RoguelikeD" +
+      "ungoenInfoH\000\022\035\n\010dig_info\030\250\001 \001(\0132\010.DigInf" +
+      "oH\000\022!\n\nhachi_info\030\377\014 \001(\0132\n.HachiInfoH\000\022+" +
+      "\n\020winter_camp_info\030r \001(\0132\017.WinterCampInf" +
+      "oH\000\022#\n\013potion_info\030\220\014 \001(\0132\013.PotionInfoH\000" +
+      "\022A\n\033tanuki_travel_activity_info\030\255\013 \001(\0132\031" +
+      ".TanukiTravelActivityInfoH\000\022?\n\032lantern_r" +
+      "ite_activity_info\030\334\n \001(\0132\030.LanternRiteAc" +
+      "tivityInfoH\000\0224\n\024michiae_matsuri_info\030\254\003 " +
+      "\001(\0132\023.MichiaeMatsuriInfoH\000\022(\n\016bartender_" +
+      "info\030# \001(\0132\016.BartenderInfoH\000\022\035\n\010ugc_info" +
+      "\030\315\004 \001(\0132\010.UgcInfoH\000\022.\n\021crystal_link_info" +
+      "\030\337\n \001(\0132\020.CrystalLinkInfoH\000\022%\n\014irodori_i" +
+      "nfo\030\366\007 \001(\0132\014.IrodoriInfoH\000\022!\n\nphoto_info" +
+      "\030\265\002 \001(\0132\n.PhotoInfoH\000\022!\n\nspice_info\030\246\013 \001" +
+      "(\0132\n.SpiceInfoH\000\022!\n\ngacha_info\030\231\t \001(\0132\n." +
+      "GachaInfoH\000\022G\n\036luminance_stone_challenge" +
+      "_info\030\216\001 \001(\0132\034.LuminanceStoneChallengeIn" +
+      "foH\000\022,\n\020rogue_diary_info\030\215\003 \001(\0132\017.RogueD" +
+      "iaryInfoH\000\0220\n\022summer_time_v2info\030\267\007 \001(\0132" +
+      "\021.SummerTimeV2InfoH\000\022.\n\021island_party_inf" +
+      "o\030\337\014 \001(\0132\020.IslandPartyInfoH\000\022\037\n\tgear_inf" +
+      "o\030\211\016 \001(\0132\t.GearInfoH\000\0226\n\025graven_innocenc" +
+      "e_info\030\225\t \001(\0132\024.GravenInnocenceInfoH\000\0222\n" +
+      "\023instable_spray_info\030\260\007 \001(\0132\022.InstableSp" +
+      "rayInfoH\000\0222\n\023muqadas_potion_info\030\306\n \001(\0132" +
+      "\022.MuqadasPotionInfoH\000\0224\n\024treasure_seelie" +
+      "_info\030\366\010 \001(\0132\023.TreasureSeelieInfoH\000\0229\n\027r" +
+      "ock_board_explore_info\030\371\t \001(\0132\025.RockBoar" +
+      "dExploreInfoH\000\022%\n\014vintage_info\030\244\n \001(\0132\014." +
+      "VintageInfoH\000\022*\n\017wind_field_info\030\355\017 \001(\0132" +
+      "\016.WindFieldInfoH\000\0222\n\023fungus_fighter_info" +
+      "\030\207\014 \001(\0132\022.FungusFighterInfoH\000\0222\n\023char_am" +
+      "usement_info\030\370\003 \001(\0132\022.CharAmusementInfoH" +
+      "\000\0226\n\025effigy_challenge_info\030\370\010 \001(\0132\024.Effi" +
+      "gyChallengeInfoH\000\022.\n\021coin_collect_info\030\257" +
+      "\004 \001(\0132\020.CoinCollectInfoH\000\0220\n\022brick_break" +
+      "er_info\030\373\t \001(\0132\021.BrickBreakerInfoH\000\022*\n\017d" +
+      "uel_heart_info\030\335\001 \001(\0132\016.DuelHeartInfoH\000\022" +
+      "*\n\017sea_lamp_v3info\030\270\010 \001(\0132\016.SeaLampV3Inf" +
+      "oH\000\022*\n\017team_chain_info\030\220\001 \001(\0132\016.TeamChai" +
+      "nInfoH\000\022B\n\033electrohercules_battle_info\030\254" +
+      "\001 \001(\0132\032.ElectroherculesBattleInfoH\000\022-\n\021g" +
+      "cg_festival_info\030G \001(\0132\020.GcgFestivalInfo" +
+      "H\000\0326\n\024ActivityCoinMapEntry\022\013\n\003key\030\001 \001(\r\022" +
+      "\r\n\005value\030\002 \001(\r:\0028\001\0325\n\023WishGiftNumMapEntr" +
+      "y\022\013\n\003key\030\001 \001(\r\022\r\n\005value\030\002 \001(\r:\0028\001B\010\n\006det" +
+      "ailB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -19528,7 +19528,7 @@ public final class ActivityInfoOuterClass {
           emu.grasscutter.net.proto.MoonfinTrialInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.LunaRiteInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.PlantFlowerInfoOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.MusicGameInfoOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.RoguelikeDungoenInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.DigInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.HachiInfoOuterClass.getDescriptor(),
@@ -19617,7 +19617,7 @@ public final class ActivityInfoOuterClass {
     emu.grasscutter.net.proto.MoonfinTrialInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.LunaRiteInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.PlantFlowerInfoOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.MusicGameInfoOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.RoguelikeDungoenInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.DigInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.HachiInfoOuterClass.getDescriptor();

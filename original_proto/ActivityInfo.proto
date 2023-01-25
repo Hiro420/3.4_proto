@@ -34,7 +34,7 @@ import "SumoInfo.proto";
 import "MoonfinTrialInfo.proto";
 import "LunaRiteInfo.proto";
 import "PlantFlowerInfo.proto";
-import "MusicGameInfo.proto";
+import "MusicGameActivityDetailInfo.proto";
 import "RoguelikeDungoenInfo.proto";
 import "DigInfo.proto";
 import "HachiInfo.proto";
@@ -131,7 +131,7 @@ message ActivityInfo {
 		MoonfinTrialInfo moonfin_trial_info = 1122;
 		LunaRiteInfo luna_rite_info = 82;
 		PlantFlowerInfo plant_flower_info = 1864;
-		MusicGameInfo music_game_info = 1220;
+		MusicGameActivityDetailInfo music_game_info = 1220;
 		RoguelikeDungoenInfo roguelike_dungoen_info = 1817;
 		DigInfo dig_info = 168;
 		HachiInfo hachi_info = 1663;

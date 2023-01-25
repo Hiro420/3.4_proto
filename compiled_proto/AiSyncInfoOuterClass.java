@@ -25,16 +25,16 @@ public final class AiSyncInfoOuterClass {
     int getEntityId();
 
     /**
-     * <code>bool Unk3300_EBICCLLGICG = 2;</code>
-     * @return The unk3300EBICCLLGICG.
+     * <code>bool has_path_to_target = 2;</code>
+     * @return The hasPathToTarget.
      */
-    boolean getUnk3300EBICCLLGICG();
+    boolean getHasPathToTarget();
 
     /**
-     * <code>bool Unk3300_NOIPAMJJIDL = 10;</code>
-     * @return The unk3300NOIPAMJJIDL.
+     * <code>bool is_self_killing = 10;</code>
+     * @return The isSelfKilling.
      */
-    boolean getUnk3300NOIPAMJJIDL();
+    boolean getIsSelfKilling();
   }
   /**
    * Protobuf type {@code AiSyncInfo}
@@ -88,12 +88,12 @@ public final class AiSyncInfoOuterClass {
             }
             case 16: {
 
-              unk3300EBICCLLGICG_ = input.readBool();
+              hasPathToTarget_ = input.readBool();
               break;
             }
             case 80: {
 
-              unk3300NOIPAMJJIDL_ = input.readBool();
+              isSelfKilling_ = input.readBool();
               break;
             }
             default: {
@@ -139,26 +139,26 @@ public final class AiSyncInfoOuterClass {
       return entityId_;
     }
 
-    public static final int UNK3300_EBICCLLGICG_FIELD_NUMBER = 2;
-    private boolean unk3300EBICCLLGICG_;
+    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 2;
+    private boolean hasPathToTarget_;
     /**
-     * <code>bool Unk3300_EBICCLLGICG = 2;</code>
-     * @return The unk3300EBICCLLGICG.
+     * <code>bool has_path_to_target = 2;</code>
+     * @return The hasPathToTarget.
      */
     @java.lang.Override
-    public boolean getUnk3300EBICCLLGICG() {
-      return unk3300EBICCLLGICG_;
+    public boolean getHasPathToTarget() {
+      return hasPathToTarget_;
     }
 
-    public static final int UNK3300_NOIPAMJJIDL_FIELD_NUMBER = 10;
-    private boolean unk3300NOIPAMJJIDL_;
+    public static final int IS_SELF_KILLING_FIELD_NUMBER = 10;
+    private boolean isSelfKilling_;
     /**
-     * <code>bool Unk3300_NOIPAMJJIDL = 10;</code>
-     * @return The unk3300NOIPAMJJIDL.
+     * <code>bool is_self_killing = 10;</code>
+     * @return The isSelfKilling.
      */
     @java.lang.Override
-    public boolean getUnk3300NOIPAMJJIDL() {
-      return unk3300NOIPAMJJIDL_;
+    public boolean getIsSelfKilling() {
+      return isSelfKilling_;
     }
 
     private byte memoizedIsInitialized = -1;
@@ -178,11 +178,11 @@ public final class AiSyncInfoOuterClass {
       if (entityId_ != 0) {
         output.writeUInt32(1, entityId_);
       }
-      if (unk3300EBICCLLGICG_ != false) {
-        output.writeBool(2, unk3300EBICCLLGICG_);
+      if (hasPathToTarget_ != false) {
+        output.writeBool(2, hasPathToTarget_);
       }
-      if (unk3300NOIPAMJJIDL_ != false) {
-        output.writeBool(10, unk3300NOIPAMJJIDL_);
+      if (isSelfKilling_ != false) {
+        output.writeBool(10, isSelfKilling_);
       }
       unknownFields.writeTo(output);
     }
@@ -197,13 +197,13 @@ public final class AiSyncInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1, entityId_);
       }
-      if (unk3300EBICCLLGICG_ != false) {
+      if (hasPathToTarget_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, unk3300EBICCLLGICG_);
+          .computeBoolSize(2, hasPathToTarget_);
       }
-      if (unk3300NOIPAMJJIDL_ != false) {
+      if (isSelfKilling_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(10, unk3300NOIPAMJJIDL_);
+          .computeBoolSize(10, isSelfKilling_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -222,10 +222,10 @@ public final class AiSyncInfoOuterClass {
 
       if (getEntityId()
           != other.getEntityId()) return false;
-      if (getUnk3300EBICCLLGICG()
-          != other.getUnk3300EBICCLLGICG()) return false;
-      if (getUnk3300NOIPAMJJIDL()
-          != other.getUnk3300NOIPAMJJIDL()) return false;
+      if (getHasPathToTarget()
+          != other.getHasPathToTarget()) return false;
+      if (getIsSelfKilling()
+          != other.getIsSelfKilling()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -239,12 +239,12 @@ public final class AiSyncInfoOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + ENTITYID_FIELD_NUMBER;
       hash = (53 * hash) + getEntityId();
-      hash = (37 * hash) + UNK3300_EBICCLLGICG_FIELD_NUMBER;
+      hash = (37 * hash) + HAS_PATH_TO_TARGET_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300EBICCLLGICG());
-      hash = (37 * hash) + UNK3300_NOIPAMJJIDL_FIELD_NUMBER;
+          getHasPathToTarget());
+      hash = (37 * hash) + IS_SELF_KILLING_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300NOIPAMJJIDL());
+          getIsSelfKilling());
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -380,9 +380,9 @@ public final class AiSyncInfoOuterClass {
         super.clear();
         entityId_ = 0;
 
-        unk3300EBICCLLGICG_ = false;
+        hasPathToTarget_ = false;
 
-        unk3300NOIPAMJJIDL_ = false;
+        isSelfKilling_ = false;
 
         return this;
       }
@@ -411,8 +411,8 @@ public final class AiSyncInfoOuterClass {
       public emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo buildPartial() {
         emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo result = new emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo(this);
         result.entityId_ = entityId_;
-        result.unk3300EBICCLLGICG_ = unk3300EBICCLLGICG_;
-        result.unk3300NOIPAMJJIDL_ = unk3300NOIPAMJJIDL_;
+        result.hasPathToTarget_ = hasPathToTarget_;
+        result.isSelfKilling_ = isSelfKilling_;
         onBuilt();
         return result;
       }
@@ -464,11 +464,11 @@ public final class AiSyncInfoOuterClass {
         if (other.getEntityId() != 0) {
           setEntityId(other.getEntityId());
         }
-        if (other.getUnk3300EBICCLLGICG() != false) {
-          setUnk3300EBICCLLGICG(other.getUnk3300EBICCLLGICG());
+        if (other.getHasPathToTarget() != false) {
+          setHasPathToTarget(other.getHasPathToTarget());
         }
-        if (other.getUnk3300NOIPAMJJIDL() != false) {
-          setUnk3300NOIPAMJJIDL(other.getUnk3300NOIPAMJJIDL());
+        if (other.getIsSelfKilling() != false) {
+          setIsSelfKilling(other.getIsSelfKilling());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -530,64 +530,64 @@ public final class AiSyncInfoOuterClass {
         return this;
       }
 
-      private boolean unk3300EBICCLLGICG_ ;
+      private boolean hasPathToTarget_ ;
       /**
-       * <code>bool Unk3300_EBICCLLGICG = 2;</code>
-       * @return The unk3300EBICCLLGICG.
+       * <code>bool has_path_to_target = 2;</code>
+       * @return The hasPathToTarget.
        */
       @java.lang.Override
-      public boolean getUnk3300EBICCLLGICG() {
-        return unk3300EBICCLLGICG_;
+      public boolean getHasPathToTarget() {
+        return hasPathToTarget_;
       }
       /**
-       * <code>bool Unk3300_EBICCLLGICG = 2;</code>
-       * @param value The unk3300EBICCLLGICG to set.
+       * <code>bool has_path_to_target = 2;</code>
+       * @param value The hasPathToTarget to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300EBICCLLGICG(boolean value) {
+      public Builder setHasPathToTarget(boolean value) {
         
-        unk3300EBICCLLGICG_ = value;
+        hasPathToTarget_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_EBICCLLGICG = 2;</code>
+       * <code>bool has_path_to_target = 2;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300EBICCLLGICG() {
+      public Builder clearHasPathToTarget() {
         
-        unk3300EBICCLLGICG_ = false;
+        hasPathToTarget_ = false;
         onChanged();
         return this;
       }
 
-      private boolean unk3300NOIPAMJJIDL_ ;
+      private boolean isSelfKilling_ ;
       /**
-       * <code>bool Unk3300_NOIPAMJJIDL = 10;</code>
-       * @return The unk3300NOIPAMJJIDL.
+       * <code>bool is_self_killing = 10;</code>
+       * @return The isSelfKilling.
        */
       @java.lang.Override
-      public boolean getUnk3300NOIPAMJJIDL() {
-        return unk3300NOIPAMJJIDL_;
+      public boolean getIsSelfKilling() {
+        return isSelfKilling_;
       }
       /**
-       * <code>bool Unk3300_NOIPAMJJIDL = 10;</code>
-       * @param value The unk3300NOIPAMJJIDL to set.
+       * <code>bool is_self_killing = 10;</code>
+       * @param value The isSelfKilling to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300NOIPAMJJIDL(boolean value) {
+      public Builder setIsSelfKilling(boolean value) {
         
-        unk3300NOIPAMJJIDL_ = value;
+        isSelfKilling_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_NOIPAMJJIDL = 10;</code>
+       * <code>bool is_self_killing = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300NOIPAMJJIDL() {
+      public Builder clearIsSelfKilling() {
         
-        unk3300NOIPAMJJIDL_ = false;
+        isSelfKilling_ = false;
         onChanged();
         return this;
       }
@@ -658,10 +658,10 @@ public final class AiSyncInfoOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020AiSyncInfo.proto\"X\n\nAiSyncInfo\022\020\n\010enti" +
-      "tyId\030\001 \001(\r\022\033\n\023Unk3300_EBICCLLGICG\030\002 \001(\010\022" +
-      "\033\n\023Unk3300_NOIPAMJJIDL\030\n \001(\010B\033\n\031emu.gras" +
-      "scutter.net.protob\006proto3"
+      "\n\020AiSyncInfo.proto\"S\n\nAiSyncInfo\022\020\n\010enti" +
+      "tyId\030\001 \001(\r\022\032\n\022has_path_to_target\030\002 \001(\010\022\027" +
+      "\n\017is_self_killing\030\n \001(\010B\033\n\031emu.grasscutt" +
+      "er.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -672,7 +672,7 @@ public final class AiSyncInfoOuterClass {
     internal_static_AiSyncInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AiSyncInfo_descriptor,
-        new java.lang.String[] { "EntityId", "Unk3300EBICCLLGICG", "Unk3300NOIPAMJJIDL", });
+        new java.lang.String[] { "EntityId", "HasPathToTarget", "IsSelfKilling", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
