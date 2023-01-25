@@ -2,21 +2,24 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "CmdId.proto";
 
 message DebugNotify {
 	//enum LEBINLJNBIN {
 	//	option allow_alias= true;
-		KDIIPNENMIM = 0;
+	//	KDIIPNENMIM = 0;
 	//	PEPPOHPHJOJ = 101;
-		ANGMONKOIOA = 101;
+	//	ANGMONKOIOA = 101;
 	//	DCDNILFDFLB = 2;
 	//	NNBKOLMPOEA = 1;
 	//}
 
+	enum Retcode {
+    	SUCC = 0;
+    	FAIL = 1;
+  	}
+
 	uint32 id = 1;
-	string createTime = 2;
+	string name = 2;
 	CmdId retcode = 3;
 }
