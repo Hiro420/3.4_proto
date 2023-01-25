@@ -5,6 +5,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 
-message StatueGadget {
-	repeated uint32 nkbgahefmbn = 1;
+message StatueGadgetInfo {
+	repeated uint32 opened_statue_uid_list = 1;
 }

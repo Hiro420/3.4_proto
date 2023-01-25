@@ -5,6 +5,6 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 
-message Weather {
+message WeatherInfo {
 	uint32 weatherAreaId = 1;
 }

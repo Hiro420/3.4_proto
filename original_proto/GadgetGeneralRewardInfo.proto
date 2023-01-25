@@ -6,7 +6,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 import "ItemParam.proto";
 
-message GeneralReward {
+message GadgetGeneralRewardInfo {
 	uint32 resin = 1;
 	uint32 deadTime = 2;
 	repeated uint32 remainUidList = 3;
