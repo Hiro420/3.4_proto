@@ -2,9 +2,6 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "ServerBuffChangeType.proto";
 import "ServerBuff.proto";
 
 message ServerBuffChangeNotify {
@@ -15,6 +12,11 @@ message ServerBuffChangeNotify {
 	//	DCDNILFDFLB = 0;
 	//	NNBKOLMPOEA = 1;
 	//}
+
+	enum ServerBuffChangeType {
+    	SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
+		SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
+    }
 
 	repeated ServerBuff serverBuffList = 12;
 	repeated uint64 avatarGuidList = 10;

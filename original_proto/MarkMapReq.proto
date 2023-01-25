@@ -2,9 +2,6 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-import "Operation.proto";
 import "MapMarkPoint.proto";
 
 message MarkMapReq {
@@ -16,6 +13,13 @@ message MarkMapReq {
 	//	NNBKOLMPOEA = 1;
 	//	EAJIABGAOCI = 1;
 	//}
+
+	enum Operation {
+    	OPERATION_ADD = 0;
+    	OPERATION_MOD = 1;
+    	OPERATION_DEL = 2;
+    	OPERATION_GET = 3;
+    }
 
 	Operation op = 3;
 	MapMarkPoint old = 7;

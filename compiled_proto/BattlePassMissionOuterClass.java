@@ -31,15 +31,15 @@ public final class BattlePassMissionOuterClass {
     int getMissionType();
 
     /**
-     * <code>.MissionStatus missionStatus = 9;</code>
+     * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
      * @return The enum numeric value on the wire for missionStatus.
      */
     int getMissionStatusValue();
     /**
-     * <code>.MissionStatus missionStatus = 9;</code>
+     * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
      * @return The missionStatus.
      */
-    emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus getMissionStatus();
+    emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus getMissionStatus();
 
     /**
      * <code>uint32 curProgress = 11;</code>
@@ -168,6 +168,132 @@ public final class BattlePassMissionOuterClass {
               emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.class, emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code BattlePassMission.MissionStatus}
+     */
+    public enum MissionStatus
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>MISSION_STATUS_INVALID = 0;</code>
+       */
+      MISSION_STATUS_INVALID(0),
+      /**
+       * <code>MISSION_STATUS_UNFINISHED = 1;</code>
+       */
+      MISSION_STATUS_UNFINISHED(1),
+      /**
+       * <code>MISSION_STATUS_FINISHED = 2;</code>
+       */
+      MISSION_STATUS_FINISHED(2),
+      /**
+       * <code>MISSION_STATUS_POINT_TAKEN = 3;</code>
+       */
+      MISSION_STATUS_POINT_TAKEN(3),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>MISSION_STATUS_INVALID = 0;</code>
+       */
+      public static final int MISSION_STATUS_INVALID_VALUE = 0;
+      /**
+       * <code>MISSION_STATUS_UNFINISHED = 1;</code>
+       */
+      public static final int MISSION_STATUS_UNFINISHED_VALUE = 1;
+      /**
+       * <code>MISSION_STATUS_FINISHED = 2;</code>
+       */
+      public static final int MISSION_STATUS_FINISHED_VALUE = 2;
+      /**
+       * <code>MISSION_STATUS_POINT_TAKEN = 3;</code>
+       */
+      public static final int MISSION_STATUS_POINT_TAKEN_VALUE = 3;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static MissionStatus valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static MissionStatus forNumber(int value) {
+        switch (value) {
+          case 0: return MISSION_STATUS_INVALID;
+          case 1: return MISSION_STATUS_UNFINISHED;
+          case 2: return MISSION_STATUS_FINISHED;
+          case 3: return MISSION_STATUS_POINT_TAKEN;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<MissionStatus>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          MissionStatus> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<MissionStatus>() {
+              public MissionStatus findValueByNumber(int number) {
+                return MissionStatus.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final MissionStatus[] VALUES = values();
+
+      public static MissionStatus valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private MissionStatus(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:BattlePassMission.MissionStatus)
+    }
+
     public static final int MISSIONID_FIELD_NUMBER = 6;
     private int missionId_;
     /**
@@ -193,20 +319,20 @@ public final class BattlePassMissionOuterClass {
     public static final int MISSIONSTATUS_FIELD_NUMBER = 9;
     private int missionStatus_;
     /**
-     * <code>.MissionStatus missionStatus = 9;</code>
+     * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
      * @return The enum numeric value on the wire for missionStatus.
      */
     @java.lang.Override public int getMissionStatusValue() {
       return missionStatus_;
     }
     /**
-     * <code>.MissionStatus missionStatus = 9;</code>
+     * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
      * @return The missionStatus.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus getMissionStatus() {
+    @java.lang.Override public emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus getMissionStatus() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus result = emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.valueOf(missionStatus_);
-      return result == null ? emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus result = emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.valueOf(missionStatus_);
+      return result == null ? emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.UNRECOGNIZED : result;
     }
 
     public static final int CURPROGRESS_FIELD_NUMBER = 11;
@@ -259,7 +385,7 @@ public final class BattlePassMissionOuterClass {
       if (missionId_ != 0) {
         output.writeUInt32(6, missionId_);
       }
-      if (missionStatus_ != emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.MISSION_STATUS_INVALID.getNumber()) {
+      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MISSION_STATUS_INVALID.getNumber()) {
         output.writeEnum(9, missionStatus_);
       }
       if (rewardBattlePassPoint_ != 0) {
@@ -287,7 +413,7 @@ public final class BattlePassMissionOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(6, missionId_);
       }
-      if (missionStatus_ != emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.MISSION_STATUS_INVALID.getNumber()) {
+      if (missionStatus_ != emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.MISSION_STATUS_INVALID.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(9, missionStatus_);
       }
@@ -692,14 +818,14 @@ public final class BattlePassMissionOuterClass {
 
       private int missionStatus_ = 0;
       /**
-       * <code>.MissionStatus missionStatus = 9;</code>
+       * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
        * @return The enum numeric value on the wire for missionStatus.
        */
       @java.lang.Override public int getMissionStatusValue() {
         return missionStatus_;
       }
       /**
-       * <code>.MissionStatus missionStatus = 9;</code>
+       * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
        * @param value The enum numeric value on the wire for missionStatus to set.
        * @return This builder for chaining.
        */
@@ -710,21 +836,21 @@ public final class BattlePassMissionOuterClass {
         return this;
       }
       /**
-       * <code>.MissionStatus missionStatus = 9;</code>
+       * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
        * @return The missionStatus.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus getMissionStatus() {
+      public emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus getMissionStatus() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus result = emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.valueOf(missionStatus_);
-        return result == null ? emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus result = emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.valueOf(missionStatus_);
+        return result == null ? emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus.UNRECOGNIZED : result;
       }
       /**
-       * <code>.MissionStatus missionStatus = 9;</code>
+       * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
        * @param value The missionStatus to set.
        * @return This builder for chaining.
        */
-      public Builder setMissionStatus(emu.grasscutter.net.proto.MissionStatusOuterClass.MissionStatus value) {
+      public Builder setMissionStatus(emu.grasscutter.net.proto.BattlePassMissionOuterClass.BattlePassMission.MissionStatus value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -734,7 +860,7 @@ public final class BattlePassMissionOuterClass {
         return this;
       }
       /**
-       * <code>.MissionStatus missionStatus = 9;</code>
+       * <code>.BattlePassMission.MissionStatus missionStatus = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearMissionStatus() {
@@ -904,12 +1030,16 @@ public final class BattlePassMissionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\027BattlePassMission.proto\032\023MissionStatus" +
-      ".proto\"\255\001\n\021BattlePassMission\022\021\n\tmissionI" +
-      "d\030\006 \001(\r\022\023\n\013missionType\030\016 \001(\r\022%\n\rmissionS" +
-      "tatus\030\t \001(\0162\016.MissionStatus\022\023\n\013curProgre" +
-      "ss\030\013 \001(\r\022\035\n\025rewardBattlePassPoint\030\n \001(\r\022" +
-      "\025\n\rtotalProgress\030\r \001(\rB\033\n\031emu.grasscutte" +
-      "r.net.protob\006proto3"
+      ".proto\"\311\002\n\021BattlePassMission\022\021\n\tmissionI" +
+      "d\030\006 \001(\r\022\023\n\013missionType\030\016 \001(\r\0227\n\rmissionS" +
+      "tatus\030\t \001(\0162 .BattlePassMission.MissionS" +
+      "tatus\022\023\n\013curProgress\030\013 \001(\r\022\035\n\025rewardBatt" +
+      "lePassPoint\030\n \001(\r\022\025\n\rtotalProgress\030\r \001(\r" +
+      "\"\207\001\n\rMissionStatus\022\032\n\026MISSION_STATUS_INV" +
+      "ALID\020\000\022\035\n\031MISSION_STATUS_UNFINISHED\020\001\022\033\n" +
+      "\027MISSION_STATUS_FINISHED\020\002\022\036\n\032MISSION_ST" +
+      "ATUS_POINT_TAKEN\020\003B\033\n\031emu.grasscutter.ne" +
+      "t.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

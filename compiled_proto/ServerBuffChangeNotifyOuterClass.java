@@ -60,15 +60,15 @@ public final class ServerBuffChangeNotifyOuterClass {
     long getAvatarGuidList(int index);
 
     /**
-     * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+     * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
      * @return The enum numeric value on the wire for serverBuffChangeType.
      */
     int getServerBuffChangeTypeValue();
     /**
-     * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+     * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
      * @return The serverBuffChangeType.
      */
-    emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType getServerBuffChangeType();
+    emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType getServerBuffChangeType();
 
     /**
      * <code>repeated uint32 entityIdList = 1;</code>
@@ -256,6 +256,114 @@ public final class ServerBuffChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.class, emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code ServerBuffChangeNotify.ServerBuffChangeType}
+     */
+    public enum ServerBuffChangeType
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;</code>
+       */
+      SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF(0),
+      /**
+       * <code>SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;</code>
+       */
+      SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF(1),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;</code>
+       */
+      public static final int SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF_VALUE = 0;
+      /**
+       * <code>SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;</code>
+       */
+      public static final int SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF_VALUE = 1;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static ServerBuffChangeType valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static ServerBuffChangeType forNumber(int value) {
+        switch (value) {
+          case 0: return SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF;
+          case 1: return SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<ServerBuffChangeType>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          ServerBuffChangeType> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<ServerBuffChangeType>() {
+              public ServerBuffChangeType findValueByNumber(int number) {
+                return ServerBuffChangeType.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final ServerBuffChangeType[] VALUES = values();
+
+      public static ServerBuffChangeType valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private ServerBuffChangeType(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:ServerBuffChangeNotify.ServerBuffChangeType)
+    }
+
     public static final int SERVERBUFFLIST_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.ServerBuffOuterClass.ServerBuff> serverBuffList_;
     /**
@@ -327,20 +435,20 @@ public final class ServerBuffChangeNotifyOuterClass {
     public static final int SERVERBUFFCHANGETYPE_FIELD_NUMBER = 4;
     private int serverBuffChangeType_;
     /**
-     * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+     * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
      * @return The enum numeric value on the wire for serverBuffChangeType.
      */
     @java.lang.Override public int getServerBuffChangeTypeValue() {
       return serverBuffChangeType_;
     }
     /**
-     * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+     * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
      * @return The serverBuffChangeType.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType getServerBuffChangeType() {
+    @java.lang.Override public emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType getServerBuffChangeType() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType result = emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.valueOf(serverBuffChangeType_);
-      return result == null ? emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType result = emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.valueOf(serverBuffChangeType_);
+      return result == null ? emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.UNRECOGNIZED : result;
     }
 
     public static final int ENTITYIDLIST_FIELD_NUMBER = 1;
@@ -404,7 +512,7 @@ public final class ServerBuffChangeNotifyOuterClass {
       for (int i = 0; i < entityIdList_.size(); i++) {
         output.writeUInt32NoTag(entityIdList_.getInt(i));
       }
-      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
+      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         output.writeEnum(4, serverBuffChangeType_);
       }
       if (isCreatureBuff_ != false) {
@@ -443,7 +551,7 @@ public final class ServerBuffChangeNotifyOuterClass {
         }
         entityIdListMemoizedSerializedSize = dataSize;
       }
-      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
+      if (serverBuffChangeType_ != emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(4, serverBuffChangeType_);
       }
@@ -1178,14 +1286,14 @@ public final class ServerBuffChangeNotifyOuterClass {
 
       private int serverBuffChangeType_ = 0;
       /**
-       * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+       * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
        * @return The enum numeric value on the wire for serverBuffChangeType.
        */
       @java.lang.Override public int getServerBuffChangeTypeValue() {
         return serverBuffChangeType_;
       }
       /**
-       * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+       * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
        * @param value The enum numeric value on the wire for serverBuffChangeType to set.
        * @return This builder for chaining.
        */
@@ -1196,21 +1304,21 @@ public final class ServerBuffChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+       * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
        * @return The serverBuffChangeType.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType getServerBuffChangeType() {
+      public emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType getServerBuffChangeType() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType result = emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.valueOf(serverBuffChangeType_);
-        return result == null ? emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType result = emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.valueOf(serverBuffChangeType_);
+        return result == null ? emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType.UNRECOGNIZED : result;
       }
       /**
-       * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+       * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
        * @param value The serverBuffChangeType to set.
        * @return This builder for chaining.
        */
-      public Builder setServerBuffChangeType(emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.ServerBuffChangeType value) {
+      public Builder setServerBuffChangeType(emu.grasscutter.net.proto.ServerBuffChangeNotifyOuterClass.ServerBuffChangeNotify.ServerBuffChangeType value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -1220,7 +1328,7 @@ public final class ServerBuffChangeNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.ServerBuffChangeType serverBuffChangeType = 4;</code>
+       * <code>.ServerBuffChangeNotify.ServerBuffChangeType serverBuffChangeType = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearServerBuffChangeType() {
@@ -1406,19 +1514,21 @@ public final class ServerBuffChangeNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034ServerBuffChangeNotify.proto\032\032ServerBu" +
-      "ffChangeType.proto\032\020ServerBuff.proto\"\270\001\n" +
-      "\026ServerBuffChangeNotify\022#\n\016serverBuffLis" +
-      "t\030\014 \003(\0132\013.ServerBuff\022\026\n\016avatarGuidList\030\n" +
-      " \003(\004\0223\n\024serverBuffChangeType\030\004 \001(\0162\025.Ser" +
-      "verBuffChangeType\022\024\n\014entityIdList\030\001 \003(\r\022" +
-      "\026\n\016isCreatureBuff\030\005 \001(\010B\033\n\031emu.grasscutt" +
-      "er.net.protob\006proto3"
+      "\n\034ServerBuffChangeNotify.proto\032\020ServerBu" +
+      "ff.proto\"\301\002\n\026ServerBuffChangeNotify\022#\n\016s" +
+      "erverBuffList\030\014 \003(\0132\013.ServerBuff\022\026\n\016avat" +
+      "arGuidList\030\n \003(\004\022J\n\024serverBuffChangeType" +
+      "\030\004 \001(\0162,.ServerBuffChangeNotify.ServerBu" +
+      "ffChangeType\022\024\n\014entityIdList\030\001 \003(\r\022\026\n\016is" +
+      "CreatureBuff\030\005 \001(\010\"p\n\024ServerBuffChangeTy" +
+      "pe\022+\n\'SERVER_BUFF_CHANGE_TYPE_ADD_SERVER" +
+      "_BUFF\020\000\022+\n\'SERVER_BUFF_CHANGE_TYPE_DEL_S" +
+      "ERVER_BUFF\020\001B\033\n\031emu.grasscutter.net.prot" +
+      "ob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor(),
         });
     internal_static_ServerBuffChangeNotify_descriptor =
@@ -1427,7 +1537,6 @@ public final class ServerBuffChangeNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ServerBuffChangeNotify_descriptor,
         new java.lang.String[] { "ServerBuffList", "AvatarGuidList", "ServerBuffChangeType", "EntityIdList", "IsCreatureBuff", });
-    emu.grasscutter.net.proto.ServerBuffChangeTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ServerBuffOuterClass.getDescriptor();
   }
 

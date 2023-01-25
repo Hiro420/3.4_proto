@@ -19,15 +19,15 @@ public final class MarkMapReqOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>.Operation op = 3;</code>
+     * <code>.MarkMapReq.Operation op = 3;</code>
      * @return The enum numeric value on the wire for op.
      */
     int getOpValue();
     /**
-     * <code>.Operation op = 3;</code>
+     * <code>.MarkMapReq.Operation op = 3;</code>
      * @return The op.
      */
-    emu.grasscutter.net.proto.OperationOuterClass.Operation getOp();
+    emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation getOp();
 
     /**
      * <code>.MapMarkPoint old = 7;</code>
@@ -180,23 +180,149 @@ public final class MarkMapReqOuterClass {
               emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.class, emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code MarkMapReq.Operation}
+     */
+    public enum Operation
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>OPERATION_ADD = 0;</code>
+       */
+      OPERATION_ADD(0),
+      /**
+       * <code>OPERATION_MOD = 1;</code>
+       */
+      OPERATION_MOD(1),
+      /**
+       * <code>OPERATION_DEL = 2;</code>
+       */
+      OPERATION_DEL(2),
+      /**
+       * <code>OPERATION_GET = 3;</code>
+       */
+      OPERATION_GET(3),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>OPERATION_ADD = 0;</code>
+       */
+      public static final int OPERATION_ADD_VALUE = 0;
+      /**
+       * <code>OPERATION_MOD = 1;</code>
+       */
+      public static final int OPERATION_MOD_VALUE = 1;
+      /**
+       * <code>OPERATION_DEL = 2;</code>
+       */
+      public static final int OPERATION_DEL_VALUE = 2;
+      /**
+       * <code>OPERATION_GET = 3;</code>
+       */
+      public static final int OPERATION_GET_VALUE = 3;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static Operation valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static Operation forNumber(int value) {
+        switch (value) {
+          case 0: return OPERATION_ADD;
+          case 1: return OPERATION_MOD;
+          case 2: return OPERATION_DEL;
+          case 3: return OPERATION_GET;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<Operation>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          Operation> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<Operation>() {
+              public Operation findValueByNumber(int number) {
+                return Operation.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final Operation[] VALUES = values();
+
+      public static Operation valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private Operation(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:MarkMapReq.Operation)
+    }
+
     public static final int OP_FIELD_NUMBER = 3;
     private int op_;
     /**
-     * <code>.Operation op = 3;</code>
+     * <code>.MarkMapReq.Operation op = 3;</code>
      * @return The enum numeric value on the wire for op.
      */
     @java.lang.Override public int getOpValue() {
       return op_;
     }
     /**
-     * <code>.Operation op = 3;</code>
+     * <code>.MarkMapReq.Operation op = 3;</code>
      * @return The op.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.OperationOuterClass.Operation getOp() {
+    @java.lang.Override public emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation getOp() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.OperationOuterClass.Operation result = emu.grasscutter.net.proto.OperationOuterClass.Operation.valueOf(op_);
-      return result == null ? emu.grasscutter.net.proto.OperationOuterClass.Operation.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation result = emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.valueOf(op_);
+      return result == null ? emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.UNRECOGNIZED : result;
     }
 
     public static final int OLD_FIELD_NUMBER = 7;
@@ -265,7 +391,7 @@ public final class MarkMapReqOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (op_ != emu.grasscutter.net.proto.OperationOuterClass.Operation.OPERATION_ADD.getNumber()) {
+      if (op_ != emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.OPERATION_ADD.getNumber()) {
         output.writeEnum(3, op_);
       }
       if (old_ != null) {
@@ -283,7 +409,7 @@ public final class MarkMapReqOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (op_ != emu.grasscutter.net.proto.OperationOuterClass.Operation.OPERATION_ADD.getNumber()) {
+      if (op_ != emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.OPERATION_ADD.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(3, op_);
       }
@@ -625,14 +751,14 @@ public final class MarkMapReqOuterClass {
 
       private int op_ = 0;
       /**
-       * <code>.Operation op = 3;</code>
+       * <code>.MarkMapReq.Operation op = 3;</code>
        * @return The enum numeric value on the wire for op.
        */
       @java.lang.Override public int getOpValue() {
         return op_;
       }
       /**
-       * <code>.Operation op = 3;</code>
+       * <code>.MarkMapReq.Operation op = 3;</code>
        * @param value The enum numeric value on the wire for op to set.
        * @return This builder for chaining.
        */
@@ -643,21 +769,21 @@ public final class MarkMapReqOuterClass {
         return this;
       }
       /**
-       * <code>.Operation op = 3;</code>
+       * <code>.MarkMapReq.Operation op = 3;</code>
        * @return The op.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.OperationOuterClass.Operation getOp() {
+      public emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation getOp() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.OperationOuterClass.Operation result = emu.grasscutter.net.proto.OperationOuterClass.Operation.valueOf(op_);
-        return result == null ? emu.grasscutter.net.proto.OperationOuterClass.Operation.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation result = emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.valueOf(op_);
+        return result == null ? emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation.UNRECOGNIZED : result;
       }
       /**
-       * <code>.Operation op = 3;</code>
+       * <code>.MarkMapReq.Operation op = 3;</code>
        * @param value The op to set.
        * @return This builder for chaining.
        */
-      public Builder setOp(emu.grasscutter.net.proto.OperationOuterClass.Operation value) {
+      public Builder setOp(emu.grasscutter.net.proto.MarkMapReqOuterClass.MarkMapReq.Operation value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -667,7 +793,7 @@ public final class MarkMapReqOuterClass {
         return this;
       }
       /**
-       * <code>.Operation op = 3;</code>
+       * <code>.MarkMapReq.Operation op = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearOp() {
@@ -981,16 +1107,17 @@ public final class MarkMapReqOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020MarkMapReq.proto\032\017Operation.proto\032\022Map" +
-      "MarkPoint.proto\"]\n\nMarkMapReq\022\026\n\002op\030\003 \001(" +
-      "\0162\n.Operation\022\032\n\003old\030\007 \001(\0132\r.MapMarkPoin" +
-      "t\022\033\n\004mark\030\n \001(\0132\r.MapMarkPointB\033\n\031emu.gr" +
-      "asscutter.net.protob\006proto3"
+      "\n\020MarkMapReq.proto\032\022MapMarkPoint.proto\"\301" +
+      "\001\n\nMarkMapReq\022!\n\002op\030\003 \001(\0162\025.MarkMapReq.O" +
+      "peration\022\032\n\003old\030\007 \001(\0132\r.MapMarkPoint\022\033\n\004" +
+      "mark\030\n \001(\0132\r.MapMarkPoint\"W\n\tOperation\022\021" +
+      "\n\rOPERATION_ADD\020\000\022\021\n\rOPERATION_MOD\020\001\022\021\n\r" +
+      "OPERATION_DEL\020\002\022\021\n\rOPERATION_GET\020\003B\033\n\031em" +
+      "u.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.OperationOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.MapMarkPointOuterClass.getDescriptor(),
         });
     internal_static_MarkMapReq_descriptor =
@@ -999,7 +1126,6 @@ public final class MarkMapReqOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_MarkMapReq_descriptor,
         new java.lang.String[] { "Op", "Old", "Mark", });
-    emu.grasscutter.net.proto.OperationOuterClass.getDescriptor();
     emu.grasscutter.net.proto.MapMarkPointOuterClass.getDescriptor();
   }
 

@@ -7,6 +7,14 @@ option java_package = "emu.grasscutter.net.proto";
 import "MissionStatus.proto";
 
 message BattlePassMission {
+
+	enum MissionStatus {
+    	MISSION_STATUS_INVALID = 0;
+    	MISSION_STATUS_UNFINISHED = 1;
+    	MISSION_STATUS_FINISHED = 2;
+    	MISSION_STATUS_POINT_TAKEN = 3;
+    }
+
 	uint32 missionId = 6;
 	uint32 missionType = 14;
 	MissionStatus missionStatus = 9;

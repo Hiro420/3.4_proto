@@ -37,15 +37,15 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         getTargetNicknameBytes();
 
     /**
-     * <code>.Reason reason = 10;</code>
+     * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
      * @return The enum numeric value on the wire for reason.
      */
     int getReasonValue();
     /**
-     * <code>.Reason reason = 10;</code>
+     * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
      * @return The reason.
      */
-    emu.grasscutter.net.proto.ReasonOuterClass.Reason getReason();
+    emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason getReason();
 
     /**
      * <code>uint32 targetUid = 1;</code>
@@ -164,6 +164,222 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
               emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.class, emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code PlayerApplyEnterMpResultNotify.Reason}
+     */
+    public enum Reason
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>REASON_PLAYER_JUDGE = 0;</code>
+       */
+      REASON_PLAYER_JUDGE(0),
+      /**
+       * <code>REASON_SCENE_CANNOT_ENTER = 1;</code>
+       */
+      REASON_SCENE_CANNOT_ENTER(1),
+      /**
+       * <code>REASON_PLAYER_CANNOT_ENTER_MP = 2;</code>
+       */
+      REASON_PLAYER_CANNOT_ENTER_MP(2),
+      /**
+       * <code>REASON_SYSTEM_JUDGE = 3;</code>
+       */
+      REASON_SYSTEM_JUDGE(3),
+      /**
+       * <code>REASON_ALLOW_ENTER_PLAYER_FULL = 4;</code>
+       */
+      REASON_ALLOW_ENTER_PLAYER_FULL(4),
+      /**
+       * <code>REASON_WORLD_LEVEL_LOWER_THAN_HOST = 5;</code>
+       */
+      REASON_WORLD_LEVEL_LOWER_THAN_HOST(5),
+      /**
+       * <code>REASON_HOST_IN_MATCH = 6;</code>
+       */
+      REASON_HOST_IN_MATCH(6),
+      /**
+       * <code>REASON_PLAYER_IN_BLACKLIST = 7;</code>
+       */
+      REASON_PLAYER_IN_BLACKLIST(7),
+      /**
+       * <code>REASON_PS_PLAYER_NOT_ACCEPT_OTHERS = 8;</code>
+       */
+      REASON_PS_PLAYER_NOT_ACCEPT_OTHERS(8),
+      /**
+       * <code>REASON_HOST_IS_BLOCKED = 9;</code>
+       */
+      REASON_HOST_IS_BLOCKED(9),
+      /**
+       * <code>REASON_OTHER_DATA_VERSION_NOT_LATEST = 10;</code>
+       */
+      REASON_OTHER_DATA_VERSION_NOT_LATEST(10),
+      /**
+       * <code>REASON_DATA_VERSION_NOT_LATEST = 11;</code>
+       */
+      REASON_DATA_VERSION_NOT_LATEST(11),
+      /**
+       * <code>REASON_PLAYER_NOT_IN_PLAYER_WORLD = 12;</code>
+       */
+      REASON_PLAYER_NOT_IN_PLAYER_WORLD(12),
+      /**
+       * <code>REASON_MAX_PLAYER = 13;</code>
+       */
+      REASON_MAX_PLAYER(13),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>REASON_PLAYER_JUDGE = 0;</code>
+       */
+      public static final int REASON_PLAYER_JUDGE_VALUE = 0;
+      /**
+       * <code>REASON_SCENE_CANNOT_ENTER = 1;</code>
+       */
+      public static final int REASON_SCENE_CANNOT_ENTER_VALUE = 1;
+      /**
+       * <code>REASON_PLAYER_CANNOT_ENTER_MP = 2;</code>
+       */
+      public static final int REASON_PLAYER_CANNOT_ENTER_MP_VALUE = 2;
+      /**
+       * <code>REASON_SYSTEM_JUDGE = 3;</code>
+       */
+      public static final int REASON_SYSTEM_JUDGE_VALUE = 3;
+      /**
+       * <code>REASON_ALLOW_ENTER_PLAYER_FULL = 4;</code>
+       */
+      public static final int REASON_ALLOW_ENTER_PLAYER_FULL_VALUE = 4;
+      /**
+       * <code>REASON_WORLD_LEVEL_LOWER_THAN_HOST = 5;</code>
+       */
+      public static final int REASON_WORLD_LEVEL_LOWER_THAN_HOST_VALUE = 5;
+      /**
+       * <code>REASON_HOST_IN_MATCH = 6;</code>
+       */
+      public static final int REASON_HOST_IN_MATCH_VALUE = 6;
+      /**
+       * <code>REASON_PLAYER_IN_BLACKLIST = 7;</code>
+       */
+      public static final int REASON_PLAYER_IN_BLACKLIST_VALUE = 7;
+      /**
+       * <code>REASON_PS_PLAYER_NOT_ACCEPT_OTHERS = 8;</code>
+       */
+      public static final int REASON_PS_PLAYER_NOT_ACCEPT_OTHERS_VALUE = 8;
+      /**
+       * <code>REASON_HOST_IS_BLOCKED = 9;</code>
+       */
+      public static final int REASON_HOST_IS_BLOCKED_VALUE = 9;
+      /**
+       * <code>REASON_OTHER_DATA_VERSION_NOT_LATEST = 10;</code>
+       */
+      public static final int REASON_OTHER_DATA_VERSION_NOT_LATEST_VALUE = 10;
+      /**
+       * <code>REASON_DATA_VERSION_NOT_LATEST = 11;</code>
+       */
+      public static final int REASON_DATA_VERSION_NOT_LATEST_VALUE = 11;
+      /**
+       * <code>REASON_PLAYER_NOT_IN_PLAYER_WORLD = 12;</code>
+       */
+      public static final int REASON_PLAYER_NOT_IN_PLAYER_WORLD_VALUE = 12;
+      /**
+       * <code>REASON_MAX_PLAYER = 13;</code>
+       */
+      public static final int REASON_MAX_PLAYER_VALUE = 13;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static Reason valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static Reason forNumber(int value) {
+        switch (value) {
+          case 0: return REASON_PLAYER_JUDGE;
+          case 1: return REASON_SCENE_CANNOT_ENTER;
+          case 2: return REASON_PLAYER_CANNOT_ENTER_MP;
+          case 3: return REASON_SYSTEM_JUDGE;
+          case 4: return REASON_ALLOW_ENTER_PLAYER_FULL;
+          case 5: return REASON_WORLD_LEVEL_LOWER_THAN_HOST;
+          case 6: return REASON_HOST_IN_MATCH;
+          case 7: return REASON_PLAYER_IN_BLACKLIST;
+          case 8: return REASON_PS_PLAYER_NOT_ACCEPT_OTHERS;
+          case 9: return REASON_HOST_IS_BLOCKED;
+          case 10: return REASON_OTHER_DATA_VERSION_NOT_LATEST;
+          case 11: return REASON_DATA_VERSION_NOT_LATEST;
+          case 12: return REASON_PLAYER_NOT_IN_PLAYER_WORLD;
+          case 13: return REASON_MAX_PLAYER;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<Reason>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          Reason> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<Reason>() {
+              public Reason findValueByNumber(int number) {
+                return Reason.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final Reason[] VALUES = values();
+
+      public static Reason valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private Reason(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:PlayerApplyEnterMpResultNotify.Reason)
+    }
+
     public static final int ISAGREED_FIELD_NUMBER = 7;
     private boolean isAgreed_;
     /**
@@ -216,20 +432,20 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
     public static final int REASON_FIELD_NUMBER = 10;
     private int reason_;
     /**
-     * <code>.Reason reason = 10;</code>
+     * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
      * @return The enum numeric value on the wire for reason.
      */
     @java.lang.Override public int getReasonValue() {
       return reason_;
     }
     /**
-     * <code>.Reason reason = 10;</code>
+     * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
      * @return The reason.
      */
-    @java.lang.Override public emu.grasscutter.net.proto.ReasonOuterClass.Reason getReason() {
+    @java.lang.Override public emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason getReason() {
       @SuppressWarnings("deprecation")
-      emu.grasscutter.net.proto.ReasonOuterClass.Reason result = emu.grasscutter.net.proto.ReasonOuterClass.Reason.valueOf(reason_);
-      return result == null ? emu.grasscutter.net.proto.ReasonOuterClass.Reason.UNRECOGNIZED : result;
+      emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason result = emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.valueOf(reason_);
+      return result == null ? emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.UNRECOGNIZED : result;
     }
 
     public static final int TARGETUID_FIELD_NUMBER = 1;
@@ -263,7 +479,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       if (isAgreed_ != false) {
         output.writeBool(7, isAgreed_);
       }
-      if (reason_ != emu.grasscutter.net.proto.ReasonOuterClass.Reason.REASON_SUCC.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_PLAYER_JUDGE.getNumber()) {
         output.writeEnum(10, reason_);
       }
       if (!getTargetNicknameBytes().isEmpty()) {
@@ -286,7 +502,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, isAgreed_);
       }
-      if (reason_ != emu.grasscutter.net.proto.ReasonOuterClass.Reason.REASON_SUCC.getNumber()) {
+      if (reason_ != emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.REASON_PLAYER_JUDGE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(10, reason_);
       }
@@ -715,14 +931,14 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
 
       private int reason_ = 0;
       /**
-       * <code>.Reason reason = 10;</code>
+       * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
        * @return The enum numeric value on the wire for reason.
        */
       @java.lang.Override public int getReasonValue() {
         return reason_;
       }
       /**
-       * <code>.Reason reason = 10;</code>
+       * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
        * @param value The enum numeric value on the wire for reason to set.
        * @return This builder for chaining.
        */
@@ -733,21 +949,21 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Reason reason = 10;</code>
+       * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
        * @return The reason.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.ReasonOuterClass.Reason getReason() {
+      public emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason getReason() {
         @SuppressWarnings("deprecation")
-        emu.grasscutter.net.proto.ReasonOuterClass.Reason result = emu.grasscutter.net.proto.ReasonOuterClass.Reason.valueOf(reason_);
-        return result == null ? emu.grasscutter.net.proto.ReasonOuterClass.Reason.UNRECOGNIZED : result;
+        emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason result = emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.valueOf(reason_);
+        return result == null ? emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason.UNRECOGNIZED : result;
       }
       /**
-       * <code>.Reason reason = 10;</code>
+       * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
        * @param value The reason to set.
        * @return This builder for chaining.
        */
-      public Builder setReason(emu.grasscutter.net.proto.ReasonOuterClass.Reason value) {
+      public Builder setReason(emu.grasscutter.net.proto.PlayerApplyEnterMpResultNotifyOuterClass.PlayerApplyEnterMpResultNotify.Reason value) {
         if (value == null) {
           throw new NullPointerException();
         }
@@ -757,7 +973,7 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
         return this;
       }
       /**
-       * <code>.Reason reason = 10;</code>
+       * <code>.PlayerApplyEnterMpResultNotify.Reason reason = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearReason() {
@@ -864,17 +1080,28 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n$PlayerApplyEnterMpResultNotify.proto\032\014" +
-      "Reason.proto\"v\n\036PlayerApplyEnterMpResult" +
-      "Notify\022\020\n\010isAgreed\030\007 \001(\010\022\026\n\016targetNickna" +
-      "me\030\016 \001(\t\022\027\n\006reason\030\n \001(\0162\007.Reason\022\021\n\ttar" +
-      "getUid\030\001 \001(\rB\033\n\031emu.grasscutter.net.prot" +
-      "ob\006proto3"
+      "\n$PlayerApplyEnterMpResultNotify.proto\"\352" +
+      "\004\n\036PlayerApplyEnterMpResultNotify\022\020\n\010isA" +
+      "greed\030\007 \001(\010\022\026\n\016targetNickname\030\016 \001(\t\0226\n\006r" +
+      "eason\030\n \001(\0162&.PlayerApplyEnterMpResultNo" +
+      "tify.Reason\022\021\n\ttargetUid\030\001 \001(\r\"\322\003\n\006Reaso" +
+      "n\022\027\n\023REASON_PLAYER_JUDGE\020\000\022\035\n\031REASON_SCE" +
+      "NE_CANNOT_ENTER\020\001\022!\n\035REASON_PLAYER_CANNO" +
+      "T_ENTER_MP\020\002\022\027\n\023REASON_SYSTEM_JUDGE\020\003\022\"\n" +
+      "\036REASON_ALLOW_ENTER_PLAYER_FULL\020\004\022&\n\"REA" +
+      "SON_WORLD_LEVEL_LOWER_THAN_HOST\020\005\022\030\n\024REA" +
+      "SON_HOST_IN_MATCH\020\006\022\036\n\032REASON_PLAYER_IN_" +
+      "BLACKLIST\020\007\022&\n\"REASON_PS_PLAYER_NOT_ACCE" +
+      "PT_OTHERS\020\010\022\032\n\026REASON_HOST_IS_BLOCKED\020\t\022" +
+      "(\n$REASON_OTHER_DATA_VERSION_NOT_LATEST\020" +
+      "\n\022\"\n\036REASON_DATA_VERSION_NOT_LATEST\020\013\022%\n" +
+      "!REASON_PLAYER_NOT_IN_PLAYER_WORLD\020\014\022\025\n\021" +
+      "REASON_MAX_PLAYER\020\rB\033\n\031emu.grasscutter.n" +
+      "et.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
-          emu.grasscutter.net.proto.ReasonOuterClass.getDescriptor(),
         });
     internal_static_PlayerApplyEnterMpResultNotify_descriptor =
       getDescriptor().getMessageTypes().get(0);
@@ -882,7 +1109,6 @@ public final class PlayerApplyEnterMpResultNotifyOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_PlayerApplyEnterMpResultNotify_descriptor,
         new java.lang.String[] { "IsAgreed", "TargetNickname", "Reason", "TargetUid", });
-    emu.grasscutter.net.proto.ReasonOuterClass.getDescriptor();
   }
 
   // @@protoc_insertion_point(outer_class_scope)
