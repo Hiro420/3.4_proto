@@ -10,7 +10,7 @@ import "MapMarkFromType.proto";
 
 message MapMarkPoint {
 	uint32 sceneId = 1;
-	string createTime = 2;
+	string name = 2;
 	Vector pos = 3;
 	MapMarkPointType pointType = 4;
 	uint32 monsterId = 5;

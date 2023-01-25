@@ -15,6 +15,12 @@ message TowerLevelEndNotify {
 	//	NNBKOLMPOEA = 1;
 	//}
 
+	enum ContinueStateType {
+    	CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE = 0;
+    	CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL = 1;
+    	CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR = 2;
+  	}
+
 	repeated uint32 finishedStarCondList = 9;
 	uint32 nextFloorId = 12;
 	bool isSuccess = 15;

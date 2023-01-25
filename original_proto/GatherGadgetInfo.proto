@@ -7,5 +7,5 @@ option java_package = "emu.grasscutter.net.proto";
 
 message GatherGadgetInfo {
 	uint32 itemId = 1;
-	bool baplahgkmbl = 2;
+	bool is_forbid_guest = 2;
 }

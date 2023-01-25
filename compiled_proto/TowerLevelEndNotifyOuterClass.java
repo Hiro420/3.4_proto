@@ -218,6 +218,123 @@ public final class TowerLevelEndNotifyOuterClass {
               emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.class, emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.Builder.class);
     }
 
+    /**
+     * Protobuf enum {@code TowerLevelEndNotify.ContinueStateType}
+     */
+    public enum ContinueStateType
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE = 0;</code>
+       */
+      CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE(0),
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL = 1;</code>
+       */
+      CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL(1),
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR = 2;</code>
+       */
+      CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR(2),
+      UNRECOGNIZED(-1),
+      ;
+
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE = 0;</code>
+       */
+      public static final int CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE_VALUE = 0;
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL = 1;</code>
+       */
+      public static final int CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL_VALUE = 1;
+      /**
+       * <code>CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR = 2;</code>
+       */
+      public static final int CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR_VALUE = 2;
+
+
+      public final int getNumber() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalArgumentException(
+              "Can't get the number of an unknown enum value.");
+        }
+        return value;
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static ContinueStateType valueOf(int value) {
+        return forNumber(value);
+      }
+
+      /**
+       * @param value The numeric wire value of the corresponding enum entry.
+       * @return The enum associated with the given numeric wire value.
+       */
+      public static ContinueStateType forNumber(int value) {
+        switch (value) {
+          case 0: return CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE;
+          case 1: return CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL;
+          case 2: return CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<ContinueStateType>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          ContinueStateType> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<ContinueStateType>() {
+              public ContinueStateType findValueByNumber(int number) {
+                return ContinueStateType.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        if (this == UNRECOGNIZED) {
+          throw new java.lang.IllegalStateException(
+              "Can't get the descriptor of an unrecognized enum value.");
+        }
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return emu.grasscutter.net.proto.TowerLevelEndNotifyOuterClass.TowerLevelEndNotify.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final ContinueStateType[] VALUES = values();
+
+      public static ContinueStateType valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        if (desc.getIndex() == -1) {
+          return UNRECOGNIZED;
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private ContinueStateType(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:TowerLevelEndNotify.ContinueStateType)
+    }
+
     public static final int FINISHEDSTARCONDLIST_FIELD_NUMBER = 9;
     private com.google.protobuf.Internal.IntList finishedStarCondList_;
     /**
@@ -1247,11 +1364,15 @@ public final class TowerLevelEndNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031TowerLevelEndNotify.proto\032\017ItemParam.p" +
-      "roto\"\226\001\n\023TowerLevelEndNotify\022\034\n\024finished" +
+      "roto\"\262\002\n\023TowerLevelEndNotify\022\034\n\024finished" +
       "StarCondList\030\t \003(\r\022\023\n\013nextFloorId\030\014 \001(\r\022" +
       "\021\n\tisSuccess\030\017 \001(\010\022\"\n\016rewardItemList\030\010 \003" +
-      "(\0132\n.ItemParam\022\025\n\rcontinueState\030\006 \001(\rB\033\n" +
-      "\031emu.grasscutter.net.protob\006proto3"
+      "(\0132\n.ItemParam\022\025\n\rcontinueState\030\006 \001(\r\"\231\001" +
+      "\n\021ContinueStateType\022(\n$CONTINUE_STATE_TY" +
+      "PE_CAN_NOT_CONTINUE\020\000\022,\n(CONTINUE_STATE_" +
+      "TYPE_CAN_ENTER_NEXT_LEVEL\020\001\022,\n(CONTINUE_" +
+      "STATE_TYPE_CAN_ENTER_NEXT_FLOOR\020\002B\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
