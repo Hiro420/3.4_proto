@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MaterialDeleteReturnType.proto";
+
+message TakeMaterialDeleteReturnReq {
+	//enum KMMKFPLKCPH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 656;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	MaterialDeleteReturnType type = 6;
+}

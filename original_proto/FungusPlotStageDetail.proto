@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusPlotStageDetail {
+	uint32 stageId = 3;
+	bool isOpen = 15;
+}

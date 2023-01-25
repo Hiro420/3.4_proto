@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BonusActivityInfo.proto";
+
+message GetBonusActivityRewardRsp {
+	//enum JPCCPFNIFIH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2569;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	BonusActivityInfo bonusActivityInfoList = 9;
+	int32 retcode = 15;
+}

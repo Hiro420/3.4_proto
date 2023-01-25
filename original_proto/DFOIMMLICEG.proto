@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message DFOIMMLICEG {
+	Vector pos = 7;
+	Vector mjehpphliia = 12;
+	Vector rot = 9;
+}

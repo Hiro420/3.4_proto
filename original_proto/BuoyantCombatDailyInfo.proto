@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BuoyantCombatDailyInfo {
+	uint32 bestScore = 12;
+	uint32 startTime = 2;
+}

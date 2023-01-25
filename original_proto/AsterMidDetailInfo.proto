@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AsterMidCampInfo.proto";
+
+message AsterMidDetailInfo {
+	repeated AsterMidCampInfo campList = 2;
+	bool isOpen = 10;
+	uint32 beginTime = 13;
+	uint32 collectCount = 4;
+}

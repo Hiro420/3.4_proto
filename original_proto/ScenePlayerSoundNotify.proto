@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "PlaySoundType.proto";
+
+message ScenePlayerSoundNotify {
+	//enum IMHOJGHBFGB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 291;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string soundName = 11;
+	Vector playPos = 6;
+	PlaySoundType playType = 10;
+}

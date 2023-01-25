@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PlantFlowerActivityDetailInfo {
+	map<uint32, uint32> Unk3300_ELAIBMDIBFJ = 14;
+	uint32 dayIndex = 8;
+	bool isTodayHasAwarded = 2;
+	bool leftMonsters = 1;
+	map<uint32, uint32> Unk3300_EPMKDFOBLFK = 11;
+	uint32 todaySeedRewardId = 4;
+}

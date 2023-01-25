@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "StoreType.proto";
+
+message StoreItemDelNotify {
+	//enum MLKCFHICEHG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 698;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint64 guidList = 6;
+	StoreType storeType = 10;
+}

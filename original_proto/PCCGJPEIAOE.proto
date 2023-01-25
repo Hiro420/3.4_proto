@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DNEFMCCIFDH.proto";
+import "NMPKCMGANGK.proto";
+
+message PCCGJPEIAOE {
+	string createTime = 1;
+	repeated NMPKCMGANGK ingcalgldlb = 2;
+	DNEFMCCIFDH jkfdibhoggm = 3;
+}

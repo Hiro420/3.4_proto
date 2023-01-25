@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LunaRiteTakeSacrificeRewardRsp {
+	//enum PFFGLMMPNDM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8806;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 15;
+	uint32 sacrificeRewardIndex = 13;
+	uint32 areaId = 8;
+	uint32 index = 2;
+	repeated uint32 sacrificeRewardList = 14;
+}

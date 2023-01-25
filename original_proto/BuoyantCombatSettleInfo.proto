@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BuoyantCombatGallerySettleInfo.proto";
+
+message BuoyantCombatSettleInfo {
+	BuoyantCombatGallerySettleInfo settleInfo = 9;
+	bool isNewRecord = 1;
+}

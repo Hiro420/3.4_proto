@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "JigsawPictureData.proto";
+import "GearLevelData.proto";
+
+message GearInfo {
+	repeated GearLevelData gearLevelDataList = 9;
+	JigsawPictureData jigsawPictureData = 13;
+}

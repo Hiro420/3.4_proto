@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PushTipsData.proto";
+
+message PushTipsAllDataNotify {
+	//enum FLBILIICCBC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2292;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated PushTipsData pushTipsList = 12;
+}

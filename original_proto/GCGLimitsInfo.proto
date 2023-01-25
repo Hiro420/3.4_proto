@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGLimitsInfo {
+	uint32 Unk3300_MNCNOLHHGPA = 15;
+	uint32 Unk3300_PHKPKFBDGJF = 3;
+}

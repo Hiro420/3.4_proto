@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CharAmusementStageData.proto";
+
+message CharAmusementDetailInfo {
+	repeated CharAmusementStageData stageDataList = 1;
+}

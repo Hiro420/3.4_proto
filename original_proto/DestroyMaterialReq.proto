@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MaterialInfo.proto";
+
+message DestroyMaterialReq {
+	//enum IAALDMPBIIM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 601;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated MaterialInfo materialList = 10;
+}

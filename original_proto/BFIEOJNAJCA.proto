@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DMIOGBOGIEG.proto";
+import "ANOKFBLCGGM.proto";
+import "PKGIAOBKFDC.proto";
+
+message BFIEOJNAJCA {
+	uint32 uid = 10;
+	string oiibnieamib = 4;
+	string token = 2;
+	string fecoacjadfm = 14;
+	DMIOGBOGIEG kcmpcninooj = 11;
+	ANOKFBLCGGM gkpgobnbfce = 7;
+	PKGIAOBKFDC lang = 1;
+	uint32 timestamp = 13;
+}

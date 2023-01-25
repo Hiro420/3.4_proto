@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+import "ItemParam.proto";
+
+message WinterCampRecvItemData {
+	repeated ItemParam itemList = 9;
+	ProfilePicture profilePicture = 2;
+	string nickname = 8;
+	uint32 uid = 3;
+}

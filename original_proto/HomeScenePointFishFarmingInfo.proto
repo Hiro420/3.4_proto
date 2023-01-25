@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomeScenePointFishFarmingInfo {
+	repeated uint32 fishIdList = 11;
+	uint32 sceneId = 6;
+	uint32 localEntityId = 5;
+}

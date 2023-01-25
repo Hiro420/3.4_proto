@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message ActivityCondStateChangeNotify {
+	//enum ACEKBANJHLJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2089;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 expireCondList = 2;
+	repeated uint32 activatedSaleIdList = 1;
+	uint32 scheduleId = 15;
+	uint32 activityId = 3;
+	repeated Uint32Pair disableTransferPointInteractionList = 8;
+	repeated uint32 meetCondList = 13;
+}

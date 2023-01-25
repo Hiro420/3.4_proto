@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BreakoutActionType.proto";
+import "BreakoutVector2.proto";
+
+message BreakoutAction {
+	BreakoutActionType actionType = 1;
+	uint64 clientGameTime = 2;
+	uint64 serverGameTime = 3;
+	bool mbfjjacbmck = 4;
+	uint32 gddolpoemjk = 5;
+	uint32 joandihiadc = 6;
+	BreakoutVector2 pos = 7;
+	BreakoutVector2 mjehpphliia = 8;
+	int32 speed = 9;
+	uint32 peerId = 10;
+	uint32 elementType = 11;
+	uint32 inhflokdoal = 12;
+	uint32 apiembahlab = 13;
+	bool mhkdmdjeaan = 14;
+	BreakoutVector2 cjegmomlbck = 15;
+	uint32 idngdpalicj = 16;
+	int32 offset = 17;
+	uint64 lccmdkibdpf = 18;
+}

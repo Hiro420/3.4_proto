@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WidgetGadgetData.proto";
+
+message WidgetGadgetDataNotify {
+	//enum PKEFBEFMGGI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4282;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	WidgetGadgetData widgetGadgetData = 10;
+}

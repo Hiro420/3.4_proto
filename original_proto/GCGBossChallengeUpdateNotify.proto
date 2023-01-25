@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGBossChallengeData.proto";
+
+message GCGBossChallengeUpdateNotify {
+	//enum OGCPGBNLNOM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7119;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	GCGBossChallengeData jmpbgnfplkb = 9;
+}

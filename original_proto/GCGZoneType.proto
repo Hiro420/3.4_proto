@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum GCGZoneType {
+	GCG_ZONE_TYPE_INVALID = 0;
+	GCG_ZONE_TYPE_DECK = 1;
+	GCG_ZONE_TYPE_HAND = 2;
+	GCG_ZONE_TYPE_CHARACTER = 3;
+	GCG_ZONE_TYPE_MODIFY = 4;
+	GCG_ZONE_TYPE_SUMMON = 5;
+	GCG_ZONE_TYPE_ASSIST = 7;
+	GCG_ZONE_TYPE_ONSTAGE = 8;
+	GCG_ZONE_TYPE_RULE = 9;
+}

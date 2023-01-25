@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IDGMFMNDIBC {
+	bool isArriveFinish = 1;
+	uint32 coinLimit = 2;
+	uint32 timeLimit = 3;
+	bool isForbidSkill = 4;
+	uint32 lifeNum = 5;
+}

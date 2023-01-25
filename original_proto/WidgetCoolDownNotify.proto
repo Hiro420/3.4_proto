@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WidgetCoolDownData.proto";
+
+message WidgetCoolDownNotify {
+	//enum EBLBOPIBPGA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4290;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated WidgetCoolDownData normalCoolDownDataList = 15;
+	repeated WidgetCoolDownData groupCoolDownDataList = 10;
+}

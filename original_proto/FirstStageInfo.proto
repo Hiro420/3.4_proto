@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FirstStageInfo {
+	uint32 score = 13;
+	uint32 Unk3300_HIKADHBLPEB = 8;
+	uint32 Unk3300_IPAJLKOBDKC = 3;
+	uint32 Unk3300_NILGNHOPGLD = 1;
+}

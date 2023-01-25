@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FishBattleResult.proto";
+
+message FishBattleEndReq {
+	//enum JCIOFMDHFDP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5837;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	FishBattleResult battleResult = 11;
+	uint32 maxBonusTime = 10;
+	bool isAlwaysBonus = 5;
+}

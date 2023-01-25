@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AnchorPointOpRsp {
+	//enum EGLPAOCDNNN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4269;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 anchorPointId = 3;
+	int32 retcode = 4;
+	uint32 anchorPointOpType = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGPlayerGCGState {
+	bool plmancmlpmo = 14;
+	uint32 uid = 15;
+	bool pdjilolocgj = 11;
+}

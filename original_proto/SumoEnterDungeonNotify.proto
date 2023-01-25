@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SumoDungeonTeam.proto";
+
+message SumoEnterDungeonNotify {
+	//enum NMINPGMPKAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8559;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_BNJBIGHIJOC = 8;
+	uint32 activityId = 6;
+	uint32 stageId = 15;
+	uint32 Unk3300_CBAMLHDMKJF = 7;
+	uint32 Unk3300_DJBJACGHGDM = 14;
+	repeated SumoDungeonTeam dungeonTeamList = 1;
+}

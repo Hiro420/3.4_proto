@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGGameBusinessType.proto";
+import "GCGPlayerBriefData.proto";
+
+message GCGGameBriefData {
+	uint32 Unk3300_FJJDMIBIBJN = 11;
+	repeated GCGPlayerBriefData playerBriefList = 5;
+	GCGGameBusinessType businessType = 10;
+	uint32 gameId = 1;
+	uint32 Unk3300_NCLDOGNCHGF = 6;
+	uint32 platformType = 13;
+}

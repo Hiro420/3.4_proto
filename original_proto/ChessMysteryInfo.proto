@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChessEntranceDetailInfo.proto";
+
+message ChessMysteryInfo {
+	repeated uint32 mdilcblhnao = 2;
+	map<uint32, uint32> lneiknbbcdd = 11;
+	map<uint32, ChessEntranceDetailInfo> fhmdalcaomp = 5;
+}

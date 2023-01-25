@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PDOPJIGDNPF.proto";
+
+message ANOKFBLCGGM {
+	uint32 moduleId = 1;
+	uint32 sceneId = 2;
+	bool hoogfkfbckk = 3;
+	repeated PDOPJIGDNPF lpjicbgaldo = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum WidgetExtraCdType {
+	NONE = 0;
+	WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED = 1;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message TakeAchievementRewardRsp {
+	//enum LDLMKKMLOPI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2691;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ItemParam itemList = 7;
+	repeated uint32 idList = 4;
+	int32 retcode = 13;
+}

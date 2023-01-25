@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ClientMassiveEntity.proto";
+
+message CreateMassiveEntityReq {
+	//enum AJDHCCNLMJE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 394;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated ClientMassiveEntity massiveEntityList = 5;
+}

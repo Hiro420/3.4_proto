@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGMsgReactionBegin {
+	uint32 skillId = 8;
+	uint32 cardGuid = 3;
+}

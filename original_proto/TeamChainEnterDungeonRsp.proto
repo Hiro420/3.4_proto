@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FBKJENFAAKN.proto";
+
+message TeamChainEnterDungeonRsp {
+	//enum DLBLCLBKJFH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 21568;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated FBKJENFAAKN teamInfoList = 11;
+	uint32 stageId = 13;
+	uint32 difficulty = 2;
+}

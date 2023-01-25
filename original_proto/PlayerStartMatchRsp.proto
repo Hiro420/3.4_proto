@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MatchType.proto";
+
+message PlayerStartMatchRsp {
+	//enum LOCNBAMKKHI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4195;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	MatchType matchType = 7;
+	uint32 dungeonId = 3;
+	uint32 punishEndTime = 11;
+	int32 retcode = 6;
+	uint32 param = 5;
+	uint32 matchId = 2;
+	uint32 mpPlayId = 9;
+	uint32 mechanicusDifficultLevel = 12;
+}

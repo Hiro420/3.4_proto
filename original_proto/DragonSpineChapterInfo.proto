@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DragonSpineChapterInfo {
+	uint32 finishedMissionNum = 7;
+	uint32 chapterId = 4;
+	bool isOpen = 6;
+	uint32 progress = 8;
+	uint32 openTime = 3;
+}

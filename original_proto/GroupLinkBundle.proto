@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message GroupLinkBundle {
+	bool isActivated = 7;
+	Vector center = 6;
+	uint32 sceneId = 8;
+	uint32 radius = 13;
+	bool isShowMark = 12;
+	uint32 bundleId = 9;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BlossomScheduleInfo {
+	uint32 refreshId = 6;
+	uint32 state = 9;
+	uint32 circleCampId = 1;
+	uint32 finishProgress = 12;
+	uint32 round = 14;
+	uint32 progress = 15;
+}

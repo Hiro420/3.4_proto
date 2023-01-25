@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message PlantFlowerFriendFlowerWishData {
+	ProfilePicture profilePicture = 15;
+	string nickname = 3;
+	uint32 uid = 6;
+	map<uint32, uint32> flowerNumMap = 7;
+}

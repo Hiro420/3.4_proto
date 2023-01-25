@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message WindFieldStageInfo {
+	uint32 openTime = 13;
+	bool isOpen = 2;
+	uint32 stageId = 10;
+}

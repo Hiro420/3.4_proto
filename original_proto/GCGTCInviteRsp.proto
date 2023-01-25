@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGTCInviteRsp {
+	//enum BJPECKHGPIC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7206;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool ibiikedgnhn = 3;
+	uint32 elementType = 9;
+	uint32 pointId = 15;
+	bool retcode = 2;
+	uint32 caaaccpgkff = 5;
+	uint32 levelId = 7;
+	uint32 avatarId = 13;
+}

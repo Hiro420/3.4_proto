@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AvatarInfo.proto";
+import "AvatarTeam.proto";
+import "AvatarRenameInfo.proto";
+
+message AvatarDataNotify {
+	//enum FHCMOBLNBMF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1645;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint64 chooseAvatarGuid = 4;
+	repeated uint32 ownedCostumeList = 15;
+	repeated AvatarInfo avatarList = 8;
+	uint32 curAvatarTeamId = 5;
+	map<uint32, AvatarTeam> avatarTeamMap = 6;
+	repeated uint32 ownedFlycloakList = 2;
+	repeated AvatarRenameInfo avatarRenameList = 7;
+	repeated uint32 backupAvatarTeamOrderList = 12;
+	repeated uint64 tempAvatarGuidList = 14;
+}

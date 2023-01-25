@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EIBBNBEBHGD {
+	uint32 avatarId = 13;
+	bool ljppmbgmjpk = 5;
+}

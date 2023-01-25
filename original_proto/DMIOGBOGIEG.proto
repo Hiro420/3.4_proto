@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "NAMOHGAFBJP.proto";
+
+message DMIOGBOGIEG {
+	uint32 sceneId = 11;
+	uint32 hoogfkfbckk = 15;
+	repeated NAMOHGAFBJP idgelpihkph = 5;
+	uint32 moduleId = 13;
+	uint32 version = 9;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanternRiteFireworksReformFactorInfo {
+	uint32 factorId = 1;
+	uint32 factorValue = 4;
+}

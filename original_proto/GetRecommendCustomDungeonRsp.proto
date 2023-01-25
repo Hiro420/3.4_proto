@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OtherCustomDungeonBrief.proto";
+
+message GetRecommendCustomDungeonRsp {
+	//enum OHGNEBJNACG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6206;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated OtherCustomDungeonBrief customDungeonList = 10;
+	int32 retcode = 12;
+}

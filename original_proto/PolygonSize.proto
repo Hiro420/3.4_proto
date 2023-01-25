@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "VectorPlane.proto";
+
+message PolygonSize {
+	float height = 13;
+	repeated VectorPlane pointList = 15;
+}

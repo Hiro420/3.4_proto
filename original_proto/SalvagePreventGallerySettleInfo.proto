@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SalvagePreventStopReason.proto";
+
+message SalvagePreventGallerySettleInfo {
+	uint32 timeRemain = 10;
+	uint32 finalScore = 6;
+	SalvagePreventStopReason reason = 2;
+	uint32 monsterCount = 3;
+}

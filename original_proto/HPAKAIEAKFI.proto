@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "bytes.proto";
+
+message HPAKAIEAKFI {
+	string hmnbpjgckgn = 1;
+	bytes value = 2;
+}

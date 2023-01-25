@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGSkillPreviewOnstageChangeInfo {
+	uint32 Unk3300_EHHDPPFDIFB = 5;
+	uint32 Unk3300_BALADGFAPKL = 3;
+}

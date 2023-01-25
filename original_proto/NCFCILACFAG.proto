@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AbilityString.proto";
+
+message NCFCILACFAG {
+	AbilityString abilityOverride = 4;
+	float jbgcmjfopeh = 15;
+	AbilityString abilityName = 6;
+}

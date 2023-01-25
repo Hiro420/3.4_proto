@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ServerLogLevel.proto";
+import "ServerLogType.proto";
+
+message ServerLogNotify {
+	//enum OGLOGLBDDLC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 24;
+	//	DCDNILFDFLB = 1;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string serverLog = 10;
+	ServerLogLevel logLevel = 15;
+	ServerLogType logType = 9;
+}

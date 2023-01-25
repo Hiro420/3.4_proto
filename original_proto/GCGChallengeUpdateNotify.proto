@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGDuelChallenge.proto";
+
+message GCGChallengeUpdateNotify {
+	//enum PHDBJKPOOMO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7731;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	GCGDuelChallenge challenge = 4;
+	uint32 serverSeq = 9;
+}

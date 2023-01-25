@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "uint32.proto";
+
+message GCGLevelChallengeFinishNotify {
+	//enum JFHPNEMLEIG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7127;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 unlockWorldChallengeList = 9;
+	uint32 levelId = 10;
+	repeated uint32 finishedChallengeIdList = 15;
+	repeated uint32 exceededItemList = 13;
+	int32 retcode = 11;
+	uint32 configId = 8;
+}

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "VintageMarketDealInfo.proto";
+import "VintageMarketStoreInfo.proto";
+
+message VintageMarketInfo {
+	repeated uint32 unlockStrategyList = 15;
+	uint32 storeRound = 2;
+	repeated uint32 Unk3300_COKBOKAOCNJ = 1216;
+	map<uint32, bool> bargainInfoMap = 9;
+	repeated uint32 Unk3300_ABHHACBDCFI = 3;
+	repeated uint32 Unk3300_EDBJLBICEJF = 1;
+	bool Unk3300_KJDEFIBKBPE = 5;
+	bool Unk3300_NMHHGNPKBEL = 1164;
+	uint32 Unk3300_FOPKAIIAMFM = 255;
+	uint32 Unk3300_LMNLHHPMAMN = 12;
+	bool Unk3300_ALHLENELIEO = 1035;
+	bool Unk3300_PAMKPAOCJJJ = 4;
+	bool Unk3300_ICJOCDGLFFD = 10;
+	VintageMarketDealInfo dealInfo = 14;
+	bool Unk3300_NDFHAGHBCFN = 6;
+	repeated VintageMarketStoreInfo openStoreList = 7;
+	repeated uint32 Unk3300_AIAMBBODLBO = 13;
+	uint32 helpSkillId = 1222;
+	bool Unk3300_FJDIMCJEAOB = 8;
+	uint32 Unk3300_HHKKEDDIGLA = 11;
+	uint32 Unk3300_ACJLANLBCGK = 458;
+	bool Unk3300_NBNOJJBNJPB = 1190;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message ActivityRecvGiftData {
+	string remarkName = 15;
+	string nickname = 10;
+	uint32 uid = 2;
+	map<uint32, uint32> giftNumMap = 8;
+	ProfilePicture profilePicture = 5;
+}

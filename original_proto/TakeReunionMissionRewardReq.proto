@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TakeReunionMissionRewardReq {
+	//enum OEGJDLBEJEP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5064;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 missionId = 8;
+	uint32 rewardIndex = 15;
+	uint32 rewardId = 7;
+}

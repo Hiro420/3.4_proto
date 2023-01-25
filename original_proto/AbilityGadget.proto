@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AbilityGadget {
+	uint32 campId = 1;
+	uint32 olefgkameoj = 2;
+	uint32 targetEntityId = 3;
+}

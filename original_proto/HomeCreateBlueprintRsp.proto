@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeBlueprintSlotInfo.proto";
+
+message HomeCreateBlueprintRsp {
+	//enum FICBDNICILH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4765;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	HomeBlueprintSlotInfo slotInfo = 4;
+	int32 retcode = 13;
+}

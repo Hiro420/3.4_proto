@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message GCGPlayerBriefData {
+	string psnId = 7;
+	map<uint32, uint32> cardFaceMap = 4;
+	ProfilePicture profilePicture = 14;
+	uint32 uid = 3;
+	string nickName = 2;
+	string onlineId = 10;
+	uint32 controllerId = 11;
+	repeated uint32 cardIdList = 13;
+}

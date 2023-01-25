@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MatchType.proto";
+
+message PlayerConfirmMatchRsp {
+	//enum PPEBDFMPGDO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4166;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isAgreed = 6;
+	MatchType matchType = 12;
+	uint32 matchId = 3;
+	int32 retcode = 1;
+}

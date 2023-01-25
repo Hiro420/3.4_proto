@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TowerBriefDataNotify {
+	//enum POMJICBPHPF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2405;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isFinishedEntranceFloor = 2;
+	uint32 totalStarNum = 5;
+	uint32 towerScheduleId = 3;
+	uint32 lastLevelIndex = 4;
+	uint32 scheduleStartTime = 13;
+	uint32 nextScheduleChangeTime = 12;
+	uint32 lastFloorIndex = 14;
+}

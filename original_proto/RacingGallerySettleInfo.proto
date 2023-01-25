@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message RacingGallerySettleInfo {
+	uint32 useTime = 9;
+	GalleryStopReason reason = 3;
+	uint32 winnerUid = 10;
+}

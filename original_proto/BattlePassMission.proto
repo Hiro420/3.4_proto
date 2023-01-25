@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MissionStatus.proto";
+
+message BattlePassMission {
+	uint32 missionId = 6;
+	uint32 missionType = 14;
+	MissionStatus missionStatus = 9;
+	uint32 curProgress = 11;
+	uint32 rewardBattlePassPoint = 10;
+	uint32 totalProgress = 13;
+}

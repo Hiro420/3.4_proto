@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriMasterLevelDetailInfo {
+	bool isFinish = 6;
+	bool isHaveTry = 5;
+	uint32 minFinishTime = 14;
+	uint32 difficulty = 3;
+}

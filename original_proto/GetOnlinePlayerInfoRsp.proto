@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+
+message GetOnlinePlayerInfoRsp {
+	//enum JEPFMMKBBBE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 39;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 14;
+	OnlinePlayerInfo targetPlayerInfo = 11;
+	uint32 targetUid = 3;
+	uint32 param = 10;
+}

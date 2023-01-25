@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGZoneType.proto";
+import "GCGReason.proto";
+
+message RemoveCards {
+	repeated uint32 cardGuidList = 14;
+	GCGZoneType zone = 9;
+	uint32 controllerId = 4;
+	GCGReason reason = 6;
+}

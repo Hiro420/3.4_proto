@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SingleStartBrickBreakerReq {
+	//enum FOGKEKLDMHI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23861;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 levelId = 1;
+	bool isDungeon = 15;
+	repeated uint32 chosenSkillList = 12;
+	repeated uint32 chosenAvatarList = 10;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IDOELHBANCP.proto";
+
+message FJMGEBIAMDB {
+	repeated IDOELHBANCP kcllbppiboo = 999;
+}

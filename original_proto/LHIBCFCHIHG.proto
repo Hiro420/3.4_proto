@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IDGMFMNDIBC.proto";
+import "NOJMHFDCPFH.proto";
+import "GJBKGONOBJD.proto";
+
+message LHIBCFCHIHG {
+	uint64 dungeonGuid = 1;
+	uint32 dungeonId = 2;
+	string creatorNickname = 3;
+	repeated uint32 tagList = 4;
+	IDGMFMNDIBC setting = 5;
+	NOJMHFDCPFH abstract = 6;
+	GJBKGONOBJD social = 7;
+}

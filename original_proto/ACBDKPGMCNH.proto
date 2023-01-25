@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CLMDHLAENEJ.proto";
+import "IDOELHBANCP.proto";
+
+message ACBDKPGMCNH {
+	bool aicefchaici = 33;
+	CLMDHLAENEJ jllpcjcimge = 34;
+	repeated IDOELHBANCP kcllbppiboo = 999;
+}

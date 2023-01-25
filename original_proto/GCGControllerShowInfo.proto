@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message GCGControllerShowInfo {
+	string onlineId = 5;
+	uint32 controllerId = 6;
+	string nickName = 1;
+	ProfilePicture profilePicture = 4;
+	string psnId = 10;
+}

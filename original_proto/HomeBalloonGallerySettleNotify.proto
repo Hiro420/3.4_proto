@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BalloonGallerySettleInfo.proto";
+
+message HomeBalloonGallerySettleNotify {
+	//enum ODKLGNMNBJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4719;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 10;
+	BalloonGallerySettleInfo settleInfo = 8;
+	uint32 rank = 3;
+	bool isNewRecord = 13;
+}

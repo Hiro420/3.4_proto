@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PotionLevelData {
+	uint32 score = 12;
+	uint32 levelId = 6;
+	uint32 difficultyLevel = 10;
+	uint32 modeId = 11;
+}

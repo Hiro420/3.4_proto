@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanternProjectionLevelInfo {
+	bool isCanStart = 4;
+	uint32 id = 7;
+	uint32 minFinishTime = 1;
+	bool isFinished = 14;
+	bool isShowTips = 2;
+}

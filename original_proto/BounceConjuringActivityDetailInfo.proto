@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BounceConjuringChapterInfo.proto";
+
+message BounceConjuringActivityDetailInfo {
+	uint32 contentCloseTime = 1;
+	bool leftMonsters = 6;
+	repeated BounceConjuringChapterInfo chapterInfoList = 7;
+}

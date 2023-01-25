@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CharAmusementAvatarInfo.proto";
+
+message CharAmusementInfo {
+	repeated CharAmusementAvatarInfo avatarInfoList = 11;
+	uint32 emdkpmhihmp = 3;
+	uint32 levelId = 6;
+	uint32 stageId = 8;
+	uint32 inllhgjoaco = 5;
+}

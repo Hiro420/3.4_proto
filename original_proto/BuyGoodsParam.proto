@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ShopGoods.proto";
+
+message BuyGoodsParam {
+	ShopGoods goods = 8;
+	uint32 buyCount = 3;
+}

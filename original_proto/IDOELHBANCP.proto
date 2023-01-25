@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "bytes.proto";
+
+message IDOELHBANCP {
+	message BNLDEBAFAKE {
+		string gnlikgbnmce = 1;
+		bool kikkokolhng = 2;
+	}
+
+	repeated BNLDEBAFAKE createTime = 2;
+	string jepoaccjobm = 3;
+	uint64 hglbhfehpll = 4;
+	int64 hakkhkobmga = 5;
+	double obdckmjfcmd = 6;
+	bytes bkimcghfndi = 7;
+	string mmncblejhnn = 8;
+}

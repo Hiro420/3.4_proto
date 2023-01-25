@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OpAttack {
+	uint32 skillId = 8;
+	repeated uint32 costDiceIndexList = 11;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EvtSetAttackTargetInfo {
+	uint32 entityId = 14;
+	uint32 attackTargetId = 8;
+	uint32 selectPointIndex = 4;
+}

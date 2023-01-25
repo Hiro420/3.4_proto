@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DungeonCandidateTeamInviteRsp {
+	//enum ALIACMCCKPP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 942;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 invalidPlayerUids = 4;
+	int32 retcode = 13;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SetCodexPushtipsReadRsp {
+	//enum CLOBHCDJANA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4210;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 codexId = 14;
+	uint32 typeId = 4;
+	int32 retcode = 11;
+}

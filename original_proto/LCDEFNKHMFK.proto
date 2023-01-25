@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LCDEFNKHMFK {
+	uint32 aadgnaadobe = 1;
+	uint32 fagkmbbhpfl = 2;
+	uint32 gnggacnnhig = 3;
+	uint32 lhlgbeidhep = 4;
+	uint32 aicgkbefebp = 5;
+	uint64 dklmobpbgfp = 6;
+	uint32 userId = 11;
+	uint32 bigokakimgc = 12;
+	uint32 iapffgldkck = 13;
+	uint64 njdeohfgkjj = 21;
+	uint32 eoogmldbnin = 22;
+	map<uint32, uint32> ccacaoacpab = 23;
+	uint32 cbooijbgdln = 24;
+	uint32 aenklljhcfb = 31;
+	uint32 kmkajhdleoi = 32;
+	map<uint32, uint32> jneoehhaiem = 33;
+	bool kkglifckcbf = 34;
+	uint32 oclnhjfjoio = 35;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FightPropPair {
+	uint32 propType = 1;
+	float propValue = 2;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeResource.proto";
+
+message HomeResourceNotify {
+	//enum HKEFOBECFHH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4639;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	HomeResource fetterExp = 9;
+	HomeResource homeCoin = 1;
+}

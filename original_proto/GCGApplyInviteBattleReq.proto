@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGApplyInviteBattleReq {
+	//enum BMEFPIBIJLP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7465;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 ljemjfinpph = 13;
+	int32 retcode = 15;
+	uint32 confirmEndTime = 7;
+	uint32 uid = 4;
+	uint32 punishEndTime = 5;
+}

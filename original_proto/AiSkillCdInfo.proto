@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AiSkillCdInfo {
+	map<uint32, uint32> skillCdMap = 14;
+	map<uint32, uint32> skillGroupCdMap = 3;
+}

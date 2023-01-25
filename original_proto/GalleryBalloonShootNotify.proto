@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GalleryBalloonShootNotify {
+	//enum OPNLKOBJGJO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5555;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 8;
+	uint32 triggerEntityId = 2;
+	int32 addScore = 5;
+	uint32 curScore = 14;
+	uint32 combo = 7;
+	uint64 comboDisableTime = 6;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CBNIFFCNOEC {
+	uint64 dungeonGuid = 1;
+	uint32 minCostTime = 2;
+}

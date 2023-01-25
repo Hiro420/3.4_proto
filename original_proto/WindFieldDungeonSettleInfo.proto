@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WindFieldDungeonFailReason.proto";
+
+message WindFieldDungeonSettleInfo {
+	repeated uint32 Unk3300_EMCOILGACOC = 6;
+	WindFieldDungeonFailReason failReason = 12;
+	repeated uint32 Unk3300_FJGFOJBGBKM = 3;
+}

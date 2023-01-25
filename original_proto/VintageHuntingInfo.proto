@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FirstStageInfo.proto";
+import "SecondStageInfo.proto";
+import "ThirdStageInfo.proto";
+
+message VintageHuntingInfo {
+	uint32 stageId = 2;
+	oneof info {
+		FirstStageInfo first_stage_info = 14;
+		SecondStageInfo second_stage_info = 11;
+		ThirdStageInfo third_stage_info = 9;
+	}
+}

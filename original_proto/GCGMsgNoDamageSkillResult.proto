@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGDamageDetail.proto";
+
+message GCGMsgNoDamageSkillResult {
+	uint32 Unk3300_NNJAOEHNPPD = 3;
+	uint32 Unk3300_NIGDCIGLAKE = 1;
+	uint32 Unk3300_LPGLOCDDPCL = 13;
+	repeated GCGDamageDetail detailList = 9;
+	uint32 Unk3300_EPNDCIAJOJP = 5;
+	uint32 skillId = 15;
+	uint32 targetCardGuid = 4;
+}

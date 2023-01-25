@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FungusTrainingMonsterPreviewDetail.proto";
+
+message FungusTrainingPoolPreviewDetail {
+	uint32 poolId = 10;
+	repeated FungusTrainingMonsterPreviewDetail monsterPreviewDetailList = 5;
+}

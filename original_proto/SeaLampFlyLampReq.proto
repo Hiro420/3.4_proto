@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message SeaLampFlyLampReq {
+	//enum MPIPICKJIGA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2193;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	Vector pos = 14;
+	uint32 itemId = 4;
+	uint32 itemNum = 1;
+	int32 param = 15;
+}

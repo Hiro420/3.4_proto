@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusTrainingMonsterPreviewDetail {
+	uint32 monsterId = 3;
+	uint32 level = 5;
+	repeated uint32 affixList = 11;
+}

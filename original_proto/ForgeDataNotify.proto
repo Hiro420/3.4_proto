@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ForgeQueueData.proto";
+
+message ForgeDataNotify {
+	//enum KBOJBKODBBF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 604;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 maxQueueNum = 8;
+	map<uint32, ForgeQueueData> forgeQueueMap = 14;
+	repeated uint32 forgeIdList = 4;
+}

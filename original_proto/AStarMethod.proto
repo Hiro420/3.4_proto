@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum AStarMethod {
+	A_STAR_METHOD_CLASSIC = 0;
+	A_STAR_METHOD_TENDENCY = 1;
+	A_STAR_METHOD_ADAPTIVE = 2;
+	A_STAR_METHOD_INFLECTION = 3;
+}

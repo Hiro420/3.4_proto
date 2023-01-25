@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BuoyantCombatInfo {
+	uint32 killMonsterCount = 3;
+	uint32 killSpecialMonsterCount = 15;
+	uint32 score = 12;
+}

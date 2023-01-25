@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SetUpAvatarTeamRsp {
+	//enum MFHIBKFMHMF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1745;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 teamId = 5;
+	repeated uint64 avatarTeamGuidList = 6;
+	uint64 curAvatarGuid = 2;
+	int32 retcode = 3;
+}

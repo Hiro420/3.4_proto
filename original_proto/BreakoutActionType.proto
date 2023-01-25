@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum BreakoutActionType {
+	BREAKOUT_ACTION_TYPE_NONE = 0;
+	BREAKOUT_ACTION_TYPE_LAUNCH_BALL = 1;
+	BREAKOUT_ACTION_TYPE_DESTROY_BALL = 2;
+	BREAKOUT_ACTION_TYPE_FALLING_OBJECT = 3;
+	BREAKOUT_ACTION_TYPE_MISSILE = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SumoInfo {
+	uint32 killEliteMonsterNum = 3;
+	uint32 killNormalMonsterNum = 5;
+	uint32 score = 4;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MpPlayOwnerInviteNotify {
+	//enum HLKEODMLDPF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1810;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 cd = 6;
+	bool isRemainReward = 9;
+	uint32 mpPlayId = 3;
+}

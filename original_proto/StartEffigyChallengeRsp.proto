@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message StartEffigyChallengeRsp {
+	//enum GPMFAGCDACP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2070;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 pointId = 8;
+	uint32 difficultyId = 9;
+	repeated uint32 conditionIdList = 2;
+	uint32 challengeId = 4;
+	int32 retcode = 1;
+}

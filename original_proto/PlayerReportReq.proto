@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ReportReasonType.proto";
+
+message PlayerReportReq {
+	//enum APBPFDIOFNH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4053;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	string content = 10;
+	ReportReasonType reason = 8;
+	uint32 targetUid = 6;
+	uint32 targetHomeModuleId = 12;
+	string targetHomeModuleName = 2;
+}

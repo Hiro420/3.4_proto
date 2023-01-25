@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "State.proto";
+
+message InvestigationTarget {
+	uint32 investigationId = 13;
+	State state = 7;
+	uint32 totalProgress = 1;
+	uint32 questId = 3;
+	uint32 progress = 15;
+}

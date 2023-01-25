@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CoinCollectChooseSkillRsp {
+	//enum PEEIKCNOFNB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 24303;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 levelId = 5;
+	int32 retcode = 7;
+	uint32 chooseSkillNo = 1;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FinishReason.proto";
+
+message RemoveRandTaskInfoNotify {
+	//enum DJBDIIHBLKC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 115;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 randTaskId = 9;
+	bool isSucc = 7;
+	FinishReason reason = 2;
+}

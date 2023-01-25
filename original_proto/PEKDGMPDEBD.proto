@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message PEKDGMPDEBD {
+	Vector pos = 9;
+	Vector rot = 5;
+}

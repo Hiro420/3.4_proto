@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "uint32.proto";
+import "FleurFairChapterInfo.proto";
+import "FleurFairDungeonSectionInfo.proto";
+
+message FleurFairInfo {
+	uint32 gpjbakimcgp = 10;
+	map<uint32, uint32> previewStageIndex = 6;
+	bool leftMonsters = 7;
+	repeated FleurFairChapterInfo chapterInfoList = 5;
+	bool hpepmphkgml = 9;
+	uint32 contentCloseTime = 15;
+	uint32 ppjmalghkch = 1;
+	map<uint32, FleurFairDungeonSectionInfo> pnpcagimleg = 11;
+}

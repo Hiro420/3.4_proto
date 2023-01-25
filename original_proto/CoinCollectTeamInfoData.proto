@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CoinCollectTeamInfoData {
+	repeated uint32 kmdmpiojlbd = 5;
+	uint32 playerUid = 7;
+	bool hiidcboahjm = 15;
+	uint32 chooseSkillNo = 3;
+	repeated uint32 eodeindkpal = 6;
+	repeated uint32 avatarIdList = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum QuitReason {
+	QUIT_REASON_INVALID = 0;
+	QUIT_REASON_HOST_NO_OTHER_PLAYER = 1;
+	QUIT_REASON_KICK_BY_HOST = 2;
+	QUIT_REASON_BACK_TO_MY_WORLD = 3;
+	QUIT_REASON_KICK_BY_HOST_LOGOUT = 4;
+	QUIT_REASON_KICK_BY_HOST_BLOCK = 5;
+	QUIT_REASON_BE_BLOCKED = 6;
+}

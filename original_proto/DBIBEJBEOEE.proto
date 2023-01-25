@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EIEBDOJCDBH.proto";
+
+message DBIBEJBEOEE {
+	string createTime = 1;
+	int32 daehjagbjbl = 2;
+	EIEBDOJCDBH jkfdibhoggm = 3;
+}

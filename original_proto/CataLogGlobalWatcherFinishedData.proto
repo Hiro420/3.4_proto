@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CataLogGlobalWatcherFinishedData {
+	uint32 catalogType = 5;
+	repeated uint32 finishedGlobalWatcherList = 2;
+}

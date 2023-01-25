@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AreaPlayType.proto";
+
+message AreaPlayInfoNotify {
+	//enum DOKMOHCABHF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3069;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 detailPlayType = 12;
+	AreaPlayType areaPlayType = 9;
+}

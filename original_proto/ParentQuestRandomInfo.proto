@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ParentQuestRandomInfo {
+	uint32 entranceId = 1;
+	repeated uint32 factorList = 3;
+	uint32 templateId = 6;
+}

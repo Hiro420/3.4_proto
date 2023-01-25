@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ArenaChallengeMonsterLevel {
+	uint32 Unk3300_FDFNFLAKONG = 13;
+	uint32 Unk3300_DBHAGHMMLAI = 3;
+}

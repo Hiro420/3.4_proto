@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGOperation.proto";
+
+message DFAIPJMKBCC {
+	GCGOperation op = 15;
+	uint32 controllerId = 10;
+}

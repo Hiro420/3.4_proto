@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGChangeOnstageInfo.proto";
+import "GCGSkillPreviewInfo.proto";
+import "GCGSkillPreviewPlayCardInfo.proto";
+
+message GCGSkillPreviewNotify {
+	//enum EBIPPGMBKOL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7368;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated GCGChangeOnstageInfo changeOnstagePreviewList = 2;
+	uint32 controllerId = 3;
+	repeated GCGSkillPreviewInfo skillPreviewList = 6;
+	repeated GCGSkillPreviewPlayCardInfo playCardList = 9;
+	uint32 onstageCardGuid = 10;
+}

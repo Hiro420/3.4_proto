@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InstableSprayStageInfo.proto";
+
+message InstableSprayDetailInfo {
+	repeated InstableSprayStageInfo stageInfoList = 9;
+}

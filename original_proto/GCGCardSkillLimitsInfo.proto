@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSkillLimitsInfo.proto";
+
+message GCGCardSkillLimitsInfo {
+	repeated GCGSkillLimitsInfo skillLimitsList = 13;
+}

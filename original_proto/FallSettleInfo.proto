@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+
+message FallSettleInfo {
+	OnlinePlayerInfo playerInfo = 7;
+	uint32 remainTime = 14;
+	uint32 uid = 3;
+	uint32 catchCount = 10;
+	map<uint32, uint32> flowerRingCatchCountMap = 4;
+	uint32 finalScore = 9;
+}

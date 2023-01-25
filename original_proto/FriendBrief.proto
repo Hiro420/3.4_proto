@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FriendOnlineState.proto";
+import "FriendEnterHomeOption.proto";
+import "ProfilePicture.proto";
+import "PlatformType.proto";
+import "SocialShowAvatarInfo.proto";
+
+message FriendBrief {
+	uint32 uid = 1;
+	string nickname = 2;
+	uint32 level = 3;
+	uint32 avatarId = 4;
+	uint32 worldLevel = 5;
+	string signature = 6;
+	FriendOnlineState onlineState = 7;
+	uint32 param = 8;
+	bool isMpModeAvailable = 10;
+	string onlineId = 11;
+	uint32 lastActiveTime = 12;
+	uint32 nameCardId = 13;
+	uint32 mpPlayerNum = 14;
+	bool isChatNoDisturb = 15;
+	uint32 chatSequence = 16;
+	string remarkName = 17;
+	repeated SocialShowAvatarInfo showAvatarInfoList = 22;
+	FriendEnterHomeOption friendEnterHomeOption = 23;
+	ProfilePicture profilePicture = 24;
+	bool isGameSource = 25;
+	bool isPsnSource = 26;
+	PlatformType platformType = 27;
+}

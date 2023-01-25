@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DailyTaskDataNotify {
+	//enum CJCCGCLIDDL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 183;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isTakenScoreReward = 13;
+	uint32 finishedNum = 11;
+	uint32 scoreRewardId = 2;
+}

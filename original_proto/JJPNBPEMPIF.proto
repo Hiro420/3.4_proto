@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlatformType.proto";
+import "BGAOMPJLJDP.proto";
+
+message JJPNBPEMPIF {
+	repeated uint32 cardIdList = 1;
+	uint32 ccdlgbcdpbp = 2;
+	uint32 faceType = 3;
+	map<uint32, uint32> cardFaceMap = 4;
+	repeated BGAOMPJLJDP challengeList = 5;
+	uint32 score = 6;
+	bool djgeinachoe = 7;
+	uint32 akpeeclcbkp = 8;
+	bool fbldiookpcj = 9;
+	repeated uint32 forbidFinishChallengeList = 10;
+	uint32 level = 11;
+	uint32 clientVersion = 12;
+	PlatformType platformType = 13;
+}

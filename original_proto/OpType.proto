@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum OpType {
+	OP_TYPE_NONE = 0;
+	OP_TYPE_ACTIVATE = 1;
+	OP_TYPE_DEACTIVATE = 2;
+}

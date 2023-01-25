@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EnterCustomDungeonType.proto";
+import "CustomDungeon.proto";
+
+message EnterCustomDungeonRsp {
+	//enum GDMJLOJDLBK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6245;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 9;
+	EnterCustomDungeonType enterType = 4;
+	map<uint32, uint32> roomCostMap = 2;
+	CustomDungeon customDungeon = 7;
+}

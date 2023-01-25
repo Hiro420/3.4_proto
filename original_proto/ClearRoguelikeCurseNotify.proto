@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ClearRoguelikeCurseNotify {
+	//enum FACMIBLDHHO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8183;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isCurseAllClear = 14;
+	bool isClearAll = 9;
+	map<uint32, uint32> clearCurseMap = 12;
+	uint32 cardId = 6;
+}

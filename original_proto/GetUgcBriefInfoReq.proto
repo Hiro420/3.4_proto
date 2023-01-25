@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "UgcType.proto";
+
+message GetUgcBriefInfoReq {
+	//enum CIFODABEJMB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6346;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	UgcType ugcType = 10;
+	uint64 ugcGuid = 11;
+}

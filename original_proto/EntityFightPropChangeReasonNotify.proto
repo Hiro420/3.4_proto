@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PropChangeReason.proto";
+import "ChangeHpReason.proto";
+import "ChangeEnergyReason.proto";
+
+message EntityFightPropChangeReasonNotify {
+	//enum LMACOGPGNDH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1280;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	float propDelta = 4;
+	PropChangeReason reason = 13;
+	uint32 entityId = 12;
+	repeated uint32 paramList = 1;
+	ChangeHpReason changeHpReason = 6;
+	ChangeEnergyReason changeEnergyReason = 3;
+	uint32 propType = 14;
+}

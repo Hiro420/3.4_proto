@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ProudSkillExtraLevelNotify {
+	//enum IKHGCHFMBBO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1013;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 talentIndex = 4;
+	uint64 avatarGuid = 2;
+	uint32 talentType = 5;
+	uint32 extraLevel = 13;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IrodoriChessMapData.proto";
+
+message IrodoriChessLevelData {
+	uint32 levelId = 10;
+	uint32 openTime = 7;
+	IrodoriChessMapData Unk3300_BGINEMHBNAD = 14;
+	IrodoriChessMapData Unk3300_GCIGNCGOBML = 15;
+}

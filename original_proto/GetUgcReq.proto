@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RecordUsage.proto";
+import "GetUgcType.proto";
+import "UgcType.proto";
+
+message GetUgcReq {
+	//enum POPGKJNIMPG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6338;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	RecordUsage ugcRecordUsage = 8;
+	GetUgcType getUgcType = 10;
+	uint64 ugcGuid = 15;
+	UgcType ugcType = 2;
+	bool isRequireBrief = 5;
+}

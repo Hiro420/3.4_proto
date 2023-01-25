@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AvatarEquipAffixInfo.proto";
+
+message AvatarEquipAffixStartNotify {
+	//enum CIBOKBFGLBI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1602;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	AvatarEquipAffixInfo equipAffixInfo = 5;
+	uint64 avatarGuid = 15;
+}

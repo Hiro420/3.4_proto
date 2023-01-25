@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ActivitySelectAvatarCardRsp {
+	//enum IDBPNCGFMFI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2154;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 rewardId = 14;
+	uint32 activityId = 1;
+	int32 retcode = 5;
+}

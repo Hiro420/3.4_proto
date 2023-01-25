@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChannelerSlabBuffSchemeInfo {
+	map<uint32, uint32> slotMap = 9;
+	uint32 Unk3300_NCMDDAFNENO = 1;
+	uint32 Unk3300_CKMNFOCNMGL = 10;
+}

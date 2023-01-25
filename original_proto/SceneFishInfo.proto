@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message SceneFishInfo {
+	uint32 fishId = 1;
+	uint32 fishPoolEntityId = 2;
+	Vector fishPoolPos = 3;
+	uint32 fishPoolGadgetId = 4;
+	uint32 lastShockTime = 5;
+}

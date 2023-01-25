@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CustomDungeonSocial {
+	uint32 storeNum = 7;
+	uint32 winNum = 11;
+	uint32 likeNum = 6;
+	uint32 playNum = 12;
+}

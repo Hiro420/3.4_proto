@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MichiaeMatsuriChallengePositionInfo.proto";
+import "MichiaeMatsuriChestPositionInfo.proto";
+import "MichiaeMatsuriStage.proto";
+
+message MichiaeMatsuriActivityDetailInfo {
+	repeated MichiaeMatsuriChallengePositionInfo challengePosList = 8;
+	repeated uint32 unlockedCrystalSkillList = 4;
+	uint32 gainCrystalExp = 5;
+	repeated MichiaeMatsuriChestPositionInfo chestPosList = 11;
+	repeated MichiaeMatsuriStage stageList = 7;
+}

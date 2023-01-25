@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BDKPJAMLNCL.proto";
+import "MEIDIANHEDD.proto";
+import "FKJCFGLHNPM.proto";
+
+message DPLPLLGGJJC {
+	BDKPJAMLNCL raceInfo = 4;
+	MEIDIANHEDD campInfo = 11;
+	FKJCFGLHNPM jpegcngalgi = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SkillResponse {
+	repeated uint32 skillIdList = 8;
+	uint32 skillDepotId = 12;
+}

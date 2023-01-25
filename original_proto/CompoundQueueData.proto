@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CompoundQueueData {
+	uint32 outputCount = 12;
+	uint32 compoundId = 9;
+	uint32 waitCount = 8;
+	uint32 outputTime = 11;
+}

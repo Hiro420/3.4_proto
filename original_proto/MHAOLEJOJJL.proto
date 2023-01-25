@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AbilityAttachedModifier.proto";
+import "AbilityString.proto";
+import "AGGICDIEHNL.proto";
+import "DJOOIPGJPFC.proto";
+
+message MHAOLEJOJJL {
+	uint32 applyEntityId = 8;
+	AbilityAttachedModifier attachedInstancedModifier = 7;
+	bool eailnhcpjaf = 1;
+	repeated DJOOIPGJPFC idobigdgghp = 13;
+	AbilityString parentAbilityName = 10;
+	AbilityString parentAbilityOverride = 5;
+	bool fhmcocfmfik = 11;
+	bool isAttachedParentAbility = 3;
+	uint32 serverBuffUid = 9;
+	int32 modifierLocalId = 6;
+	AGGICDIEHNL henpegmkbie = 2;
+}

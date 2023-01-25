@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message QuestDestroyEntityRsp {
+	//enum OALCMNAFOJE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 478;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 entityId = 9;
+	uint32 sceneId = 15;
+	int32 retcode = 8;
+	uint32 questId = 13;
+}

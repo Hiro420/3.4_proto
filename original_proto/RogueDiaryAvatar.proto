@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityDungeonAvatar.proto";
+import "RogueDiaryAvatarDisableStatus.proto";
+
+message RogueDiaryAvatar {
+	repeated RogueDiaryAvatarDisableStatus disableStatusList = 4;
+	uint32 level = 2;
+	uint32 tiredRound = 9;
+	ActivityDungeonAvatar avatar = 6;
+}

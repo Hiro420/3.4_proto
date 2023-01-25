@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PotionStageData.proto";
+
+message PotionResetChallengeRsp {
+	//enum EAOPBMNGAPB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8220;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	PotionStageData stageData = 7;
+	int32 retcode = 13;
+}

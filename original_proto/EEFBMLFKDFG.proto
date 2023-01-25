@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EMFJMDELOJN.proto";
+
+message EEFBMLFKDFG {
+	bool isCgViewed = 1;
+	uint32 levelId = 11;
+	repeated EMFJMDELOJN ggfnmmfjggi = 8;
+	bool isOpen = 12;
+}

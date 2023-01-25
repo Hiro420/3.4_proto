@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OpSelectOnStage {
+	uint32 cardGuid = 6;
+	repeated uint32 costDiceIndexList = 13;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "VehicleLocationInfo.proto";
+import "PlayerLocationInfo.proto";
+
+message ScenePlayerLocationNotify {
+	//enum LFLJGBMLKKD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 278;
+	//	DCDNILFDFLB = 1;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 sceneId = 1;
+	repeated VehicleLocationInfo vehicleLocList = 3;
+	repeated PlayerLocationInfo playerLocList = 12;
+}

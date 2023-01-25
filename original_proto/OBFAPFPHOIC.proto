@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OBFAPFPHOIC {
+	string lhbmbokddkp = 1;
+	string mjomnfiadem = 2;
+	uint32 lgjfdbchnnm = 3;
+	string jmmpcpapobk = 4;
+	string oiohjhhmkle = 5;
+	string productId = 6;
+	string channelId = 7;
+	string nlmgkehpnmi = 8;
+	string afmembcinei = 9;
+	string mbdifigklgo = 10;
+	string deviceUuid = 11;
+	string dealbhfkalh = 12;
+	string bhfcgolfbeg = 13;
+	string kbgbegffhhc = 14;
+}

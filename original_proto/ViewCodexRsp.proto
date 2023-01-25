@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CodexTypeData.proto";
+
+message ViewCodexRsp {
+	//enum GIKPCHLPAJM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4209;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 Unk3300_CBGDAAOBGNB = 14;
+	repeated uint32 recentViewedPushtipsList = 13;
+	repeated CodexTypeData typeDataList = 8;
+	int32 retcode = 10;
+	repeated uint32 Unk3300_IDNOLALHFFA = 7;
+}

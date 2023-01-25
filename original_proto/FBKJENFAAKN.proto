@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EIBBNBEBHGD.proto";
+
+message FBKJENFAAKN {
+	repeated uint32 ehbfihcdoli = 12;
+	repeated EIBBNBEBHGD avatarInfoList = 6;
+}

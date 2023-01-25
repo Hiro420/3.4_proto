@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGDiceSideType.proto";
+
+message DiceRoll {
+	uint32 controllerId = 8;
+	uint32 diceNum = 11;
+	repeated GCGDiceSideType diceSideList = 7;
+}

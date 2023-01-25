@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CodexType.proto";
+
+message CodexTypeData {
+	repeated uint32 codexIdList = 4;
+	repeated bool haveViewedList = 8;
+	CodexType type = 14;
+	map<uint32, uint32> weaponMaxPromoteLevelMap = 3;
+}

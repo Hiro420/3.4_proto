@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+import "GachaTransferItem.proto";
+
+message GachaItem {
+	repeated GachaTransferItem transferItems = 10;
+	bool isGachaItemNew = 9;
+	repeated ItemParam tokenItemList = 12;
+	ItemParam gachaItem = 4;
+	bool isFlashCard = 11;
+}

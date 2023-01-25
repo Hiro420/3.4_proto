@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ScenePlayInfo {
+	uint32 entryId = 1;
+	uint32 playId = 8;
+	bool isOpen = 2;
+	uint32 playType = 12;
+}

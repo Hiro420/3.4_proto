@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message CombineRsp {
+	//enum HJFFHHJPMKC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 630;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 combineCount = 10;
+	repeated ItemParam resultItemList = 13;
+	uint64 avatarGuid = 7;
+	repeated ItemParam totalExtraItemList = 1;
+	int32 retcode = 12;
+	repeated ItemParam totalRandomItemList = 3;
+	uint32 combineId = 5;
+	repeated ItemParam costItemList = 2;
+	repeated ItemParam totalReturnItemList = 4;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GravenInnocencePhotoObjectInfo.proto";
+import "GravenInnocencePhotoStageInfo.proto";
+
+message GravenInnocencePhotoInfo {
+	repeated GravenInnocencePhotoObjectInfo objectInfoList = 10;
+	repeated GravenInnocencePhotoStageInfo stageInfoList = 3;
+}

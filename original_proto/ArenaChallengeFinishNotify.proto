@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ArenaChallengeChildChallengeInfo.proto";
+
+message ArenaChallengeFinishNotify {
+	//enum MNGBJBKHOEP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2199;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isSuccess = 7;
+	repeated ArenaChallengeChildChallengeInfo childChallengeList = 6;
+	uint32 Unk3300_DBHAGHMMLAI = 15;
+	uint32 Unk3300_FDFNFLAKONG = 9;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "POEDEDPKGPH.proto";
+import "MMJFCJAIBBG.proto";
+
+message MOELDICDLJM {
+	string oiibnieamib = 1;
+	string entityId = 2;
+	string lang = 3;
+	string khjppnapjib = 4;
+	string fecoacjadfm = 5;
+	uint32 uid = 6;
+	repeated POEDEDPKGPH fcjijbicndj = 7;
+	repeated MMJFCJAIBBG pmbjacpclfc = 8;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message VintageMarketStoreOpInfo {
+	uint32 helpUid = 14;
+	uint32 helpSkillId = 13;
+	repeated uint32 addAttrList = 3;
+	uint32 storeId = 2;
+	repeated uint32 strategyList = 4;
+}

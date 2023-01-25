@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message JLKNGEIBCLM {
+	uint32 uid = 9;
+	uint32 lang = 15;
+	uint64 dungeonGuid = 11;
+	string fecoacjadfm = 7;
+	uint32 timestamp = 13;
+}

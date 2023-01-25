@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanternRiteFireworksReformSkillInfo {
+	bool isUnlock = 10;
+	uint32 Unk3300_IEPBAPJHLEI = 6;
+	uint32 Unk3300_EDPPFFFLFGG = 11;
+	uint32 skillId = 3;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message EvtAnimatorStateChangedInfo {
+	uint32 normalizedTimeCompact = 9;
+	float fadeDuration = 8;
+	uint32 entityId = 11;
+	bool Unk3300_KLMEKMGFGPD = 13;
+	bool Unk3300_MEOPKEDJCIN = 12;
+	int32 faceAngleCompact = 3;
+	uint32 toStateHash = 4;
+	uint32 layer = 5;
+	Vector pos = 7;
+}

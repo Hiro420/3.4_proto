@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BuoyantCombatSettleInfo.proto";
+
+message BuoyantCombatSettleNotify {
+	//enum EHEEOKAHJFL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8267;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	BuoyantCombatSettleInfo settleInfo = 5;
+	uint32 galleryId = 15;
+}

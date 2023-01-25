@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EvtAvatarStandUpNotify {
+	//enum FHBJMPCKONG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 336;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint64 chairId = 11;
+	int32 performId = 14;
+	int32 direction = 5;
+	uint32 entityId = 4;
+}

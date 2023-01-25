@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ReunionPrivilegeInfo.proto";
+
+message ReunionBriefInfo {
+	uint32 privilegeId = 15;
+	uint32 finishTime = 5;
+	uint32 missionId = 11;
+	bool Unk3300_ODKLPOMKKPD = 14;
+	ReunionPrivilegeInfo privilegeInfo = 8;
+	bool Unk3300_MHHLEJIFFIM = 13;
+	string version = 7;
+	uint32 firstGiftRewardId = 9;
+	uint32 firstDayStartTime = 1;
+	uint32 startTime = 10;
+	uint32 signInConfigId = 6;
+	bool Unk3300_OKGAAEDENEI = 2;
+}

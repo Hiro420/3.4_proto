@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RoguelikeRuneRecord.proto";
+
+message RoguelikeRuneRecordUpdateNotify {
+	//enum AGGCPEIHMCC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8401;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated RoguelikeRuneRecord runeRecordList = 7;
+}

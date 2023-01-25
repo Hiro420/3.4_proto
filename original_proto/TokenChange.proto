@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGReason.proto";
+
+message TokenChange {
+	uint32 cardGuid = 6;
+	uint32 Unk3300_LLGHGEALDDI = 5;
+	uint32 Unk3300_LCNKBFBJDFM = 15;
+	uint32 tokenType = 8;
+	GCGReason reason = 12;
+}

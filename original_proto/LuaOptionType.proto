@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum LuaOptionType {
+	LUA_OPTION_TYPE_NONE = 0;
+	LUA_OPTION_TYPE_PLAYER_INPUT = 1;
+}

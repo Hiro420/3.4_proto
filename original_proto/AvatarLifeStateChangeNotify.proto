@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlayerDieType.proto";
+import "ServerBuff.proto";
+
+message AvatarLifeStateChangeNotify {
+	//enum MCNNCBGGDAI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1270;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 lifeState = 8;
+	uint32 moveReliableSeq = 10;
+	PlayerDieType dieType = 1;
+	string attackTag = 6;
+	uint64 avatarGuid = 3;
+	uint32 sourceEntityId = 5;
+	repeated ServerBuff serverBuffList = 4;
+}

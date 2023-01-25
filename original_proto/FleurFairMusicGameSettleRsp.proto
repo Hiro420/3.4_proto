@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FleurFairMusicGameSettleRsp {
+	//enum LNFEHJBPLMB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2200;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 musicBasicId = 4;
+	bool isNewRecord = 5;
+	bool isUnlockNextLevel = 7;
+	int32 retcode = 3;
+}

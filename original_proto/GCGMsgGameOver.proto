@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGEndReason.proto";
+
+message GCGMsgGameOver {
+	GCGEndReason endReason = 4;
+	uint32 winControllerId = 10;
+}

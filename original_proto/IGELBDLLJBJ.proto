@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum IGELBDLLJBJ {
+	IGELBDLLJBJ_NONE = 0;
+	AHEECBJFNHH = 1;
+	HGICJDHDLFB = 2;
+	ENGFFCGEOPF = 3;
+	BBCFLJLFDAP = 4;
+	IGELBDLLJBJ_FIFTH = 5;
+	FNPCNAAAGBH = 6;
+	FACMNGDGCOG = 7;
+}

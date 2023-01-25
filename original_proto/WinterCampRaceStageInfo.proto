@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message WinterCampRaceStageInfo {
+	Vector pos = 10;
+	uint32 maxScore = 14;
+	uint32 openTime = 11;
+	uint32 id = 15;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DKOBFHFONLM.proto";
+
+message DMMAGIEOPDG {
+	uint32 stageId = 5;
+	repeated DKOBFHFONLM levelInfoList = 4;
+	bool isOpen = 11;
+}

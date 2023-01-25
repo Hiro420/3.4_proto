@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InterOpType.proto";
+import "ItemParam.proto";
+
+message MiracleRingDeliverItemReq {
+	//enum DCABNDOGJJB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5231;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated uint64 foodWeaponGuidList = 3;
+	InterOpType opType = 2;
+	uint32 gadgetId = 14;
+	repeated ItemParam itemParamList = 5;
+	uint32 gadgetEntityId = 6;
+}

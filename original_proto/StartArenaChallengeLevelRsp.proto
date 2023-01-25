@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message StartArenaChallengeLevelRsp {
+	//enum HEONOMCNHID {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2116;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_DBHAGHMMLAI = 1;
+	uint32 gadgetEntityId = 2;
+	int32 retcode = 6;
+	uint32 Unk3300_FDFNFLAKONG = 7;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BattlePassSchedule.proto";
+import "BattlePassMission.proto";
+
+message BattlePassAllDataNotify {
+	//enum GBEOGFGMCDD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2638;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool haveCurSchedule = 6;
+	BattlePassSchedule curSchedule = 15;
+	repeated BattlePassMission missionList = 3;
+}

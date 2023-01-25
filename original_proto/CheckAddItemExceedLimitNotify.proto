@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemExceedLimitMsgType.proto";
+
+message CheckAddItemExceedLimitNotify {
+	//enum PMNKAGAEEAP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 634;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 finishedChallengeIdList = 15;
+	repeated uint32 exceededItemList = 5;
+	uint32 reason = 2;
+	ItemExceedLimitMsgType msgType = 7;
+	bool isDrop = 1;
+}

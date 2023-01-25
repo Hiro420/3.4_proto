@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanternRiteFireworksChallengeInfo {
+	bool isFullScore = 11;
+	uint32 bestScore = 14;
+	uint32 challengeId = 15;
+}

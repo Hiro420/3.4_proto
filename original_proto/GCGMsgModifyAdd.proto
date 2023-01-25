@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGReason.proto";
+
+message GCGMsgModifyAdd {
+	uint32 pos = 11;
+	uint32 ownerCardGuid = 10;
+	uint32 controllerId = 7;
+	GCGReason reason = 14;
+	repeated uint32 cardGuidList = 4;
+}

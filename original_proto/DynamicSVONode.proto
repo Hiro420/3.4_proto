@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message DynamicSVONode {
+	int32 area = 13;
+	int64 index = 11;
+	Vector referPos = 9;
+}

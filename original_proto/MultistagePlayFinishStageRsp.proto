@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MultistagePlayFinishStageRsp {
+	//enum FPDBFIFAKKC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5313;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 playIndex = 7;
+	uint32 groupId = 12;
+	int32 retcode = 1;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CompoundBoostTakeStatusType.proto";
+import "CompoundQueueData.proto";
+import "ItemParam.proto";
+
+message PlayerCompoundMaterialBoostReq {
+	//enum HAJAHDPJKBC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 119;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated CompoundQueueData compoundQueueDataList = 6;
+	int32 retcode = 15;
+	repeated ItemParam ikceidbkdla = 14;
+	CompoundBoostTakeStatusType obkcgkalonf = 8;
+}

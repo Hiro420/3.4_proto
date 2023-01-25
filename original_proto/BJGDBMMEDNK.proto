@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message BJGDBMMEDNK {
+	Vector faceDir = 3;
+	Vector velocity = 7;
+	uint32 entityId = 6;
+	Vector pos = 4;
+}

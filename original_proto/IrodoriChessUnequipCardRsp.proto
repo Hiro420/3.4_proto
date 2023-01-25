@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriChessUnequipCardRsp {
+	//enum IILGHOBPHAK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8326;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isHardMap = 4;
+	uint32 levelId = 15;
+	int32 retcode = 12;
+	uint32 cardId = 14;
+}

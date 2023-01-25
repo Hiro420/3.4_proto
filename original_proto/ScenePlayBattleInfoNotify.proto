@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ScenePlayBattleInfo.proto";
+
+message ScenePlayBattleInfoNotify {
+	//enum FKEPBKKIGPP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4355;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	ScenePlayBattleInfo battleInfo = 3;
+}

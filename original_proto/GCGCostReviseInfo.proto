@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSelectOnStageCostInfo.proto";
+import "GCGAttackCostInfo.proto";
+import "GCGPlayCardCostInfo.proto";
+
+message GCGCostReviseInfo {
+	bool isCanAttack = 2;
+	repeated GCGSelectOnStageCostInfo selectOnStageCostList = 5;
+	repeated GCGAttackCostInfo attackCostList = 8;
+	repeated uint32 canUseHandCardIdList = 7;
+	repeated GCGPlayCardCostInfo playCardCostList = 15;
+}

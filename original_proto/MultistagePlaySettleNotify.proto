@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MechanicusSettleInfo.proto";
+import "ChessSettleInfo.proto";
+import "IrodoriChessSettleInfo.proto";
+
+message MultistagePlaySettleNotify {
+	//enum DPJMINKFLKA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5347;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 playIndex = 15;
+	uint32 groupId = 1;
+	oneof detail {
+		MechanicusSettleInfo mechanicus_settle_info = 1241;
+		ChessSettleInfo chess_settle_info = 200;
+		IrodoriChessSettleInfo irodori_chess_settle_info = 96;
+	}
+}

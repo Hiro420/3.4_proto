@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "KIEHIGCKOHO.proto";
+
+message AFLCCHIGHFC {
+	int32 fekdaediiel = 1;
+	int32 ocjodgafcna = 2;
+	int32 paamjmeflfp = 3;
+	int32 lolngckkkek = 4;
+	repeated KIEHIGCKOHO nkifjffiglb = 5;
+}

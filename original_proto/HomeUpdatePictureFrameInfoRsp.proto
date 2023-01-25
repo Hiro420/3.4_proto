@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomePictureFrameInfo.proto";
+
+message HomeUpdatePictureFrameInfoRsp {
+	//enum NLLDEEHKPHM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4540;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 11;
+	HomePictureFrameInfo pictureFrameInfo = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IBBGEJCNPEI {
+	string flopankfnol = 1;
+	string gameBiz = 2;
+	string mnlpmamhoem = 3;
+}

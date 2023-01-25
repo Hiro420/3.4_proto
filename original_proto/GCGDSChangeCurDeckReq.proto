@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGDSChangeCurDeckReq {
+	//enum ICKJBGMKFAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7478;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	string createTime = 11;
+	uint32 rewardIndex = 14;
+	repeated uint32 cardList = 13;
+	repeated uint32 iegclabmkdb = 12;
+}

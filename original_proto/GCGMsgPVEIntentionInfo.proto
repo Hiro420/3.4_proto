@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGMsgPVEIntention.proto";
+
+message GCGMsgPVEIntentionInfo {
+	map<uint32, GCGMsgPVEIntention> intentionMap = 15;
+}

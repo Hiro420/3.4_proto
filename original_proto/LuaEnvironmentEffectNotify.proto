@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LuaEnvironmentEffectNotify {
+	//enum GGHOPBJMDIP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3240;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 type = 14;
+	repeated float floatParamList = 12;
+	string effectAlias = 13;
+	repeated int32 intParamList = 1;
+}

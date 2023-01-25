@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LHIBCFCHIHG.proto";
+
+message MODKOILPBDN {
+	repeated LHIBCFCHIHG briefList = 1;
+}

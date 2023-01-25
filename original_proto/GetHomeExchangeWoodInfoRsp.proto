@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GetHomeExchangeWoodInfoRsp {
+	//enum GGMEHEFODIO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4757;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	message HomeExchangeWoodInfo {
+		uint32 exchangeLimit = 8;
+		uint32 woodId = 2;
+		uint32 nextRefreshTime = 3;
+		uint32 exchangedCount = 9;
+	}
+
+	repeated HomeExchangeWoodInfo woodInfoList = 11;
+	int32 retcode = 2;
+}

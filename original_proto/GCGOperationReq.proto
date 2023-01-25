@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGOperation.proto";
+
+message GCGOperationReq {
+	//enum GMDGEMKCKPF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7487;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 redirectUid = 3;
+	uint32 opSeq = 6;
+	GCGOperation op = 11;
+}

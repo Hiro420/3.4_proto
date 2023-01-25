@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GetCityReputationMapInfoRsp {
+	//enum EKAODNDOHAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2878;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool Unk3300_NCMHMODIIKM = 13;
+	int32 retcode = 4;
+	repeated uint32 unlockHuntingCityList = 12;
+	bool Unk3300_GJFNOPNMFNG = 7;
+	repeated uint32 rewardCityList = 1;
+}

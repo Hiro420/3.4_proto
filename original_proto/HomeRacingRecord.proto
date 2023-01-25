@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeRacingGalleryRecord.proto";
+
+message HomeRacingRecord {
+	repeated HomeRacingGalleryRecord recordList = 2;
+}

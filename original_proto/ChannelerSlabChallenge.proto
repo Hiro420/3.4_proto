@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChannelerSlabCamp.proto";
+
+message ChannelerSlabChallenge {
+	repeated ChannelerSlabCamp campList = 15;
+	uint32 activeCampIndex = 14;
+}

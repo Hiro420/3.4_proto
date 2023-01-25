@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GHHGMFFFGNL {
+	//enum KFDMEIHCMLP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 21217;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 6;
+	bool hkhgjjepeio = 1;
+	uint32 stageId = 5;
+	uint32 finishTime = 15;
+	bool isNewRecord = 11;
+	uint32 difficulty = 9;
+	bool isSucc = 7;
+}

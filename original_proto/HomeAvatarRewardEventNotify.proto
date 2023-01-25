@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeAvatarRewardEventInfo.proto";
+
+message HomeAvatarRewardEventNotify {
+	//enum KHLNMBHJAMJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4461;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isEventTrigger = 1;
+	HomeAvatarRewardEventInfo rewardEvent = 12;
+	repeated HomeAvatarRewardEventInfo pendingList = 15;
+}

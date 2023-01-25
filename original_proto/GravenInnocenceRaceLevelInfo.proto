@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GravenInnocenceRaceLevelInfo {
+	uint32 levelId = 7;
+	bool isOpen = 13;
+	uint32 maxScore = 15;
+}

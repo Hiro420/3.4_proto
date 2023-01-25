@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message NormalUidOpNotify {
+	//enum OJEDBPCNKIF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5738;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 duration = 1;
+	repeated uint32 paramList = 12;
+	repeated uint32 paramUidList = 7;
+	uint32 paramIndex = 6;
+}

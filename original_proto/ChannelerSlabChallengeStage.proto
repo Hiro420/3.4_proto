@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChannelerSlabOneoffDungeon.proto";
+import "ChannelerSlabChallenge.proto";
+
+message ChannelerSlabChallengeStage {
+	uint32 openTime = 10;
+	repeated ChannelerSlabChallenge challengeList = 12;
+	ChannelerSlabOneoffDungeon dungeonInfo = 5;
+	uint32 stageId = 13;
+	bool isOpen = 1;
+}

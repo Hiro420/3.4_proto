@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message NFBOJDFGLHH {
+	repeated uint32 ngkifhhgeji = 14;
+	bool mibdohmpbej = 9;
+	float speed = 11;
+	string ddgbmfnfahg = 13;
+	uint32 entityId = 1;
+	bool kafblnnckhe = 15;
+	Vector eknhofiihcl = 7;
+}

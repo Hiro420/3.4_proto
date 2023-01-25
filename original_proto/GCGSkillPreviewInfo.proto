@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSkillPreviewExtraInfo.proto";
+import "GCGSkillPreviewTokenChangeInfo.proto";
+import "GCGSkillPreviewOnstageChangeInfo.proto";
+import "GCGSkillPreviewHpInfo.proto";
+import "GCGSkillPreviewElementReactionInfo.proto";
+import "GCGSkillPreviewCardInfo.proto";
+
+message GCGSkillPreviewInfo {
+	map<uint32, GCGSkillPreviewTokenChangeInfo> cardTokenChangeMap = 12;
+	repeated GCGSkillPreviewOnstageChangeInfo changeOnstageCharacterList = 14;
+	GCGSkillPreviewExtraInfo extraInfo = 6;
+	map<uint32, GCGSkillPreviewHpInfo> hpInfoMap = 1;
+	map<uint32, GCGSkillPreviewElementReactionInfo> reactionInfoMap = 9;
+	repeated GCGSkillPreviewCardInfo Unk3300_AGNONGELFGC = 11;
+	uint32 skillId = 2;
+	repeated GCGSkillPreviewCardInfo Unk3300_DAJFJEDNLKK = 15;
+}

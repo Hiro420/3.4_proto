@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GetScenePointRsp {
+	//enum FJBIDFAAFJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 213;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 lockedPointList = 7;
+	repeated uint32 notInteractDungeonEntryList = 10;
+	int32 retcode = 2;
+	repeated uint32 toBeExploreDungeonEntryList = 13;
+	uint32 belongUid = 6;
+	repeated uint32 hidePointList = 3;
+	repeated uint32 unlockAreaList = 9;
+	repeated uint32 unlockedPointList = 12;
+	repeated uint32 notExploredDungeonEntryList = 4;
+	repeated uint32 unhidePointList = 5;
+	uint32 sceneId = 14;
+	repeated uint32 groupUnlimitPointList = 1;
+}

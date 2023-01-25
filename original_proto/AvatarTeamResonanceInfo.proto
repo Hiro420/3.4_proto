@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarTeamResonanceInfo {
+	uint64 avatarGuid = 10;
+	repeated uint32 delTeamResonanceIdList = 8;
+	uint32 entityId = 15;
+	repeated uint32 addTeamResonanceIdList = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SegmentCRCInfo {
+	int32 retcode = 10;
+	string crc = 12;
+	uint32 offset = 5;
+	uint32 module = 14;
+	uint32 size = 8;
+}

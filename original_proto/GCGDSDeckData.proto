@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGDSDeckData {
+	repeated uint32 iegclabmkdb = 14;
+	bool pofiiedegjn = 4;
+	uint32 createTime = 9;
+	string idk = 3;
+	uint32 faceType = 2;
+	uint32 ccdlgbcdpbp = 6;
+	repeated uint32 cardList = 12;
+	uint32 id = 15;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ResVersionConfig.proto";
+
+message GetNextResourceInfoRsp {
+	//enum CFMLDJCOIGD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 189;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	ResVersionConfig nextResVersionConfig = 5;
+	int32 retcode = 9;
+	string nextResourceUrl = 1;
+}

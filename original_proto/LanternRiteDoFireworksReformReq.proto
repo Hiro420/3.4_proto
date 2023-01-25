@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanternRiteDoFireworksReformReq {
+	//enum GDJEHDMKHDB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8813;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 challengeId = 14;
+	uint32 stageId = 10;
+	uint32 factorId = 15;
+	uint32 skillId = 9;
+}

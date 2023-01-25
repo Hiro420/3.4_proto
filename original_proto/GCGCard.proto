@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGToken.proto";
+import "GCGSkillLimitsInfo.proto";
+
+message GCGCard {
+	repeated uint32 skillIdList = 11;
+	repeated GCGToken tokenList = 3;
+	uint32 controllerId = 2;
+	repeated uint32 tagList = 9;
+	uint32 retcode = 1;
+	uint32 guid = 8;
+	uint32 id = 14;
+	bool isShow = 13;
+	repeated GCGSkillLimitsInfo skillLimitsList = 12;
+}

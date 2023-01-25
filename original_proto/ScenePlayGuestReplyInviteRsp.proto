@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ScenePlayGuestReplyInviteRsp {
+	//enum BPHMAFINOKN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4420;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isAgree = 1;
+	int32 retcode = 7;
+	uint32 playId = 6;
+}

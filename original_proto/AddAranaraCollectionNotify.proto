@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AranaraCollectionState.proto";
+
+message AddAranaraCollectionNotify {
+	//enum DCJEFDEAHBE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6395;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	AranaraCollectionState Unk3300_AFBIBLNKCOD = 10;
+	AranaraCollectionState Unk3300_NJLJBBMJLBK = 15;
+	uint32 collectionId = 1;
+	uint32 collectionType = 5;
+}

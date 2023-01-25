@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomePlantFieldStatus.proto";
+
+message HomePlantSubFieldData {
+	uint32 endTime = 15;
+	repeated uint32 entityIdList = 4;
+	uint32 homeGatherId = 10;
+	HomePlantFieldStatus fieldStatus = 8;
+	uint32 seedId = 6;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkLevelInfo {
+	uint32 levelId = 3;
+	uint32 bestScore = 6;
+	bool isOpen = 7;
+	repeated CrystalLinkTeamInfo teamInfoList = 8;
+}

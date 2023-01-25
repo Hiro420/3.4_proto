@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BGAOMPJLJDP {
+	uint32 challengeId = 1;
+	uint32 challengeType = 2;
+	repeated uint32 paramList = 3;
+	uint32 progress = 4;
+}

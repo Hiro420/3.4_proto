@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RogueDiaryProgress {
+	bool isEnterDungeon = 5;
+	repeated uint32 optionalCardList = 12;
+	uint32 curRound = 7;
+	uint32 stageId = 3;
+	uint32 difficulty = 11;
+}

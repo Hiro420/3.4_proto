@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message HomeAnimalData {
+	Vector spawnRot = 13;
+	uint32 furnitureId = 10;
+	Vector spawnPos = 4;
+}

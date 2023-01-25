@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EMFJMDELOJN {
+	uint32 difficulty = 7;
+	bool isOpen = 1;
+	uint32 costTime = 6;
+}

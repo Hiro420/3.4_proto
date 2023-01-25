@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkEnterDungeonRsp {
+	//enum KDACNHFFGAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8936;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 levelId = 11;
+	uint32 difficultyId = 2;
+	int32 retcode = 3;
+	repeated CrystalLinkTeamInfo teamInfoList = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message JOKCOECFOAK {
+	repeated uint32 data = 8;
+}

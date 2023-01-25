@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message TakeResinCardDailyRewardRsp {
+	//enum GGEJPOGNOOA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4116;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ItemParam itemVec = 15;
+	uint32 productConfigId = 4;
+	int32 retcode = 9;
+}

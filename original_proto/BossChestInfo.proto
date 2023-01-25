@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WeeklyBossResinDiscountInfo.proto";
+
+message BossChestInfo {
+	uint32 monsterConfigId = 1;
+	uint32 resin = 2;
+	repeated uint32 remainUidList = 3;
+	repeated uint32 qualifyUidList = 4;
+	map<uint32, WeeklyBossResinDiscountInfo> uidDiscountMap = 5;
+}

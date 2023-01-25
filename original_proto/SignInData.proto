@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message SignInData {
+	uint32 dayCount = 3;
+	repeated ItemParam rewardItemList = 1;
+}

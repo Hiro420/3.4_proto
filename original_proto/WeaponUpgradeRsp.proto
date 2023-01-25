@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message WeaponUpgradeRsp {
+	//enum OPIFHGHMKAO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 700;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 curLevel = 5;
+	repeated ItemParam itemParamList = 9;
+	int32 retcode = 14;
+	uint32 oldLevel = 1;
+	uint64 targetWeaponGuid = 13;
+}

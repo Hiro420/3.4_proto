@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGReason.proto";
+import "GCGZoneType.proto";
+
+message GCGMsgAddCards {
+	uint32 controllerId = 11;
+	GCGReason reason = 1;
+	uint32 pos = 6;
+	GCGZoneType zone = 9;
+	repeated uint32 cardGuidList = 5;
+}

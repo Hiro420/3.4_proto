@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BounceConjuringGallerySettleInfo.proto";
+
+message BounceConjuringSettleNotify {
+	//enum KAFJPFDFNDG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8552;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isNewRecord = 6;
+	map<uint32, BounceConjuringGallerySettleInfo> settleInfoMap = 7;
+	uint32 chapterId = 11;
+	uint32 totalScore = 4;
+}

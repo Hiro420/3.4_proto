@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlayerOfferingData.proto";
+
+message PlayerOfferingDataNotify {
+	//enum OPEPKCGEOBI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2915;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated PlayerOfferingData offeringDataList = 8;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MassivePropSyncInfo.proto";
+
+message ALCGBNPJBHL {
+	bool isClearAll = 2;
+	repeated MassivePropSyncInfo massivePropList = 11;
+	repeated int64 amopeajfamd = 10;
+}

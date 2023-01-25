@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IslandPartySailStage.proto";
+
+message IslandPartySailInfoNotify {
+	//enum EODELEEFEGF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5525;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 progress = 5;
+	uint32 coin = 1;
+	uint32 killMonsterCount = 9;
+	IslandPartySailStage stage = 2;
+}

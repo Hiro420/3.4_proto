@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EnterFungusFighterPlotDungeonRsp {
+	//enum BJGOKLGJCHD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23496;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 3;
+	repeated uint32 fungusIdList = 13;
+	uint32 dungeonId = 4;
+}

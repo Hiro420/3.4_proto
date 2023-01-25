@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MatchPlayerInfo.proto";
+
+message GeneralMatchInfo {
+	uint32 matchParam = 6;
+	uint32 matchId = 8;
+	repeated MatchPlayerInfo playerList = 13;
+}

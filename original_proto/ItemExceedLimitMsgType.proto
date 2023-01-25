@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum ItemExceedLimitMsgType {
+	ITEM_EXCEED_LIMIT_MSG_TYPE_DEFAULT = 0;
+	ITEM_EXCEED_LIMIT_MSG_TYPE_TEXT = 1;
+	ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG = 2;
+	ITEM_EXCEED_LIMIT_MSG_TYPE_DIALOG_NONBLOCK = 3;
+}

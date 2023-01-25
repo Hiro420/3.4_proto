@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message FishCastRodReq {
+	//enum IKCMBMPOMAI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5819;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 rodEntityId = 2;
+	Vector pos = 1;
+	uint32 Unk3300_ICALEIBJCDA = 15;
+	uint32 Unk3300_PJFHEDDFOBM = 8;
+}

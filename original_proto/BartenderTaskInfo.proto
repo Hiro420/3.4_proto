@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BartenderTaskInfo {
+	bool isFinish = 7;
+	uint32 id = 4;
+}

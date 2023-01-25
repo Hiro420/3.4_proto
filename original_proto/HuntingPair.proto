@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HuntingPair {
+	uint32 refreshId = 5;
+	uint32 monsterConfigId = 12;
+}

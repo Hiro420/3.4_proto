@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSkillPreviewInfo.proto";
+
+message GCGChangeOnstageInfo {
+	uint32 cardGuid = 4;
+	GCGSkillPreviewInfo changeOnstagePreviewInfo = 8;
+	bool isQuick = 5;
+}

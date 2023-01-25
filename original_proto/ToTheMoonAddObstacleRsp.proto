@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DynamicNodes.proto";
+
+message ToTheMoonAddObstacleRsp {
+	//enum FAJPJAOONHC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6180;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 11;
+	int32 queryId = 8;
+	DynamicNodes dynamicNodes = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum SettleReason {
+	SETTLE_REASON_TIME_OUT = 0;
+	SETTLE_REASON_PLAY_END = 1;
+	SETTLE_REASON_PLAYER_QUIT = 2;
+	SETTLE_REASON_LIFE_COUNT = 3;
+}

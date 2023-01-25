@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGIntentionChangeType.proto";
+import "GCGMsgPVEIntention.proto";
+
+message GCGMsgPVEIntentionChange {
+	GCGIntentionChangeType changeType = 6;
+	repeated GCGMsgPVEIntention changeIntentionList = 2;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SingleStartBrickBreakerRsp {
+	//enum BIHKAFCIBLF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23349;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isDungeon = 15;
+	uint32 levelId = 11;
+	int32 retcode = 3;
+}

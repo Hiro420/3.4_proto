@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "KeepRotType.proto";
+import "Vector.proto";
+
+message BeginCameraSceneLookNotify {
+	//enum CPHHCGOAFAE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 279;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool Unk3300_ONBDMCHFPDL = 2;
+	bool Unk3300_PIEFLAEGGBI = 8;
+	bool Unk3300_NJLBIMJDFHJ = 1;
+	float duration = 10;
+	KeepRotType keepRotType = 14;
+	Vector Unk3300_FJDFGLNLMBN = 13;
+	float Unk3300_FIOLGCIKFLH = 5;
+	float Unk3300_HFPCHFNFJKP = 11;
+	repeated string otherParams = 12;
+	uint32 entityId = 167;
+	bool Unk3300_ODADMBBFPAP = 4;
+	bool Unk3300_EELNOAICHOJ = 3;
+	uint32 Unk3300_KCHKKBODNCJ = 1965;
+	bool Unk3300_DFPCMOFONNK = 15;
+	float Unk3300_HKKCHCEMJIE = 2004;
+	uint32 Unk3300_AJEENEOCFON = 106;
+	Vector Unk3300_PPCIDICMIEN = 7;
+	bool Unk3300_AAOGBCCNJAF = 644;
+	float Unk3300_HCLPGGAOIAC = 6;
+	bool Unk3300_ILMHDLHLKGJ = 9;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IAENJEILLBG.proto";
+import "DFAIPJMKBCC.proto";
+import "NJAPCNDDMBH.proto";
+
+message NCLBHFKHBLE {
+	repeated IAENJEILLBG bcingedoaop = 9;
+	uint32 gameId = 8;
+	repeated DFAIPJMKBCC plkdeiooihe = 6;
+	uint32 fjjbdhjmoca = 12;
+	repeated NJAPCNDDMBH cpmjjejogbm = 3;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message BlessingFriendPicData {
+	uint32 avatarId = 2;
+	ProfilePicture profilePicture = 4;
+	string nickname = 5;
+	string signature = 6;
+	map<uint32, uint32> picNumMap = 12;
+	string remarkName = 3;
+	uint32 uid = 9;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Duel.proto";
+
+message NJAPCNDDMBH {
+	uint32 opSeq = 13;
+	uint32 controllerId = 14;
+	oneof detail {
+		string gm_msg = 12;
+		Duel duel = 5;
+	}
+}

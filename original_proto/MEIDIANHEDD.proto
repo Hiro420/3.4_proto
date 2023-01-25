@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OMNAAMAIBOH.proto";
+
+message MEIDIANHEDD {
+	repeated OMNAAMAIBOH stageInfoList = 12;
+}

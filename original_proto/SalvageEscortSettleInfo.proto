@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SalvageEscortGallerySettleInfo.proto";
+
+message SalvageEscortSettleInfo {
+	SalvageEscortGallerySettleInfo settleInfo = 8;
+	bool isNewRecord = 9;
+}

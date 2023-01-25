@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EquipParam {
+	uint32 itemId = 1;
+	uint32 itemNum = 2;
+	uint32 itemLevel = 3;
+	uint32 promoteLevel = 4;
+}

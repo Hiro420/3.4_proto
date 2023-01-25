@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GGLAOFMEGGK.proto";
+import "IDOELHBANCP.proto";
+
+message AGNLMOPPIFH {
+	string nmfofegamme = 1;
+	string hfjgecdoafe = 8;
+	bool elaipjlejji = 10;
+	bool knilnhpcmgi = 20;
+	bool lbkfdecnakj = 27;
+	GGLAOFMEGGK nnlmlfgoiii = 9;
+	string hocldjnpeib = 11;
+	bool cbinhdjifao = 16;
+	bool dhdndgbmaee = 17;
+	bool ipehnienipn = 18;
+	bool ehppkpbjbbi = 42;
+	bool aicefchaici = 23;
+	bool odnagkoinfk = 31;
+	string jngoobcimbd = 36;
+	string ihmcfgapoin = 37;
+	string lmnfjldcfjn = 39;
+	string fkigjalgefl = 40;
+	string njpddpidinm = 41;
+	repeated IDOELHBANCP kcllbppiboo = 999;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGMsgSelectOnStageByEffect {
+	uint32 skillId = 4;
+	uint32 cardGuid = 2;
+	uint32 controllerId = 13;
+}

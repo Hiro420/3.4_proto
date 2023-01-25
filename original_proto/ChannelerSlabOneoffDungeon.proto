@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChannelerSlabOneoffDungeon {
+	bool isDone = 13;
+	uint32 rewardId = 12;
+	uint32 dungeonId = 15;
+}

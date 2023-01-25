@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum CustomDungeonBanType {
+	CUSTOM_DUNGEON_BAN_TYPE_NONE = 0;
+	CUSTOM_DUNGEON_BAN_TYPE_LAYOUT = 1;
+}

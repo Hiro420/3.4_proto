@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message HomeFurnitureCustomSuiteData {
+	uint32 guid = 10;
+	repeated int32 includedFurnitureIndexList = 5;
+	Vector spawnPos = 6;
+}

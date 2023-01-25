@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarTeam {
+	string teamName = 11;
+	repeated uint64 avatarGuidList = 5;
+}

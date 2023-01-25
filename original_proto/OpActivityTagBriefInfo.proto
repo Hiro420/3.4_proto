@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OpActivityTagBriefInfo {
+	uint32 configId = 10;
+	bool hasReward = 11;
+	uint32 opActivityType = 3;
+}

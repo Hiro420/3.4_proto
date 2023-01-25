@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+import "MatchType.proto";
+
+message PlayerApplyEnterMpAfterMatchAgreedNotify {
+	//enum MJIKOBLKFGP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4190;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 matchserverId = 9;
+	OnlinePlayerInfo srcPlayerInfo = 8;
+	MatchType matchType = 2;
+}

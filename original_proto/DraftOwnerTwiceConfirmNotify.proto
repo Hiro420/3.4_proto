@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DraftOwnerTwiceConfirmNotify {
+	//enum APMIOPBAHIP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5414;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 draftId = 15;
+	uint32 twiceConfirmDeadlineTime = 7;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message DeshretObeliskChestInfo {
+	uint32 sceneId = 4;
+	uint32 configId = 13;
+	uint32 groupId = 11;
+	Vector pos = 10;
+}

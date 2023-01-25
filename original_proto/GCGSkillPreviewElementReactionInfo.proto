@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSkillPreviewReactionInfo.proto";
+
+message GCGSkillPreviewElementReactionInfo {
+	repeated uint32 Unk3300_BELBNDNDGAO = 12;
+	repeated uint32 Unk3300_JOBNBDJHAPJ = 2;
+	repeated GCGSkillPreviewReactionInfo reactionList = 9;
+}

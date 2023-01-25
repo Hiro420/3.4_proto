@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "MathQuaternion.proto";
+import "ShapeType.proto";
+
+message ToTheMoonObstacleInfo {
+
+	enum ShapeType {
+    	SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE = 0;
+    	SHAPE_TYPE_OBSTACLE_SHAPE_BOX = 1;
+    }
+
+	Vector center = 3;
+	int32 handleId = 5;
+	MathQuaternion rotation = 8;
+	Vector halfExtents = 9;
+	ShapeType type = 1;
+}

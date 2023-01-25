@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlaceInfo.proto";
+
+message HandballInfo {
+	PlaceInfo ballPlaceInfo = 11;
+	bool isHaveBall = 7;
+}

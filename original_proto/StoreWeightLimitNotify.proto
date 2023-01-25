@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "StoreType.proto";
+
+message StoreWeightLimitNotify {
+	//enum INKBMOCDLPC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 655;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 furnitureCountLimit = 2;
+	uint32 materialCountLimit = 3;
+	uint32 reliquaryCountLimit = 5;
+	uint32 weightLimit = 14;
+	StoreType storeType = 11;
+	uint32 weaponCountLimit = 9;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AbilityInvokeEntry.proto";
+
+message AbilityInvocationFixedNotify {
+	//enum LAPNALALFPP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1105;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	AbilityInvokeEntry Unk3300_LDIAOMFIBPL = 3;
+	AbilityInvokeEntry Unk3300_AHDFHHFHEFM = 6;
+	AbilityInvokeEntry Unk3300_ONGNOHLIIBO = 8;
+	AbilityInvokeEntry Unk3300_EMGKKHKLIEG = 5;
+	AbilityInvokeEntry Unk3300_KFMHLLHECCJ = 15;
+	AbilityInvokeEntry Unk3300_GAFFBFFKDIC = 1;
+}

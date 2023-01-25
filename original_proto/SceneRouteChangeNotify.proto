@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SceneRouteChangeInfo.proto";
+
+message SceneRouteChangeNotify {
+	//enum IJOCHFEAPBP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 201;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 sceneId = 10;
+	repeated SceneRouteChangeInfo routeList = 12;
+	uint32 sceneTime = 6;
+}

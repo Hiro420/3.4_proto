@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CoinCollectTeamAvatarInfo.proto";
+
+message CoinCollectPlayerInfo {
+	repeated CoinCollectTeamAvatarInfo avatarInfoList = 14;
+	bool ddbhiknpgnp = 8;
+	uint32 chooseSkillNo = 10;
+	string playerName = 4;
+	uint32 playerUid = 5;
+}

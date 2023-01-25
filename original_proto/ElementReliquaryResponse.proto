@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GameplayRecommendationReliquaryMainPropData.proto";
+
+message ElementReliquaryResponse {
+	uint32 elementType = 4;
+	repeated GameplayRecommendationReliquaryMainPropData nbbpegfkpac = 3;
+	uint32 equipType = 7;
+}

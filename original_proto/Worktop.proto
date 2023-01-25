@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message Worktop {
+	repeated uint32 optionList = 1;
+	bool isGuestCanOperate = 2;
+}

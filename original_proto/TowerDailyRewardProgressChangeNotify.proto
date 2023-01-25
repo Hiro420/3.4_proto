@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TowerDailyRewardProgressChangeNotify {
+	//enum JBLHPCOEIEG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2498;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_OHCHCJGJIDK = 4;
+	uint32 Unk3300_JBACKENDHDG = 3;
+}

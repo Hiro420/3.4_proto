@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ForgeQueueData {
+	uint32 forgeId = 6;
+	uint32 finishCount = 1;
+	uint32 queueId = 9;
+	uint32 unfinishCount = 8;
+	uint32 totalFinishTimestamp = 11;
+	uint32 avatarId = 12;
+	uint32 nextFinishTimestamp = 2;
+}

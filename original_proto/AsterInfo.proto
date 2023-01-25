@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AsterLargeDetailInfo.proto";
+import "AsterLittleDetailInfo.proto";
+import "AsterMidDetailInfo.proto";
+import "AsterProgressDetailInfo.proto";
+
+message AsterInfo {
+	AsterLargeDetailInfo asterLarge = 2;
+	uint32 Unk3300_KFDGFFPJGJC = 8;
+	bool isSpecialRewardTaken = 9;
+	AsterLittleDetailInfo asterLittle = 3;
+	uint32 contentCloseTime = 14;
+	uint32 Unk3300_DCHBFEJNBHP = 10;
+	AsterMidDetailInfo asterMid = 4;
+	AsterProgressDetailInfo asterProgress = 7;
+	bool leftMonsters = 15;
+}

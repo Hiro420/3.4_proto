@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TreasureSeelieInfo {
+	uint32 progress = 11;
+	uint32 goal = 2;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReadNicknameAuditRsp {
+	//enum OKPDCPFCLNP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 102;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 mbbjhalknla = 13;
+	bool fdabeplffil = 8;
+	uint32 nnnnclfpean = 9;
+	uint32 ejkmamgnbgj = 3;
+}

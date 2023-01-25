@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SamLampInfo {
+	uint32 days = 11;
+	uint32 progress = 3;
+	uint32 factor = 10;
+	uint32 contribution = 9;
+	uint32 phaseId = 7;
+	repeated uint32 Unk3300_ODBFFAIIPMB = 14;
+	repeated uint32 Unk3300_FGHDJJCLNFN = 15;
+}

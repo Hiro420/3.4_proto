@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ActivityAcceptGiftResultInfo {
+	map<uint32, uint32> Unk3300_JFHLEBLOFMA = 14;
+	uint32 uid = 11;
+	map<uint32, uint32> Unk3300_COCFNBJCFGP = 4;
+}

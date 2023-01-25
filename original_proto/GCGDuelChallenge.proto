@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGDuelChallenge {
+	uint32 totalProgress = 9;
+	uint32 challengeId = 10;
+	uint32 curProgress = 1;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HuntingPair.proto";
+
+message TakeHuntingOfferRsp {
+	//enum ECDAFENOELG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4345;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 7;
+	uint32 cityId = 8;
+	HuntingPair huntingPair = 6;
+}

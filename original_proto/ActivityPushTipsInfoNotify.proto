@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityPushTipsData.proto";
+
+message ActivityPushTipsInfoNotify {
+	//enum EGCLPKNLNMG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8527;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 scheduleId = 6;
+	repeated ActivityPushTipsData activityPushTipsDataList = 7;
+	uint32 activityId = 9;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message NOJMHFDCPFH {
+	uint32 firstPublishTime = 1;
+	uint32 lastPublishTime = 2;
+	map<uint32, uint32> brickStatisticsMap = 3;
+}

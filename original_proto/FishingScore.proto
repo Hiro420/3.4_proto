@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FishingScore {
+	bool isNewRecord = 13;
+	uint32 bcjgjjefnci = 10;
+}

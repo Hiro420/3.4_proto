@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Reason.proto";
+import "MatchType.proto";
+
+message PlayerMatchAgreedResultNotify {
+	//enum KDDMDKGHIHK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4152;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	Reason reason = 5;
+	MatchType matchType = 12;
+	uint32 targetUid = 7;
+}

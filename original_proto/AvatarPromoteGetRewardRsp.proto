@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarPromoteGetRewardRsp {
+	//enum CAPLBOCEKAL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1718;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 rewardId = 8;
+	uint32 promoteLevel = 5;
+	int32 retcode = 12;
+	uint64 avatarGuid = 14;
+}

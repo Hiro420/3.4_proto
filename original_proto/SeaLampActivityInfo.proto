@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SeaLampSectionInfo.proto";
+
+message SeaLampActivityInfo {
+	bool leftMonsters = 1;
+	bool Unk3300_BAJIGNGJALG = 3;
+	repeated SeaLampSectionInfo sectionInfoList = 2;
+	uint32 firstDayStartTime = 10;
+	uint32 popularity = 5;
+	bool Unk3300_JMPCJGJHPIH = 14;
+	uint32 dayIndex = 4;
+	uint32 mechanicusId = 12;
+	uint32 seaLampCoin = 6;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CityInfo.proto";
+
+message LevelupCityRsp {
+	//enum FGKCEFOMGIP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 267;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 2;
+	CityInfo cityInfo = 15;
+	uint32 areaId = 12;
+	uint32 sceneId = 3;
+}

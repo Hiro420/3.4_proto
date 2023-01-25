@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CrystalLinkSettleInfo {
+	uint32 killNormalMonsterNum = 11;
+	bool isNewRecord = 6;
+	uint32 finalScore = 13;
+	uint32 killEliteMonsterNum = 15;
+	uint32 difficultyId = 3;
+	uint32 levelId = 10;
+}

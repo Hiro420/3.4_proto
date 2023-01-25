@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum ServerBuffChangeType {
+	SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
+	SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
+}

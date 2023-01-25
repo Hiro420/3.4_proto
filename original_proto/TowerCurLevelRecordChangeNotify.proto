@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TowerCurLevelRecord.proto";
+
+message TowerCurLevelRecordChangeNotify {
+	//enum MOKEHFOFGCK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2487;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	TowerCurLevelRecord curLevelRecord = 5;
+}

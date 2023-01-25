@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TreasureMapRegionInfo.proto";
+import "TreasureMapBonusChallengeInfo.proto";
+
+message TreasureMapActivityDetailInfo {
+	bool isMpChallengeTouched = 6;
+	uint32 totalMpSpotNum = 14;
+	repeated TreasureMapRegionInfo regionInfoList = 7;
+	uint32 currencyNum = 1;
+	uint32 minOpenPlayerLevel = 3;
+	uint32 activeRegionIndex = 2;
+	repeated TreasureMapBonusChallengeInfo bonusChallengeList = 15;
+	uint32 previewRewardId = 12;
+	uint32 treasureCloseTime = 5;
+}

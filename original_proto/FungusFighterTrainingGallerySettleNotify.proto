@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message FungusFighterTrainingGallerySettleNotify {
+	//enum PCMLJAAPJMF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23677;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 finalScore = 6;
+	uint32 Unk3300_KKFBMHLOLFC = 14;
+	GalleryStopReason reason = 3;
+	uint32 Unk3300_BHOMHPHLOHL = 11;
+	uint32 Unk3300_POCDEGBHJEA = 12;
+	uint32 totalUsedTime = 9;
+	bool isFinalSettle = 7;
+	bool isNewRecord = 5;
+}

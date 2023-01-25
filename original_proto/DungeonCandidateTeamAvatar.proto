@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AvatarInfo.proto";
+
+message DungeonCandidateTeamAvatar {
+	uint32 playerUid = 5;
+	AvatarInfo avatarInfo = 8;
+}

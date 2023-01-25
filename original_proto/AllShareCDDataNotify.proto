@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ShareCDInfo.proto";
+
+message AllShareCDDataNotify {
+	//enum EEMPBEJEDNO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 9005;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	map<uint32, ShareCDInfo> shareCdInfoMap = 2;
+}

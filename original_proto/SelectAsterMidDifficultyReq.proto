@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SelectAsterMidDifficultyReq {
+	//enum CJNECBCPBEH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2128;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 gadgetEntityId = 7;
+	uint32 scheduleId = 2;
+	uint32 difficultyId = 14;
+}

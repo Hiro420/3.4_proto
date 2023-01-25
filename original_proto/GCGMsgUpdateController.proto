@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message GCGMsgUpdateController {
+	repeated Uint32Pair allowControllerMap = 3;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message BartenderCompleteOrderReq {
+	//enum MMPNFNDBFPC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8867;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	bool isViewFormula = 10;
+	uint32 Unk3300_NKMHHHHGHIF = 6;
+	repeated ItemParam itemList = 8;
+	uint32 Unk3300_POEGPFJLNGB = 12;
+	uint32 questId = 9;
+	uint32 Unk3300_LONHKJFDOND = 15;
+	repeated uint32 optionalOrderList = 11;
+}

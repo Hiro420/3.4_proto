@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AsterMiscInfoNotify {
+	//enum FBFFGFLJKNO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2165;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_KFDGFFPJGJC = 7;
+	uint32 Unk3300_DCHBFEJNBHP = 8;
+}

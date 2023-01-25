@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "bytes.proto";
+
+message PingReq {
+	//enum HCOPEMHOJKP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 20;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 seq = 11;
+	bytes scData = 13;
+	double totalTickTime = 4;
+	float ueTime = 15;
+	uint32 clientTime = 8;
+}

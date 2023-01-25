@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BreakoutSyncConnectUidInfo.proto";
+
+message SyncCreateConnect {
+	repeated BreakoutSyncConnectUidInfo uidInfoList = 6;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AnimatorParameterValueInfo {
+	uint32 paraType = 1;
+	oneof para_val {
+		int32 int_val = 2;
+		float float_val = 3;
+		bool bool_val = 4;
+	}
+}

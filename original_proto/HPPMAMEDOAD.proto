@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DJLDJFDPBEI.proto";
+import "SyncCreateConnect.proto";
+import "SyncPing.proto";
+import "SyncFinishGame.proto";
+import "SyncSnapShot.proto";
+import "SyncAction.proto";
+
+message HPPMAMEDOAD {
+	int32 retcode = 13;
+	DJLDJFDPBEI badeipailca = 3;
+	oneof HHIPOLHJFFK {
+		SyncCreateConnect sync_create_connect = 14;
+		SyncPing sync_ping = 4;
+		SyncFinishGame sync_finish_game = 7;
+		SyncSnapShot sync_snap_shot = 10;
+		SyncAction sync_action = 12;
+	}
+}

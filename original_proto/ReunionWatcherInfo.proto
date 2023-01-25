@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReunionWatcherInfo {
+	uint32 rewardUnlockTime = 7;
+	uint32 curProgress = 11;
+	uint32 watcherId = 12;
+	uint32 totalProgress = 10;
+	bool isTakenReward = 5;
+}

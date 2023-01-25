@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "State.proto";
+
+message CoopPoint {
+	uint32 id = 10;
+	State state = 5;
+	uint32 selfConfidence = 15;
+}

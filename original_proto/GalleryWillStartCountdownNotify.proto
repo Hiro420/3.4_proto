@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStartSource.proto";
+
+message GalleryWillStartCountdownNotify {
+	//enum GEFOBHGIOAL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5575;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 8;
+	bool isEnd = 1;
+	GalleryStartSource startSource = 13;
+	uint32 endTime = 9;
+}

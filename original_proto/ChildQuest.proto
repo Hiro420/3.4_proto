@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChildQuest {
+	uint32 questId = 5;
+	uint32 questConfigId = 10;
+	uint32 state = 12;
+}

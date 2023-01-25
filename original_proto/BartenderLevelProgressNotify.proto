@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BartenderLevelProgressNotify {
+	//enum MNIPDDGBEKK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8317;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 levelId = 13;
+	uint32 score = 3;
+	bool isNewRecord = 10;
+	bool isFinish = 5;
+}

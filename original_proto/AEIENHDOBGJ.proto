@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message AEIENHDOBGJ {
+	Vector pos = 7;
+	uint32 roomId = 6;
+	Vector rot = 15;
+}

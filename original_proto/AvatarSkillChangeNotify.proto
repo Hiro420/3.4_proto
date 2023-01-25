@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarSkillChangeNotify {
+	//enum MHMGKMKHGCN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1016;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint64 avatarGuid = 4;
+	uint32 entityId = 12;
+	uint32 avatarSkillId = 1;
+	uint32 skillDepotId = 5;
+	uint32 oldLevel = 6;
+	uint32 curLevel = 2;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PropChangeReason.proto";
+
+message AvatarPropChangeReasonNotify {
+	//enum MNCBONEOPGK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1262;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	float curValue = 2;
+	uint32 propType = 10;
+	float oldValue = 4;
+	PropChangeReason reason = 5;
+	uint64 avatarGuid = 12;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ForgeQueueManipulateType.proto";
+import "ItemParam.proto";
+
+message ForgeQueueManipulateRsp {
+	//enum AOJCPKNGIFA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 636;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ItemParam returnItemList = 3;
+	ForgeQueueManipulateType manipulateType = 7;
+	repeated ItemParam extraOutputItemList = 13;
+	repeated ItemParam outputItemList = 12;
+	int32 retcode = 5;
+}

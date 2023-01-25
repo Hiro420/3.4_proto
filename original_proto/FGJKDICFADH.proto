@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CBNIFFCNOEC.proto";
+
+message FGJKDICFADH {
+	uint32 uid = 1;
+	repeated uint64 milgfplpdhp = 2;
+	repeated uint64 dljdncgnbgk = 3;
+	repeated CBNIFFCNOEC leilkaldnem = 4;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HCAMGIDEAFE {
+	uint32 bestScore = 6;
+	bool isOpen = 1;
+	uint32 stageId = 2;
+}

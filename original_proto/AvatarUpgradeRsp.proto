@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarUpgradeRsp {
+	//enum NFHCCCOLLBL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1788;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	map<uint32, float> curFightPropMap = 11;
+	uint64 avatarGuid = 8;
+	map<uint32, float> oldFightPropMap = 14;
+	uint32 oldLevel = 15;
+	int32 retcode = 13;
+	uint32 curLevel = 6;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGCardSkillLimitsInfo.proto";
+
+message GCGMsgSkillLimitsChange {
+	map<uint32, GCGCardSkillLimitsInfo> cardLimitsChangeMap = 13;
+}

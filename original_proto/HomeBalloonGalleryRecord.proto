@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeGroupPlayerInfo.proto";
+
+message HomeBalloonGalleryRecord {
+	uint32 hitCount = 2;
+	uint32 score = 12;
+	HomeGroupPlayerInfo playerInfo = 11;
+	uint32 timestamp = 13;
+}

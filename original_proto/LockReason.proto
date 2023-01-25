@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum LockReason {
+	LOCK_REASON_LEVEL = 0;
+	LOCK_REASON_QUEST = 1;
+}

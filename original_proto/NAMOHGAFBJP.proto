@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message NAMOHGAFBJP {
+	uint32 blockId = 14;
+	uint32 khhhdmmmcjn = 13;
+}

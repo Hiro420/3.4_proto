@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message JBNGFJNCIFI {
+	uint32 hooghbjeglp = 6;
+	uint64 mmjpfnlleol = 5;
+}

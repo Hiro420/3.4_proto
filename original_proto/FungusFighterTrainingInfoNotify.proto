@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusFighterTrainingInfoNotify {
+	//enum JBHPHCENNEO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5545;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_EDHANEGNMJM = 15;
+	uint32 Unk3300_IOEELCAMDCK = 14;
+	uint32 Unk3300_EKAMCPNGCGH = 1;
+	uint32 Unk3300_GMLIPFDMDOG = 7;
+	uint32 maxMonsterCount = 3;
+	uint32 buffId = 6;
+	uint32 Unk3300_HGPGNCMNDJN = 13;
+}

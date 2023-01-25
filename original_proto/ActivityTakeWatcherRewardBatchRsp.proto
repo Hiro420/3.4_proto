@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message ActivityTakeWatcherRewardBatchRsp {
+	//enum EKIKICOOEMC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2186;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 activityId = 12;
+	repeated uint32 watcherIdList = 9;
+	repeated ItemParam itemList = 8;
+	int32 retcode = 15;
+}

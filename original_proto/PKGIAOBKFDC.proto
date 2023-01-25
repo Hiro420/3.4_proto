@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum PKGIAOBKFDC {
+	PPGJHILBMOO = 0;
+	OCLBHCJHJKM = 1;
+	MBJCKIMBKLO = 2;
+	KACANNNNAIP = 3;
+	JNHCKJLFBOH = 4;
+	KOFLABAGLBC = 5;
+	KBMIJHJJPBP = 6;
+	NOODOCIAMMP = 7;
+	ALKAMFOJIND = 8;
+	IMHABLPEFGJ = 9;
+	BJOCLHFPKGA = 10;
+	AAJAMLABMKA = 11;
+	MMNMGEKLBAH = 12;
+	EPLBJGOKHFG = 13;
+	EACPLJEMGBP = 14;
+	JEGMFLFLJHO = 15;
+}

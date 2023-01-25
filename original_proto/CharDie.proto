@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CharDie {
+	uint32 cardGuid = 10;
+	uint32 controllerId = 9;
+}

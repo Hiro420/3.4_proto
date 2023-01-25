@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGClientPerformType.proto";
+
+message ClientPerform {
+	GCGClientPerformType performType = 2;
+	repeated uint32 paramList = 5;
+}

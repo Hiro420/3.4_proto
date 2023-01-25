@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MapMarkTipsInfo.proto";
+
+message GetMapMarkTipsRsp {
+	//enum GNFEPHCPNCC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3089;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 12;
+	repeated MapMarkTipsInfo markTipsList = 14;
+}

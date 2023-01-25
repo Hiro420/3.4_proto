@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FleurFairDungeonSectionInfo {
+	uint32 openTime = 11;
+	uint32 sectionId = 2;
+	bool isOpen = 5;
+}

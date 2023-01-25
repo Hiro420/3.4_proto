@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message InBattleMechanicusConfirmCardRsp {
+	//enum FOBENOCMABB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5329;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 3;
+	uint32 groupId = 12;
+	uint32 playIndex = 11;
+	uint32 cardId = 6;
+}

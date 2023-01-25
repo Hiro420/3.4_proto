@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FallPlayerBrief.proto";
+
+message GalleryFallScoreNotify {
+	//enum INIGFMPGCGH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5574;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 8;
+	map<uint32, FallPlayerBrief> uidBriefMap = 4;
+}

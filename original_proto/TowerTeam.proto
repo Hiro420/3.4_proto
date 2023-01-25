@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TowerTeam {
+	repeated uint64 avatarGuidList = 4;
+	uint32 towerTeamId = 10;
+}

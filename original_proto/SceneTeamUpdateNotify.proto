@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SceneTeamAvatar.proto";
+
+message SceneTeamUpdateNotify {
+	//enum BPGGDIIAGAD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1623;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isInMp = 15;
+	repeated SceneTeamAvatar sceneTeamAvatarList = 12;
+}

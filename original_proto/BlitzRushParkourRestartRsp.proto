@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BlitzRushParkourRestartRsp {
+	//enum PBBJICEIPJD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8502;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 scheduleId = 2;
+	uint32 groupId = 15;
+	int32 retcode = 3;
+}

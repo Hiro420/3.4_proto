@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomePictureFrameInfo.proto";
+
+message HomePictureFrameInfoNotify {
+	//enum PANLKEDPGDD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4677;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated HomePictureFrameInfo pictureFrameInfoList = 8;
+}

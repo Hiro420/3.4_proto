@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message KHIBIMBJOBK {
+	string createTime = 1;
+	string llbgpfoagln = 2;
+}

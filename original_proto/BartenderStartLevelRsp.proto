@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BartenderStartLevelRsp {
+	//enum JMAIKGFHOCI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8495;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 orderList = 3;
+	int32 retcode = 4;
+	uint32 levelId = 14;
+	uint32 time = 6;
+}

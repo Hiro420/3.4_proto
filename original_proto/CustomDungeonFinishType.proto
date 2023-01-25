@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum CustomDungeonFinishType {
+	CUSTOM_DUNGEON_FINISH_TYPE_PLAY_NORMAL = 0;
+	CUSTOM_DUNGEON_FINISH_TYPE_PLAY_TRY = 1;
+	CUSTOM_DUNGEON_FINISH_TYPE_EDIT_TRY = 2;
+	CUSTOM_DUNGEON_FINISH_TYPE_SELF_PLAY_NORMAL = 3;
+}

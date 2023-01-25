@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WidgetSlotOp.proto";
+import "WidgetSlotTag.proto";
+
+message SetWidgetSlotReq {
+	//enum GHKMOLPEJPE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4299;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated WidgetSlotTag tagList = 13;
+	WidgetSlotOp op = 3;
+	uint32 materialId = 4;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ForwardType.proto";
+import "Vector.proto";
+
+message EvtAvatarUpdateFocusNotify {
+	//enum MBMKKADEAPP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 318;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 entityId = 5;
+	ForwardType forwardType = 15;
+	Vector focusForward = 3;
+}

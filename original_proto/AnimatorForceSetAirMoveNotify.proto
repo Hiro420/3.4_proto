@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ForwardType.proto";
+
+message AnimatorForceSetAirMoveNotify {
+	//enum BKKMLNOEIGJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 330;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	bool inAirMove = 1;
+	ForwardType forwardType = 11;
+	uint32 entityId = 2;
+}

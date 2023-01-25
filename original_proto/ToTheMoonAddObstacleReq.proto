@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ToTheMoonObstacleInfo.proto";
+
+message ToTheMoonAddObstacleReq {
+	//enum JNHMMGGPKOO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6174;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	ToTheMoonObstacleInfo obstacle = 6;
+	uint32 sceneId = 7;
+	int32 queryId = 5;
+	bool useEdge = 15;
+}

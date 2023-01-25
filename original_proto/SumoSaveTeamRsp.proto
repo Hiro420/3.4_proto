@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SumoTeamData.proto";
+
+message SumoSaveTeamRsp {
+	//enum OMIFAMEOENF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8017;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 stageId = 9;
+	uint32 difficultyId = 14;
+	int32 retcode = 12;
+	uint32 activityId = 3;
+	repeated SumoTeamData teamList = 8;
+}

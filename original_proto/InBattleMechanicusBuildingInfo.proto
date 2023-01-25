@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message InBattleMechanicusBuildingInfo {
+	uint32 buildingId = 6;
+	uint32 level = 3;
+	uint32 knajgcafgjo = 14;
+	uint32 costPoints = 4;
+}

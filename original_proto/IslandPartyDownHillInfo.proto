@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStartSource.proto";
+
+message IslandPartyDownHillInfo {
+	uint32 maxKillMonsterCount = 13;
+	GalleryStartSource startSource = 4;
+	uint32 coin = 1;
+	uint32 totalKillMonsterCount = 7;
+}

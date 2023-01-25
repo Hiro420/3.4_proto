@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BrickBreakerPlayerBattleInfo {
+	repeated uint32 skillList = 9;
+	bool isReady = 6;
+	string nickname = 15;
+	bool isChanging = 14;
+	repeated uint32 costumeId = 12;
+	repeated uint32 avatarId = 5;
+	uint32 uid = 3;
+}

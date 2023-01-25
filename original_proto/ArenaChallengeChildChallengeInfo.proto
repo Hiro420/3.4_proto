@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ArenaChallengeChildChallengeInfo {
+	bool isSuccess = 15;
+	bool isSettled = 4;
+	uint32 challengeType = 5;
+	uint32 challengeIndex = 8;
+	uint32 challengeId = 14;
+}

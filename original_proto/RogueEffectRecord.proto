@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RogueEffectRecord {
+	bool isNew = 3;
+	uint32 sourceId = 5;
+	uint32 count = 1;
+	repeated uint32 extraParamList = 9;
+}

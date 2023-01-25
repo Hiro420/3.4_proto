@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HachiStageInfo.proto";
+
+message HachiInfo {
+	map<uint32, HachiStageInfo> stageMap = 9;
+}

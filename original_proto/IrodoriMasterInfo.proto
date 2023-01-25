@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriMasterInfo {
+	bool isCgViewed = 6;
+	uint32 difficulty = 12;
+	uint32 levelId = 13;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AsterProgressDetailInfo {
+	uint32 lastAutoAddTime = 14;
+	uint32 count = 8;
+}

@@ -1,0 +1,79 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TokenChange.proto";
+import "PhaseChange.proto";
+import "AddCards.proto";
+import "RemoveCards.proto";
+import "SelectOnStage.proto";
+import "DiceRoll.proto";
+import "DiceReroll.proto";
+import "Pass.proto";
+import "CharDie.proto";
+import "SkillResult.proto";
+import "CostDice.proto";
+import "AddDice.proto";
+import "MoveCard.proto";
+import "UseSkill.proto";
+import "NewCard.proto";
+import "UpdateController.proto";
+import "ModifyAdd.proto";
+import "ModifyRemove.proto";
+import "UseSkillEnd.proto";
+import "DuelDataChange.proto";
+import "ClientPerform.proto";
+import "GameOver.proto";
+import "OpTimer.proto";
+import "WaitingListChange.proto";
+import "CardUpdate.proto";
+import "SelectOnStageByEffect.proto";
+import "CostRevise.proto";
+import "PhaseContinue.proto";
+import "PveIntentionInfo.proto";
+import "PveIntentionChange.proto";
+import "SkillLimitsChange.proto";
+import "NoDamageSkillResult.proto";
+import "ReactionBegin.proto";
+import "ReactionEnd.proto";
+
+message GCGMessage {
+	oneof message {
+		TokenChange token_change = 10;
+		PhaseChange phase_change = 15;
+		AddCards add_cards = 11;
+		RemoveCards remove_cards = 7;
+		SelectOnStage select_on_stage = 9;
+		DiceRoll dice_roll = 3;
+		DiceReroll dice_reroll = 12;
+		Pass pass = 5;
+		CharDie char_die = 6;
+		SkillResult skill_result = 1;
+		CostDice cost_dice = 4;
+		AddDice add_dice = 13;
+		MoveCard move_card = 14;
+		UseSkill use_skill = 2;
+		NewCard new_card = 1658;
+		UpdateController update_controller = 204;
+		ModifyAdd modify_add = 1001;
+		ModifyRemove modify_remove = 1447;
+		UseSkillEnd use_skill_end = 1779;
+		DuelDataChange duel_data_change = 1102;
+		ClientPerform client_perform = 1225;
+		GameOver game_over = 640;
+		OpTimer op_timer = 778;
+		WaitingListChange waiting_list_change = 517;
+		CardUpdate card_update = 1284;
+		SelectOnStageByEffect select_on_stage_by_effect = 542;
+		CostRevise cost_revise = 662;
+		PhaseContinue phase_continue = 344;
+		PveIntentionInfo pve_intention_info = 975;
+		PveIntentionChange pve_intention_change = 719;
+		SkillLimitsChange skill_limits_change = 597;
+		NoDamageSkillResult no_damage_skill_result = 1483;
+		ReactionBegin reaction_begin = 170;
+		ReactionEnd reaction_end = 58;
+	}
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message SummerTimeV2BoatGallerySettleInfo {
+	uint32 param2 = 15;
+	uint32 galleryId = 5;
+	uint32 param3 = 8;
+	GalleryStopReason reason = 3;
+	uint32 usedTime = 4;
+	uint32 param1 = 6;
+}

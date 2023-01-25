@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AAJAAOKIJHF.proto";
+
+message ABLOFNDBMFD {
+	repeated AAJAAOKIJHF briefList = 1;
+	repeated string mohcaffojgh = 2;
+}

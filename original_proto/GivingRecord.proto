@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GivingRecord {
+	bool isGadgetGiving = 6;
+	uint32 groupId = 14;
+	uint32 givingId = 4;
+	uint32 configId = 7;
+	uint32 lastGroupId = 8;
+	bool isFinished = 1;
+	map<uint32, uint32> materialCountMap = 10;
+}

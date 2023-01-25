@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message VintageHuntingSecondStageInfo {
+	uint32 totalNum = 15;
+	uint32 captureAnimalNum = 11;
+	uint32 homaiophceb = 14;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomePictureFrameInfo {
+	uint32 pictureId = 1;
+	uint32 guid = 8;
+}

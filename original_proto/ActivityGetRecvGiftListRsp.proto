@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityRecvGiftData.proto";
+
+message ActivityGetRecvGiftListRsp {
+	//enum KHCFDOOIHOM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8705;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 15;
+	repeated ActivityRecvGiftData recvGiftList = 7;
+	uint32 scheduleId = 10;
+}

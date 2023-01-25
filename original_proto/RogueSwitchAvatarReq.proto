@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RogueSwitchAvatarReq {
+	//enum ILOKDHFKNLC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8262;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint64 curAvatarGuid = 15;
+	repeated uint64 onstageAvatarGuidList = 14;
+	uint32 cellId = 8;
+	uint32 dungeonId = 1;
+}

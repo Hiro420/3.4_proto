@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message QuestRenameAvatarRsp {
+	//enum LLGBKAMNLLC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 401;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string avatarName = 15;
+	bool isCheck = 2;
+	uint32 renameId = 13;
+	int32 retcode = 10;
+}

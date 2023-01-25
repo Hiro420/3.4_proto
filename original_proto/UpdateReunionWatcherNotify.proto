@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ReunionWatcherInfo.proto";
+
+message UpdateReunionWatcherNotify {
+	//enum OHBHKHOLILI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5087;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 missionId = 12;
+	ReunionWatcherInfo watcherInfo = 14;
+}

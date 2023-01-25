@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EvtSetAttackTargetInfo.proto";
+import "ForwardType.proto";
+
+message EvtSetAttackTargetNotify {
+	//enum MCPMLMLNKLN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 314;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	EvtSetAttackTargetInfo evtSetAttackTargetInfo = 1;
+	ForwardType forwardType = 15;
+}

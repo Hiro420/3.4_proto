@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DynamicSVONode.proto";
+
+message DynamicLayerNodes {
+	repeated DynamicSVONode nodes = 8;
+	int32 level = 12;
+}

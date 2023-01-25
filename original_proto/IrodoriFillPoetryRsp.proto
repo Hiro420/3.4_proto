@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IrodoriPoetryThemeData.proto";
+
+message IrodoriFillPoetryRsp {
+	//enum KHKABHNJLIP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8762;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	IrodoriPoetryThemeData themeData = 14;
+	int32 retcode = 15;
+}

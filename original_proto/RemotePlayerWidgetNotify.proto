@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlayerWidgetInfo.proto";
+
+message RemotePlayerWidgetNotify {
+	//enum EEINCMFJCDI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5996;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated PlayerWidgetInfo playerWidgetInfoList = 8;
+}

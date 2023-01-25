@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AttackResult.proto";
+
+message ECLDFPKCOPE {
+	AttackResult attackResult = 13;
+	uint32 peerId = 3;
+}

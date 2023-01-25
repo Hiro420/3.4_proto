@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message QuestUpdateQuestVarNotify {
+	//enum KBDLKENNPFL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 500;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 parentQuestId = 11;
+	uint32 parentQuestVarSeq = 14;
+	repeated int32 questVar = 7;
+}

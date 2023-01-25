@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BonusActivityInfo.proto";
+
+message BonusActivityUpdateNotify {
+	//enum HPNBMCFBEIK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2529;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated BonusActivityInfo bonusActivityInfoList = 8;
+}

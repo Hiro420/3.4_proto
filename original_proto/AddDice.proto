@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGReason.proto";
+import "GCGDiceSideType.proto";
+
+message AddDice {
+	map<uint32, GCGDiceSideType> Unk3300_PCMPCCLFEIM = 15;
+	map<uint32, GCGDiceSideType> Unk3300_KFKOGOKPIFN = 5;
+	uint32 controllerId = 3;
+	GCGReason reason = 9;
+	int32 changeCount = 10;
+}

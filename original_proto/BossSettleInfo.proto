@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FleurFairPlayerStatInfo.proto";
+
+message BossSettleInfo {
+	repeated FleurFairPlayerStatInfo statInfoList = 3;
+	uint32 rewardTokenNum = 4;
+	uint32 energy = 8;
+	uint32 costTime = 2;
+	bool isSuccess = 6;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CataLogGlobalWatcherFinishedData.proto";
+
+message CataLogFinishedGlobalWatcherAllDataNotify {
+	//enum KGDHMHMGKCN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6352;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated CataLogGlobalWatcherFinishedData finishedGlobalWatcherDataList = 13;
+}

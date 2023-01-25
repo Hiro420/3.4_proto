@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message WinterCampFriendWishData {
+	uint32 uid = 8;
+	repeated uint32 itemIdList = 14;
+	string nickname = 7;
+	ProfilePicture profilePicture = 9;
+}

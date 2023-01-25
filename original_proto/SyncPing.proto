@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SyncPing {
+	uint64 clientGameTime = 12;
+	uint64 serverGameTime = 7;
+}

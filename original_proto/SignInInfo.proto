@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SignInData.proto";
+
+message SignInInfo {
+	uint32 configId = 2;
+	uint32 Unk3300_MNJELIDKMCF = 5;
+	bool isCondSatisfied = 13;
+	repeated uint32 rewardDayList = 7;
+	uint32 Unk3300_NFNOKBNBLGE = 4;
+	uint32 endTime = 12;
+	repeated SignInData signinDataList = 14;
+	uint32 scheduleId = 1;
+	uint32 beginTime = 8;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message FGPNDDNEBJO {
+	Vector pos = 8;
+	Vector mjehpphliia = 1;
+	uint32 djmnfklkcaf = 2;
+	Vector rot = 12;
+}

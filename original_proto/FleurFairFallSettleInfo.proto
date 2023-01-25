@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FallSettleInfo.proto";
+
+message FleurFairFallSettleInfo {
+	FallSettleInfo settleInfo = 11;
+	bool isNewRecord = 14;
+}

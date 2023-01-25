@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FlightActivitySettleNotify {
+	//enum GHLJGNNHDHM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2169;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_PLFMJPNPPLI = 9;
+	bool isSuccess = 13;
+	uint32 Unk3300_MEEKFJJIOKE = 2;
+	bool isNewRecord = 15;
+	uint32 totalNum = 3;
+	uint32 groupId = 10;
+	uint32 score = 12;
+	uint32 leftTime = 5;
+}

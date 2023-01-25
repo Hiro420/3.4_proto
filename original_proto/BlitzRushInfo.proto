@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BlitzRushStage.proto";
+import "ParkourLevelInfo.proto";
+
+message BlitzRushInfo {
+	repeated BlitzRushStage stageList = 11;
+	uint32 contentCloseTime = 1;
+	repeated ParkourLevelInfo parkourLevelInfoList = 6;
+	bool leftMonsters = 5;
+}

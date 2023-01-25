@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ExpeditionTakeRewardRsp {
+	//enum ACMHBHOMOBI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2065;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 pathId = 14;
+	uint32 rewardLevel = 7;
+	int32 retcode = 8;
+	bool isBonus = 13;
+}

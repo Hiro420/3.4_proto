@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GalleryFallCatchNotify {
+	//enum IICOFEJMDIG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5520;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 timeCost = 1;
+	uint32 addScore = 4;
+	uint32 galleryId = 2;
+	uint32 curScore = 5;
+	bool isGround = 3;
+	map<uint32, uint32> ballCatchCountMap = 15;
+}

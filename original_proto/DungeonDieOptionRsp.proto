@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlayerDieOption.proto";
+
+message DungeonDieOptionRsp {
+	//enum EKKHFALCGCJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 978;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 15;
+	PlayerDieOption dieOption = 4;
+	uint32 reviveCount = 10;
+}

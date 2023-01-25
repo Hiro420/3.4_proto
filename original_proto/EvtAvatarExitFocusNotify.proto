@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "ForwardType.proto";
+
+message EvtAvatarExitFocusNotify {
+	//enum ALNCPNJCAIF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 358;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	Vector finishForward = 7;
+	uint32 entityId = 13;
+	ForwardType forwardType = 14;
+}

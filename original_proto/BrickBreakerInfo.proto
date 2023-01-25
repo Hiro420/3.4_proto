@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BrickBreakerLevelInfo.proto";
+import "BrickBreakerActivityStageInfo.proto";
+
+message BrickBreakerInfo {
+	repeated BrickBreakerLevelInfo dungeonLevelInfoList = 7;
+	repeated BrickBreakerActivityStageInfo stageInfoList = 9;
+	repeated BrickBreakerLevelInfo worldLevelInfoList = 3;
+	map<uint32, uint32> skillInfoMap = 8;
+}

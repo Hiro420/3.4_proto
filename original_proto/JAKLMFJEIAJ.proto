@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AbilityString.proto";
+
+message JAKLMFJEIAJ {
+	uint32 mlaoigidomk = 12;
+	AbilityString hcgicnilgjl = 13;
+	AbilityString abilityName = 11;
+	uint32 dgkkiefjbpp = 14;
+}

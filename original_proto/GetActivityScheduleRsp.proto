@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityScheduleInfo.proto";
+
+message GetActivityScheduleRsp {
+	//enum FGGPOHENGIA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2015;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 remainFlySeaLampNum = 10;
+	int32 retcode = 9;
+	repeated ActivityScheduleInfo activityScheduleList = 12;
+}

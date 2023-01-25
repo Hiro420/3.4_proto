@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PlayerOfferingData.proto";
+import "ItemParam.proto";
+
+message PlayerOfferingRsp {
+	//enum JFLDLMDOMJI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2916;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 1;
+	PlayerOfferingData offeringData = 15;
+	repeated ItemParam itemList = 14;
+}

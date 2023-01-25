@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message UgcNotify {
+	//enum HIFIPOHDLOE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6337;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool Unk3300_IBLDINGJJFI = 13;
+	bool Unk3300_KPABJPMLHCD = 5;
+	bool isUgcFeatureClosed = 10;
+}

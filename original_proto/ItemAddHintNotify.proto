@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "ItemHint.proto";
+
+message ItemAddHintNotify {
+	//enum IDJBCODKIJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 620;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 questId = 7;
+	repeated ItemHint overflowTransformedItemList = 1;
+	bool Unk3300_NIJLGEHNBNC = 14;
+	bool Unk3300_FLIKEBJINCL = 12;
+	uint32 reason = 3;
+	Vector position = 9;
+	repeated ItemHint itemList = 8;
+	bool Unk3300_KIOMJNHFMDE = 11;
+}

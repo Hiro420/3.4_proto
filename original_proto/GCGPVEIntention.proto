@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGPVEIntention {
+	uint32 cardGuid = 11;
+	repeated uint32 skillIdList = 3;
+}

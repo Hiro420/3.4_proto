@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyChallengeV2DungeonInfoNotify {
+	//enum MKHAEAENIHE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 20626;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 levelId = 6;
+	uint32 challengeModeDifficulty = 4;
+	uint32 skillNo = 10;
+}

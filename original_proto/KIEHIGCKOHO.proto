@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IGELBDLLJBJ.proto";
+
+message KIEHIGCKOHO {
+	IGELBDLLJBJ type = 1;
+	int32 y = 2;
+}

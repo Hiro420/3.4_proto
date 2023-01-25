@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LanternRiteFireworksReformFactorInfo.proto";
+import "LanternRiteFireworksReformSkillInfo.proto";
+
+message LanternRiteStartFireworksReformRsp {
+	//enum JFGLKEFKPDB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8757;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_LKOFBPDKEGG = 2;
+	uint32 Unk3300_OMHPIGGDCBO = 7;
+	repeated LanternRiteFireworksReformFactorInfo factorInfoList = 1;
+	uint32 challengeId = 12;
+	uint32 Unk3300_BJHGCFANMBI = 11;
+	uint32 Unk3300_LKKBPAJOCML = 14;
+	uint32 stageId = 4;
+	int32 retcode = 10;
+	repeated LanternRiteFireworksReformSkillInfo skillInfoList = 15;
+}

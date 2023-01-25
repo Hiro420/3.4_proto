@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message KMACCOEKHAI {
+	message DMNHMPLHCPA {
+		repeated int32 gcnpfdenhco = 1;
+		repeated int32 naoofgfgjgo = 2;
+		string emojefinbhd = 3;
+		string hafkhfcfelc = 4;
+		repeated string llcpkmnjblk = 6;
+	}
+
+	repeated DMNHMPLHCPA nahlpfcaihd = 1;
+}

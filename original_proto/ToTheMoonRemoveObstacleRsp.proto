@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DynamicNodes.proto";
+
+message ToTheMoonRemoveObstacleRsp {
+	//enum BAEILLHPINF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6162;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 queryId = 4;
+	DynamicNodes dynamicNodes = 8;
+	int32 retcode = 3;
+}

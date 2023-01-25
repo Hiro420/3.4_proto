@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "bytes.proto";
+import "StopServer.proto";
+
+message GetPlayerTokenRsp {
+	//enum NLINKJJLDME {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 155;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 subChannelId = 891;
+	string token = 6;
+	uint32 uid = 1;
+	string secretKey = 12;
+	uint32 accountType = 3;
+	string msg = 10;
+	bool Unk3300_AJBBIPFMBEL = 661;
+	bytes securityCmdBuffer = 13;
+	int32 retcode = 15;
+	bytes extraBinData = 14;
+	string clientVersionRandomKey = 1558;
+	string countryCode = 1960;
+	uint32 keyId = 2003;
+	string birthday = 1459;
+	uint32 gmUid = 5;
+	uint64 secretKeySeed = 8;
+	uint32 blackUidEndTime = 2;
+	uint32 channelId = 1356;
+	uint32 regPlatform = 1614;
+	uint32 platformType = 11;
+	bool isGuest = 4;
+	repeated uint32 finishCollectionIdList = 1846;
+	uint32 tag = 1344;
+	string accountUid = 9;
+	bool isProficientPlayer = 7;
+	string sign = 1993;
+	StopServer stopServer = 347;
+	string psnId = 1285;
+	uint32 cloudClientIp = 1481;
+	string clientIpStr = 64;
+	string serverRandKey = 1420;
+	bool Unk3300_CFBHAHOHDKC = 1663;
+}

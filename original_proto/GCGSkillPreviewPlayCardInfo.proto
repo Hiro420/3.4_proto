@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGSkillPreviewInfo.proto";
+
+message GCGSkillPreviewPlayCardInfo {
+	GCGSkillPreviewInfo playCardInfo = 15;
+	uint32 targetCardGuid = 9;
+	uint32 handCardGuid = 2;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AvatarFetterInfo.proto";
+import "AvatarExcelInfo.proto";
+import "PropValue.proto";
+import "ShowEquip.proto";
+
+message ShowAvatarInfo {
+	uint32 avatarId = 1;
+	map<uint32, PropValue> propMap = 2;
+	repeated uint32 talentIdList = 3;
+	map<uint32, float> fightPropMap = 4;
+	uint32 skillDepotId = 5;
+	uint32 coreProudSkillLevel = 6;
+	repeated uint32 inherentProudSkillList = 7;
+	map<uint32, uint32> skillLevelMap = 8;
+	map<uint32, uint32> proudSkillExtraLevelMap = 9;
+	repeated ShowEquip equipList = 10;
+	AvatarFetterInfo fetterInfo = 11;
+	uint32 costumeId = 12;
+	AvatarExcelInfo excelInfo = 13;
+}

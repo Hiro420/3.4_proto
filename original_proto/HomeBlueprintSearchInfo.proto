@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomeBlueprintSearchInfo {
+	uint32 sceneId = 9;
+	string shareCode = 15;
+	uint32 blockId = 2;
+	uint32 moduleId = 13;
+}

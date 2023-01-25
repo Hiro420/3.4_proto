@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum FireworksReformParamType {
+	FIREWORKS_REFORM_PARAM_TYPE_NONE = 0;
+	FIREWORKS_REFORM_PARAM_TYPE_COLOR = 1;
+	FIREWORKS_REFORM_PARAM_TYPE_HEIGHT = 2;
+	FIREWORKS_REFORM_PARAM_TYPE_SIZE = 3;
+	FIREWORKS_REFORM_PARAM_TYPE_DENSITY = 4;
+	FIREWORKS_REFORM_PARAM_TYPE_Vector = 5;
+}

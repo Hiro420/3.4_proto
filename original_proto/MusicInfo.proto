@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FleurFairMusicRecord.proto";
+
+message MusicInfo {
+	map<uint32, FleurFairMusicRecord> fbmomkmdima = 9;
+}

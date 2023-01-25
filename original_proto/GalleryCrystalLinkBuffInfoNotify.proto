@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GalleryCrystalLinkBuffInfoNotify {
+	//enum BEFMHIDKCPC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5546;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isBuffValid = 11;
+	uint32 galleryId = 6;
+	uint32 buffId = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message ChannelerSlabCamp {
+	Vector pos = 14;
+	uint32 rewardId = 11;
+	uint32 groupId = 5;
+	uint32 bfgophiannc = 15;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SealBattleProgressNotify {
+	//enum POGEHCCIKLC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 226;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 maxProgress = 15;
+	uint32 sealRadius = 8;
+	uint32 progress = 4;
+	uint32 endTime = 14;
+	uint32 sealEntityId = 7;
+}

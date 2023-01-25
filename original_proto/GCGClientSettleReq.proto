@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGEndReason.proto";
+import "GCGGameBusinessType.proto";
+import "ItemParam.proto";
+
+message GCGClientSettleReq {
+	//enum NAEPLBPDGDG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7773;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 forbidFinishChallengeList = 14;
+	GCGEndReason reason = 12;
+	bool isWin = 4;
+	repeated ItemParam rewardItemList = 9;
+	repeated uint32 adobcdcfbpn = 11;
+	uint32 winControllerId = 2;
+	uint32 gameId = 7;
+	GCGGameBusinessType businessType = 3;
+}

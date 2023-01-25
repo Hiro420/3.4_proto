@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SkyCrystalDetectorData.proto";
+import "WeatherWizardData.proto";
+import "LunchBoxData.proto";
+import "WidgetCoolDownData.proto";
+import "WidgetSlotData.proto";
+import "AnchorPointData.proto";
+import "ClientCollectorData.proto";
+import "DetectorData.proto";
+
+message AllWidgetDataNotify {
+	//enum CKJPMBIBMDC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4286;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	SkyCrystalDetectorData skyCrystalDetectorData = 2;
+	repeated WidgetCoolDownData normalCoolDownDataList = 4;
+	repeated WidgetSlotData slotList = 14;
+	repeated uint32 backgroundActiveWidgetList = 5;
+	repeated AnchorPointData anchorPointList = 11;
+	WeatherWizardData weatherWizardData = 13;
+	uint32 nextAnchorPointUsableTime = 15;
+	repeated ClientCollectorData clientCollectorDataList = 7;
+	repeated WidgetCoolDownData coolDownGroupDataList = 6;
+	repeated DetectorData oneoffGatherPointDetectorDataList = 8;
+	LunchBoxData lunchBoxData = 1;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message MichiaeMatsuriChestPositionInfo {
+	uint32 groupId = 4;
+	Vector pos = 13;
+	uint32 configId = 2;
+}

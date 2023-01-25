@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGActionType.proto";
+import "GCGMessage.proto";
+
+message GCGMessagePack {
+	uint32 controllerId = 12;
+	uint32 ijojhencdld = 1;
+	repeated GCGMessage msgList = 3;
+	GCGActionType actionType = 8;
+}

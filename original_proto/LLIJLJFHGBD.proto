@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "JDOFLKLCIKI.proto";
+import "PLDKICHAHEB.proto";
+
+message LLIJLJFHGBD {
+	JDOFLKLCIKI kmenmhalbfc = 1;
+	int32 daehjagbjbl = 3;
+	string createTime = 4;
+	string hmnbpjgckgn = 6;
+	int32 eemaljenfdh = 7;
+	bool nihndjkngei = 8;
+	repeated PLDKICHAHEB jkfdibhoggm = 9;
+	string npaoooeccdm = 10;
+	string kppiclokhkf = 11;
+}

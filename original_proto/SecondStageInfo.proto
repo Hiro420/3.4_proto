@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SecondStageInfo {
+	map<uint32, uint32> animalCountMap = 7;
+	uint32 totalNum = 14;
+	uint32 captureAnimalNum = 1;
+}

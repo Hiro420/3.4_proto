@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyChallengeV2ChooseSkillRsp {
+	//enum NPHDEAPKFJD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 21025;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 9;
+	uint32 levelId = 14;
+	uint32 challengeModeSkillNo = 13;
+}

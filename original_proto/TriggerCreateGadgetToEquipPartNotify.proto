@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TriggerCreateGadgetToEquipPartNotify {
+	//enum OLMAAKGICCK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 342;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 entityId = 3;
+	uint32 gadgetId = 5;
+	uint32 gadgetEntityId = 4;
+	string equipPart = 7;
+}

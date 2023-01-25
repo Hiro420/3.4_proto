@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message SummerTimeFloatSignalPositionNotify {
+	//enum OHDIJBCFBJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8322;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isTransferAnchor = 11;
+	uint32 floatSignalId = 3;
+	Vector position = 10;
+}

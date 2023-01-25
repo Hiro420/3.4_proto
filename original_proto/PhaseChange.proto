@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGPhaseType.proto";
+import "Uint32Pair.proto";
+
+message PhaseChange {
+	repeated Uint32Pair allowControllerMap = 7;
+	GCGPhaseType afterPhase = 13;
+	GCGPhaseType beforePhase = 8;
+}

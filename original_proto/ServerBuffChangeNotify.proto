@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ServerBuffChangeType.proto";
+import "ServerBuff.proto";
+
+message ServerBuffChangeNotify {
+	//enum OHMNCGAGOPH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 315;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ServerBuff serverBuffList = 12;
+	repeated uint64 avatarGuidList = 10;
+	ServerBuffChangeType serverBuffChangeType = 4;
+	repeated uint32 entityIdList = 1;
+	bool isCreatureBuff = 5;
+}

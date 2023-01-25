@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GachaWishRsp {
+	//enum COIIDDMDPIL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1574;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 wishProgress = 3;
+	uint32 wishMaxProgress = 7;
+	uint32 gachaType = 6;
+	uint32 gachaScheduleId = 11;
+	int32 retcode = 9;
+	uint32 wishItemId = 5;
+}

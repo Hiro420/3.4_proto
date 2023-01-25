@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ACBDKPGMCNH.proto";
+
+message NMPKCMGANGK {
+	string createTime = 1;
+	string inputType = 2;
+	string lliofconmpa = 3;
+	ACBDKPGMCNH jkfdibhoggm = 4;
+	bool kdabaandpba = 5;
+	bool mmbahlklfkf = 6;
+}

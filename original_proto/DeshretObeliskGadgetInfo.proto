@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DeshretObeliskGadgetInfo {
+	repeated uint32 argumentList = 1;
+}

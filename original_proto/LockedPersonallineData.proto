@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LockReason.proto";
+
+message LockedPersonallineData {
+	uint32 personalLineId = 6;
+	LockReason lockReason = 4;
+	oneof param {
+		uint32 chapter_id = 5;
+		uint32 level = 13;
+	}
+}

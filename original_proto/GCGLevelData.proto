@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGLevelData {
+	uint32 levelId = 13;
+	repeated uint32 adobcdcfbpn = 4;
+}

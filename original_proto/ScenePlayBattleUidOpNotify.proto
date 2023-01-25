@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ScenePlayBattleUidOpNotify {
+	//enum BNPMGOGKBNK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4366;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 entityId = 4;
+	uint32 paramIndex = 7;
+	repeated uint32 paramTargetList = 9;
+	repeated uint32 uidList = 1;
+	uint32 playId = 11;
+	repeated uint32 paramList = 2;
+	uint32 playType = 5;
+	uint32 op = 13;
+	string paramStr = 12;
+	uint32 paramDuration = 8;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ProductPriceTier {
+	string productId = 10;
+	string priceTier = 6;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message IslandPartyGallerySettleInfo {
+	OnlinePlayerInfo playerInfo = 3;
+	repeated ExhibitionDisplayInfo cardList = 9;
+}

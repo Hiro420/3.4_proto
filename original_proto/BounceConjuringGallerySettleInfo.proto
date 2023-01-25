@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message BounceConjuringGallerySettleInfo {
+	uint32 Unk3300_NKGFKLGDFAC = 8;
+	float damage = 5;
+	uint32 Unk3300_PELHBJDMKAE = 9;
+	uint32 score = 7;
+	OnlinePlayerInfo playerInfo = 11;
+	repeated ExhibitionDisplayInfo cardList = 15;
+	uint32 Unk3300_CNGOBOFDEOE = 2;
+	map<uint32, uint32> gadgetCountMap = 3;
+	uint32 Unk3300_BJHCDKNFDFN = 4;
+}

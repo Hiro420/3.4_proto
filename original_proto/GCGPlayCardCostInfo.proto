@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message GCGPlayCardCostInfo {
+	uint32 cardId = 3;
+	repeated Uint32Pair costMap = 10;
+}

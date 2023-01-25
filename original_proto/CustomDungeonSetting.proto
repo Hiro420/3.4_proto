@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CustomDungeonSetting {
+	repeated uint32 openRoomList = 13;
+	uint32 lifeNum = 9;
+	uint32 coinLimit = 4;
+	uint32 startRoomId = 10;
+	bool isForbidSkill = 11;
+	uint32 timeLimit = 2;
+	bool isArriveFinish = 14;
+}

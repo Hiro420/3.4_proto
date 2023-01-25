@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AssociateInferenceWordRsp {
+	//enum CPCLGHEALEH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 490;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_FDGLBLJOKOK = 14;
+	uint32 Unk3300_EPMGHELECNH = 5;
+	uint32 pageId = 11;
+	int32 retcode = 13;
+}

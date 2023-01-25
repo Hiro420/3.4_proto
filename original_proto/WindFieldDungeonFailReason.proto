@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum WindFieldDungeonFailReason {
+	WIND_FIELD_DUNGEON_FAIL_REASON_NONE = 0;
+	WIND_FIELD_DUNGEON_FAIL_REASON_CANCEL = 1;
+	WIND_FIELD_DUNGEON_FAIL_REASON_TIMEOUT = 2;
+	WIND_FIELD_DUNGEON_FAIL_REASON_ALL_AVATAR_DIE = 3;
+	WIND_FIELD_DUNGEON_FAIL_REASON_LUA_INTERRUPT = 4;
+}

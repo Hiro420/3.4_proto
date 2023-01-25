@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message IrodoriFlowerData {
+	repeated uint32 finishedThemeList = 5;
+	repeated ItemParam usedFlowerList = 12;
+}

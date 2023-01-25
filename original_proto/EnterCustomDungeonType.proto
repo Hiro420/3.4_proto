@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum EnterCustomDungeonType {
+	ENTER_CUSTOM_DUNGEON_TYPE_NONE = 0;
+	ENTER_CUSTOM_DUNGEON_TYPE_EDIT = 1;
+	ENTER_CUSTOM_DUNGEON_TYPE_PLAY = 2;
+	ENTER_CUSTOM_DUNGEON_TYPE_OFFICIAL = 3;
+}

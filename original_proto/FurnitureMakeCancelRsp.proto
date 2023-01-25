@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FurnitureMakeSlot.proto";
+
+message FurnitureMakeCancelRsp {
+	//enum PAEMPLDCDHP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4561;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 4;
+	FurnitureMakeSlot furnitureMakeSlot = 14;
+	uint32 makeId = 10;
+}

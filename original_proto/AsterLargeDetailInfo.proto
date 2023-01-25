@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AsterLargeDetailInfo {
+	bool isOpen = 3;
+	uint32 beginTime = 7;
+}

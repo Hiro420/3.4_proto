@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum CompoundBoostTakeStatusType {
+	COMPOUND_BOOST_TAKE_STATUS_TYPE_NONE = 0;
+	COMPOUND_BOOST_TAKE_STATUS_TYPE_BOOST_ONLY = 1;
+	COMPOUND_BOOST_TAKE_STATUS_TYPE_BOOST_AND_TAKE = 2;
+	COMPOUND_BOOST_TAKE_STATUS_TYPE_BAG_FULL = 3;
+}

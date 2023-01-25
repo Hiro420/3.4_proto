@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGGameBriefData.proto";
+
+message GCGGameBriefDataNotify {
+	//enum BKKLKPMDKMP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7654;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	GCGGameBriefData gcgBriefData = 4;
+	bool isNewGame = 12;
+}

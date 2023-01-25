@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomeSeekFurnitureInfo {
+	uint32 Unk3300_LGEAPLJCJFH = 10;
+	uint32 Unk3300_DAEEBIEAOMN = 11;
+	uint32 Unk3300_ENKOGPIEHFD = 8;
+	map<uint32, uint32> playerScoreMap = 12;
+}

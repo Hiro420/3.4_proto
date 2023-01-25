@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MusicGameSettleReq {
+	//enum COBMENDFOKN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8066;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint64 ugcGuid = 4;
+	repeated uint32 Unk3300_HHBCEPNLCLL = 1626;
+	bool isSaveScore = 11;
+	uint32 musicBasicId = 7;
+	uint32 score = 2;
+	uint32 Unk3300_EBOJMGOCPLE = 493;
+	repeated uint32 Unk3300_MLLDAPCIDDO = 5;
+	float speed = 484;
+	uint32 combo = 15;
+	bool Unk3300_BHIGAMNDFML = 527;
+	uint32 maxCombo = 12;
+	uint32 Unk3300_IPODKENCAOK = 252;
+	uint32 correctHit = 13;
+	uint32 Unk3300_GJMIIDIOOMM = 108;
+	uint32 Unk3300_MDHEJNFHBBI = 9;
+	bool Unk3300_DMLNKOLOAAH = 497;
+	uint32 Unk3300_AHAGHAHGPLD = 3;
+	uint32 Unk3300_HEPJNCAOEMP = 8;
+}

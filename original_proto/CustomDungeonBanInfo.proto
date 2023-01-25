@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CustomDungeonBanType.proto";
+
+message CustomDungeonBanInfo {
+	uint32 expireTime = 12;
+	CustomDungeonBanType banType = 6;
+	uint64 dungeonGuid = 1;
+}

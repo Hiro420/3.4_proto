@@ -1,0 +1,89 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BalloonInfo.proto";
+import "FallInfo.proto";
+import "FlowerInfo.proto";
+import "BulletInfo.proto";
+import "BrokenFloorInfo.proto";
+import "HideAndSeekInfo.proto";
+import "BuoyantCombatInfo.proto";
+import "BounceConjuringInfo.proto";
+import "HandballInfo.proto";
+import "SumoInfo.proto";
+import "SalvagePreventInfo.proto";
+import "SalvageEscortInfo.proto";
+import "HomeBalloonInfo.proto";
+import "CrystalLinkInfo.proto";
+import "IrodoriMasterInfo.proto";
+import "LuminanceStoneChallengeInfo.proto";
+import "HomeSeekFurnitureInfo.proto";
+import "IslandPartyDownHillInfo.proto";
+import "SummerTimeV2BoatInfo.proto";
+import "IslandPartyRaftInfo.proto";
+import "IslandPartySailInfo.proto";
+import "InstableSprayInfo.proto";
+import "MuqadasPotionInfo.proto";
+import "TreasureSeelieInfo.proto";
+import "VintageHuntingInfo.proto";
+import "WindFieldInfo.proto";
+import "FungusFighterTrainingInfo.proto";
+import "EffigyChallengeInfo.proto";
+import "FungusFighterCaptureInfo.proto";
+import "CharAmusementInfo.proto";
+import "CoinCollectInfo.proto";
+import "TeamChainInfo.proto";
+import "DuelHeartInfo.proto";
+import "BoatMultiInfo.proto";
+import "GalleryStageType.proto";
+import "SceneGalleryProgressInfo.proto";
+
+message SceneGalleryInfo {
+	uint32 endTime = 15;
+	uint32 startTime = 5;
+	oneof info {
+		BalloonInfo balloon_info = 14;
+		FallInfo fall_info = 1;
+		FlowerInfo flower_info = 6;
+		BulletInfo bullet_info = 10;
+		BrokenFloorInfo broken_floor_info = 9;
+		HideAndSeekInfo hide_and_seek_info = 13;
+		BuoyantCombatInfo buoyant_combat_info = 461;
+		BounceConjuringInfo bounce_conjuring_info = 403;
+		HandballInfo handball_info = 1637;
+		SumoInfo sumo_info = 1000;
+		SalvagePreventInfo salvage_prevent_info = 521;
+		SalvageEscortInfo salvage_escort_info = 33;
+		HomeBalloonInfo home_balloon_info = 1858;
+		CrystalLinkInfo crystal_link_info = 177;
+		IrodoriMasterInfo irodori_master_info = 1317;
+		LuminanceStoneChallengeInfo luminance_stone_challenge_info = 401;
+		HomeSeekFurnitureInfo home_seek_furniture_info = 530;
+		IslandPartyDownHillInfo island_party_down_hill_info = 1026;
+		SummerTimeV2BoatInfo summer_time_v2boat_info = 1460;
+		IslandPartyRaftInfo island_party_raft_info = 294;
+		IslandPartySailInfo island_party_sail_info = 592;
+		InstableSprayInfo instable_spray_info = 127;
+		MuqadasPotionInfo muqadas_potion_info = 615;
+		TreasureSeelieInfo treasure_seelie_info = 1420;
+		VintageHuntingInfo vintage_hunting_info = 1361;
+		WindFieldInfo wind_field_info = 1448;
+		FungusFighterTrainingInfo fungus_fighter_training_info = 291;
+		EffigyChallengeInfo effigy_challenge_info = 290;
+		FungusFighterCaptureInfo fungus_fighter_capture_info = 1362;
+		CharAmusementInfo char_amusement_info = 1649;
+		CoinCollectInfo coin_collect_info = 963;
+		TeamChainInfo team_chain_info = 990;
+		DuelHeartInfo duel_heart_info = 789;
+		BoatMultiInfo boat_multi_info = 1222;
+	}
+	GalleryStageType stage = 2;
+	uint32 ownerUid = 7;
+	uint32 galleryId = 3;
+	uint32 preStartEndTime = 8;
+	uint32 playerCount = 11;
+	repeated SceneGalleryProgressInfo progressInfoList = 12;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FindHilichurlDayContentInfo.proto";
+
+message FindHilichurlInfo {
+	uint32 dayIndex = 1;
+	bool isEndQuestAccept = 14;
+	uint32 contentCloseTime = 8;
+	bool leftMonsters = 15;
+	repeated FindHilichurlDayContentInfo dayContentInfoList = 2;
+	uint32 minOpenPlayerLevel = 4;
+	uint32 playerDayIndex = 10;
+}

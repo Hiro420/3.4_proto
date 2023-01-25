@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HuntingOfferState.proto";
+import "HuntingPair.proto";
+
+message HuntingOfferData {
+	HuntingOfferState state = 11;
+	uint32 cityId = 8;
+	HuntingPair huntingPair = 13;
+}

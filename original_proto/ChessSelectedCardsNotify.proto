@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChessCardInfo.proto";
+
+message ChessSelectedCardsNotify {
+	//enum EPBLFDHAOKF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5334;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ChessCardInfo selectedCardInfoList = 9;
+}

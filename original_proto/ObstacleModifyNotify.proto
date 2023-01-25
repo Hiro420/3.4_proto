@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ObstacleInfo.proto";
+
+message ObstacleModifyNotify {
+	//enum NGAEMGNNNGO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2387;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated ObstacleInfo addObstacles = 14;
+	repeated int32 removeObstacleIds = 7;
+	uint32 sceneId = 9;
+}

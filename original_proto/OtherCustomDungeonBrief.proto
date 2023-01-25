@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CustomDungeonAbstract.proto";
+import "CustomDungeonSocial.proto";
+import "CustomDungeonSetting.proto";
+import "SocialDetail.proto";
+
+message OtherCustomDungeonBrief {
+	uint64 dungeonGuid = 2;
+	CustomDungeonAbstract abstract = 15;
+	CustomDungeonSocial social = 11;
+	bool isPsnPlatform = 10;
+	uint32 dungeonId = 5;
+	bool isAdventureDungeon = 12;
+	repeated uint32 tagList = 6;
+	CustomDungeonSetting setting = 4;
+	uint32 battleMinCostTime = 7;
+	SocialDetail creatorDetail = 8;
+	bool isStored = 3;
+}

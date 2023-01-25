@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RedPointData {
+	uint32 redPointType = 1;
+	bool isShow = 2;
+	uint32 contentId = 3;
+}

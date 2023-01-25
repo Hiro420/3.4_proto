@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ShowTemplateReminderNotify {
+	//enum EEFICIPGAAG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3353;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool Unk3300_AENIIBBBPJC = 13;
+	bool Unk3300_LABCNBEGCED = 11;
+	repeated uint32 paramUidList = 6;
+	repeated int32 paramList = 12;
+	uint32 templateReminderId = 9;
+}

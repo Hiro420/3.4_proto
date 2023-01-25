@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ActivityGiveFriendGiftReq {
+	//enum FFJGCFPIEIE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8919;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 uid = 15;
+	map<uint32, uint32> giftNumMap = 9;
+	uint32 scheduleId = 13;
+}

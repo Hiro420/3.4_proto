@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PhotoPosData.proto";
+
+message PhotoInfo {
+	repeated PhotoPosData photoPosDataList = 13;
+	bool leftMonsters = 9;
+}

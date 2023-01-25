@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AddNoGachaAvatarCardTransferItem.proto";
+
+message AddNoGachaAvatarCardNotify {
+	//enum NMBGCPIDMPH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1669;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 itemId = 7;
+	uint32 Unk3300_MGAPHPOLKKE = 3;
+	bool isTransferToItem = 14;
+	uint32 reason = 9;
+	repeated AddNoGachaAvatarCardTransferItem transferItemList = 10;
+	uint32 Unk3300_GPBINALMFDF = 13;
+	uint32 avatarId = 4;
+}

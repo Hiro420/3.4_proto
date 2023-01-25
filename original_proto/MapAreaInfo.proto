@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MapAreaInfo {
+	uint32 mapAreaId = 1;
+	bool isOpen = 2;
+}

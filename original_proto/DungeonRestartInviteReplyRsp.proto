@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DungeonRestartInviteReplyRsp {
+	//enum GGNKAFEAOMG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 995;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isTransPoint = 14;
+	bool isAccept = 9;
+	int32 retcode = 5;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PDKBCPLNAOJ {
+	float lfpempoopmd = 8;
+	float dfadhemafpn = 11;
+	uint32 elementType = 1;
+	uint32 bhgooledknh = 7;
+}

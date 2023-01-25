@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MultistageSettleWatcherInfo.proto";
+
+message InBattleMechanicusSettleInfo {
+	uint64 sceneTimeMs = 15;
+	uint32 Unk3300_HAEOPAOBBFE = 7;
+	bool isSuccess = 6;
+	uint32 Unk3300_NAMBBHMJJLN = 1;
+	uint32 groupId = 12;
+	uint32 Unk3300_EKAIAPLNIPM = 11;
+	uint32 playIndex = 13;
+	repeated MultistageSettleWatcherInfo watcherList = 4;
+}

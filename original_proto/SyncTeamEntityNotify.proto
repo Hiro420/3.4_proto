@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TeamEntityInfo.proto";
+
+message SyncTeamEntityNotify {
+	//enum BGFILLLPAFC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 327;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated TeamEntityInfo teamEntityInfoList = 14;
+	uint32 sceneId = 5;
+}

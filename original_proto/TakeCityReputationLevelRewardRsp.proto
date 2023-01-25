@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message TakeCityReputationLevelRewardRsp {
+	//enum BBBIJANGPAC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2898;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 10;
+	repeated ItemParam itemList = 12;
+	uint32 cityId = 8;
+	uint32 level = 11;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CustomDungeonSetting.proto";
+import "CustomDungeonRoom.proto";
+
+message CustomDungeon {
+	uint64 dungeonGuid = 8;
+	repeated CustomDungeonRoom roomList = 3;
+	CustomDungeonSetting setting = 1;
+	uint32 dungeonId = 4;
+}

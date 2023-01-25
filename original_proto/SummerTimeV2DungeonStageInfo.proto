@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SummerTimeV2DungeonStageInfo {
+	bool isPrevDungeonSucceed = 4;
+	bool isOpen = 14;
+	uint32 openTime = 13;
+	uint32 stageId = 6;
+}

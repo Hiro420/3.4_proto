@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IslandPartyRaftInfoNotify {
+	//enum IJOMICBCHCO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5588;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 Unk3300_HNECEGNMKNK = 9;
+	uint32 Unk3300_FBACMOFGPGJ = 12;
+	uint32 pointId = 6;
+	uint32 coin = 5;
+}

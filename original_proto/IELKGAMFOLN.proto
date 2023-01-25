@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message IELKGAMFOLN {
+	uint32 uid = 7;
+	repeated ExhibitionDisplayInfo cardList = 5;
+	ProfilePicture profilePicture = 11;
+	string nickname = 14;
+	string onlineId = 2;
+	uint32 headImage = 15;
+}

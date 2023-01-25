@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SalvageEscortSettleInfo.proto";
+
+message SalvageEscortSettleNotify {
+	//enum FAEKIIGMFBN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8967;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 5;
+	SalvageEscortSettleInfo settleInfo = 2;
+}

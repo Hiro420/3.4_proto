@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DungeonEntryPointInfo.proto";
+import "DungeonEntryInfo.proto";
+
+message DungeonEntryInfoRsp {
+	//enum IPOKDKJPIAO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 955;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated DungeonEntryPointInfo dungeonEntryPointList = 5;
+	uint32 recommendDungeonId = 4;
+	uint32 pointId = 7;
+	repeated DungeonEntryInfo dungeonEntryList = 1;
+	int32 retcode = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CoinCollectInfo {
+	uint32 Unk3300_CPLDPCMBHOE = 11;
+	uint32 Unk3300_DKBJMLJGLIB = 9;
+}

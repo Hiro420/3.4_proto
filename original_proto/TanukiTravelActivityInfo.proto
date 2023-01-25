@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TanukiTravelLevelData.proto";
+
+message TanukiTravelActivityInfo {
+	uint32 finishedLevelIndex = 11;
+	bool leftMonsters = 2;
+	repeated TanukiTravelLevelData tanukiTravelLevelDataList = 6;
+}

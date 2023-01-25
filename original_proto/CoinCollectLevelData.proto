@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CoinCollectTeamInfoData.proto";
+
+message CoinCollectLevelData {
+	bool mffbbcobifb = 15;
+	repeated CoinCollectTeamInfoData mdjfnblbncn = 6;
+	CoinCollectTeamInfoData jkglemblhjj = 5;
+	uint32 dmgfjomildi = 13;
+	bool oahobildeen = 9;
+	bool ocbgniehaae = 2;
+	uint32 mipkplghgdb = 10;
+	uint32 gcgfggieage = 8;
+	uint32 oepemecbhfp = 14;
+	uint32 fcedmbblknb = 3;
+	uint32 levelId = 7;
+	bool caepnfpolia = 12;
+}

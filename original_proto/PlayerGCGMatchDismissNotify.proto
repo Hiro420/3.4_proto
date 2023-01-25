@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MatchReason.proto";
+
+message PlayerGCGMatchDismissNotify {
+	//enum GPKMBGCPIIA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4153;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	MatchReason reason = 8;
+	repeated uint32 uidList = 7;
+	uint32 matchId = 3;
+}

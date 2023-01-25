@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OfficialCustomDungeon.proto";
+
+message UgcActivityDetailInfo {
+	bool isUgcFeatureClosed = 5;
+	repeated OfficialCustomDungeon officialCustomDungeonList = 10;
+	bool isEnableUgc = 15;
+	uint32 customDungeonGroupId = 3;
+}

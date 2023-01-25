@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RogueDiaryAvatar.proto";
+
+message StartRogueDiaryPlayRsp {
+	//enum AAONHKPKJBE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8780;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated RogueDiaryAvatar trialAvatarList = 8;
+	int32 retcode = 3;
+	repeated uint32 randCardList = 2;
+	repeated RogueDiaryAvatar avatarList = 13;
+}

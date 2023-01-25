@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "State.proto";
+
+message PlayerPreEnterMpNotify {
+	//enum GJAPOFHOFMD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1835;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	State state = 7;
+	uint32 uid = 10;
+	string nickname = 15;
+}

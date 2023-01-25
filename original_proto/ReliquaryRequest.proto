@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReliquaryRequest {
+	uint32 equipType = 7;
+}

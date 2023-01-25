@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GetPlayerMpModeAvailabilityRsp {
+	//enum KBCKLLMBENM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1825;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 mpRet = 12;
+	int32 retcode = 3;
+	repeated uint32 paramList = 7;
+}

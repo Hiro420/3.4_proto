@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "uint32.proto";
+
+message GCGStartChallengeByCheckRewardReq {
+	//enum OBMPGGOELEB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7351;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 configId = 11;
+	uint32 unlockWorldChallengeList = 6;
+	uint32 levelId = 5;
+	int32 retcode = 14;
+}

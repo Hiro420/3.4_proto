@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DungeonEnterPosInfo {
+	uint32 questId = 15;
+	uint32 pointId = 7;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message KANKJCACPOJ {
+	bool omgkbbbfjli = 13;
+	float gookfcglmjd = 2;
+	float oidmkpmeonj = 6;
+	uint32 avatarId = 7;
+	string bleallaejce = 5;
+	float dfadhemafpn = 3;
+}

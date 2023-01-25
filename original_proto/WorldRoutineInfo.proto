@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message WorldRoutineInfo {
+	bool isFinished = 9;
+	uint32 finishProgress = 15;
+	uint32 progress = 5;
+	uint32 routineId = 4;
+}

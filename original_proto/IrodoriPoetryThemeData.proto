@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriPoetryThemeData {
+	repeated uint32 Unk3300_CNNMEHOGGLL = 6;
+	repeated uint32 Unk3300_HODJKKDBJDJ = 4;
+	uint32 progress = 14;
+	uint32 maxProgress = 13;
+	uint32 Unk3300_NJHMNLIAGIK = 7;
+	uint32 themeId = 1;
+	uint32 Unk3300_HFMKPNOBPDK = 15;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message EDCGBLJECHI {
+	uint32 entityId = 12;
+	uint32 aemmidgkohc = 7;
+	Vector pos = 2;
+	int32 faceAngleCompact = 3;
+	uint32 normalizedTimeCompact = 1;
+}

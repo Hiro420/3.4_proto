@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message EvtAvatarLockChairRsp {
+	//enum GAPNEKBLNKF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 384;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	Vector position = 3;
+	uint64 chairId = 15;
+	int32 retcode = 12;
+	uint32 entityId = 4;
+}

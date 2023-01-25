@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message TakeOfferingLevelRewardRsp {
+	//enum GIALMPGJOHD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2907;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 7;
+	uint32 offeringId = 14;
+	uint32 takeLevel = 1;
+	repeated ItemParam itemList = 10;
+}

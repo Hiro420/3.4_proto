@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BalloonSettleInfo.proto";
+
+message FleurFairBalloonSettleInfo {
+	BalloonSettleInfo settleInfo = 13;
+	bool isNewRecord = 8;
+}

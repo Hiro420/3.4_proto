@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "HuntingPair.proto";
+
+message HuntingRevealClueNotify {
+	//enum ONMDIFHEJFA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4335;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 finishedGroupId = 13;
+	uint32 finishClueCount = 11;
+	Vector cluePosition = 5;
+	HuntingPair huntingPair = 4;
+}

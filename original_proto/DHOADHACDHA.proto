@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message DHOADHACDHA {
+	uint32 id = 7;
+	uint32 num = 6;
+	repeated uint32 type = 1;
+}

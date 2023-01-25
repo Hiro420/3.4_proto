@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MpPlayOwnerCheckRsp {
+	//enum ENCFJIJLEKO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1807;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 13;
+	bool isSkipMatch = 14;
+	uint32 wrongUid = 15;
+	uint32 mpPlayId = 4;
+}

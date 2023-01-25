@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusTrainingDungeonDetail {
+	bool isOpen = 8;
+	uint32 bestScore = 7;
+	uint32 dungeonId = 6;
+}

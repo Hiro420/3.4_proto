@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IPLHKNLPPHD {
+	uint32 koofigbidnl = 2;
+	uint32 uid = 6;
+}

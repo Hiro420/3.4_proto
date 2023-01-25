@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CustomDungeonSetting.proto";
+import "CustomDungeonRoom.proto";
+
+message SaveCustomDungeonRoomReq {
+	//enum GGFGKDOPBOK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6246;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	CustomDungeonSetting setting = 14;
+	CustomDungeonRoom customDungeonRoom = 15;
+	bool isUpdateSetting = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum State {
+	STATE_INVALID = 0;
+	STATE_START = 1;
+	STATE_TIMEOUT = 2;
+}

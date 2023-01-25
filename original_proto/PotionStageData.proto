@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PotionLevelData.proto";
+
+message PotionStageData {
+	repeated uint32 Unk3300_NLMEPPPMCKI = 9;
+	uint32 stageId = 14;
+	repeated uint32 Unk3300_BMEHJHFCPMA = 12;
+	repeated PotionLevelData levelList = 1;
+	bool isOpen = 15;
+}

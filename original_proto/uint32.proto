@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BalloonInfo.proto";
+import "FallInfo.proto";
+import "MusicInfo.proto";
+
+message uint32 {
+	uint32 minigameId = 14;
+	bool isOpen = 3;
+	uint32 openTime = 6;
+	oneof detail {
+		BalloonInfo balloon_info = 13;
+		FallInfo fall_info = 11;
+		MusicInfo music_info = 9;
+	}
+}

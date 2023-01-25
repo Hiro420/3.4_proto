@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Status.proto";
+
+message Achievement {
+	uint32 curProgress = 10;
+	uint32 id = 13;
+	uint32 totalProgress = 14;
+	Status status = 5;
+	uint32 finishTimestamp = 6;
+}

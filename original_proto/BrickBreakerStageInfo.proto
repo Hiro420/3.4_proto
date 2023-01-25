@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BrickBreakerStageType.proto";
+import "BrickBreakerPlayerBattleInfo.proto";
+
+message BrickBreakerStageInfo {
+	uint32 levelId = 12;
+	BrickBreakerStageType stageType = 7;
+	repeated BrickBreakerPlayerBattleInfo battleInfoList = 2;
+}

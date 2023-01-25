@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GLELFDKHCNK.proto";
+
+message KJJKCDHJMGD {
+	repeated GLELFDKHCNK levelInfoList = 10;
+	uint32 stageId = 1;
+	bool jpblgaceipn = 3;
+}

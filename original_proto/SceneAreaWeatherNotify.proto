@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SceneAreaWeatherNotify {
+	//enum PEMEIIJFBMA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 281;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 climateType = 10;
+	float transDuration = 5;
+	uint32 weatherGadgetId = 15;
+	map<uint32, string> weatherValueMap = 7;
+	uint32 weatherAreaId = 13;
+}

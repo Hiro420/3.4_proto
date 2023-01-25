@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PotionAvatarInfo {
+	uint64 avatarId = 10;
+	bool isTrial = 3;
+}

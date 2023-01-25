@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGTCTavernChallengeData {
+	repeated uint32 lidokiohkmh = 13;
+	uint32 caaaccpgkff = 1;
+}

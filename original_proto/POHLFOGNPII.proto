@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "NNDIACOGJBL.proto";
+import "MPMJBKDBLNE.proto";
+import "IDOELHBANCP.proto";
+
+message POHLFOGNPII {
+	NNDIACOGJBL ilkmhdhocho = 1;
+	bool nihndjkngei = 2;
+	MPMJBKDBLNE fmbboaeleok = 6;
+	bool jfbkdomplkl = 5;
+	bool aicefchaici = 3;
+	bool ibllmkacilh = 10;
+	repeated IDOELHBANCP kcllbppiboo = 999;
+}

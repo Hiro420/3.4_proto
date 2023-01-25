@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RogueCellInfo.proto";
+import "RoguelikeRuneRecord.proto";
+
+message EnterRoguelikeDungeonNotify {
+	//enum NNLLNKHBFEH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8098;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint64 onstageAvatarGuidList = 11;
+	map<uint32, RogueCellInfo> cellInfoMap = 14;
+	uint32 dungeonId = 2;
+	uint32 Unk3300_PKDLOJADIPA = 15;
+	uint32 Unk3300_KLFDKOCGAHN = 917;
+	uint32 Unk3300_DBDABNIINEL = 3;
+	float bonusResourceProp = 1;
+	uint32 reviseMonsterLevel = 1665;
+	uint32 stageId = 8;
+	repeated uint32 exploredCellList = 5;
+	repeated uint64 backstageAvatarGuidList = 7;
+	uint32 curLevel = 12;
+	bool Unk3300_GBHHLEDAGAM = 6;
+	repeated RoguelikeRuneRecord runeRecordList = 4;
+	uint32 Unk3300_IIIJDDNJEBB = 13;
+	bool Unk3300_PKPOKOAAOKF = 379;
+}

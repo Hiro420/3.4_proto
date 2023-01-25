@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ClientScriptEventNotify {
+	//enum DOLKGKDMHFA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 247;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 targetEntityId = 8;
+	repeated int32 paramList = 1;
+	uint32 sourceEntityId = 4;
+	uint32 eventType = 10;
+}

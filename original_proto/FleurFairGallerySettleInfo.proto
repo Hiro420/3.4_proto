@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FleurFairGallerySettleInfo {
+	bool isSuccess = 5;
+	uint32 energy = 7;
+	map<uint32, int32> energyStatMap = 9;
+	uint32 galleryStageCount = 14;
+	uint32 galleryStageIndex = 15;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BreakoutPhysicalObjectModifier {
+	uint32 type = 1;
+	uint32 id = 2;
+	int32 param1 = 3;
+	int32 param2 = 4;
+	int32 param3 = 5;
+	int32 ondeciihanm = 6;
+	int32 bcobaoidmmc = 7;
+	int32 bcmmggaidek = 8;
+	bool dgbbbnffmlb = 9;
+	int32 duration = 10;
+	int32 endTime = 11;
+	uint32 combo = 12;
+	uint32 peerId = 13;
+	uint32 hichllhajdp = 14;
+	uint32 level = 15;
+	uint32 nfheenapfmf = 16;
+}

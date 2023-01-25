@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MiracleRingDataNotify {
+	//enum DFBKOCIMEPN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5246;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isGadgetCreated = 2;
+	uint32 miracleRingCd = 8;
+	uint32 lastDeliverItemTime = 4;
+	uint32 lastTakeRewardTime = 13;
+	uint32 gadgetEntityId = 6;
+}

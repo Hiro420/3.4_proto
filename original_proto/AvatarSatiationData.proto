@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarSatiationData {
+	uint64 avatarGuid = 5;
+	float finishTime = 15;
+	float penaltyFinishTime = 12;
+}

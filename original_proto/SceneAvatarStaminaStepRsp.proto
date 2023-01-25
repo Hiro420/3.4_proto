@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message SceneAvatarStaminaStepRsp {
+	//enum MAIIJDEAFIH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 224;
+	//	DCDNILFDFLB = 1;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 8;
+	bool useClientRot = 3;
+	Vector rot = 6;
+}

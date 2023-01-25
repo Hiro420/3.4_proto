@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PlayerCompoundMaterialBoostRsp {
+	//enum MIMNLEBNAHI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 121;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 uid = 9;
+	uint32 akkcmakdlck = 1;
+	uint32 gameTime = 8;
+}

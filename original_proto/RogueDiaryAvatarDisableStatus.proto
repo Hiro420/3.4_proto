@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum RogueDiaryAvatarDisableStatus {
+	ROGUE_DIARY_AVATAR_DISABLE_STATUS_NONE = 0;
+	ROGUE_DIARY_AVATAR_DISABLE_STATUS_DEATH = 1;
+	ROGUE_DIARY_AVATAR_DISABLE_STATUS_TIRED = 2;
+	ROGUE_DIARY_AVATAR_DISABLE_STATUS_DUPLICATED = 3;
+}

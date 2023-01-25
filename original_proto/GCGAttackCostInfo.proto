@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message GCGAttackCostInfo {
+	repeated Uint32Pair costMap = 6;
+	uint32 skillId = 13;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LuminanceStoneChallengeSettleInfo.proto";
+
+message LuminanceStoneChallengeSettleNotify {
+	//enum LFELJALAFIG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8545;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	LuminanceStoneChallengeSettleInfo settleInfo = 1;
+	uint32 galleryId = 14;
+}

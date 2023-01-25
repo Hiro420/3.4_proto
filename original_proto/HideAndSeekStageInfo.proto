@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HideAndSeekStageType.proto";
+import "HideAndSeekPlayerBattleInfo.proto";
+
+message HideAndSeekStageInfo {
+	uint32 mgkdaffbijb = 11;
+	map<uint32, HideAndSeekPlayerBattleInfo> bgbdjeipaco = 12;
+	bool isRecordScore = 15;
+	repeated uint32 ambepllnpla = 9;
+	uint32 mapId = 8;
+	HideAndSeekStageType stageType = 1;
+}

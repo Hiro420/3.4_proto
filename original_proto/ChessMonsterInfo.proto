@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChessMonsterInfo {
+	uint32 monsterId = 9;
+	uint32 level = 2;
+	repeated uint32 affixList = 3;
+}

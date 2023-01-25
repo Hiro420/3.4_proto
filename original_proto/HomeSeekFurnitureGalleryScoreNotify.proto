@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+import "HomeSeekFurnitureOneRecord.proto";
+
+message HomeSeekFurnitureGalleryScoreNotify {
+	//enum JJLGLAIDDAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4612;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 2;
+	GalleryStopReason reason = 9;
+	HomeSeekFurnitureOneRecord record = 7;
+}

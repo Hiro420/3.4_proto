@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LuaOptionType.proto";
+
+message LuaSetOptionNotify {
+	//enum LEAGHMADJLM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 395;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string luaSetParam = 4;
+	LuaOptionType optionType = 14;
+}

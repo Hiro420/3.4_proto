@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MistTrialSelectAvatarAndEnterDungeonReq {
+	//enum BDFPJDLAIOP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8537;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	message SelectAvatarIndex {
+		oneof GBMFCGPBJHH {
+			uint32 mist_trial_avatar_id = 13;
+			uint64 formal_avatar_guid = 15;
+		}
+	}
+
+	uint32 trialId = 14;
+	uint32 enterPointId = 5;
+	repeated SelectAvatarIndex selectAvatarIndexList = 6;
+	repeated uint32 selectTrialAvatarIdList = 9;
+}

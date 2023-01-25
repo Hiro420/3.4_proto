@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "NOABGCFIDLD.proto";
+import "NHMKAMGOKDK.proto";
+import "POHLFOGNPII.proto";
+
+message BBKCGLAKCPM {
+	string createTime = 1;
+	int32 daehjagbjbl = 3;
+	NOABGCFIDLD plkbejkcfai = 4;
+	NHMKAMGOKDK type = 5;
+	string nkgnchooned = 6;
+	string ggmggbnbpga = 2;
+	string kppiclokhkf = 7;
+	int32 eemaljenfdh = 9;
+	string npaoooeccdm = 10;
+	POHLFOGNPII jkfdibhoggm = 8;
+}

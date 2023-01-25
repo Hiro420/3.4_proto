@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SummerTimeSprintBoatSettleNotify {
+	//enum BGHEJJFKKMM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8474;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 leftTime = 11;
+	uint32 score = 14;
+	uint32 groupId = 1;
+	uint32 Unk3300_MEEKFJJIOKE = 3;
+	uint32 Unk3300_PLFMJPNPPLI = 8;
+	bool isSuccess = 2;
+	uint32 totalNum = 7;
+	bool isNewRecord = 4;
+}

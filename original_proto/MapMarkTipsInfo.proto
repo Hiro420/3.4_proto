@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MapMarkTipsType.proto";
+
+message MapMarkTipsInfo {
+	MapMarkTipsType tipsType = 1;
+	repeated uint32 pointIdList = 2;
+}

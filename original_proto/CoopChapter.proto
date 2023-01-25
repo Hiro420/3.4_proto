@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "State.proto";
+import "CoopCg.proto";
+import "CoopReward.proto";
+import "CoopPoint.proto";
+
+message CoopChapter {
+	map<uint32, uint32> seenEndingMap = 12;
+	repeated uint32 finishDialogList = 5;
+	repeated CoopCg coopCgList = 11;
+	repeated CoopReward coopRewardList = 9;
+	repeated uint32 lockReasonList = 4;
+	uint32 finishedEndCount = 8;
+	repeated CoopPoint coopPointList = 7;
+	State state = 15;
+	uint32 id = 6;
+	uint32 totalEndCount = 14;
+}

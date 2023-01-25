@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "uint32.proto";
+
+message GCGStartChallengeByCheckRewardRsp {
+	//enum BPPOMFBCIKL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7890;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool bphdgokdnnk = 7;
+	uint32 nextRefreshTime = 9;
+	repeated uint32 exceededItemTypeList = 8;
+}

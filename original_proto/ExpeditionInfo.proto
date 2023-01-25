@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ExpeditionChallengeInfo.proto";
+import "ExpeditionPathInfo.proto";
+
+message ExpeditionInfo {
+	repeated ExpeditionChallengeInfo exceededItemTypeList = 2;
+	bool leftMonsters = 12;
+	uint32 Unk3300_MNPBCNEDKAJ = 3;
+	uint32 contentCloseTime = 9;
+	uint32 Unk3300_GJLCAJOFCKL = 4;
+	repeated ExpeditionPathInfo pathInfoList = 13;
+}

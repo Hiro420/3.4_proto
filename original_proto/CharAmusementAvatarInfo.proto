@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CharAmusementAvatarInfo {
+	uint32 uid = 3;
+	repeated uint32 avatarIdList = 11;
+	uint32 pmahgkplcgi = 1;
+}

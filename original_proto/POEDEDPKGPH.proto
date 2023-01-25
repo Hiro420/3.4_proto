@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MGKFOCKHAHI.proto";
+
+message POEDEDPKGPH {
+	repeated MGKFOCKHAHI blnaldeiekj = 1;
+	string createTime = 2;
+}

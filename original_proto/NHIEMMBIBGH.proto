@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message NHIEMMBIBGH {
+	uint32 entityId = 5;
+	float mbbjimmgikj = 2;
+	float dkdecebeebb = 14;
+	Vector eknhofiihcl = 12;
+	float speed = 6;
+}

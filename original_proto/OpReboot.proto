@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OpReboot {
+	repeated uint32 costCardGuidList = 9;
+	repeated uint32 diceIndexList = 10;
+}

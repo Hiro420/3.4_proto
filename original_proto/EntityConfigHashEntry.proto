@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EntityConfigHashEntry {
+	uint32 entityId = 3;
+	uint32 jobId = 12;
+	int32 hashValue = 6;
+}

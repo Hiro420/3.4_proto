@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChannellerSlabWearBuffRsp {
+	//enum GKHBJILDBJN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8651;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 buffId = 4;
+	uint32 slotId = 5;
+	bool fhableimdgl = 9;
+	int32 retcode = 12;
+}

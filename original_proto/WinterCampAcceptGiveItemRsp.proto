@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "WinterCampAcceptItemResultInfo.proto";
+
+message WinterCampAcceptGiveItemRsp {
+	//enum FONBKIMFPKE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8419;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 11;
+	WinterCampAcceptItemResultInfo acceptItemResultInfo = 13;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DragonSpineChapterInfo.proto";
+
+message DragonSpineInfo {
+	uint32 Unk3300_PPABOFMIGNM = 14;
+	uint32 Unk3300_IMLKIJAOADF = 5;
+	uint32 Unk3300_FOHJDGCAKEK = 1;
+	uint32 Unk3300_NEOCMGJCEOJ = 7;
+	bool leftMonsters = 2;
+	repeated DragonSpineChapterInfo chapterInfoList = 9;
+	uint32 weaponEnhanceLevel = 15;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum CLMDHLAENEJ {
+	HIHDNJGDBML = 0;
+	DPMMMOJKBIL = 1;
+	LJODKMGEFHL = 2;
+}

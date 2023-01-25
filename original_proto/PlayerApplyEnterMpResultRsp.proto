@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PlayerApplyEnterMpResultRsp {
+	//enum AGCOEANBGID {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1843;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 applyUid = 10;
+	bool isAgreed = 9;
+	int32 retcode = 2;
+	uint32 param = 4;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum UpdateType {
+	UPDATE_TYPE_INVALID = 0;
+	UPDATE_TYPE_ADD = 1;
+	UPDATE_TYPE_SET = 2;
+}

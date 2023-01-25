@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BrickBreakerActivityStageInfo {
+	uint32 stageId = 1;
+	bool Unk3300_FFKIEDNGNGK = 12;
+	bool Unk3300_ALOGIKNHEIM = 5;
+}

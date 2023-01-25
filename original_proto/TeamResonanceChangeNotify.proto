@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AvatarTeamResonanceInfo.proto";
+
+message TeamResonanceChangeNotify {
+	//enum KOMHHDNJJIH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1006;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated AvatarTeamResonanceInfo infoList = 3;
+}

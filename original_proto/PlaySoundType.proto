@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum PlaySoundType {
+	PLAY_SOUND_TYPE_NONE = 0;
+	PLAY_SOUND_TYPE_START = 1;
+	PLAY_SOUND_TYPE_STOP = 2;
+}

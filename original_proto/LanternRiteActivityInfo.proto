@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "LanternRiteFireworksInfo.proto";
+import "LanternProjectionInfo.proto";
+import "SalvageStageInfo.proto";
+
+message LanternRiteActivityInfo {
+	LanternRiteFireworksInfo fireworksInfo = 6;
+	LanternProjectionInfo projectionInfo = 11;
+	bool leftMonsters = 9;
+	bool Unk3300_PDFJNCDGKGH = 3;
+	repeated SalvageStageInfo stageInfoList = 1;
+	bool Unk3300_DKBJLCIMBAL = 7;
+}

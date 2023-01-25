@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HideAndSeekMapInfo.proto";
+
+message HideAndSeekActivityDetailInfo {
+	repeated uint32 kpfclbhekho = 5;
+	repeated uint32 pfklphkcnll = 3;
+	repeated uint32 ddcdocelpof = 13;
+	repeated HideAndSeekMapInfo ebljifhneof = 4;
+	repeated uint32 noljhjhlkom = 8;
+}

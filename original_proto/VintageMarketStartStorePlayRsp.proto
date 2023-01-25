@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message VintageMarketStartStorePlayRsp {
+	//enum ENOKLJEALMK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 21141;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 3;
+	uint32 Unk3300_LCCNEKGONFG = 1;
+	uint32 Unk3300_ADJKIIJFNME = 13;
+	uint32 storeRound = 6;
+}

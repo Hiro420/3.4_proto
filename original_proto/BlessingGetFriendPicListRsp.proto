@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BlessingFriendPicData.proto";
+
+message BlessingGetFriendPicListRsp {
+	//enum ABMDCPAJCFJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2102;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated BlessingFriendPicData friendPicDataList = 12;
+	int32 retcode = 2;
+}

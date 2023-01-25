@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message FurnitureCurModuleArrangeCountNotify {
+	//enum HGICNMNBGLO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4851;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated Uint32Pair furnitureArrangeCountList = 13;
+}

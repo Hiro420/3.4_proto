@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MuqadasPotionLevelData {
+	uint32 levelId = 14;
+	bool isOpen = 10;
+	uint32 maxScore = 6;
+}

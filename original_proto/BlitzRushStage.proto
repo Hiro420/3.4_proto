@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BlitzRushStage {
+	uint32 openTime = 14;
+	bool isOpen = 6;
+}

@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGCostReviseInfo.proto";
+import "GCGGameBusinessType.proto";
+import "GCGPhase.proto";
+import "GCGCard.proto";
+import "GCGMessagePack.proto";
+import "GCGControllerShowInfo.proto";
+import "Unk3300_ADHENCIFKNI.proto";
+import "GCGPVEIntention.proto";
+import "GCGPlayerField.proto";
+import "GCGDuelChallenge.proto";
+
+message Duel {
+	repeated GCGCard cardList = 1;
+	uint32 Unk3300_JHDDNKFPINA = 5;
+	repeated uint32 forbidFinishChallengeList = 1985;
+	repeated GCGCard historyCardList = 1326;
+	repeated GCGMessagePack historyMsgPackList = 1636;
+	uint32 Unk3300_BIANMOPDEHO = 14;
+	repeated GCGControllerShowInfo showInfoList = 10;
+	repeated Unk3300_ADHENCIFKNI Unk3300_CDCMBOKBLAK = 1950;
+	repeated GCGPVEIntention intentionList = 15;
+	GCGCostReviseInfo costRevise = 6;
+	uint32 controllerId = 2;
+	repeated GCGPlayerField fieldList = 3;
+	GCGGameBusinessType businessType = 7;
+	GCGPhase phase = 8;
+	repeated GCGDuelChallenge challengeList = 37;
+	repeated uint32 cardIdList = 12;
+	uint32 serverSeq = 11;
+	uint32 round = 4;
+	uint32 gameId = 9;
+	uint32 Unk3300_JBBMBKGOONO = 13;
+}

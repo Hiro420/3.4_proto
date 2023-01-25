@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InstableSprayAvatarInfo.proto";
+
+message InstableSprayTeamInfo {
+	repeated InstableSprayAvatarInfo avatarInfoList = 12;
+}

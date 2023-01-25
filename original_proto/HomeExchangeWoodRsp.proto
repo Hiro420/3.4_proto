@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomeExchangeWoodRsp {
+	//enum LEHHCIKIGDM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4812;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 woodId = 11;
+	int32 retcode = 13;
+	uint32 exchangedCount = 2;
+	uint32 woodCount = 5;
+}

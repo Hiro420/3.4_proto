@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FJMGEBIAMDB.proto";
+
+message KLLIHAMBOJN {
+	string createTime = 1;
+	FJMGEBIAMDB jkfdibhoggm = 2;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message AbilityMixinWindSeedSpawner {
+	message AddSignal {
+	}
+	message RefreshSeed {
+		repeated Vector lfglcalgdac = 1;
+	}
+	message CatchSeed {
+		uint32 entityId = 5;
+	}
+
+	oneof EMKLHFDNJMA {
+		AddSignal add_signal = 13;
+		RefreshSeed refresh_seed = 3;
+		CatchSeed catch_seed = 4;
+	}
+}

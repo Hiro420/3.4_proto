@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeGroupPlayerInfo.proto";
+
+message HomeStakePlayRecord {
+	uint32 timestamp = 10;
+	repeated HomeGroupPlayerInfo engagedPlayerInfoList = 5;
+}

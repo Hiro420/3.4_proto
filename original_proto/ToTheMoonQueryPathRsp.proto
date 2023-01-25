@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PathStatusType.proto";
+import "Vector.proto";
+
+message ToTheMoonQueryPathRsp {
+	//enum DEPALAPFJJF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6155;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 queryId = 11;
+	PathStatusType queryStatus = 15;
+	repeated int64 index = 10;
+	int32 retcode = 1;
+	repeated Vector corners = 3;
+	repeated int32 level = 13;
+}

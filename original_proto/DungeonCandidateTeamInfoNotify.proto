@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DungeonCandidateTeamAvatar.proto";
+import "DungeonCandidateTeamPlayerState.proto";
+
+message DungeonCandidateTeamInfoNotify {
+	//enum DBHENGJMANB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 918;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 dungeonId = 9;
+	repeated DungeonCandidateTeamAvatar avatarList = 8;
+	repeated uint32 readyPlayerUid = 11;
+	uint32 matchType = 2;
+	map<uint32, DungeonCandidateTeamPlayerState> playerStateMap = 15;
+}

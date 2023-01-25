@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AuditState.proto";
+
+message ContentAuditInfo {
+	bool isOpen = 1;
+	string content = 2;
+	uint32 submitCount = 3;
+	AuditState auditState = 4;
+	uint32 submitLimit = 5;
+}

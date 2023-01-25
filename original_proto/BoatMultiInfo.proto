@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IPLHKNLPPHD.proto";
+
+message BoatMultiInfo {
+	repeated IPLHKNLPPHD playerData = 14;
+}

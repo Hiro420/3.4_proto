@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FurnitureMakeInfo {
+	uint32 makeCount = 9;
+	uint32 furnitureId = 7;
+}

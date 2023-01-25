@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GravenInnocenceCarveStageInfo.proto";
+
+message GravenInnocenceCarveInfo {
+	repeated uint32 hasEditConfigIdList = 12;
+	uint32 canEditCount = 15;
+	repeated GravenInnocenceCarveStageInfo stageInfoList = 4;
+}

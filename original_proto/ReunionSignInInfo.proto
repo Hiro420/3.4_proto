@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReunionSignInInfo {
+	uint32 Unk3300_NFNOKBNBLGE = 9;
+	uint32 configId = 13;
+	repeated uint32 rewardDayList = 5;
+	uint32 Unk3300_MNJELIDKMCF = 14;
+}

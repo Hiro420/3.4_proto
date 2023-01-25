@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AdjustTrackingInfo {
+	string Unk3300_GAMLJPFKCGC = 5;
+	string Unk3300_CHCOHLGBHLB = 8;
+	string Unk3300_INAIEOMCIEM = 15;
+	string Unk3300_ONNMBNODPIA = 3;
+	string Unk3300_KLKFLIIOFKK = 7;
+	string Unk3300_MHDOPAMDMPL = 13;
+}

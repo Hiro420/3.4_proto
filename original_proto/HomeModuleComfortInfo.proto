@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HomeModuleComfortInfo {
+	repeated uint32 worldSceneBlockComfortValueList = 3;
+	uint32 moduleId = 13;
+	uint32 roomSceneComfortValue = 2;
+}

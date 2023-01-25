@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message PlantFlowerAcceptFlowerResultInfo {
+	map<uint32, uint32> Unk3300_PALEJEDIAJP = 9;
+	uint32 uid = 10;
+	map<uint32, uint32> Unk3300_ILAADDCOPKE = 4;
+}

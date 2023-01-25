@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InferencePageInfo.proto";
+
+message ParentQuestInferenceDataNotify {
+	//enum BJCFOHDNKDI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 463;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 parentQuestId = 8;
+	repeated InferencePageInfo inferencePageList = 11;
+}

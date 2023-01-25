@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BreakoutVector2.proto";
+import "BreakoutPhysicalObjectModifier.proto";
+import "BreakoutBrickInfo.proto";
+
+message BreakoutPhysicalObject {
+	uint32 id = 1;
+	uint32 index = 2;
+	bool isActive = 3;
+	BreakoutVector2 pos = 4;
+	BreakoutVector2 mjehpphliia = 5;
+	int32 speed = 6;
+	uint32 dlgpedplibk = 7;
+	uint32 state = 8;
+	uint32 elementType = 9;
+	uint32 inhflokdoal = 10;
+	repeated BreakoutPhysicalObjectModifier dlijmbkhdif = 11;
+	int32 abolecjpbhb = 12;
+	repeated BreakoutBrickInfo infoList = 13;
+	uint32 hmgmjglmbpl = 14;
+	uint32 apiembahlab = 15;
+	int32 offset = 16;
+}

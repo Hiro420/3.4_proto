@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGLevelType.proto";
+
+message GCGStartChallengeRsp {
+	//enum EEEIHMNDOCL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 7851;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated GCGLevelType megbpmengog = 15;
+	repeated GCGLevelType nojngpppded = 5;
+	GCGLevelType levelType = 12;
+}

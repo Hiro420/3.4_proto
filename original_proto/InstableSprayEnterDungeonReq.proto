@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InstableSprayAvatarInfo.proto";
+
+message InstableSprayEnterDungeonReq {
+	//enum GIDCKAOEICG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 24659;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 stageId = 4;
+	repeated InstableSprayAvatarInfo avatarInfoList = 8;
+	uint32 difficulty = 1;
+}

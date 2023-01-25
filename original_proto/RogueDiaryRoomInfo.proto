@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Uint32Pair.proto";
+
+message RogueDiaryRoomInfo {
+	repeated Uint32Pair Unk3300_EEBEOCMAIKN = 8;
+	bool isBoss = 4;
+	uint32 configId = 14;
+}

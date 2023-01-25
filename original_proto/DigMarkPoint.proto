@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message DigMarkPoint {
+	Vector rot = 14;
+	Vector pos = 2;
+	uint32 bundleId = 3;
+}

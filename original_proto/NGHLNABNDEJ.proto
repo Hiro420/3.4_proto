@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message NGHLNABNDEJ {
+	uint32 hpjakbogomm = 13;
+	uint32 pomnjomifhi = 2;
+	uint32 gmfajmjacpm = 15;
+	uint32 phase = 4;
+	uint32 keoilfncimn = 6;
+	repeated uint32 mpooncgnhaa = 11;
+}

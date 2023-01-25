@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message StrengthenPointData {
+	uint32 Unk3300_NNKPOLLBLDO = 8;
+	uint32 Unk3300_HIKDEKIPCPB = 3;
+}

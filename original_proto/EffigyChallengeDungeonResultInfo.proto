@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyChallengeDungeonResultInfo {
+	uint32 challengeMaxScore = 6;
+	bool isInTimeLimit = 1;
+	uint32 challengeScore = 14;
+	bool isSuccess = 2;
+	uint32 challengeId = 10;
+}

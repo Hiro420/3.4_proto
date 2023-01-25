@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MuqadasPotionInfo {
+	uint32 muqadasPotionLevelDataList = 13;
+	uint32 score = 14;
+	uint32 Unk3300_LKEICOLMPII = 3;
+	uint32 captureWeaknessCount = 5;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RegionalPlayVar {
+	float baseValue = 4;
+	float maxValue = 15;
+	uint32 type = 8;
+	float value = 12;
+}

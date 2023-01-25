@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message Unk3300_ADHENCIFKNI {
+	uint64 timeStamp = 14;
+	uint32 controllerId = 4;
+	uint64 beginTime = 12;
+}

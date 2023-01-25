@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "VintageMarketStoreOpInfo.proto";
+
+message VintageMarketFinishStorePlayReq {
+	//enum DBOLEHNGBHM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23780;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 storeRound = 8;
+	repeated VintageMarketStoreOpInfo storeOpList = 12;
+}

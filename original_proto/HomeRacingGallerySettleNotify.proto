@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RacingGallerySettleInfo.proto";
+
+message HomeRacingGallerySettleNotify {
+	//enum MKKIDPBMLKB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4671;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	RacingGallerySettleInfo settleInfo = 10;
+	uint32 galleryId = 4;
+	uint32 rank = 1;
+	bool isNewRecord = 5;
+}

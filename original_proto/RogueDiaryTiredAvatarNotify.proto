@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RogueDiaryAvatar.proto";
+
+message RogueDiaryTiredAvatarNotify {
+	//enum NLFHPEBNOMD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8243;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	bool isNeedShow = 12;
+	uint32 Unk3300_BGEJGLBMFII = 10;
+	uint32 Unk3300_DMEMBBPEIGK = 8;
+	repeated RogueDiaryAvatar optionalTiredAvatarList = 15;
+}

@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MechanicusInfo.proto";
+import "FleurFairInfo.proto";
+import "HideAndSeekInfo.proto";
+import "ChessInfo.proto";
+import "IrodoriChessInfo.proto";
+import "CharAmusementInfo.proto";
+import "BrickBreakerInfo.proto";
+import "CoinCollectInfo.proto";
+import "LanV3BoatInfo.proto";
+
+message MultistagePlayInfo {
+	uint32 stageIndex = 13;
+	uint32 beginTime = 8;
+	uint32 duration = 15;
+	uint32 playIndex = 3;
+	uint32 stageType = 9;
+	uint32 groupId = 12;
+	uint32 playType = 10;
+	oneof detail {
+		MechanicusInfo mechanicus_info = 1387;
+		FleurFairInfo fleur_fair_info = 2006;
+		HideAndSeekInfo hide_and_seek_info = 1418;
+		ChessInfo chess_info = 1939;
+		IrodoriChessInfo irodori_chess_info = 452;
+		CharAmusementInfo char_amusement_info = 1200;
+		BrickBreakerInfo brick_breaker_info = 1701;
+		CoinCollectInfo coin_collect_info = 1451;
+		LanV3BoatInfo lan_v3boat_info = 424;
+	}
+}

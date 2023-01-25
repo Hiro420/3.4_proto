@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SceneGalleryInfo.proto";
+
+message GetAllSceneGalleryInfoRsp {
+	//enum HDBJFCPMCIK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5570;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 14;
+	repeated SceneGalleryInfo galleryInfoList = 8;
+}

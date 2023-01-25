@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarSkillDepotChangeNotify {
+	//enum DCNKKEIFKEO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1098;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 talentIdList = 14;
+	repeated uint32 proudSkillList = 11;
+	uint32 skillDepotId = 8;
+	uint32 entityId = 3;
+	map<uint32, uint32> proudSkillExtraLevelMap = 4;
+	uint32 coreProudSkillLevel = 10;
+	map<uint32, uint32> skillLevelMap = 13;
+	uint64 avatarGuid = 12;
+}

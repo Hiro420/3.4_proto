@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SceneWeatherForcastRsp {
+	//enum EACGICPLMMH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3500;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 oefhbiaidaa = 13;
+	uint64 kcclfhokmpp = 10;
+	int32 retcode = 4;
+}

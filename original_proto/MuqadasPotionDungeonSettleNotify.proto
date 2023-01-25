@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MuqadasPotionDungeonSettleNotify {
+	//enum CCBLHNEEDDL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23665;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 levelId = 11;
+	uint32 captureWeaknessCount = 7;
+	uint32 finalScore = 14;
+	bool isSuccess = 3;
+	bool isNewRecord = 2;
+}

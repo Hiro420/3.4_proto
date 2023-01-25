@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message LanV3RaceSettleNotify {
+	//enum PCKFCBDIILI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 23477;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isNewRecord = 3;
+	uint32 score = 8;
+	uint32 galleryId = 9;
+	uint32 Unk3300_OHAHHKNAJKL = 15;
+	bool isSuccess = 7;
+	uint32 levelId = 14;
+	uint32 Unk3300_IPGJKKFDPJJ = 11;
+	uint32 remainTime = 5;
+}

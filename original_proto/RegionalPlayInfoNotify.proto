@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RegionalPlayVar.proto";
+
+message RegionalPlayInfoNotify {
+	//enum GBOBFCLEGEI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6288;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string playName = 8;
+	repeated RegionalPlayVar varList = 11;
+	uint32 playType = 14;
+	bool isEnabled = 2;
+	bool isInRegion = 7;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SvrMsgId.proto";
+import "MsgParam.proto";
+
+message ShowMessageNotify {
+	//enum PCBPNBCPLNI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 98;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	SvrMsgId msgId = 7;
+	repeated MsgParam params = 5;
+}

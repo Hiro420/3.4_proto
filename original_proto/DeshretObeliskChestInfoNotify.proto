@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "DeshretObeliskChestInfo.proto";
+
+message DeshretObeliskChestInfoNotify {
+	//enum ABOJDFAFAIE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 807;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated DeshretObeliskChestInfo chestInfoList = 4;
+}

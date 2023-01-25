@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChannellerSlabEnterLoopDungeonRsp {
+	//enum JEJOCNKFDPA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8892;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 5;
+	uint32 dungeonIndex = 6;
+	repeated uint32 conditionIdList = 11;
+	uint32 pointId = 2;
+	uint32 difficultyId = 4;
+}

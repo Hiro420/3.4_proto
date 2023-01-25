@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message FFJPPIJOJLI {
+	uint32 furnitureId = 1;
+	Vector spawnPos = 2;
+	Vector spawnRot = 3;
+}

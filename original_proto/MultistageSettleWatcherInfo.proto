@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MultistageSettleWatcherInfo {
+	uint32 curProgress = 1;
+	uint32 totalProgress = 8;
+	uint32 watcherId = 5;
+	bool isInverse = 10;
+}

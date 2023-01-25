@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "TransmitReason.proto";
+
+message ClientTransmitReq {
+	//enum FLGIDMJKIHB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 203;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	Vector rot = 9;
+	TransmitReason reason = 13;
+	Vector pos = 12;
+	uint32 sceneId = 8;
+}

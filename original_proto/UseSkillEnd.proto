@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message UseSkillEnd {
+	uint32 skillId = 5;
+	uint32 cardGuid = 13;
+}

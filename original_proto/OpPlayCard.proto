@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message OpPlayCard {
+	uint32 replaceCardGuid = 6;
+	repeated uint32 targetCardGuidList = 11;
+	uint32 cardGuid = 14;
+	repeated uint32 costDiceIndexList = 13;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message CustomCommonNodeInfo {
+	int32 parentIndex = 1;
+	uint32 configId = 2;
+	string slotIdentifier = 3;
+}

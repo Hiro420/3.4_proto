@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CrystalLinkDungeonAvatarInfo.proto";
+import "CrystalLinkBuffInfo.proto";
+
+message CrystalLinkDungeonInfoNotify {
+	//enum HLPDNAHBCNL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8343;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 initGalleryProgress = 7;
+	uint32 difficultyId = 9;
+	repeated CrystalLinkDungeonAvatarInfo dungeonAvatarInfoList = 10;
+	bool isUpperPart = 15;
+	uint32 levelId = 6;
+	repeated CrystalLinkBuffInfo buffInfoList = 2;
+}

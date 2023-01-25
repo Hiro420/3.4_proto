@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CityInfo.proto";
+
+message GetSceneAreaRsp {
+	//enum GGJHHIPJNMJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 225;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 areaIdList = 11;
+	int32 retcode = 6;
+	repeated CityInfo cityInfoList = 14;
+	uint32 sceneId = 2;
+}

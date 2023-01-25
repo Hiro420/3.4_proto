@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message OrderFinishNotify {
+	//enum MFFGOBEAMGF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4146;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 addMcoin = 4;
+	uint32 cardProductRemainDays = 3;
+	uint32 orderId = 5;
+	repeated ItemParam itemList = 8;
+	string productId = 13;
+}

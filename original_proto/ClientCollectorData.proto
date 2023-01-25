@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ClientCollectorData {
+	uint32 maxPoints = 8;
+	uint32 currPoints = 2;
+	uint32 materialId = 13;
+}

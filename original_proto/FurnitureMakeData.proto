@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FurnitureMakeData {
+	uint32 durTime = 5;
+	uint32 makeId = 6;
+	uint32 beginTime = 13;
+	uint32 accelerateTime = 9;
+	uint32 index = 10;
+	uint32 avatarId = 1;
+}

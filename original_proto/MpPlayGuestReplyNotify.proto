@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MpPlayGuestReplyNotify {
+	//enum PEGJFAGMPJO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1812;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isAgree = 7;
+	uint32 mpPlayId = 12;
+	uint32 uid = 6;
+}

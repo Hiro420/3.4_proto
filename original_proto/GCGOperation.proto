@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OpRedraw.proto";
+import "OpSelectOnStage.proto";
+import "OpReroll.proto";
+import "OpAttack.proto";
+import "OpPass.proto";
+import "OpPlayCard.proto";
+import "OpReboot.proto";
+import "OpSurrender.proto";
+
+message GCGOperation {
+	oneof op {
+		OpRedraw op_redraw = 12;
+		OpSelectOnStage op_select_on_stage = 4;
+		OpReroll op_reroll = 13;
+		OpAttack op_attack = 9;
+		OpPass op_pass = 10;
+		OpPlayCard op_play_card = 8;
+		OpReboot op_reboot = 6;
+		OpSurrender op_surrender = 15;
+	}
+}

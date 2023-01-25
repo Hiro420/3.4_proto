@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message HideAndSeekInfo {
+	repeated uint32 visibleUidList = 5;
+	repeated uint32 caughtUidList = 7;
+}

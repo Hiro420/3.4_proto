@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message SpiceActivityProcessFoodRsp {
+	//enum MLCNGHLKOJC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8845;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ItemParam specialFoodList = 13;
+	repeated ItemParam normalFoodList = 10;
+	int32 retcode = 7;
+}

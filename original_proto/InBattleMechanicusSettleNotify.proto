@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MultistageSettleWatcherInfo.proto";
+
+message InBattleMechanicusSettleNotify {
+	//enum KDMLFKICFGF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5369;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated MultistageSettleWatcherInfo watcherList = 7;
+	bool isSuccess = 8;
+	uint32 Unk3300_NAMBBHMJJLN = 15;
+	uint32 Unk3300_HAEOPAOBBFE = 1;
+	uint32 playIndex = 12;
+	uint32 Unk3300_EKAIAPLNIPM = 13;
+	uint64 sceneTimeMs = 10;
+	uint32 groupId = 9;
+}

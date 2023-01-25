@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SkillRequest.proto";
+import "ReliquaryRequest.proto";
+import "ElementReliquaryRequest.proto";
+
+message CompoundUnlockNotify {
+	//enum BDNMOGLPGBI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 149;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 avatarId = 8;
+	oneof detail {
+		SkillRequest skill_request = 1689;
+		ReliquaryRequest reliquary_request = 118;
+		ElementReliquaryRequest element_reliquary_request = 1105;
+	}
+}

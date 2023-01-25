@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum GGLAOFMEGGK {
+	GGLAOFMEGGK_NONE = 0;
+	speed = 1;
+	NLKFKAOKKGB = 2;
+	AOMJCNMNCDB = 3;
+}

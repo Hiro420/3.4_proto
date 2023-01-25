@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AbilityString.proto";
+
+message DJOOIPGJPFC {
+	float value = 14;
+	AbilityString key = 8;
+}

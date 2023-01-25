@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "StoreType.proto";
+
+message DropItemRsp {
+	//enum IGMCJGLJOPD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 624;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	StoreType storeType = 14;
+	uint64 guid = 9;
+	int32 retcode = 10;
+}

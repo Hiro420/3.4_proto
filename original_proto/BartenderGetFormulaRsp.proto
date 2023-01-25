@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BartenderGetFormulaRsp {
+	//enum DDMOBCMKFNG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8550;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	bool isNew = 12;
+	uint32 formulaId = 15;
+	repeated uint32 affixList = 9;
+	int32 retcode = 3;
+}

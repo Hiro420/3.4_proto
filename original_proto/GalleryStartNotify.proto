@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FlowerStartParam.proto";
+import "ElectroherculesStartParam.proto";
+
+message GalleryStartNotify {
+	//enum ACINIBNBKCJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5505;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 startTime = 3;
+	uint32 ownerUid = 14;
+	uint32 playerCount = 4;
+	uint32 galleryId = 12;
+	uint32 endTime = 1;
+	oneof detail {
+		FlowerStartParam flower_start_param = 10;
+		ElectroherculesStartParam electrohercules_start_param = 7;
+	}
+}

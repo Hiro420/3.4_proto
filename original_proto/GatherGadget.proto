@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GatherGadget {
+	uint32 itemId = 1;
+	bool baplahgkmbl = 2;
+}

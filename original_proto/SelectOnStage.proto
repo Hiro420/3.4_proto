@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGReason.proto";
+
+message SelectOnStage {
+	GCGReason reason = 13;
+	uint32 cardGuid = 5;
+	uint32 controllerId = 2;
+}

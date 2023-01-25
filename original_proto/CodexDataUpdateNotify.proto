@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CodexType.proto";
+
+message CodexDataUpdateNotify {
+	//enum IJBHHHDDJOJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4202;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	CodexType type = 15;
+	uint32 id = 6;
+	uint32 weaponMaxPromoteLevel = 1;
+}

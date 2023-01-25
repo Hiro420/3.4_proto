@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+import "ExhibitionDisplayInfo.proto";
+
+message DungeonSettleExhibitionInfo {
+	repeated ExhibitionDisplayInfo cardList = 2;
+	OnlinePlayerInfo playerInfo = 13;
+}

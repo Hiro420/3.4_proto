@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriEditFlowerCombinationRsp {
+	//enum NIOIJMHIGHF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8542;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 2;
+	bool Unk3300_IAPLHBKJLBF = 10;
+	bool Unk3300_DBBGPOMDKPK = 1;
+}

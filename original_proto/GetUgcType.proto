@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum GetUgcType {
+	GET_UGC_TYPE_NONE = 0;
+	GET_UGC_TYPE_MINE = 1;
+	GET_UGC_TYPE_PUBLISH = 2;
+}

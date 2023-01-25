@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message GravenInnocenceRaceSettleNotify {
+	//enum GECMEJKBGJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 20447;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 score = 6;
+	bool isNewRecord = 11;
+	bool isSuccess = 1;
+	uint32 Unk3300_OHAHHKNAJKL = 13;
+	GalleryStopReason reason = 9;
+	uint32 Unk3300_IPGJKKFDPJJ = 8;
+	uint32 galleryId = 14;
+	uint32 remainTime = 12;
+	uint32 Unk3300_BOIPHOPMHJM = 3;
+	uint32 levelId = 2;
+}

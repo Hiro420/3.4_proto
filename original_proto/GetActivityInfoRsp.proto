@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityInfo.proto";
+import "Uint32Pair.proto";
+
+message GetActivityInfoRsp {
+	//enum CNCGABMJCIE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 2073;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ActivityInfo activityInfoList = 13;
+	repeated Uint32Pair disableTransferPointInteractionList = 3;
+	repeated uint32 activatedSaleIdList = 7;
+	int32 retcode = 14;
+}

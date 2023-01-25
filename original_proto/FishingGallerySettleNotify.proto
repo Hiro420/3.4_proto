@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FishingGallerySettleInfo.proto";
+
+message FishingGallerySettleNotify {
+	//enum OBGLILAIIAG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8356;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	FishingGallerySettleInfo settleInfo = 3;
+	uint32 galleryId = 7;
+	uint32 levelId = 6;
+}

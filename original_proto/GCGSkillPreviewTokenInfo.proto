@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGSkillPreviewTokenInfo {
+	uint32 Unk3300_MMIKPPJMHAD = 7;
+	uint32 Unk3300_IKICJMEFEON = 6;
+	uint32 tokenType = 8;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "TryCustomDungeonType.proto";
+import "EnterCustomDungeonType.proto";
+import "CustomDungeon.proto";
+
+message CustomDungeonRecoverNotify {
+	//enum IFJDMKLPIDE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6233;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	TryCustomDungeonType tryType = 5;
+	EnterCustomDungeonType enterType = 10;
+	repeated uint32 officialBlackCoinList = 14;
+	CustomDungeon customDungeon = 3;
+}

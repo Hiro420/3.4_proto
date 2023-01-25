@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ShopGoods.proto";
+
+message BuyGoodsRsp {
+	//enum DIHAHKEFGKP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 798;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 buyCount = 2;
+	ShopGoods goods = 1;
+	repeated ShopGoods goodsList = 7;
+	int32 retcode = 5;
+	uint32 shopType = 14;
+}

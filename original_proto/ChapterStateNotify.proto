@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChapterState.proto";
+
+message ChapterStateNotify {
+	//enum FCANPLPPJEL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 469;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	message NeedPlayerLevel {
+		uint32 configNeedPlayerLevel = 4;
+		bool isLimit = 14;
+	}
+	message NeedBeginTime {
+		uint32 configNeedBeginTime = 5;
+		bool isLimit = 4;
+	}
+
+	NeedPlayerLevel needPlayerLevel = 2;
+	NeedBeginTime needBeginTime = 9;
+	ChapterState chapterState = 13;
+	uint32 chapterId = 15;
+}

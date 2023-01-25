@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ThirdStageInfo {
+	uint32 leftTime = 7;
+	bool isSuccess = 6;
+}

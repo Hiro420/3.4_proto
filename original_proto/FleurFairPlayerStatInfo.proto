@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProfilePicture.proto";
+
+message FleurFairPlayerStatInfo {
+	int32 param = 4;
+	ProfilePicture profilePicture = 14;
+	string onlineId = 3;
+	string nickName = 5;
+	uint32 statId = 2;
+	uint32 headImage = 8;
+	uint32 uid = 13;
+}

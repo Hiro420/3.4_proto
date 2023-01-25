@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message BrokenFloorInfo {
+	map<uint32, uint32> fallCountMap = 15;
+	uint32 endTime = 10;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyChallengeV2LevelData {
+	bool caepnfpolia = 13;
+	uint32 ondofpcjekh = 14;
+	uint32 levelId = 15;
+	uint32 nbnfhjjkbam = 5;
+	uint32 acjpagacphl = 7;
+	uint32 lhhbbgpaiin = 9;
+}

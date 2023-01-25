@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum FollowType {
+	FOLLOW_TYPE_INIT_FOLLOW_POS = 0;
+	FOLLOW_TYPE_SET_FOLLOW_POS = 1;
+	FOLLOW_TYPE_SET_ABS_FOLLOW_POS = 2;
+}

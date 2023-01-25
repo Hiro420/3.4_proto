@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "FollowType.proto";
+
+message BeginCameraSceneLookWithTemplateNotify {
+	//enum KDFDCPCDOJA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3201;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 templateId = 9;
+	Vector Unk3300_FJDFGLNLMBN = 4;
+	FollowType followType = 3;
+	repeated string otherParams = 8;
+	uint32 entityId = 14;
+	Vector Unk3300_PPCIDICMIEN = 7;
+}

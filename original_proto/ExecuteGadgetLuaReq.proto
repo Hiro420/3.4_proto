@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ExecuteGadgetLuaReq {
+	//enum PPNJBKMHPHF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 210;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	int32 param2 = 15;
+	int32 param3 = 8;
+	uint32 sourceEntityId = 6;
+	int32 param1 = 14;
+}

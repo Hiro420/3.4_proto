@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum FinishReason {
+	FINISH_REASON_DEFAULT = 0;
+	FINISH_REASON_CLEAR = 1;
+	FINISH_REASON_DISTANCE = 2;
+	FINISH_REASON_FINISH = 3;
+}

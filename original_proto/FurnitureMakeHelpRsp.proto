@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FurnitureMakeHelpData.proto";
+
+message FurnitureMakeHelpRsp {
+	//enum IIBCBIPNGEA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4533;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 7;
+	repeated FurnitureMakeHelpData helpDataList = 4;
+}

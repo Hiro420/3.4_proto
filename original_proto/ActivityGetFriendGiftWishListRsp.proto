@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityFriendGiftWishData.proto";
+
+message ActivityGetFriendGiftWishListRsp {
+	//enum CAALHDHHDIH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8145;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 scheduleId = 8;
+	repeated ActivityFriendGiftWishData friendGiftWishList = 13;
+	int32 retcode = 15;
+}

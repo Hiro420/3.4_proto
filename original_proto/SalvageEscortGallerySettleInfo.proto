@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SalvageEscortStopReason.proto";
+
+message SalvageEscortGallerySettleInfo {
+	SalvageEscortStopReason reason = 6;
+	uint32 timeRemain = 8;
+}

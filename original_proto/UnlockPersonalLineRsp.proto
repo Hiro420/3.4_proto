@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message UnlockPersonalLineRsp {
+	//enum IMFOFCFGBJP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 403;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 5;
+	uint32 personalLineId = 6;
+	oneof param {
+		uint32 level = 3;
+		uint32 chapter_id = 14;
+	}
+}

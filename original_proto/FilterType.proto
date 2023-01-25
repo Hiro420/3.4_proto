@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum FilterType {
+	FILTER_TYPE_ALL = 0;
+	FILTER_TYPE_AIR = 1;
+	FILTER_TYPE_WATER = 2;
+}

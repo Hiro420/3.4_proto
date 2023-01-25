@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GravenInnocencePhotoObjectInfo {
+	uint32 param = 15;
+	uint32 finishTime = 10;
+	uint32 objectId = 1;
+}

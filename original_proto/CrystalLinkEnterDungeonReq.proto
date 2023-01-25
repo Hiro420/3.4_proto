@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CrystalLinkTeamInfo.proto";
+
+message CrystalLinkEnterDungeonReq {
+	//enum CLAELIDGHLP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8110;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	repeated CrystalLinkTeamInfo teamInfoList = 7;
+	uint32 levelId = 8;
+	uint32 difficultyId = 4;
+}

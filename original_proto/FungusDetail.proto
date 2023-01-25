@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusDetail {
+	bool isCultivate = 12;
+	uint32 Unk3300_GCLBPDJDEDN = 14;
+	uint32 Unk3300_EHNBDJPANKL = 3;
+	uint32 fungusId = 6;
+	uint32 nameId = 4;
+}

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "VehicleInteractType.proto";
+
+message VehicleInteractReq {
+	//enum HFFFNNLCHDH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 888;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 pos = 14;
+	VehicleInteractType interactType = 11;
+	uint32 entityId = 13;
+}

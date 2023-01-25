@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReportTrackingIOInfoNotify {
+	//enum JFLNOJGPPOC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4131;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	string Unk3300_CNPIGDOEJPB = 5;
+	string rydevicetype = 8;
+	string Unk3300_DJHKHEFPCDK = 3;
+	string clientTz = 2;
+	string Unk3300_PIBFPDAMJLE = 9;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "KCPPELGEJFE.proto";
+import "DBIBEJBEOEE.proto";
+
+message PGKPOJFAPPO {
+	string createTime = 1;
+	repeated DBIBEJBEOEE value = 2;
+	KCPPELGEJFE jkfdibhoggm = 3;
+}

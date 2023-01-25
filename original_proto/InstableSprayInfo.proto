@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SceneGalleryInstableSprayBuffInfo.proto";
+
+message InstableSprayInfo {
+	uint32 score = 13;
+	repeated SceneGalleryInstableSprayBuffInfo buffInfoList = 6;
+}

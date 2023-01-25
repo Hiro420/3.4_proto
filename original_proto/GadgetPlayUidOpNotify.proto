@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GadgetPlayUidOpNotify {
+	//enum NJDCGNODNGN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 829;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated uint32 uidList = 12;
+	uint32 playType = 14;
+	uint32 op = 9;
+	string paramStr = 2;
+	repeated uint32 paramList = 11;
+	uint32 entityId = 7;
+}

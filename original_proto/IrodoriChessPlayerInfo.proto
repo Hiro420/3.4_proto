@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriChessPlayerInfo {
+	uint32 settleScore = 4;
+	uint32 buildingPoints = 8;
+	uint32 uid = 9;
+}

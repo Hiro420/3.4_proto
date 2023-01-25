@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SummerTimeV2BoatInfo {
+	uint32 param3 = 10;
+	uint32 usedTime = 6;
+	uint32 param1 = 4;
+	uint32 param2 = 5;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "FriendBrief.proto";
+
+message ForceAddPlayerFriendRsp {
+	//enum NFIMNEOOLPH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4054;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	FriendBrief targetFriendBrief = 12;
+	uint32 targetUid = 14;
+	int32 retcode = 11;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGZoneType.proto";
+
+message GCGSkillPreviewCardInfo {
+	GCGZoneType zoneType = 13;
+	uint32 controllerId = 1;
+	uint32 ownerCardGuid = 7;
+	uint32 cardGuid = 12;
+	uint32 retcode = 10;
+	uint32 cardId = 5;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CreateEntityInfo.proto";
+import "CreateReason.proto";
+
+message SceneCreateEntityReq {
+	//enum MPFHGJCFEAF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 228;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	bool isDestroyWhenDisconnect = 13;
+	CreateEntityInfo entity = 9;
+	CreateReason reason = 1;
+}

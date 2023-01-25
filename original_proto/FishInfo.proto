@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FishInfo {
+	uint32 pjkdcbfhaoo = 4;
+	uint32 defebhbifge = 6;
+}

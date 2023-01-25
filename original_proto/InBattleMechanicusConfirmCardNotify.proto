@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message InBattleMechanicusConfirmCardNotify {
+	//enum AEAMAFIMLIM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 5378;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 playerUid = 2;
+	uint32 cardId = 1;
+	uint32 playIndex = 7;
+	uint32 groupId = 12;
+}

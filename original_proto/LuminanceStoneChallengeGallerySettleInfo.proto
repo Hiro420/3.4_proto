@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message LuminanceStoneChallengeGallerySettleInfo {
+	uint32 cleanMudCount = 15;
+	uint32 galleryId = 11;
+	GalleryStopReason reason = 9;
+	uint32 killMonsterCount = 6;
+	uint32 killSpecialMonsterCount = 4;
+	uint32 finalScore = 5;
+}

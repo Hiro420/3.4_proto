@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PLDKICHAHEB.proto";
+
+message BGPGPMLJNLP {
+	string createTime = 1;
+	int32 daehjagbjbl = 2;
+	repeated PLDKICHAHEB jkfdibhoggm = 3;
+}

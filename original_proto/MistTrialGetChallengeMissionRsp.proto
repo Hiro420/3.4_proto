@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MistTrialMissionInfo.proto";
+
+message MistTrialGetChallengeMissionRsp {
+	//enum ADKNOEJPKFF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8884;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 7;
+	uint32 trialId = 9;
+	repeated MistTrialMissionInfo missionInfoList = 6;
+}

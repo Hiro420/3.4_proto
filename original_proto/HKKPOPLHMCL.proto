@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EquipParam.proto";
+
+message HKKPOPLHMCL {
+	repeated EquipParam itemList = 1;
+}

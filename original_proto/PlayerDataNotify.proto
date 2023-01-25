@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PropValue.proto";
+
+message PlayerDataNotify {
+	//enum OKEHMENIGCG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 170;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	string nickName = 11;
+	uint32 regionId = 9;
+	uint64 serverTime = 3;
+	bool isFirstLoginToday = 7;
+	map<uint32, PropValue> propMap = 5;
+}

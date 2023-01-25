@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IrodoriChessSettleInfo {
+	bool isActivityEnd = 10;
+	uint32 killMonsterNum = 2;
+	bool isNewRecord = 12;
+	uint64 sceneTimeMs = 14;
+	uint32 settleScore = 15;
+	bool isPerfect = 5;
+}

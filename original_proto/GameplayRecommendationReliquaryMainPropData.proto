@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GameplayRecommendationReliquaryMainPropData {
+	uint32 mainPropId = 6;
+	uint32 khfnbgnaclh = 9;
+}

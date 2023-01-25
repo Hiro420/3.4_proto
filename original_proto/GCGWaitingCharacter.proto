@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGWaitingCharacter {
+	uint32 condCount = 9;
+	uint32 cardId = 2;
+}

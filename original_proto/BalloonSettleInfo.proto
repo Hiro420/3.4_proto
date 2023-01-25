@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+
+message BalloonSettleInfo {
+	uint32 shootCount = 3;
+	uint32 maxCombo = 14;
+	uint32 finalScore = 1;
+	uint32 uid = 11;
+	OnlinePlayerInfo playerInfo = 15;
+}

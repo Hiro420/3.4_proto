@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "BalloonPlayerInfo.proto";
+
+message BalloonInfo {
+	map<uint32, BalloonPlayerInfo> scenePlayerBalloonInfoMap = 13;
+	uint32 endTime = 7;
+}

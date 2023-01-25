@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "UgcType.proto";
+import "RecordUsage.proto";
+import "MusicRecord.proto";
+
+message GetUgcRsp {
+	//enum PNOAIKJGEMO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6345;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	UgcType ugcType = 12;
+	int32 retcode = 8;
+	RecordUsage ugcRecordUsage = 7;
+	uint64 ugcGuid = 9;
+	oneof record {
+		MusicRecord music_record = 1;
+	}
+}

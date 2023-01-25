@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+
+message MatchPlayerInfo {
+	bool isAgreed = 11;
+	OnlinePlayerInfo playerInfo = 4;
+}

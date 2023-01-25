@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message IAPAGBPEBKP {
+	message JEKPAEKLGIF {
+		repeated int32 gcnpfdenhco = 1;
+		string hjangcedhmi = 2;
+		int32 jmlbblffjjl = 3;
+		int32 ojbimgkainp = 4;
+	}
+
+	repeated JEKPAEKLGIF boanjkipdma = 1;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MotionInfo.proto";
+
+message ForceDragAvatarNotify {
+	//enum FPGMGAGADJM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3071;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint64 Unk3300_AFLCLLFDPBD = 14;
+	uint32 entityId = 8;
+	MotionInfo motionInfo = 11;
+	uint64 Unk3300_IMFNNPGHKJJ = 1;
+	bool isFirstValid = 5;
+	uint32 sceneTime = 4;
+}

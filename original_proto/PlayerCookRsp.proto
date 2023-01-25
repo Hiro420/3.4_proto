@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CookRecipeData.proto";
+import "ItemParam.proto";
+
+message PlayerCookRsp {
+	//enum FPFCHMGMNFC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 128;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 7;
+	repeated ItemParam extraItemList = 13;
+	repeated ItemParam itemList = 9;
+	CookRecipeData recipeData = 5;
+	uint32 cookCount = 12;
+	uint32 qteQuality = 4;
+}

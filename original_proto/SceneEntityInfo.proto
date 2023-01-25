@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ProtEntityType.proto";
+import "MotionInfo.proto";
+import "Avatar.proto";
+import "Monster.proto";
+import "Npc.proto";
+import "Gadget.proto";
+import "EntityClientData.proto";
+import "EntityAuthorityInfo.proto";
+import "PropPair.proto";
+import "FightPropPair.proto";
+import "AnimatorParameterValueInfoPair.proto";
+import "EntityEnvironmentInfo.proto";
+import "ServerBuff.proto";
+
+message SceneEntityInfo {
+	ProtEntityType entityType = 1;
+	uint32 entityId = 2;
+	string createTime = 3;
+	MotionInfo motionInfo = 4;
+	repeated PropPair propList = 5;
+	repeated FightPropPair fightPropList = 6;
+	uint32 lifeState = 7;
+	repeated AnimatorParameterValueInfoPair animatorParaList = 9;
+	oneof entity {
+		Avatar avatar = 10;
+		Monster monster = 11;
+		Npc npc = 12;
+		Gadget gadget = 13;
+	}
+	uint32 lastMoveSceneTimeMs = 17;
+	uint32 lastMoveReliableSeq = 18;
+	EntityClientData entityClientData = 19;
+	repeated EntityEnvironmentInfo entityEnvironmentInfoList = 20;
+	EntityAuthorityInfo entityAuthorityInfo = 21;
+	repeated string tagList = 22;
+	repeated ServerBuff serverBuffList = 23;
+}

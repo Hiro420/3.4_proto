@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ActivityPushTipsState.proto";
+
+message ActivityPushTipsData {
+	ActivityPushTipsState state = 12;
+	uint32 activityPushTipsId = 11;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message FungusCultivateReq {
+	//enum NIMDMBGIEOP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 22123;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 cultivateId = 15;
+	uint32 time = 12;
+	uint32 Unk3300_MBPLICBFAGL = 5;
+	uint32 Unk3300_PGJKEICFKLL = 3;
+	uint32 Unk3300_DJEGJDACDEF = 7;
+	uint32 Unk3300_AEGCNHLOPEP = 8;
+	uint32 Unk3300_IMEGFNOLDCE = 13;
+	uint32 Unk3300_IOANLJBMBAI = 2;
+}

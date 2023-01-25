@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message SceneAudioNotify {
+	//enum KGDMCLELPAN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3132;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	int32 type = 14;
+	repeated string param3 = 12;
+	repeated float param2 = 4;
+	uint32 sourceUid = 5;
+	repeated uint32 param1 = 9;
+}

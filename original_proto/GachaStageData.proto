@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GachaStageData {
+	map<uint32, uint32> targetNumMap = 11;
+	uint32 stageId = 15;
+	bool isOpen = 4;
+}

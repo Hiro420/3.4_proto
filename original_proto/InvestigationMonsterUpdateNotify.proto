@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InvestigationMonster.proto";
+
+message InvestigationMonsterUpdateNotify {
+	//enum PGJKAGCIHFP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1919;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	InvestigationMonster investigationMonster = 15;
+}

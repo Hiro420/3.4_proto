@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message CreateVehicleReq {
+	//enum JAAHLAPFNJN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 858;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	Vector pos = 2;
+	Vector rot = 10;
+	uint32 vehicleId = 1;
+	uint32 scenePointId = 15;
+}

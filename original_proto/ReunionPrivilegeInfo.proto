@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ReunionPrivilegeInfo {
+	uint32 Unk3300_ALOLACFGMHI = 7;
+	uint32 privilegeId = 12;
+	uint32 Unk3300_GJBEAFPMFAA = 8;
+}

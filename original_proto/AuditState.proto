@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum AuditState {
+	AUDIT_STATE_NONE = 0;
+	AUDIT_STATE_WAITING = 1;
+	AUDIT_STATE_FAILED = 2;
+}

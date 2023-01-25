@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "MotionInfo.proto";
+
+message SceneEntityMoveReq {
+	//enum AEAPJEKMADO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 270;
+	//	DCDNILFDFLB = 1;
+	//	NNBKOLMPOEA = 0;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	MotionInfo motionInfo = 5;
+	uint32 reliableSeq = 3;
+	uint32 entityId = 1;
+	uint32 sceneTime = 14;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "SalvagePreventSettleInfo.proto";
+
+message SalvagePreventSettleNotify {
+	//enum KFGCNIPCNCN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8036;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 galleryId = 5;
+	SalvagePreventSettleInfo settleInfo = 6;
+}

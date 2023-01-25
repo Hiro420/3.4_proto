@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message GFOIPJIJFPP {
+	Vector initPos = 6;
+	Vector forward = 9;
+}

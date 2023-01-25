@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ScenePlayerInfo.proto";
+
+message ScenePlayerInfoNotify {
+	//enum IOKKMFKCAAI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 264;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated ScenePlayerInfo playerInfoList = 11;
+}

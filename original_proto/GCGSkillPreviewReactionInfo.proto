@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message GCGSkillPreviewReactionInfo {
+	uint32 Unk3300_AENPLEDPMJH = 9;
+	uint32 Unk3300_PDEHPHJFAKD = 10;
+}

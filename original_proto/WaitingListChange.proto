@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message WaitingListChange {
+	uint32 controllerId = 4;
+	uint32 curIndex = 3;
+}

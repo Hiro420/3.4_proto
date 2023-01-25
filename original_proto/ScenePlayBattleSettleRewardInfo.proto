@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ItemParam.proto";
+
+message ScenePlayBattleSettleRewardInfo {
+	uint32 uid = 8;
+	repeated ItemParam rewardItemList = 5;
+}

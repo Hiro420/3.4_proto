@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ActivityTakeAllScoreRewardRsp {
+	//enum AGJHBFOEPGP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8501;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 activityId = 13;
+	repeated uint32 rewardConfigList = 7;
+	int32 retcode = 4;
+}

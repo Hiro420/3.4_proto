@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "AttackResult.proto";
+
+message EvtBeingHitInfo {
+	AttackResult attackResult = 5;
+	uint32 peerId = 7;
+	uint32 frameNum = 10;
+}

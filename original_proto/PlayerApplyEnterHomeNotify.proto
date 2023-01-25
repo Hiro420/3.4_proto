@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "OnlinePlayerInfo.proto";
+
+message PlayerApplyEnterHomeNotify {
+	//enum DDJPAJOBNFM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4771;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	OnlinePlayerInfo srcPlayerInfo = 7;
+	uint32 srcAppId = 13;
+}

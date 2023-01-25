@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ShopMcoinProduct.proto";
+import "ShopCardProduct.proto";
+import "PlayProduct.proto";
+import "ShopConcertProduct.proto";
+
+message RechargeReq {
+	//enum LLEAGGMKINK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4138;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	ShopMcoinProduct mcoinProduct = 11;
+	ShopCardProduct cardProduct = 5;
+	PlayProduct playProduct = 6;
+	ShopConcertProduct concertProduct = 3;
+}

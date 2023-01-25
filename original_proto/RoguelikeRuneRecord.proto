@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message RoguelikeRuneRecord {
+	uint32 Unk3300_JLOLMLFAPHH = 7;
+	uint32 Unk3300_IGBOJLPPKON = 12;
+	uint32 runeId = 6;
+}

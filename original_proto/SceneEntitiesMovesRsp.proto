@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "EntityMoveFailInfo.proto";
+
+message SceneEntitiesMovesRsp {
+	//enum DNNOMKBNFGA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 293;
+	//	DCDNILFDFLB = 1;
+	//	NNBKOLMPOEA = 0;
+	//}
+
+	repeated EntityMoveFailInfo entityMoveFailInfoList = 5;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CookRecipeData.proto";
+
+message CookDataNotify {
+	//enum GIANKKAILGG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 145;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated CookRecipeData recipeDataList = 9;
+	uint32 grade = 2;
+}

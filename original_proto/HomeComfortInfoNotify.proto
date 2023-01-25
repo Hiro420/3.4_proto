@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HomeModuleComfortInfo.proto";
+
+message HomeComfortInfoNotify {
+	//enum PNJGIBJDIGD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4879;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	repeated HomeModuleComfortInfo moduleInfoList = 11;
+}

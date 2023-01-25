@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "IrodoriPoetryThemeData.proto";
+
+message IrodoriPoetryData {
+	repeated IrodoriPoetryThemeData themeDataList = 10;
+	uint32 curThemeId = 2;
+}

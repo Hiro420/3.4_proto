@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+enum DataResVersionOpType {
+	DATA_RES_VERSION_OP_TYPE_NONE = 0;
+	DATA_RES_VERSION_OP_TYPE_RELOGIN = 1;
+	DATA_RES_VERSION_OP_TYPE_MP_RELOGIN = 2;
+}

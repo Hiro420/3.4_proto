@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "InstableSprayTeamInfo.proto";
+
+message InstableSprayStageInfo {
+	uint32 maxScore = 2;
+	repeated InstableSprayTeamInfo teamInfoList = 3;
+	bool isFinished = 13;
+	uint32 stageId = 8;
+}

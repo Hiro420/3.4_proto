@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGPhaseType.proto";
+
+message OpTimer {
+	uint64 timeStamp = 9;
+	uint64 beginTime = 10;
+	uint32 controllerId = 6;
+	GCGPhaseType phase = 1;
+}

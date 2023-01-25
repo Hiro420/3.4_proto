@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "CrystalLinkAvatarInfo.proto";
+import "CrystalLinkBuffInfo.proto";
+
+message CrystalLinkTeamInfo {
+	repeated CrystalLinkAvatarInfo avatarInfoList = 13;
+	repeated CrystalLinkBuffInfo buffInfoList = 10;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyDailyInfo {
+	uint32 challengeId = 15;
+	bool isFirstPassRewardTaken = 2;
+	uint32 Unk3300_NEBCDALEFEC = 10;
+	uint32 dayIndex = 14;
+	uint32 challengeMaxScore = 6;
+	uint32 beginTime = 7;
+	uint32 Unk3300_NNHICCGELHP = 12;
+}

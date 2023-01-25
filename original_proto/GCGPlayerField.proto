@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GCGZone.proto";
+import "GCGDiceSideType.proto";
+import "GCGPVEIntention.proto";
+import "GCGWaitingCharacter.proto";
+
+message GCGPlayerField {
+	GCGZone Unk3300_EIHOMDLENMK = 4;
+	uint32 Unk3300_FDFPHNDOJML = 12;
+	repeated GCGDiceSideType diceSideList = 7;
+	uint32 Unk3300_GGHKFFADEAL = 181;
+	repeated GCGPVEIntention intentionList = 1273;
+	uint32 Unk3300_GLNIFLOKBPM = 14;
+	uint32 Unk3300_PBECINKKHND = 1;
+	uint32 Unk3300_IKJMGAHCFPM = 6;
+	uint32 controllerId = 3;
+	map<uint32, GCGZone> modifyZoneMap = 11;
+	GCGZone Unk3300_IPLMHKCNDLE = 10;
+	uint32 deckCardNum = 15;
+	GCGZone Unk3300_EFNAEFBECHD = 5;
+	GCGZone Unk3300_INDJNJJJNKL = 8;
+	GCGZone Unk3300_AOPJIOHMPOF = 9;
+	repeated GCGWaitingCharacter waitingList = 2;
+	bool isPassed = 13;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message AvatarSkillMaxChargeCountNotify {
+	//enum GJOILNCPKPJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1080;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 skillId = 3;
+	uint64 avatarGuid = 7;
+	uint32 maxChargeCount = 1;
+}

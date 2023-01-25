@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "GalleryStopReason.proto";
+
+message JKJCMOIMBCH {
+	uint32 usedTime = 6;
+	string transaction = 5;
+	GalleryStopReason reason = 13;
+}

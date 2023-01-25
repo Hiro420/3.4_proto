@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message MLBFNDKNIEM {
+	bool isOpen = 13;
+	uint32 levelId = 5;
+	uint32 maxScore = 14;
+}

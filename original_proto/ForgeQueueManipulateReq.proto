@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ForgeQueueManipulateType.proto";
+
+message ForgeQueueManipulateReq {
+	//enum BKBECDMOFNM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 653;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 forgeQueueId = 5;
+	ForgeQueueManipulateType manipulateType = 2;
+}

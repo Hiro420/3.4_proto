@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "RogueDiaryRoomInfo.proto";
+
+message RogueDiaryDungeonInfoNotify {
+	//enum DEBOCJIIDDJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 8695;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//	EAJIABGAOCI = 1;
+	//}
+
+	uint32 stageId = 6;
+	repeated uint32 Unk3300_MMBEJGDFCGE = 13;
+	uint32 time = 7;
+	uint32 curRound = 12;
+	uint32 coin = 14;
+	repeated uint32 Unk3300_DKCFGLAKPJL = 11;
+	uint32 difficulty = 4;
+	repeated RogueDiaryRoomInfo roomList = 5;
+	uint32 dungeonId = 15;
+	uint32 curRoom = 1;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message DALLDMAANFE {
+	uint32 entityId = 7;
+	Vector skillAnchorPosition = 9;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "ChatInfo.proto";
+
+message ChatHistoryNotify {
+	//enum NDNAPJGNDGE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 3099;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 channelId = 14;
+	repeated ChatInfo chatInfo = 12;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+import "Type.proto";
+
+message EntityJumpNotify {
+	//enum GFBPAOPKOEK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 292;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	Vector rot = 8;
+	Vector pos = 5;
+	uint32 entityId = 11;
+	Type jumpType = 3;
+}

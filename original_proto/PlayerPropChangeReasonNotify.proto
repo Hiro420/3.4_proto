@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "PropChangeReason.proto";
+
+message PlayerPropChangeReasonNotify {
+	//enum FKHLDBGKFKK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 1214;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint32 propType = 6;
+	float oldValue = 12;
+	float curValue = 9;
+	PropChangeReason reason = 1;
+}

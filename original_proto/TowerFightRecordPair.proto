@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message TowerFightRecordPair {
+	uint32 data = 12;
+	uint32 avatarId = 15;
+}

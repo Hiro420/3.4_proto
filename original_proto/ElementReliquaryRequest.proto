@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ElementReliquaryRequest {
+	uint32 elementType = 12;
+	uint32 equipType = 7;
+}

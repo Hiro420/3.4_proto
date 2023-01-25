@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message WinterCampStageInfo {
+	uint32 totalProgress = 15;
+	uint32 curProgress = 2;
+	uint32 id = 13;
+	uint32 openTime = 12;
+	Vector pos = 6;
+	bool isFinished = 9;
+}

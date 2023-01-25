@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message JigsawPictureData {
+	uint32 Unk3300_DFGHKDBENED = 12;
+	uint32 Unk3300_FIKPLGJIBGP = 11;
+	bool isOpen = 4;
+	bool isFinished = 8;
+}

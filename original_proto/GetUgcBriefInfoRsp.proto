@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "UgcType.proto";
+import "MusicBriefInfo.proto";
+
+message GetUgcBriefInfoRsp {
+	//enum FEOCBIBAOAK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 6341;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	uint64 ugcGuid = 15;
+	UgcType ugcType = 9;
+	int32 retcode = 1;
+	oneof brief {
+		MusicBriefInfo music_brief_info = 8;
+	}
+}

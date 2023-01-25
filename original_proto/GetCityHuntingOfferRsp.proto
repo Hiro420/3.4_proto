@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "HuntingPair.proto";
+import "HuntingOfferData.proto";
+
+message GetCityHuntingOfferRsp {
+	//enum LCAHNPHEMMD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	PEPPOHPHJOJ = 4341;
+	//	DCDNILFDFLB = 0;
+	//	NNBKOLMPOEA = 1;
+	//}
+
+	int32 retcode = 10;
+	uint32 nextRefreshTime = 8;
+	uint32 curWeekFinishedCount = 14;
+	HuntingPair ongoingHuntingPair = 7;
+	repeated HuntingOfferData huntingOfferList = 11;
+	uint32 cityId = 9;
+}

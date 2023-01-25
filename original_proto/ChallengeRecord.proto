@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message ChallengeRecord {
+	uint32 bestValue = 2;
+	uint32 challengeIndex = 15;
+	uint32 challengeId = 3;
+	uint32 challengeRecordType = 5;
+}

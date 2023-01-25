@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+import "Vector.proto";
+
+message HEHODLHCPEL {
+	uint32 entityId = 10;
+	Vector glbmapjdhpc = 5;
+	Vector gnanpemiogh = 9;
+}

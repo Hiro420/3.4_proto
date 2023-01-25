@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+
+
+message EffigyChallengeV2SettleInfo {
+	uint32 Unk3300_MHOIIPJKAMN = 14;
+	bool Unk3300_AKMPCDIKBJD = 5;
+	uint32 Unk3300_ONKPGFOLDFL = 15;
+	uint32 Unk3300_PHEIMLOKIJG = 10;
+	uint32 challengeModeDifficulty = 13;
+	bool Unk3300_NGBKNDHJPCP = 1;
+}
