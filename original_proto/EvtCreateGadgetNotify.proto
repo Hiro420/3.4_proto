@@ -18,7 +18,7 @@ message EvtCreateGadgetNotify {
 	//}
 
 	uint32 targetLockPointIndex = 6;
-	bool Unk3300_OJHDJGAFDNN = 137;
+	bool is_async_load = 137; //guessed
 	uint32 ownerEntityId = 3;
 	Vector initEulerAngles = 11;
 	uint32 propOwnerEntityId = 1;

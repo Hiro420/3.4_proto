@@ -25,10 +25,14 @@ public final class EvtCreateGadgetNotifyOuterClass {
     int getTargetLockPointIndex();
 
     /**
-     * <code>bool Unk3300_OJHDJGAFDNN = 137;</code>
-     * @return The unk3300OJHDJGAFDNN.
+     * <pre>
+     *guessed
+     * </pre>
+     *
+     * <code>bool is_async_load = 137;</code>
+     * @return The isAsyncLoad.
      */
-    boolean getUnk3300OJHDJGAFDNN();
+    boolean getIsAsyncLoad();
 
     /**
      * <code>uint32 ownerEntityId = 3;</code>
@@ -331,7 +335,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
             }
             case 1096: {
 
-              unk3300OJHDJGAFDNN_ = input.readBool();
+              isAsyncLoad_ = input.readBool();
               break;
             }
             case 6168: {
@@ -430,15 +434,19 @@ public final class EvtCreateGadgetNotifyOuterClass {
       return targetLockPointIndex_;
     }
 
-    public static final int UNK3300_OJHDJGAFDNN_FIELD_NUMBER = 137;
-    private boolean unk3300OJHDJGAFDNN_;
+    public static final int IS_ASYNC_LOAD_FIELD_NUMBER = 137;
+    private boolean isAsyncLoad_;
     /**
-     * <code>bool Unk3300_OJHDJGAFDNN = 137;</code>
-     * @return The unk3300OJHDJGAFDNN.
+     * <pre>
+     *guessed
+     * </pre>
+     *
+     * <code>bool is_async_load = 137;</code>
+     * @return The isAsyncLoad.
      */
     @java.lang.Override
-    public boolean getUnk3300OJHDJGAFDNN() {
-      return unk3300OJHDJGAFDNN_;
+    public boolean getIsAsyncLoad() {
+      return isAsyncLoad_;
     }
 
     public static final int OWNERENTITYID_FIELD_NUMBER = 3;
@@ -760,8 +768,8 @@ public final class EvtCreateGadgetNotifyOuterClass {
       if (roomId_ != 0) {
         output.writeUInt32(15, roomId_);
       }
-      if (unk3300OJHDJGAFDNN_ != false) {
-        output.writeBool(137, unk3300OJHDJGAFDNN_);
+      if (isAsyncLoad_ != false) {
+        output.writeBool(137, isAsyncLoad_);
       }
       if (isPeerIdFromPlayer_ != false) {
         output.writeBool(771, isPeerIdFromPlayer_);
@@ -849,9 +857,9 @@ public final class EvtCreateGadgetNotifyOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(15, roomId_);
       }
-      if (unk3300OJHDJGAFDNN_ != false) {
+      if (isAsyncLoad_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(137, unk3300OJHDJGAFDNN_);
+          .computeBoolSize(137, isAsyncLoad_);
       }
       if (isPeerIdFromPlayer_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -902,8 +910,8 @@ public final class EvtCreateGadgetNotifyOuterClass {
 
       if (getTargetLockPointIndex()
           != other.getTargetLockPointIndex()) return false;
-      if (getUnk3300OJHDJGAFDNN()
-          != other.getUnk3300OJHDJGAFDNN()) return false;
+      if (getIsAsyncLoad()
+          != other.getIsAsyncLoad()) return false;
       if (getOwnerEntityId()
           != other.getOwnerEntityId()) return false;
       if (hasInitEulerAngles() != other.hasInitEulerAngles()) return false;
@@ -956,9 +964,9 @@ public final class EvtCreateGadgetNotifyOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + TARGETLOCKPOINTINDEX_FIELD_NUMBER;
       hash = (53 * hash) + getTargetLockPointIndex();
-      hash = (37 * hash) + UNK3300_OJHDJGAFDNN_FIELD_NUMBER;
+      hash = (37 * hash) + IS_ASYNC_LOAD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getUnk3300OJHDJGAFDNN());
+          getIsAsyncLoad());
       hash = (37 * hash) + OWNERENTITYID_FIELD_NUMBER;
       hash = (53 * hash) + getOwnerEntityId();
       if (hasInitEulerAngles()) {
@@ -1151,7 +1159,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         super.clear();
         targetLockPointIndex_ = 0;
 
-        unk3300OJHDJGAFDNN_ = false;
+        isAsyncLoad_ = false;
 
         ownerEntityId_ = 0;
 
@@ -1223,7 +1231,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
         emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify result = new emu.grasscutter.net.proto.EvtCreateGadgetNotifyOuterClass.EvtCreateGadgetNotify(this);
         int from_bitField0_ = bitField0_;
         result.targetLockPointIndex_ = targetLockPointIndex_;
-        result.unk3300OJHDJGAFDNN_ = unk3300OJHDJGAFDNN_;
+        result.isAsyncLoad_ = isAsyncLoad_;
         result.ownerEntityId_ = ownerEntityId_;
         if (initEulerAnglesBuilder_ == null) {
           result.initEulerAngles_ = initEulerAngles_;
@@ -1308,8 +1316,8 @@ public final class EvtCreateGadgetNotifyOuterClass {
         if (other.getTargetLockPointIndex() != 0) {
           setTargetLockPointIndex(other.getTargetLockPointIndex());
         }
-        if (other.getUnk3300OJHDJGAFDNN() != false) {
-          setUnk3300OJHDJGAFDNN(other.getUnk3300OJHDJGAFDNN());
+        if (other.getIsAsyncLoad() != false) {
+          setIsAsyncLoad(other.getIsAsyncLoad());
         }
         if (other.getOwnerEntityId() != 0) {
           setOwnerEntityId(other.getOwnerEntityId());
@@ -1437,33 +1445,45 @@ public final class EvtCreateGadgetNotifyOuterClass {
         return this;
       }
 
-      private boolean unk3300OJHDJGAFDNN_ ;
+      private boolean isAsyncLoad_ ;
       /**
-       * <code>bool Unk3300_OJHDJGAFDNN = 137;</code>
-       * @return The unk3300OJHDJGAFDNN.
+       * <pre>
+       *guessed
+       * </pre>
+       *
+       * <code>bool is_async_load = 137;</code>
+       * @return The isAsyncLoad.
        */
       @java.lang.Override
-      public boolean getUnk3300OJHDJGAFDNN() {
-        return unk3300OJHDJGAFDNN_;
+      public boolean getIsAsyncLoad() {
+        return isAsyncLoad_;
       }
       /**
-       * <code>bool Unk3300_OJHDJGAFDNN = 137;</code>
-       * @param value The unk3300OJHDJGAFDNN to set.
+       * <pre>
+       *guessed
+       * </pre>
+       *
+       * <code>bool is_async_load = 137;</code>
+       * @param value The isAsyncLoad to set.
        * @return This builder for chaining.
        */
-      public Builder setUnk3300OJHDJGAFDNN(boolean value) {
+      public Builder setIsAsyncLoad(boolean value) {
         
-        unk3300OJHDJGAFDNN_ = value;
+        isAsyncLoad_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool Unk3300_OJHDJGAFDNN = 137;</code>
+       * <pre>
+       *guessed
+       * </pre>
+       *
+       * <code>bool is_async_load = 137;</code>
        * @return This builder for chaining.
        */
-      public Builder clearUnk3300OJHDJGAFDNN() {
+      public Builder clearIsAsyncLoad() {
         
-        unk3300OJHDJGAFDNN_ = false;
+        isAsyncLoad_ = false;
         onChanged();
         return this;
       }
@@ -2357,21 +2377,20 @@ public final class EvtCreateGadgetNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\033EvtCreateGadgetNotify.proto\032\014Vector.pr" +
-      "oto\032\021ForwardType.proto\"\367\003\n\025EvtCreateGadg" +
-      "etNotify\022\034\n\024targetLockPointIndex\030\006 \001(\r\022\034" +
-      "\n\023Unk3300_OJHDJGAFDNN\030\211\001 \001(\010\022\025\n\rownerEnt" +
-      "ityId\030\003 \001(\r\022 \n\017initEulerAngles\030\013 \001(\0132\007.V" +
-      "ector\022\031\n\021propOwnerEntityId\030\001 \001(\r\022\016\n\006room" +
-      "Id\030\017 \001(\r\022!\n\013forwardType\030\007 \001(\0162\014.ForwardT" +
-      "ype\022\016\n\006campId\030\016 \001(\r\022\020\n\010configId\030\r \001(\r\022\026\n" +
-      "\016targetEntityId\030\n \001(\r\022\014\n\004guid\030\005 \001(\004\022\033\n\023U" +
-      "nk3300_DLBIJFOONBA\030\002 \001(\010\022\030\n\007initPos\030\t \001(" +
-      "\0132\007.Vector\022\020\n\010entityId\030\004 \001(\r\022\033\n\022isPeerId" +
-      "FromPlayer\030\203\006 \001(\010\022!\n\030targetLockPointInde" +
-      "xList\030\344\t \003(\r\022\033\n\023Unk3300_EJNBIGLGMII\030\010 \001(" +
-      "\010\022\020\n\010campType\030\014 \001(\r\022\033\n\022targetEntityIdLis" +
-      "t\030\267\014 \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
-      "roto3"
+      "oto\032\021ForwardType.proto\"\361\003\n\025EvtCreateGadg" +
+      "etNotify\022\034\n\024targetLockPointIndex\030\006 \001(\r\022\026" +
+      "\n\ris_async_load\030\211\001 \001(\010\022\025\n\rownerEntityId\030" +
+      "\003 \001(\r\022 \n\017initEulerAngles\030\013 \001(\0132\007.Vector\022" +
+      "\031\n\021propOwnerEntityId\030\001 \001(\r\022\016\n\006roomId\030\017 \001" +
+      "(\r\022!\n\013forwardType\030\007 \001(\0162\014.ForwardType\022\016\n" +
+      "\006campId\030\016 \001(\r\022\020\n\010configId\030\r \001(\r\022\026\n\016targe" +
+      "tEntityId\030\n \001(\r\022\014\n\004guid\030\005 \001(\004\022\033\n\023Unk3300" +
+      "_DLBIJFOONBA\030\002 \001(\010\022\030\n\007initPos\030\t \001(\0132\007.Ve" +
+      "ctor\022\020\n\010entityId\030\004 \001(\r\022\033\n\022isPeerIdFromPl" +
+      "ayer\030\203\006 \001(\010\022!\n\030targetLockPointIndexList\030" +
+      "\344\t \003(\r\022\033\n\023Unk3300_EJNBIGLGMII\030\010 \001(\010\022\020\n\010c" +
+      "ampType\030\014 \001(\r\022\033\n\022targetEntityIdList\030\267\014 \003" +
+      "(\rB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2384,7 +2403,7 @@ public final class EvtCreateGadgetNotifyOuterClass {
     internal_static_EvtCreateGadgetNotify_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_EvtCreateGadgetNotify_descriptor,
-        new java.lang.String[] { "TargetLockPointIndex", "Unk3300OJHDJGAFDNN", "OwnerEntityId", "InitEulerAngles", "PropOwnerEntityId", "RoomId", "ForwardType", "CampId", "ConfigId", "TargetEntityId", "Guid", "Unk3300DLBIJFOONBA", "InitPos", "EntityId", "IsPeerIdFromPlayer", "TargetLockPointIndexList", "Unk3300EJNBIGLGMII", "CampType", "TargetEntityIdList", });
+        new java.lang.String[] { "TargetLockPointIndex", "IsAsyncLoad", "OwnerEntityId", "InitEulerAngles", "PropOwnerEntityId", "RoomId", "ForwardType", "CampId", "ConfigId", "TargetEntityId", "Guid", "Unk3300DLBIJFOONBA", "InitPos", "EntityId", "IsPeerIdFromPlayer", "TargetLockPointIndexList", "Unk3300EJNBIGLGMII", "CampType", "TargetEntityIdList", });
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ForwardTypeOuterClass.getDescriptor();
   }
