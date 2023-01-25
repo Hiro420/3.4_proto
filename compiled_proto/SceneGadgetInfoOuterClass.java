@@ -120,19 +120,19 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.GatherGadgetOuterClass.GatherGadgetOrBuilder getGatherGadgetOrBuilder();
 
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      * @return Whether the worktop field is set.
      */
     boolean hasWorktop();
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      * @return The worktop.
      */
-    emu.grasscutter.net.proto.WorktopOuterClass.Worktop getWorktop();
+    emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo getWorktop();
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      */
-    emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder getWorktopOrBuilder();
+    emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder getWorktopOrBuilder();
 
     /**
      * <code>.ClientGadget client_gadget = 15;</code>
@@ -625,14 +625,14 @@ public final class SceneGadgetInfoOuterClass {
               break;
             }
             case 114: {
-              emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder subBuilder = null;
+              emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder subBuilder = null;
               if (contentCase_ == 14) {
-                subBuilder = ((emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_).toBuilder();
+                subBuilder = ((emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_).toBuilder();
               }
               content_ =
-                  input.readMessage(emu.grasscutter.net.proto.WorktopOuterClass.Worktop.parser(), extensionRegistry);
+                  input.readMessage(emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.parser(), extensionRegistry);
               if (subBuilder != null) {
-                subBuilder.mergeFrom((emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_);
+                subBuilder.mergeFrom((emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_);
                 content_ = subBuilder.buildPartial();
               }
               contentCase_ = 14;
@@ -1280,7 +1280,7 @@ public final class SceneGadgetInfoOuterClass {
 
     public static final int WORKTOP_FIELD_NUMBER = 14;
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      * @return Whether the worktop field is set.
      */
     @java.lang.Override
@@ -1288,25 +1288,25 @@ public final class SceneGadgetInfoOuterClass {
       return contentCase_ == 14;
     }
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      * @return The worktop.
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WorktopOuterClass.Worktop getWorktop() {
+    public emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo getWorktop() {
       if (contentCase_ == 14) {
-         return (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_;
+         return (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_;
       }
-      return emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+      return emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
     }
     /**
-     * <code>.Worktop worktop = 14;</code>
+     * <code>.WorktopInfo worktop = 14;</code>
      */
     @java.lang.Override
-    public emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder getWorktopOrBuilder() {
+    public emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder getWorktopOrBuilder() {
       if (contentCase_ == 14) {
-         return (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_;
+         return (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_;
       }
-      return emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+      return emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
     }
 
     public static final int CLIENT_GADGET_FIELD_NUMBER = 15;
@@ -2077,7 +2077,7 @@ public final class SceneGadgetInfoOuterClass {
         output.writeMessage(13, (emu.grasscutter.net.proto.GatherGadgetOuterClass.GatherGadget) content_);
       }
       if (contentCase_ == 14) {
-        output.writeMessage(14, (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_);
+        output.writeMessage(14, (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_);
       }
       if (contentCase_ == 15) {
         output.writeMessage(15, (emu.grasscutter.net.proto.ClientGadgetOuterClass.ClientGadget) content_);
@@ -2224,7 +2224,7 @@ public final class SceneGadgetInfoOuterClass {
       }
       if (contentCase_ == 14) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(14, (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_);
+          .computeMessageSize(14, (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_);
       }
       if (contentCase_ == 15) {
         size += com.google.protobuf.CodedOutputStream
@@ -3921,9 +3921,9 @@ public final class SceneGadgetInfoOuterClass {
       }
 
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WorktopOuterClass.Worktop, emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder, emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder> worktopBuilder_;
+          emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder> worktopBuilder_;
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        * @return Whether the worktop field is set.
        */
       @java.lang.Override
@@ -3931,27 +3931,27 @@ public final class SceneGadgetInfoOuterClass {
         return contentCase_ == 14;
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        * @return The worktop.
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.WorktopOuterClass.Worktop getWorktop() {
+      public emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo getWorktop() {
         if (worktopBuilder_ == null) {
           if (contentCase_ == 14) {
-            return (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_;
+            return (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_;
           }
-          return emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+          return emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
         } else {
           if (contentCase_ == 14) {
             return worktopBuilder_.getMessage();
           }
-          return emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+          return emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
-      public Builder setWorktop(emu.grasscutter.net.proto.WorktopOuterClass.Worktop value) {
+      public Builder setWorktop(emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo value) {
         if (worktopBuilder_ == null) {
           if (value == null) {
             throw new NullPointerException();
@@ -3965,10 +3965,10 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
       public Builder setWorktop(
-          emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder builderForValue) {
+          emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder builderForValue) {
         if (worktopBuilder_ == null) {
           content_ = builderForValue.build();
           onChanged();
@@ -3979,13 +3979,13 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
-      public Builder mergeWorktop(emu.grasscutter.net.proto.WorktopOuterClass.Worktop value) {
+      public Builder mergeWorktop(emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo value) {
         if (worktopBuilder_ == null) {
           if (contentCase_ == 14 &&
-              content_ != emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance()) {
-            content_ = emu.grasscutter.net.proto.WorktopOuterClass.Worktop.newBuilder((emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_)
+              content_ != emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance()) {
+            content_ = emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.newBuilder((emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_)
                 .mergeFrom(value).buildPartial();
           } else {
             content_ = value;
@@ -4001,7 +4001,7 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
       public Builder clearWorktop() {
         if (worktopBuilder_ == null) {
@@ -4020,38 +4020,38 @@ public final class SceneGadgetInfoOuterClass {
         return this;
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
-      public emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder getWorktopBuilder() {
+      public emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder getWorktopBuilder() {
         return getWorktopFieldBuilder().getBuilder();
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
       @java.lang.Override
-      public emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder getWorktopOrBuilder() {
+      public emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder getWorktopOrBuilder() {
         if ((contentCase_ == 14) && (worktopBuilder_ != null)) {
           return worktopBuilder_.getMessageOrBuilder();
         } else {
           if (contentCase_ == 14) {
-            return (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_;
+            return (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_;
           }
-          return emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+          return emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
         }
       }
       /**
-       * <code>.Worktop worktop = 14;</code>
+       * <code>.WorktopInfo worktop = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WorktopOuterClass.Worktop, emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder, emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder> 
+          emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder> 
           getWorktopFieldBuilder() {
         if (worktopBuilder_ == null) {
           if (!(contentCase_ == 14)) {
-            content_ = emu.grasscutter.net.proto.WorktopOuterClass.Worktop.getDefaultInstance();
+            content_ = emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.getDefaultInstance();
           }
           worktopBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
-              emu.grasscutter.net.proto.WorktopOuterClass.Worktop, emu.grasscutter.net.proto.WorktopOuterClass.Worktop.Builder, emu.grasscutter.net.proto.WorktopOuterClass.WorktopOrBuilder>(
-                  (emu.grasscutter.net.proto.WorktopOuterClass.Worktop) content_,
+              emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo.Builder, emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfoOrBuilder>(
+                  (emu.grasscutter.net.proto.WorktopInfoOuterClass.WorktopInfo) content_,
                   getParentForChildren(),
                   isClean());
           content_ = null;
@@ -7248,55 +7248,55 @@ public final class SceneGadgetInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025SceneGadgetInfo.proto\032\024GadgetBornType." +
-      "proto\032\nItem.proto\032\022GatherGadget.proto\032\rW" +
-      "orktop.proto\032\022ClientGadget.proto\032\rWeathe" +
-      "r.proto\032\023AbilityGadget.proto\032\022StatueGadg" +
-      "et.proto\032\023BossChestInfo.proto\032\022BlossomCh" +
-      "est.proto\032\022MpPlayReward.proto\032\023GeneralRe" +
-      "ward.proto\032\022OfferingInfo.proto\032\024Foundati" +
-      "onInfo.proto\032\021VehicleInfo.proto\032\017ShellIn" +
-      "fo.proto\032\020ScreenInfo.proto\032\022FishPoolInfo" +
-      ".proto\032\032CustomGadgetTreeInfo.proto\032\031Rogu" +
-      "elikeGadgetInfo.proto\032\031NightCrowGadgetIn" +
-      "fo.proto\032\036DeshretObeliskGadgetInfo.proto" +
-      "\032\035CoinCollectOperatorInfo.proto\032\022Platfor" +
-      "mInfo.proto\032\024GadgetPlayInfo.proto\"\366\n\n\017Sc" +
-      "eneGadgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007group" +
-      "Id\030\002 \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerEntit" +
-      "yId\030\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.GadgetBorn" +
-      "Type\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetType\030" +
-      "\007 \001(\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017authori" +
-      "tyPeerId\030\t \001(\r\022\030\n\020isEnableInteract\030\n \001(\010" +
-      "\022\022\n\ninteractId\030\013 \001(\r\022\034\n\013trifle_item\030\014 \001(" +
-      "\0132\005.ItemH\000\022&\n\rgather_gadget\030\r \001(\0132\r.Gath" +
-      "erGadgetH\000\022\033\n\007worktop\030\016 \001(\0132\010.WorktopH\000\022" +
-      "&\n\rclient_gadget\030\017 \001(\0132\r.ClientGadgetH\000\022" +
-      "\033\n\007weather\030\021 \001(\0132\010.WeatherH\000\022(\n\016ability_" +
-      "gadget\030\022 \001(\0132\016.AbilityGadgetH\000\022&\n\rstatue" +
-      "_gadget\030\023 \001(\0132\r.StatueGadgetH\000\022$\n\nboss_c" +
-      "hest\030\024 \001(\0132\016.BossChestInfoH\000\022&\n\rblossom_" +
-      "chest\030) \001(\0132\r.BlossomChestH\000\022\'\n\016mp_play_" +
-      "reward\030* \001(\0132\r.MpPlayRewardH\000\022(\n\016general" +
-      "_reward\030+ \001(\0132\016.GeneralRewardH\000\022&\n\roffer" +
-      "ing_info\030, \001(\0132\r.OfferingInfoH\000\022*\n\017found" +
-      "ation_info\030- \001(\0132\017.FoundationInfoH\000\022$\n\014v" +
-      "ehicle_info\030. \001(\0132\014.VehicleInfoH\000\022 \n\nshe" +
-      "ll_info\030/ \001(\0132\n.ShellInfoH\000\022\"\n\013screen_in" +
-      "fo\0300 \001(\0132\013.ScreenInfoH\000\022\'\n\016fish_pool_inf" +
-      "o\030; \001(\0132\r.FishPoolInfoH\000\0228\n\027custom_gadge" +
-      "t_tree_info\030< \001(\0132\025.CustomGadgetTreeInfo" +
-      "H\000\0225\n\025roguelike_gadget_info\030= \001(\0132\024.Rogu" +
-      "elikeGadgetInfoH\000\0226\n\026night_crow_gadget_i" +
-      "nfo\030> \001(\0132\024.NightCrowGadgetInfoH\000\022@\n\033des" +
-      "hret_obelisk_gadget_info\030? \001(\0132\031.Deshret" +
-      "ObeliskGadgetInfoH\000\022>\n\032coin_collect_oper" +
-      "ator_info\030@ \001(\0132\030.CoinCollectOperatorInf" +
-      "oH\000\022\020\n\010markFlag\030\025 \001(\r\022\031\n\021propOwnerEntity" +
-      "Id\030\026 \001(\r\022\037\n\010platform\030\027 \001(\0132\r.PlatformInf" +
-      "o\022\027\n\017interactUidList\030\030 \003(\r\022\017\n\007draftId\030\031 " +
-      "\001(\r\022\027\n\017gadgetTalkState\030\032 \001(\r\022!\n\010playInfo" +
-      "\030d \001(\0132\017.GadgetPlayInfoB\t\n\007contentB\033\n\031em" +
-      "u.grasscutter.net.protob\006proto3"
+      "proto\032\nItem.proto\032\022GatherGadget.proto\032\021W" +
+      "orktopInfo.proto\032\022ClientGadget.proto\032\rWe" +
+      "ather.proto\032\023AbilityGadget.proto\032\022Statue" +
+      "Gadget.proto\032\023BossChestInfo.proto\032\022Bloss" +
+      "omChest.proto\032\022MpPlayReward.proto\032\023Gener" +
+      "alReward.proto\032\022OfferingInfo.proto\032\024Foun" +
+      "dationInfo.proto\032\021VehicleInfo.proto\032\017She" +
+      "llInfo.proto\032\020ScreenInfo.proto\032\022FishPool" +
+      "Info.proto\032\032CustomGadgetTreeInfo.proto\032\031" +
+      "RoguelikeGadgetInfo.proto\032\031NightCrowGadg" +
+      "etInfo.proto\032\036DeshretObeliskGadgetInfo.p" +
+      "roto\032\035CoinCollectOperatorInfo.proto\032\022Pla" +
+      "tformInfo.proto\032\024GadgetPlayInfo.proto\"\372\n" +
+      "\n\017SceneGadgetInfo\022\020\n\010gadgetId\030\001 \001(\r\022\017\n\007g" +
+      "roupId\030\002 \001(\r\022\020\n\010configId\030\003 \001(\r\022\025\n\rownerE" +
+      "ntityId\030\004 \001(\r\022!\n\010bornType\030\005 \001(\0162\017.Gadget" +
+      "BornType\022\023\n\013gadgetState\030\006 \001(\r\022\022\n\ngadgetT" +
+      "ype\030\007 \001(\r\022\026\n\016isShowCutscene\030\010 \001(\010\022\027\n\017aut" +
+      "horityPeerId\030\t \001(\r\022\030\n\020isEnableInteract\030\n" +
+      " \001(\010\022\022\n\ninteractId\030\013 \001(\r\022\034\n\013trifle_item\030" +
+      "\014 \001(\0132\005.ItemH\000\022&\n\rgather_gadget\030\r \001(\0132\r." +
+      "GatherGadgetH\000\022\037\n\007worktop\030\016 \001(\0132\014.Workto" +
+      "pInfoH\000\022&\n\rclient_gadget\030\017 \001(\0132\r.ClientG" +
+      "adgetH\000\022\033\n\007weather\030\021 \001(\0132\010.WeatherH\000\022(\n\016" +
+      "ability_gadget\030\022 \001(\0132\016.AbilityGadgetH\000\022&" +
+      "\n\rstatue_gadget\030\023 \001(\0132\r.StatueGadgetH\000\022$" +
+      "\n\nboss_chest\030\024 \001(\0132\016.BossChestInfoH\000\022&\n\r" +
+      "blossom_chest\030) \001(\0132\r.BlossomChestH\000\022\'\n\016" +
+      "mp_play_reward\030* \001(\0132\r.MpPlayRewardH\000\022(\n" +
+      "\016general_reward\030+ \001(\0132\016.GeneralRewardH\000\022" +
+      "&\n\roffering_info\030, \001(\0132\r.OfferingInfoH\000\022" +
+      "*\n\017foundation_info\030- \001(\0132\017.FoundationInf" +
+      "oH\000\022$\n\014vehicle_info\030. \001(\0132\014.VehicleInfoH" +
+      "\000\022 \n\nshell_info\030/ \001(\0132\n.ShellInfoH\000\022\"\n\013s" +
+      "creen_info\0300 \001(\0132\013.ScreenInfoH\000\022\'\n\016fish_" +
+      "pool_info\030; \001(\0132\r.FishPoolInfoH\000\0228\n\027cust" +
+      "om_gadget_tree_info\030< \001(\0132\025.CustomGadget" +
+      "TreeInfoH\000\0225\n\025roguelike_gadget_info\030= \001(" +
+      "\0132\024.RoguelikeGadgetInfoH\000\0226\n\026night_crow_" +
+      "gadget_info\030> \001(\0132\024.NightCrowGadgetInfoH" +
+      "\000\022@\n\033deshret_obelisk_gadget_info\030? \001(\0132\031" +
+      ".DeshretObeliskGadgetInfoH\000\022>\n\032coin_coll" +
+      "ect_operator_info\030@ \001(\0132\030.CoinCollectOpe" +
+      "ratorInfoH\000\022\020\n\010markFlag\030\025 \001(\r\022\031\n\021propOwn" +
+      "erEntityId\030\026 \001(\r\022\037\n\010platform\030\027 \001(\0132\r.Pla" +
+      "tformInfo\022\027\n\017interactUidList\030\030 \003(\r\022\017\n\007dr" +
+      "aftId\030\031 \001(\r\022\027\n\017gadgetTalkState\030\032 \001(\r\022!\n\010" +
+      "playInfo\030d \001(\0132\017.GadgetPlayInfoB\t\n\007conte" +
+      "ntB\033\n\031emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -7304,7 +7304,7 @@ public final class SceneGadgetInfoOuterClass {
           emu.grasscutter.net.proto.GadgetBornTypeOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ItemOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.GatherGadgetOuterClass.getDescriptor(),
-          emu.grasscutter.net.proto.WorktopOuterClass.getDescriptor(),
+          emu.grasscutter.net.proto.WorktopInfoOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.ClientGadgetOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.WeatherOuterClass.getDescriptor(),
           emu.grasscutter.net.proto.AbilityGadgetOuterClass.getDescriptor(),
@@ -7336,7 +7336,7 @@ public final class SceneGadgetInfoOuterClass {
     emu.grasscutter.net.proto.GadgetBornTypeOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ItemOuterClass.getDescriptor();
     emu.grasscutter.net.proto.GatherGadgetOuterClass.getDescriptor();
-    emu.grasscutter.net.proto.WorktopOuterClass.getDescriptor();
+    emu.grasscutter.net.proto.WorktopInfoOuterClass.getDescriptor();
     emu.grasscutter.net.proto.ClientGadgetOuterClass.getDescriptor();
     emu.grasscutter.net.proto.WeatherOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AbilityGadgetOuterClass.getDescriptor();

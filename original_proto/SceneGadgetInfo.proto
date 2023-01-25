@@ -7,7 +7,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "GadgetBornType.proto";
 import "Item.proto";
 import "GatherGadget.proto";
-import "Worktop.proto";
+import "WorktopInfo.proto";
 import "ClientGadget.proto";
 import "Weather.proto";
 import "AbilityGadget.proto";
@@ -45,7 +45,7 @@ message SceneGadgetInfo {
 	oneof content {
 		Item trifle_item = 12;
 		GatherGadget gather_gadget = 13;
-		Worktop worktop = 14;
+		WorktopInfo worktop = 14;
 		ClientGadget client_gadget = 15;
 		Weather weather = 17;
 		AbilityGadget ability_gadget = 18;
