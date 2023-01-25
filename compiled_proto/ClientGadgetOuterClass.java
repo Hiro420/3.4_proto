@@ -49,10 +49,10 @@ public final class ClientGadgetOuterClass {
     int getTargetEntityId();
 
     /**
-     * <code>bool glmdcefdgeg = 6;</code>
-     * @return The glmdcefdgeg.
+     * <code>bool async_load = 6;</code>
+     * @return The asyncLoad.
      */
-    boolean getGlmdcefdgeg();
+    boolean getAsyncLoad();
 
     /**
      * <code>bool isPeerIdFromPlayer = 7;</code>
@@ -151,7 +151,7 @@ public final class ClientGadgetOuterClass {
             }
             case 48: {
 
-              glmdcefdgeg_ = input.readBool();
+              asyncLoad_ = input.readBool();
               break;
             }
             case 56: {
@@ -270,15 +270,15 @@ public final class ClientGadgetOuterClass {
       return targetEntityId_;
     }
 
-    public static final int GLMDCEFDGEG_FIELD_NUMBER = 6;
-    private boolean glmdcefdgeg_;
+    public static final int ASYNC_LOAD_FIELD_NUMBER = 6;
+    private boolean asyncLoad_;
     /**
-     * <code>bool glmdcefdgeg = 6;</code>
-     * @return The glmdcefdgeg.
+     * <code>bool async_load = 6;</code>
+     * @return The asyncLoad.
      */
     @java.lang.Override
-    public boolean getGlmdcefdgeg() {
-      return glmdcefdgeg_;
+    public boolean getAsyncLoad() {
+      return asyncLoad_;
     }
 
     public static final int ISPEERIDFROMPLAYER_FIELD_NUMBER = 7;
@@ -350,8 +350,8 @@ public final class ClientGadgetOuterClass {
       if (targetEntityId_ != 0) {
         output.writeUInt32(5, targetEntityId_);
       }
-      if (glmdcefdgeg_ != false) {
-        output.writeBool(6, glmdcefdgeg_);
+      if (asyncLoad_ != false) {
+        output.writeBool(6, asyncLoad_);
       }
       if (isPeerIdFromPlayer_ != false) {
         output.writeBool(7, isPeerIdFromPlayer_);
@@ -392,9 +392,9 @@ public final class ClientGadgetOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(5, targetEntityId_);
       }
-      if (glmdcefdgeg_ != false) {
+      if (asyncLoad_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, glmdcefdgeg_);
+          .computeBoolSize(6, asyncLoad_);
       }
       if (isPeerIdFromPlayer_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -439,8 +439,8 @@ public final class ClientGadgetOuterClass {
           != other.getOwnerEntityId()) return false;
       if (getTargetEntityId()
           != other.getTargetEntityId()) return false;
-      if (getGlmdcefdgeg()
-          != other.getGlmdcefdgeg()) return false;
+      if (getAsyncLoad()
+          != other.getAsyncLoad()) return false;
       if (getIsPeerIdFromPlayer()
           != other.getIsPeerIdFromPlayer()) return false;
       if (!getTargetEntityIdListList()
@@ -467,9 +467,9 @@ public final class ClientGadgetOuterClass {
       hash = (53 * hash) + getOwnerEntityId();
       hash = (37 * hash) + TARGETENTITYID_FIELD_NUMBER;
       hash = (53 * hash) + getTargetEntityId();
-      hash = (37 * hash) + GLMDCEFDGEG_FIELD_NUMBER;
+      hash = (37 * hash) + ASYNC_LOAD_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getGlmdcefdgeg());
+          getAsyncLoad());
       hash = (37 * hash) + ISPEERIDFROMPLAYER_FIELD_NUMBER;
       hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
           getIsPeerIdFromPlayer());
@@ -620,7 +620,7 @@ public final class ClientGadgetOuterClass {
 
         targetEntityId_ = 0;
 
-        glmdcefdgeg_ = false;
+        asyncLoad_ = false;
 
         isPeerIdFromPlayer_ = false;
 
@@ -658,7 +658,7 @@ public final class ClientGadgetOuterClass {
         result.guid_ = guid_;
         result.ownerEntityId_ = ownerEntityId_;
         result.targetEntityId_ = targetEntityId_;
-        result.glmdcefdgeg_ = glmdcefdgeg_;
+        result.asyncLoad_ = asyncLoad_;
         result.isPeerIdFromPlayer_ = isPeerIdFromPlayer_;
         if (((bitField0_ & 0x00000001) != 0)) {
           targetEntityIdList_.makeImmutable();
@@ -728,8 +728,8 @@ public final class ClientGadgetOuterClass {
         if (other.getTargetEntityId() != 0) {
           setTargetEntityId(other.getTargetEntityId());
         }
-        if (other.getGlmdcefdgeg() != false) {
-          setGlmdcefdgeg(other.getGlmdcefdgeg());
+        if (other.getAsyncLoad() != false) {
+          setAsyncLoad(other.getAsyncLoad());
         }
         if (other.getIsPeerIdFromPlayer() != false) {
           setIsPeerIdFromPlayer(other.getIsPeerIdFromPlayer());
@@ -929,33 +929,33 @@ public final class ClientGadgetOuterClass {
         return this;
       }
 
-      private boolean glmdcefdgeg_ ;
+      private boolean asyncLoad_ ;
       /**
-       * <code>bool glmdcefdgeg = 6;</code>
-       * @return The glmdcefdgeg.
+       * <code>bool async_load = 6;</code>
+       * @return The asyncLoad.
        */
       @java.lang.Override
-      public boolean getGlmdcefdgeg() {
-        return glmdcefdgeg_;
+      public boolean getAsyncLoad() {
+        return asyncLoad_;
       }
       /**
-       * <code>bool glmdcefdgeg = 6;</code>
-       * @param value The glmdcefdgeg to set.
+       * <code>bool async_load = 6;</code>
+       * @param value The asyncLoad to set.
        * @return This builder for chaining.
        */
-      public Builder setGlmdcefdgeg(boolean value) {
+      public Builder setAsyncLoad(boolean value) {
         
-        glmdcefdgeg_ = value;
+        asyncLoad_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>bool glmdcefdgeg = 6;</code>
+       * <code>bool async_load = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGlmdcefdgeg() {
+      public Builder clearAsyncLoad() {
         
-        glmdcefdgeg_ = false;
+        asyncLoad_ = false;
         onChanged();
         return this;
       }
@@ -1136,13 +1136,13 @@ public final class ClientGadgetOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\022ClientGadget.proto\"\272\001\n\014ClientGadget\022\016\n" +
+      "\n\022ClientGadget.proto\"\271\001\n\014ClientGadget\022\016\n" +
       "\006campId\030\001 \001(\r\022\020\n\010campType\030\002 \001(\r\022\014\n\004guid\030" +
       "\003 \001(\004\022\025\n\rownerEntityId\030\004 \001(\r\022\026\n\016targetEn" +
-      "tityId\030\005 \001(\r\022\023\n\013glmdcefdgeg\030\006 \001(\010\022\032\n\022isP" +
-      "eerIdFromPlayer\030\007 \001(\010\022\032\n\022targetEntityIdL" +
-      "ist\030\010 \003(\rB\033\n\031emu.grasscutter.net.protob\006" +
-      "proto3"
+      "tityId\030\005 \001(\r\022\022\n\nasync_load\030\006 \001(\010\022\032\n\022isPe" +
+      "erIdFromPlayer\030\007 \001(\010\022\032\n\022targetEntityIdLi" +
+      "st\030\010 \003(\rB\033\n\031emu.grasscutter.net.protob\006p" +
+      "roto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1153,7 +1153,7 @@ public final class ClientGadgetOuterClass {
     internal_static_ClientGadget_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ClientGadget_descriptor,
-        new java.lang.String[] { "CampId", "CampType", "Guid", "OwnerEntityId", "TargetEntityId", "Glmdcefdgeg", "IsPeerIdFromPlayer", "TargetEntityIdList", });
+        new java.lang.String[] { "CampId", "CampType", "Guid", "OwnerEntityId", "TargetEntityId", "AsyncLoad", "IsPeerIdFromPlayer", "TargetEntityIdList", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

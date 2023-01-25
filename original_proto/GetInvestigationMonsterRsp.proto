@@ -17,6 +17,6 @@ message GetInvestigationMonsterRsp {
 	//}
 
 	int32 retcode = 6;
-	repeated InvestigationMonster Unk3300_EEBEOCMAIKN = 2;
+	repeated InvestigationMonster monster_list = 2;
 	bool isForMark = 11;
 }

@@ -7,7 +7,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
 
 message ScenePlayerInfo {
-	string createTime = 10;
+	string name = 10;
 	uint32 uid = 13;
 	uint32 peerId = 5;
 	uint32 sceneId = 4;

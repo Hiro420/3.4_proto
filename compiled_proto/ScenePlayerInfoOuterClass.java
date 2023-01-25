@@ -19,16 +19,16 @@ public final class ScenePlayerInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>string createTime = 10;</code>
-     * @return The createTime.
+     * <code>string name = 10;</code>
+     * @return The name.
      */
-    java.lang.String getCreateTime();
+    java.lang.String getName();
     /**
-     * <code>string createTime = 10;</code>
-     * @return The bytes for createTime.
+     * <code>string name = 10;</code>
+     * @return The bytes for name.
      */
     com.google.protobuf.ByteString
-        getCreateTimeBytes();
+        getNameBytes();
 
     /**
      * <code>uint32 uid = 13;</code>
@@ -82,7 +82,7 @@ public final class ScenePlayerInfoOuterClass {
       super(builder);
     }
     private ScenePlayerInfo() {
-      createTime_ = "";
+      name_ = "";
     }
 
     @java.lang.Override
@@ -146,7 +146,7 @@ public final class ScenePlayerInfoOuterClass {
             case 82: {
               java.lang.String s = input.readStringRequireUtf8();
 
-              createTime_ = s;
+              name_ = s;
               break;
             }
             case 104: {
@@ -186,38 +186,38 @@ public final class ScenePlayerInfoOuterClass {
               emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.class, emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.Builder.class);
     }
 
-    public static final int CREATETIME_FIELD_NUMBER = 10;
-    private volatile java.lang.Object createTime_;
+    public static final int NAME_FIELD_NUMBER = 10;
+    private volatile java.lang.Object name_;
     /**
-     * <code>string createTime = 10;</code>
-     * @return The createTime.
+     * <code>string name = 10;</code>
+     * @return The name.
      */
     @java.lang.Override
-    public java.lang.String getCreateTime() {
-      java.lang.Object ref = createTime_;
+    public java.lang.String getName() {
+      java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
         com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
-        createTime_ = s;
+        name_ = s;
         return s;
       }
     }
     /**
-     * <code>string createTime = 10;</code>
-     * @return The bytes for createTime.
+     * <code>string name = 10;</code>
+     * @return The bytes for name.
      */
     @java.lang.Override
     public com.google.protobuf.ByteString
-        getCreateTimeBytes() {
-      java.lang.Object ref = createTime_;
+        getNameBytes() {
+      java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        createTime_ = b;
+        name_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -320,8 +320,8 @@ public final class ScenePlayerInfoOuterClass {
       if (isConnected_ != false) {
         output.writeBool(7, isConnected_);
       }
-      if (!getCreateTimeBytes().isEmpty()) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, createTime_);
+      if (!getNameBytes().isEmpty()) {
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 10, name_);
       }
       if (uid_ != 0) {
         output.writeUInt32(13, uid_);
@@ -351,8 +351,8 @@ public final class ScenePlayerInfoOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeBoolSize(7, isConnected_);
       }
-      if (!getCreateTimeBytes().isEmpty()) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, createTime_);
+      if (!getNameBytes().isEmpty()) {
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, name_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -373,8 +373,8 @@ public final class ScenePlayerInfoOuterClass {
       }
       emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo other = (emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo) obj;
 
-      if (!getCreateTime()
-          .equals(other.getCreateTime())) return false;
+      if (!getName()
+          .equals(other.getName())) return false;
       if (getUid()
           != other.getUid()) return false;
       if (getPeerId()
@@ -399,8 +399,8 @@ public final class ScenePlayerInfoOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      hash = (37 * hash) + CREATETIME_FIELD_NUMBER;
-      hash = (53 * hash) + getCreateTime().hashCode();
+      hash = (37 * hash) + NAME_FIELD_NUMBER;
+      hash = (53 * hash) + getName().hashCode();
       hash = (37 * hash) + UID_FIELD_NUMBER;
       hash = (53 * hash) + getUid();
       hash = (37 * hash) + PEERID_FIELD_NUMBER;
@@ -547,7 +547,7 @@ public final class ScenePlayerInfoOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        createTime_ = "";
+        name_ = "";
 
         uid_ = 0;
 
@@ -589,7 +589,7 @@ public final class ScenePlayerInfoOuterClass {
       @java.lang.Override
       public emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo buildPartial() {
         emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo result = new emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo(this);
-        result.createTime_ = createTime_;
+        result.name_ = name_;
         result.uid_ = uid_;
         result.peerId_ = peerId_;
         result.sceneId_ = sceneId_;
@@ -647,8 +647,8 @@ public final class ScenePlayerInfoOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo other) {
         if (other == emu.grasscutter.net.proto.ScenePlayerInfoOuterClass.ScenePlayerInfo.getDefaultInstance()) return this;
-        if (!other.getCreateTime().isEmpty()) {
-          createTime_ = other.createTime_;
+        if (!other.getName().isEmpty()) {
+          name_ = other.name_;
           onChanged();
         }
         if (other.getUid() != 0) {
@@ -695,78 +695,78 @@ public final class ScenePlayerInfoOuterClass {
         return this;
       }
 
-      private java.lang.Object createTime_ = "";
+      private java.lang.Object name_ = "";
       /**
-       * <code>string createTime = 10;</code>
-       * @return The createTime.
+       * <code>string name = 10;</code>
+       * @return The name.
        */
-      public java.lang.String getCreateTime() {
-        java.lang.Object ref = createTime_;
+      public java.lang.String getName() {
+        java.lang.Object ref = name_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
-          createTime_ = s;
+          name_ = s;
           return s;
         } else {
           return (java.lang.String) ref;
         }
       }
       /**
-       * <code>string createTime = 10;</code>
-       * @return The bytes for createTime.
+       * <code>string name = 10;</code>
+       * @return The bytes for name.
        */
       public com.google.protobuf.ByteString
-          getCreateTimeBytes() {
-        java.lang.Object ref = createTime_;
+          getNameBytes() {
+        java.lang.Object ref = name_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          createTime_ = b;
+          name_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>string createTime = 10;</code>
-       * @param value The createTime to set.
+       * <code>string name = 10;</code>
+       * @param value The name to set.
        * @return This builder for chaining.
        */
-      public Builder setCreateTime(
+      public Builder setName(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   
-        createTime_ = value;
+        name_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string createTime = 10;</code>
+       * <code>string name = 10;</code>
        * @return This builder for chaining.
        */
-      public Builder clearCreateTime() {
+      public Builder clearName() {
         
-        createTime_ = getDefaultInstance().getCreateTime();
+        name_ = getDefaultInstance().getName();
         onChanged();
         return this;
       }
       /**
-       * <code>string createTime = 10;</code>
-       * @param value The bytes for createTime to set.
+       * <code>string name = 10;</code>
+       * @param value The bytes for name to set.
        * @return This builder for chaining.
        */
-      public Builder setCreateTimeBytes(
+      public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
         
-        createTime_ = value;
+        name_ = value;
         onChanged();
         return this;
       }
@@ -1081,11 +1081,11 @@ public final class ScenePlayerInfoOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\025ScenePlayerInfo.proto\032\026OnlinePlayerInf" +
-      "o.proto\"\225\001\n\017ScenePlayerInfo\022\022\n\ncreateTim" +
-      "e\030\n \001(\t\022\013\n\003uid\030\r \001(\r\022\016\n\006peerId\030\005 \001(\r\022\017\n\007" +
-      "sceneId\030\004 \001(\r\022\023\n\013isConnected\030\007 \001(\010\022+\n\020on" +
-      "linePlayerInfo\030\002 \001(\0132\021.OnlinePlayerInfoB" +
-      "\033\n\031emu.grasscutter.net.protob\006proto3"
+      "o.proto\"\217\001\n\017ScenePlayerInfo\022\014\n\004name\030\n \001(" +
+      "\t\022\013\n\003uid\030\r \001(\r\022\016\n\006peerId\030\005 \001(\r\022\017\n\007sceneI" +
+      "d\030\004 \001(\r\022\023\n\013isConnected\030\007 \001(\010\022+\n\020onlinePl" +
+      "ayerInfo\030\002 \001(\0132\021.OnlinePlayerInfoB\033\n\031emu" +
+      ".grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1097,7 +1097,7 @@ public final class ScenePlayerInfoOuterClass {
     internal_static_ScenePlayerInfo_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_ScenePlayerInfo_descriptor,
-        new java.lang.String[] { "CreateTime", "Uid", "PeerId", "SceneId", "IsConnected", "OnlinePlayerInfo", });
+        new java.lang.String[] { "Name", "Uid", "PeerId", "SceneId", "IsConnected", "OnlinePlayerInfo", });
     emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.getDescriptor();
   }
 
