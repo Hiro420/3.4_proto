@@ -46,7 +46,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     int getIcon();
 
     /**
-     * <code>uint32 time = 4;</code>
+     * <code>fixed32 time = 4;</code>
      * @return The time.
      */
     int getTime();
@@ -109,9 +109,9 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
             case 0:
               done = true;
               break;
-            case 32: {
+            case 37: {
 
-              time_ = input.readUInt32();
+              time_ = input.readFixed32();
               break;
             }
             case 50: {
@@ -226,7 +226,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     public static final int TIME_FIELD_NUMBER = 4;
     private int time_;
     /**
-     * <code>uint32 time = 4;</code>
+     * <code>fixed32 time = 4;</code>
      * @return The time.
      */
     @java.lang.Override
@@ -287,7 +287,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (time_ != 0) {
-        output.writeUInt32(4, time_);
+        output.writeFixed32(4, time_);
       }
       if (!getPlayerNameBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 6, playerName_);
@@ -312,7 +312,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       size = 0;
       if (time_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, time_);
+          .computeFixed32Size(4, time_);
       }
       if (!getPlayerNameBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, playerName_);
@@ -838,7 +838,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
 
       private int time_ ;
       /**
-       * <code>uint32 time = 4;</code>
+       * <code>fixed32 time = 4;</code>
        * @return The time.
        */
       @java.lang.Override
@@ -846,7 +846,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         return time_;
       }
       /**
-       * <code>uint32 time = 4;</code>
+       * <code>fixed32 time = 4;</code>
        * @param value The time to set.
        * @return This builder for chaining.
        */
@@ -857,7 +857,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
         return this;
       }
       /**
-       * <code>uint32 time = 4;</code>
+       * <code>fixed32 time = 4;</code>
        * @return This builder for chaining.
        */
       public Builder clearTime() {
@@ -1013,7 +1013,7 @@ public final class FurnitureMakeBeHelpedDataOuterClass {
       "lePicture.proto\"\201\001\n\031FurnitureMakeBeHelpe" +
       "dData\022\013\n\003uid\030\007 \001(\r\022\'\n\016profilePicture\030\n \001" +
       "(\0132\017.ProfilePicture\022\014\n\004icon\030\r \001(\r\022\014\n\004tim" +
-      "e\030\004 \001(\r\022\022\n\nplayerName\030\006 \001(\tB\033\n\031emu.grass" +
+      "e\030\004 \001(\007\022\022\n\nplayerName\030\006 \001(\tB\033\n\031emu.grass" +
       "cutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

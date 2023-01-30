@@ -25,13 +25,13 @@ public final class AbilityEmbryoOuterClass {
     int getAbilityId();
 
     /**
-     * <code>uint32 abilityNameHash = 2;</code>
+     * <code>fixed32 abilityNameHash = 2;</code>
      * @return The abilityNameHash.
      */
     int getAbilityNameHash();
 
     /**
-     * <code>uint32 abilityOverrideNameHash = 3;</code>
+     * <code>fixed32 abilityOverrideNameHash = 3;</code>
      * @return The abilityOverrideNameHash.
      */
     int getAbilityOverrideNameHash();
@@ -86,14 +86,14 @@ public final class AbilityEmbryoOuterClass {
               abilityId_ = input.readUInt32();
               break;
             }
-            case 16: {
+            case 21: {
 
-              abilityNameHash_ = input.readUInt32();
+              abilityNameHash_ = input.readFixed32();
               break;
             }
-            case 24: {
+            case 29: {
 
-              abilityOverrideNameHash_ = input.readUInt32();
+              abilityOverrideNameHash_ = input.readFixed32();
               break;
             }
             default: {
@@ -142,7 +142,7 @@ public final class AbilityEmbryoOuterClass {
     public static final int ABILITYNAMEHASH_FIELD_NUMBER = 2;
     private int abilityNameHash_;
     /**
-     * <code>uint32 abilityNameHash = 2;</code>
+     * <code>fixed32 abilityNameHash = 2;</code>
      * @return The abilityNameHash.
      */
     @java.lang.Override
@@ -153,7 +153,7 @@ public final class AbilityEmbryoOuterClass {
     public static final int ABILITYOVERRIDENAMEHASH_FIELD_NUMBER = 3;
     private int abilityOverrideNameHash_;
     /**
-     * <code>uint32 abilityOverrideNameHash = 3;</code>
+     * <code>fixed32 abilityOverrideNameHash = 3;</code>
      * @return The abilityOverrideNameHash.
      */
     @java.lang.Override
@@ -179,10 +179,10 @@ public final class AbilityEmbryoOuterClass {
         output.writeUInt32(1, abilityId_);
       }
       if (abilityNameHash_ != 0) {
-        output.writeUInt32(2, abilityNameHash_);
+        output.writeFixed32(2, abilityNameHash_);
       }
       if (abilityOverrideNameHash_ != 0) {
-        output.writeUInt32(3, abilityOverrideNameHash_);
+        output.writeFixed32(3, abilityOverrideNameHash_);
       }
       unknownFields.writeTo(output);
     }
@@ -199,11 +199,11 @@ public final class AbilityEmbryoOuterClass {
       }
       if (abilityNameHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, abilityNameHash_);
+          .computeFixed32Size(2, abilityNameHash_);
       }
       if (abilityOverrideNameHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, abilityOverrideNameHash_);
+          .computeFixed32Size(3, abilityOverrideNameHash_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,7 +530,7 @@ public final class AbilityEmbryoOuterClass {
 
       private int abilityNameHash_ ;
       /**
-       * <code>uint32 abilityNameHash = 2;</code>
+       * <code>fixed32 abilityNameHash = 2;</code>
        * @return The abilityNameHash.
        */
       @java.lang.Override
@@ -538,7 +538,7 @@ public final class AbilityEmbryoOuterClass {
         return abilityNameHash_;
       }
       /**
-       * <code>uint32 abilityNameHash = 2;</code>
+       * <code>fixed32 abilityNameHash = 2;</code>
        * @param value The abilityNameHash to set.
        * @return This builder for chaining.
        */
@@ -549,7 +549,7 @@ public final class AbilityEmbryoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 abilityNameHash = 2;</code>
+       * <code>fixed32 abilityNameHash = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearAbilityNameHash() {
@@ -561,7 +561,7 @@ public final class AbilityEmbryoOuterClass {
 
       private int abilityOverrideNameHash_ ;
       /**
-       * <code>uint32 abilityOverrideNameHash = 3;</code>
+       * <code>fixed32 abilityOverrideNameHash = 3;</code>
        * @return The abilityOverrideNameHash.
        */
       @java.lang.Override
@@ -569,7 +569,7 @@ public final class AbilityEmbryoOuterClass {
         return abilityOverrideNameHash_;
       }
       /**
-       * <code>uint32 abilityOverrideNameHash = 3;</code>
+       * <code>fixed32 abilityOverrideNameHash = 3;</code>
        * @param value The abilityOverrideNameHash to set.
        * @return This builder for chaining.
        */
@@ -580,7 +580,7 @@ public final class AbilityEmbryoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 abilityOverrideNameHash = 3;</code>
+       * <code>fixed32 abilityOverrideNameHash = 3;</code>
        * @return This builder for chaining.
        */
       public Builder clearAbilityOverrideNameHash() {
@@ -658,7 +658,7 @@ public final class AbilityEmbryoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\023AbilityEmbryo.proto\"\\\n\rAbilityEmbryo\022\021" +
       "\n\tabilityId\030\001 \001(\r\022\027\n\017abilityNameHash\030\002 \001" +
-      "(\r\022\037\n\027abilityOverrideNameHash\030\003 \001(\rB\033\n\031e" +
+      "(\007\022\037\n\027abilityOverrideNameHash\030\003 \001(\007B\033\n\031e" +
       "mu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

@@ -2,11 +2,8 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-
 message AbilityEmbryo {
 	uint32 abilityId = 1;
-	uint32 abilityNameHash = 2;
-	uint32 abilityOverrideNameHash = 3;
+	fixed32 abilityNameHash = 2;
+	fixed32 abilityOverrideNameHash = 3;
 }

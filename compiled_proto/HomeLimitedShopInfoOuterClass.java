@@ -19,7 +19,7 @@ public final class HomeLimitedShopInfoOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>uint32 nextGuestOpenTime = 14;</code>
+     * <code>fixed32 nextGuestOpenTime = 14;</code>
      * @return The nextGuestOpenTime.
      */
     int getNextGuestOpenTime();
@@ -46,7 +46,7 @@ public final class HomeLimitedShopInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getDjinnRotOrBuilder();
 
     /**
-     * <code>uint32 nextCloseTime = 2;</code>
+     * <code>fixed32 nextCloseTime = 2;</code>
      * @return The nextCloseTime.
      */
     int getNextCloseTime();
@@ -67,7 +67,7 @@ public final class HomeLimitedShopInfoOuterClass {
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getDjinnPosOrBuilder();
 
     /**
-     * <code>uint32 nextOpenTime = 15;</code>
+     * <code>fixed32 nextOpenTime = 15;</code>
      * @return The nextOpenTime.
      */
     int getNextOpenTime();
@@ -117,9 +117,9 @@ public final class HomeLimitedShopInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 21: {
 
-              nextCloseTime_ = input.readUInt32();
+              nextCloseTime_ = input.readFixed32();
               break;
             }
             case 32: {
@@ -153,14 +153,14 @@ public final class HomeLimitedShopInfoOuterClass {
 
               break;
             }
-            case 112: {
+            case 117: {
 
-              nextGuestOpenTime_ = input.readUInt32();
+              nextGuestOpenTime_ = input.readFixed32();
               break;
             }
-            case 120: {
+            case 125: {
 
-              nextOpenTime_ = input.readUInt32();
+              nextOpenTime_ = input.readFixed32();
               break;
             }
             default: {
@@ -198,7 +198,7 @@ public final class HomeLimitedShopInfoOuterClass {
     public static final int NEXTGUESTOPENTIME_FIELD_NUMBER = 14;
     private int nextGuestOpenTime_;
     /**
-     * <code>uint32 nextGuestOpenTime = 14;</code>
+     * <code>fixed32 nextGuestOpenTime = 14;</code>
      * @return The nextGuestOpenTime.
      */
     @java.lang.Override
@@ -246,7 +246,7 @@ public final class HomeLimitedShopInfoOuterClass {
     public static final int NEXTCLOSETIME_FIELD_NUMBER = 2;
     private int nextCloseTime_;
     /**
-     * <code>uint32 nextCloseTime = 2;</code>
+     * <code>fixed32 nextCloseTime = 2;</code>
      * @return The nextCloseTime.
      */
     @java.lang.Override
@@ -283,7 +283,7 @@ public final class HomeLimitedShopInfoOuterClass {
     public static final int NEXTOPENTIME_FIELD_NUMBER = 15;
     private int nextOpenTime_;
     /**
-     * <code>uint32 nextOpenTime = 15;</code>
+     * <code>fixed32 nextOpenTime = 15;</code>
      * @return The nextOpenTime.
      */
     @java.lang.Override
@@ -306,7 +306,7 @@ public final class HomeLimitedShopInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (nextCloseTime_ != 0) {
-        output.writeUInt32(2, nextCloseTime_);
+        output.writeFixed32(2, nextCloseTime_);
       }
       if (uid_ != 0) {
         output.writeUInt32(4, uid_);
@@ -318,10 +318,10 @@ public final class HomeLimitedShopInfoOuterClass {
         output.writeMessage(12, getDjinnRot());
       }
       if (nextGuestOpenTime_ != 0) {
-        output.writeUInt32(14, nextGuestOpenTime_);
+        output.writeFixed32(14, nextGuestOpenTime_);
       }
       if (nextOpenTime_ != 0) {
-        output.writeUInt32(15, nextOpenTime_);
+        output.writeFixed32(15, nextOpenTime_);
       }
       unknownFields.writeTo(output);
     }
@@ -334,7 +334,7 @@ public final class HomeLimitedShopInfoOuterClass {
       size = 0;
       if (nextCloseTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, nextCloseTime_);
+          .computeFixed32Size(2, nextCloseTime_);
       }
       if (uid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -350,11 +350,11 @@ public final class HomeLimitedShopInfoOuterClass {
       }
       if (nextGuestOpenTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, nextGuestOpenTime_);
+          .computeFixed32Size(14, nextGuestOpenTime_);
       }
       if (nextOpenTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, nextOpenTime_);
+          .computeFixed32Size(15, nextOpenTime_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -706,7 +706,7 @@ public final class HomeLimitedShopInfoOuterClass {
 
       private int nextGuestOpenTime_ ;
       /**
-       * <code>uint32 nextGuestOpenTime = 14;</code>
+       * <code>fixed32 nextGuestOpenTime = 14;</code>
        * @return The nextGuestOpenTime.
        */
       @java.lang.Override
@@ -714,7 +714,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return nextGuestOpenTime_;
       }
       /**
-       * <code>uint32 nextGuestOpenTime = 14;</code>
+       * <code>fixed32 nextGuestOpenTime = 14;</code>
        * @param value The nextGuestOpenTime to set.
        * @return This builder for chaining.
        */
@@ -725,7 +725,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 nextGuestOpenTime = 14;</code>
+       * <code>fixed32 nextGuestOpenTime = 14;</code>
        * @return This builder for chaining.
        */
       public Builder clearNextGuestOpenTime() {
@@ -887,7 +887,7 @@ public final class HomeLimitedShopInfoOuterClass {
 
       private int nextCloseTime_ ;
       /**
-       * <code>uint32 nextCloseTime = 2;</code>
+       * <code>fixed32 nextCloseTime = 2;</code>
        * @return The nextCloseTime.
        */
       @java.lang.Override
@@ -895,7 +895,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return nextCloseTime_;
       }
       /**
-       * <code>uint32 nextCloseTime = 2;</code>
+       * <code>fixed32 nextCloseTime = 2;</code>
        * @param value The nextCloseTime to set.
        * @return This builder for chaining.
        */
@@ -906,7 +906,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 nextCloseTime = 2;</code>
+       * <code>fixed32 nextCloseTime = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearNextCloseTime() {
@@ -1037,7 +1037,7 @@ public final class HomeLimitedShopInfoOuterClass {
 
       private int nextOpenTime_ ;
       /**
-       * <code>uint32 nextOpenTime = 15;</code>
+       * <code>fixed32 nextOpenTime = 15;</code>
        * @return The nextOpenTime.
        */
       @java.lang.Override
@@ -1045,7 +1045,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return nextOpenTime_;
       }
       /**
-       * <code>uint32 nextOpenTime = 15;</code>
+       * <code>fixed32 nextOpenTime = 15;</code>
        * @param value The nextOpenTime to set.
        * @return This builder for chaining.
        */
@@ -1056,7 +1056,7 @@ public final class HomeLimitedShopInfoOuterClass {
         return this;
       }
       /**
-       * <code>uint32 nextOpenTime = 15;</code>
+       * <code>fixed32 nextOpenTime = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearNextOpenTime() {
@@ -1134,10 +1134,10 @@ public final class HomeLimitedShopInfoOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031HomeLimitedShopInfo.proto\032\014Vector.prot" +
       "o\"\240\001\n\023HomeLimitedShopInfo\022\031\n\021nextGuestOp" +
-      "enTime\030\016 \001(\r\022\013\n\003uid\030\004 \001(\r\022\031\n\010djinnRot\030\014 " +
-      "\001(\0132\007.Vector\022\025\n\rnextCloseTime\030\002 \001(\r\022\031\n\010d" +
+      "enTime\030\016 \001(\007\022\013\n\003uid\030\004 \001(\r\022\031\n\010djinnRot\030\014 " +
+      "\001(\0132\007.Vector\022\025\n\rnextCloseTime\030\002 \001(\007\022\031\n\010d" +
       "jinnPos\030\006 \001(\0132\007.Vector\022\024\n\014nextOpenTime\030\017" +
-      " \001(\rB\033\n\031emu.grasscutter.net.protob\006proto" +
+      " \001(\007B\033\n\031emu.grasscutter.net.protob\006proto" +
       "3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

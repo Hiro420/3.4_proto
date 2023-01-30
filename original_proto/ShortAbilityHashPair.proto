@@ -2,10 +2,7 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
-
 message ShortAbilityHashPair {
-	int32 abilityNameHash = 6;
-	int32 abilityConfigHash = 10;
+	fixed32 abilityNameHash = 6;
+	fixed32 abilityConfigHash = 10;
 }
