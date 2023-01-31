@@ -2,6 +2,7 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
+import "BreakoutSnapShot.proto";
 import "MassivePropSyncInfo.proto";
 
 message AbilityMixinRecoverInfo {

@@ -4,7 +4,7 @@ option java_package = "emu.grasscutter.net.proto";
 
 
 
-import "BlossomChest.proto";
+import "BlossomChestInfo.proto";
 
 message BlossomChestInfoNotify {
 	//enum OJIGAMJAGGL {
@@ -15,6 +15,6 @@ message BlossomChestInfoNotify {
 	//	NNBKOLMPOEA = 1;
 	//}
 
-	BlossomChest blossomChestInfo = 5;
+	BlossomChestInfo blossomChestInfo = 5;
 	uint32 entityId = 13;
 }

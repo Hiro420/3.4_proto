@@ -2,11 +2,9 @@ syntax = "proto3";
 
 option java_package = "emu.grasscutter.net.proto";
 
-
-
 import "AbilityControlBlock.proto";
 import "AbilitySyncStateInfo.proto";
-import "Avatar.proto";
+import "SceneAvatarInfo.proto";
 import "AvatarInfo.proto";
 import "SceneEntityInfo.proto";
 import "ServerBuff.proto";
@@ -23,7 +21,7 @@ message SceneTeamAvatar {
 	uint32 sceneId = 4;
 	bool isPlayerCurAvatar = 7;
 	uint64 avatarGuid = 9;
-	Avatar sceneAvatarInfo = 5;
+	SceneAvatarInfo sceneAvatarInfo = 5;
 	AvatarInfo avatarInfo = 2;
 	SceneEntityInfo sceneEntityInfo = 1;
 	uint32 playerUid = 11;
