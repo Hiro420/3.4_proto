@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ReceivedTrialAvatarActivityRewardRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2074;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 activityId = 12;
+	int32 retcode = 5;
+	uint32 trialAvatarIndexId = 4;
+}

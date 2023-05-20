@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomePictureFrameInfo.proto";
+
+message HomeUpdatePictureFrameInfoReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4858;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	HomePictureFrameInfo pictureFrameInfo = 9;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SearchCustomDungeonReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6222;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	string dungeonCode = 12;
+}

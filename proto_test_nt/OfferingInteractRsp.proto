@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlayerOfferingData.proto";
+
+message OfferingInteractRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2922;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 10;
+	PlayerOfferingData offeringData = 14;
+}

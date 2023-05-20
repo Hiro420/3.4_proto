@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message AbilityActionFireAfterImgae {
+	Vector Dir = 2;
+}

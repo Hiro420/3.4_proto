@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message QuestDestroyNpcRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 488;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 npcId = 4;
+	uint32 parentQuestId = 6;
+	int32 retcode = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SceneGalleryInstableSprayBuffInfo {
+	uint32 buffId = 9;
+	uint64 EPHAABKNLHC = 3;
+	uint64 KKDFLBMKGEF = 8;
+}

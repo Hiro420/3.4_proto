@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SpiceActivityFinishMakeSpiceReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8744;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 stageId = 9;
+	bool isSuccess = 12;
+	repeated uint32 leftMaterialIdList = 1;
+	uint32 leftTurns = 4;
+}

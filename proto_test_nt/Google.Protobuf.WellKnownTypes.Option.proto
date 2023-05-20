@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.WellKnownTypes.Any.proto";
+
+message Google.Protobuf.WellKnownTypes.Option {
+	string createTime = 1;
+	Google.Protobuf.WellKnownTypes.Any value = 2;
+}

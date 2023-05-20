@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GetQuestLackingResourceRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 483;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	map<uint32, uint32> lackedNpcMap = 3;
+	int32 retcode = 14;
+	repeated uint32 lackedPlaceList = 9;
+	repeated uint32 lackedNpcList = 15;
+	uint32 questId = 6;
+	map<uint32, uint32> lackedPlaceMap = 1;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MatchType.proto";
+
+message PlayerConfirmMatchRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4166;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isAgreed = 6;
+	MatchType matchType = 12;
+	uint32 matchId = 3;
+	int32 retcode = 1;
+}

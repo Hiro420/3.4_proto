@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SummerTimeSprintBoatRecord {
+	repeated uint32 watcherIdList = 5;
+	uint32 startTime = 3;
+	bool isTouched = 9;
+	uint32 bestScore = 2;
+	uint32 groupId = 14;
+}

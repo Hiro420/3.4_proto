@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message EvtCompensatePosDiffInfo {
+	uint32 entityId = 2;
+	Vector curPos = 7;
+	uint32 normalizedTimeCompact = 15;
+	uint32 CurHash = 1;
+	int32 faceAngleCompact = 10;
+}

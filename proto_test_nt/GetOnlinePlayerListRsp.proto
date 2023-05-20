@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OnlinePlayerInfo.proto";
+
+message GetOnlinePlayerListRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 62;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 5;
+	uint32 param = 14;
+	repeated OnlinePlayerInfo playerInfoList = 9;
+}

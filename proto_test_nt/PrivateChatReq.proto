@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PrivateChatReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4955;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 targetUid = 11;
+	oneof content {
+		string text = 15;
+		uint32 icon = 9;
+	}
+}

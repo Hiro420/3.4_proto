@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message IslandPartyStageData {
+	uint32 bestScore = 5;
+	uint32 stageId = 2;
+	bool isOpen = 1;
+}

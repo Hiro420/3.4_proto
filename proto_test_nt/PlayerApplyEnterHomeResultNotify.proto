@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Reason.proto";
+
+message PlayerApplyEnterHomeResultNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4642;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 targetUid = 2;
+	Reason reason = 3;
+	bool isAgreed = 10;
+	string targetNickname = 9;
+}

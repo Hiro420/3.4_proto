@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ToTheMoonRemoveObstacleReq {
+	//enum GJHBFLDKNPH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6170;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 sceneId = 2;
+	int32 queryId = 13;
+	int32 handle = 9;
+}

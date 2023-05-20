@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message RefreshEntityAuthNotify {
+	//enum DAAFMJIGPNM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3280;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	repeated uint32 entityIdList = 11;
+}

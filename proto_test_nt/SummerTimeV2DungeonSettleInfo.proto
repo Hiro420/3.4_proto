@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SummerTimeV2DungeonSettleInfo {
+	uint32 JHBCHFHAGFO = 12;
+	uint32 BNNMNCKEHHO = 9;
+	bool isSuccess = 10;
+}

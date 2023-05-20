@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GearActivityFinishPlayGearRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 24722;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isSuccess = 15;
+	int32 retcode = 9;
+	uint32 levelId = 7;
+}

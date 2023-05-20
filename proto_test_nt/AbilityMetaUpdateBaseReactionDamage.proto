@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityString.proto";
+
+message AbilityMetaUpdateBaseReactionDamage {
+	uint32 ReactionType = 12;
+	AbilityString GlobalValueKey = 13;
+	AbilityString abilityName = 11;
+	uint32 SourceCasterId = 14;
+}

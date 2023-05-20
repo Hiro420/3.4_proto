@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message LanV3BoatStageInfo {
+	repeated uint32 playerUidList = 4;
+	uint32 matchId = 11;
+	uint32 mapId = 15;
+	bool IsSingle = 8;
+}

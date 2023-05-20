@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SalvageChallengeInfo.proto";
+
+message SalvageStageInfo {
+	bool isOpen = 10;
+	uint32 stageId = 15;
+	repeated SalvageChallengeInfo exceededItemTypeList = 6;
+}

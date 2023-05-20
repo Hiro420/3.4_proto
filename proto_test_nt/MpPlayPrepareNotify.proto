@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MpPlayPrepareNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 1822;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 prepareEndTime = 2;
+	uint32 mpPlayId = 1;
+}

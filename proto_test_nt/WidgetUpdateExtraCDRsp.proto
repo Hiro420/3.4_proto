@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetCoolDownData.proto";
+import "WidgetExtraCdType.proto";
+
+message WidgetUpdateExtraCDRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5908;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 materialId = 12;
+	uint32 cdGroup = 3;
+	WidgetCoolDownData coolData = 6;
+	int32 retcode = 13;
+	WidgetExtraCdType extraCdType = 4;
+}

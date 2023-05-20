@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TreasureSeelieCollectOrbsNotify {
+	//enum DOKOIKJLHCC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23448;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 currentNum = 1;
+	uint32 totalNum = 9;
+}

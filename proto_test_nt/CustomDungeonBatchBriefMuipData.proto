@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CustomDungeonBriefMuipData.proto";
+
+message CustomDungeonBatchBriefMuipData {
+	repeated CustomDungeonBriefMuipData briefList = 1;
+}

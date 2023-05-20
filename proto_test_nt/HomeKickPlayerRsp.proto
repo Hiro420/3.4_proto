@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeKickPlayerRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4883;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isKickAll = 8;
+	uint32 targetUid = 5;
+	int32 retcode = 2;
+}

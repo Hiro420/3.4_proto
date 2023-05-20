@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ProfilePicture.proto";
+
+message HomeGroupPlayerInfo {
+	string nickname = 15;
+	uint32 uid = 3;
+	uint32 playerLevel = 14;
+	string onlineId = 11;
+	ProfilePicture profilePicture = 2;
+	string psnId = 1;
+}

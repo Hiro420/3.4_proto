@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HachiStageInfo {
+	uint32 openTime = 10;
+	bool isFinished = 12;
+	uint32 stageId = 13;
+	bool isOpen = 3;
+}

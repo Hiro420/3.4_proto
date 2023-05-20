@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "VisionType.proto";
+import "SceneEntityInfo.proto";
+
+message SceneEntityAppearNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 274;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated SceneEntityInfo entityList = 10;
+	VisionType appearType = 3;
+	uint32 param = 14;
+}

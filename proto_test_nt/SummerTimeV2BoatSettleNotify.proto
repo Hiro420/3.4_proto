@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SummerTimeV2BoatGallerySettleInfo.proto";
+
+message SummerTimeV2BoatSettleNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8520;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	SummerTimeV2BoatGallerySettleInfo settleInfo = 2;
+	uint32 stageId = 14;
+	uint32 galleryId = 10;
+	bool isNewRecord = 12;
+}

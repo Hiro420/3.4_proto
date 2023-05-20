@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TreasureMapBonusChallengeInfo {
+	bool isActive = 5;
+	map<uint32, bool> fragmentMap = 13;
+	uint32 solutionId = 14;
+	bool isDone = 2;
+	uint32 configId = 9;
+}

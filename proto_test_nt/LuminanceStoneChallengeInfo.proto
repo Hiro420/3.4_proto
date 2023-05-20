@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message LuminanceStoneChallengeInfo {
+	uint32 killSpecialMonsterCount = 7;
+	uint32 score = 15;
+	uint32 killMonsterCount = 4;
+	uint32 cleanMudCount = 13;
+}

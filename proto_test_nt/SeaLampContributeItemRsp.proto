@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SeaLampContributeItemRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2166;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 addProgress = 4;
+	uint32 AIINHBHNHOI = 9;
+	int32 retcode = 12;
+	uint32 LPHALOGLGAL = 2;
+}

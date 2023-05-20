@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+
+message Google.Protobuf.WellKnownTypes.Any {
+	string TypeUrl = 1;
+	bytes value = 2;
+}

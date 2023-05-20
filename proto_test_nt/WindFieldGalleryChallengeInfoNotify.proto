@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message WindFieldGalleryChallengeInfoNotify {
+	//enum AJDPFIHEEGF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5522;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 GLNHBJJJINK = 15;
+	uint32 FFODAKMKGEK = 9;
+	uint32 NBIBKFKOCFK = 13;
+	bool isSuccess = 12;
+	bool isStart = 10;
+	uint32 MMONPDMIEBN = 5;
+	uint32 GNJKOCLJFNM = 3;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GravenInnocenceRaceLevelInfo.proto";
+
+message GravenInnocenceRaceInfo {
+	repeated GravenInnocenceRaceLevelInfo levelInfoList = 7;
+}

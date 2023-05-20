@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RogueStageInfo.proto";
+import "RoguelikeShikigamiRecord.proto";
+
+message RoguelikeDungoenInfo {
+	repeated RogueStageInfo stageList = 6;
+	repeated uint32 equippedRuneList = 12;
+	repeated RoguelikeShikigamiRecord shikigamiList = 1;
+	repeated uint32 runeList = 11;
+	bool leftMonsters = 10;
+	uint32 contentCloseTime = 8;
+}

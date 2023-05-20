@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageBoothUsedItemData {
+	uint32 gadgetId = 12;
+	bool isOpen = 2;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageCampStageFinishNotify {
+	//enum HACIDCALPKB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23644;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 stageId = 7;
+}

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message UgcMusicBriefInfo {
+	uint64 ugcGuid = 8;
+	uint32 CCMMPAHIMDO = 88;
+	uint32 PLNOFOHFAPE = 15;
+	repeated uint32 HKBHAIMOBKO = 1363;
+	bool FKIGPAJFPLG = 5;
+	uint64 importFromUgcGuid = 6;
+	uint32 musicId = 14;
+	repeated uint32 JEEBFPFEHHG = 1062;
+	uint32 MBKDGBNFPOA = 1837;
+	uint32 OJOKFBJALIJ = 7;
+	uint32 EGIGIOOKBAB = 287;
+	uint32 OBBMCFADNIN = 2;
+	uint32 PBENMAHHGIL = 9;
+	bool NCDKCNOLGKB = 4;
+	uint32 version = 1;
+	string creatorNickname = 3;
+	bool GDNAPNAINBA = 11;
+	uint32 maxScore = 12;
+	uint32 KMMBLIMKJCM = 10;
+	bool isPsnPlatform = 13;
+}

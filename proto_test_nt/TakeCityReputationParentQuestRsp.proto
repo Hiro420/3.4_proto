@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+message TakeCityReputationParentQuestRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2880;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	repeated uint32 parentQuestList = 14;
+	int32 retcode = 6;
+	uint32 cityId = 13;
+	repeated ItemParam itemList = 11;
+}

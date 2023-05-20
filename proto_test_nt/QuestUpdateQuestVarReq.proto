@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "QuestVarOp.proto";
+
+message QuestUpdateQuestVarReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 439;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 parentQuestVarSeq = 9;
+	uint32 parentQuestId = 12;
+	repeated QuestVarOp questVarOpList = 4;
+	uint32 questId = 3;
+}

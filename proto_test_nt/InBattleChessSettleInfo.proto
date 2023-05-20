@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ExhibitionDisplayInfo.proto";
+
+message InBattleChessSettleInfo {
+	uint32 NKHDFHAPNCN = 9;
+	uint64 sceneTimeMs = 11;
+	uint32 LPANFEBFJOJ = 15;
+	bool isSuccess = 2;
+	repeated ExhibitionDisplayInfo scoreList = 1;
+	uint32 IPGILJCBABK = 3;
+	uint32 EMNLLDJHMEI = 10;
+}

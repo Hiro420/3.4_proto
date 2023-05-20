@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BuildingInfo.proto";
+
+message GlobalBuildingInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5389;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 maxNum = 4;
+	uint32 currentNum = 8;
+	repeated BuildingInfo buildingList = 3;
+}

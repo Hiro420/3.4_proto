@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RecordUsage.proto";
+import "GetUgcType.proto";
+import "UgcType.proto";
+
+message GetUgcReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6338;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	RecordUsage ugcRecordUsage = 8;
+	GetUgcType getUgcType = 10;
+	uint64 ugcGuid = 15;
+	UgcType ugcType = 2;
+	bool isRequireBrief = 5;
+}

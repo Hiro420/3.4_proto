@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriChessPlayerInfo.proto";
+
+message IrodoriChessPlayerInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5338;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	IrodoriChessPlayerInfo playerInfo = 13;
+}

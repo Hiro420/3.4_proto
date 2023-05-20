@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "FirstStageInfo.proto";
+import "SecondStageInfo.proto";
+import "ThirdStageInfo.proto";
+
+message SceneGalleryVintageHuntingSettleNotify {
+	//enum MPFAKBDJLDA {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21852;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool hasNewWatcher = 1;
+	uint32 stageId = 2;
+	uint32 KOAKHMLFPGM = 9;
+	bool isNewRecord = 6;
+	uint32 EHGDIKOGLKL = 5;
+	oneof info {
+		FirstStageInfo first_stage_info = 15;
+		SecondStageInfo second_stage_info = 8;
+		ThirdStageInfo third_stage_info = 4;
+	}
+}

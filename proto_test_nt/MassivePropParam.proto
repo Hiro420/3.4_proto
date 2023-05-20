@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MassivePropParam {
+	int32 type = 1;
+	repeated uint32 ReactionInfoList = 2;
+	repeated float paramList = 3;
+	uint32 SyncFlag = 4;
+}

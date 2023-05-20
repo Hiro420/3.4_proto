@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GmTalkNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 75;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string msg = 2;
+}

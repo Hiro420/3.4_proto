@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PotionDungeonAvatar.proto";
+
+message PotionEnterDungeonNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8043;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 difficultyLevel = 5;
+	uint32 stageId = 8;
+	repeated PotionDungeonAvatar dungeonAvatarList = 1;
+	uint32 levelId = 14;
+	uint32 modeId = 6;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GivingRecord.proto";
+
+message GivingRecordChangeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 167;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	GivingRecord givingRecord = 8;
+	bool isDeactive = 4;
+}

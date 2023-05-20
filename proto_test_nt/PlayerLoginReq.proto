@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TrackingIOInfo.proto";
+import "AdjustTrackingInfo.proto";
+
+message PlayerLoginReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 187;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	string token = 6;
+	uint32 NDLANBEIGEG = 323;
+	uint32 targetUid = 4;
+	string checksumClientVersion = 1738;
+	string accountUid = 9;
+	bool isEditor = 13;
+	string birthday = 1280;
+	bytes extraBinData = 78;
+	uint32 regPlatform = 119;
+	uint32 gmUid = 246;
+	string checksum = 1715;
+	uint32 platformType = 12;
+	TrackingIOInfo trackingIoInfo = 710;
+	uint32 OFFHPAFIFGD = 1762;
+	string deviceInfo = 14;
+	uint32 targetHomeOwnerUid = 216;
+	string platform = 2;
+	uint32 channelId = 324;
+	string countryCode = 1616;
+	uint64 loginRand = 8;
+	string onlineId = 54;
+	uint32 subChannelId = 1709;
+	string deviceUuid = 15;
+	uint32 OOBHAIIIPHH = 2024;
+	string clientVerisonHash = 1765;
+	AdjustTrackingInfo adjustTrackingInfo = 442;
+	uint32 accountType = 7;
+	string psnId = 1568;
+	uint32 tag = 1223;
+	uint32 PMGFBMJNNCL = 1394;
+	string systemVersion = 3;
+	bool isGuest = 10;
+	string clientVersion = 11;
+	bool isTransfer = 2037;
+	bytes environmentErrorCode = 1015;
+	string deviceName = 1;
+	string securityLibraryMd5 = 378;
+	uint32 languageType = 5;
+	bytes securityCmdReply = 907;
+	string securityLibraryVersion = 684;
+	uint32 clientDataVersion = 426;
+	string cps = 821;
+}

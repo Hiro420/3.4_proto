@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ResVersionConfig.proto";
+import "FeatureBlockInfo.proto";
+import "BlockInfo.proto";
+import "ShortAbilityHashPair.proto";
+
+message PlayerLoginRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 198;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isAudit = 201;
+	bool IIHDKKNJPGD = 6;
+	string clientMd5 = 1070;
+	uint32 playerDataVersion = 9;
+	string clientVersionSuffix = 624;
+	uint64 loginRand = 8;
+	repeated FeatureBlockInfo featureBlockInfoList = 2035;
+	bool isUseAbilityHash = 15;
+	bool isScOpen = 1852;
+	bytes playerData = 14;
+	double totalTickTime = 1769;
+	map<uint32, BlockInfo> blockInfoMap = 982;
+	string countryCode = 238;
+	ResVersionConfig resVersionConfig = 777;
+	uint32 clientSilenceDataVersion = 2;
+	string clientSilenceVersionSuffix = 935;
+	bool EJKCNNDFAAI = 1254;
+	string clientSilenceMd5 = 979;
+	bool isDataNeedRelogin = 1021;
+	repeated ShortAbilityHashPair shortAbilityHashMap = 1199;
+	uint32 targetUid = 3;
+	string gameBiz = 4;
+	bool isTransfer = 956;
+	int32 retcode = 1;
+	map<string, int32> abilityHashMap = 5;
+	bool IADLIIMGDMC = 1435;
+	bytes scInfo = 151;
+	bool HGFNECIJDLN = 10;
+	uint32 clientDataVersion = 7;
+	uint32 targetHomeOwnerUid = 787;
+	string registerCps = 552;
+	string birthday = 163;
+	ResVersionConfig nextResVersionConfig = 1331;
+	int32 abilityHashCode = 13;
+	string nextResourceUrl = 1095;
+}

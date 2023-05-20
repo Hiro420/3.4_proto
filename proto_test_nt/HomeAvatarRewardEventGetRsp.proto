@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+message HomeAvatarRewardEventGetRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4534;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 15;
+	repeated ItemParam itemList = 2;
+	uint32 eventId = 6;
+}

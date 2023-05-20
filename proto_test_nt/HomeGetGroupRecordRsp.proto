@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeGroupRecord.proto";
+
+message HomeGetGroupRecordRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4691;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 recordType = 12;
+	int32 retcode = 7;
+	HomeGroupRecord groupRecord = 13;
+}

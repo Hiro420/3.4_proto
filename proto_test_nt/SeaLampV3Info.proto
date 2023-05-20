@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SeaLampV3RaceInfo.proto";
+import "SeaLampV3CampInfo.proto";
+import "SeaLampV3ShadowInfo.proto";
+
+message SeaLampV3Info {
+	SeaLampV3RaceInfo raceInfo = 4;
+	SeaLampV3CampInfo campInfo = 11;
+	SeaLampV3ShadowInfo ShadowInfo = 3;
+}

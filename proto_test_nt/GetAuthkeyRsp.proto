@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GetAuthkeyRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 1462;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string gameBiz = 1;
+	uint32 signType = 3;
+	string authAppid = 11;
+	uint32 authkeyVer = 7;
+	int32 retcode = 14;
+	string authkey = 9;
+}

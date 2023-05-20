@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriFlowerData.proto";
+import "IrodoriPoetryData.proto";
+import "IrodoriChessData.proto";
+import "IrodoriMasterLevelInfo.proto";
+
+message IrodoriInfo {
+	IrodoriFlowerData flowerData = 6;
+	IrodoriPoetryData poetryData = 14;
+	IrodoriChessData chessData = 10;
+	repeated IrodoriMasterLevelInfo masterLevelList = 15;
+}

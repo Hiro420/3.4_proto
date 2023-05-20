@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "QuitReason.proto";
+
+message PlayerQuitFromHomeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4835;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	QuitReason reason = 10;
+}

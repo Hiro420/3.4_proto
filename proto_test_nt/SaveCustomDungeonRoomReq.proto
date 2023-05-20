@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CustomDungeonSetting.proto";
+import "CustomDungeonRoom.proto";
+
+message SaveCustomDungeonRoomReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6246;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	CustomDungeonSetting setting = 14;
+	CustomDungeonRoom customDungeonRoom = 15;
+	bool isUpdateSetting = 3;
+}

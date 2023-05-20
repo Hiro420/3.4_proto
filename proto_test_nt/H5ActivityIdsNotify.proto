@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message H5ActivityIdsNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5696;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	map<uint32, uint32> h5ActivityMap = 15;
+	uint32 clientRedDotTimestamp = 1;
+}

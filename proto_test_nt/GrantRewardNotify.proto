@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Reward.proto";
+
+message GrantRewardNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 622;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	Reward reward = 10;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MailTextContent.proto";
+import "MailCollectState.proto";
+import "MailItem.proto";
+
+message MailData {
+	uint32 mailId = 1;
+	MailTextContent mailTextContent = 4;
+	repeated MailItem itemList = 7;
+	uint32 sendTime = 8;
+	uint32 expireTime = 9;
+	uint32 importance = 10;
+	bool isRead = 11;
+	bool isAttachmentGot = 12;
+	uint32 configId = 13;
+	repeated string argumentList = 14;
+	MailCollectState collectState = 15;
+}

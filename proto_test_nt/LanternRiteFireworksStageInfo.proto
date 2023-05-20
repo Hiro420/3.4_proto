@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LanternRiteFireworksChallengeInfo.proto";
+
+message LanternRiteFireworksStageInfo {
+	bool isOpen = 7;
+	repeated LanternRiteFireworksChallengeInfo exceededItemTypeList = 9;
+	uint32 stageId = 15;
+}

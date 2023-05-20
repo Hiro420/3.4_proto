@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageMarketNpcEventFinishNotify {
+	//enum NLEDGJEHOFD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21065;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated uint32 unlockStrategyList = 15;
+	uint32 coinA = 12;
+	uint32 coinC = 8;
+}

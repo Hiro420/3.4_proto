@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeBlockArrangementMuipData.proto";
+
+message HomeSceneArrangementMuipData {
+	uint32 moduleId = 1;
+	uint32 sceneId = 2;
+	bool IsRoom = 3;
+	repeated HomeBlockArrangementMuipData BlockDataList = 4;
+}

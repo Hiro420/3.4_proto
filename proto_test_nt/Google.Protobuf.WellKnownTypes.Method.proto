@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.WellKnownTypes.Syntax.proto";
+import "Google.Protobuf.WellKnownTypes.Option.proto";
+
+message Google.Protobuf.WellKnownTypes.Method {
+	string createTime = 1;
+	string RequestTypeUrl = 2;
+	bool RequestStreaming = 3;
+	string ResponseTypeUrl = 4;
+	bool ResponseStreaming = 5;
+	repeated Google.Protobuf.WellKnownTypes.Option Options = 6;
+	Google.Protobuf.WellKnownTypes.Syntax Syntax = 7;
+}

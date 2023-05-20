@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetSlotOp.proto";
+import "WidgetSlotTag.proto";
+
+message SetWidgetSlotReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4299;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	repeated WidgetSlotTag tagList = 13;
+	WidgetSlotOp op = 3;
+	uint32 materialId = 4;
+}

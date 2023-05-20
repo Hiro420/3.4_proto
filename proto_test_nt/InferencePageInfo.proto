@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "InferenceWordInfo.proto";
+
+message InferencePageInfo {
+	uint32 pageId = 6;
+	repeated InferenceWordInfo unlockWordList = 8;
+}

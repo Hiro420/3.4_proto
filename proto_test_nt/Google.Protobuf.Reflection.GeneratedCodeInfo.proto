@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Google.Protobuf.Reflection.GeneratedCodeInfo {
+	message Google.Protobuf.Reflection.GeneratedCodeInfo/Google.Protobuf.Reflection.GeneratedCodeInfo/Types/Annotation {
+		repeated int32 Path = 1;
+		string SourceFile = 2;
+		int32 Begin = 3;
+		int32 End = 4;
+	}
+
+	repeated Google.Protobuf.Reflection.GeneratedCodeInfo/Google.Protobuf.Reflection.GeneratedCodeInfo/Types/Annotation Annotation = 1;
+}

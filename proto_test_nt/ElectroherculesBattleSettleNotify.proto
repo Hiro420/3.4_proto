@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ElectroherculesBattleSettleNotify {
+	//enum KFDMEIHCMLP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21217;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 galleryId = 6;
+	bool hkhgjjepeio = 1;
+	uint32 stageId = 5;
+	uint32 finishTime = 15;
+	bool isNewRecord = 11;
+	uint32 difficulty = 9;
+	bool isSucc = 7;
+}

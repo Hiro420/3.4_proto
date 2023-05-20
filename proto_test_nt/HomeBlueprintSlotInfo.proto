@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeBlueprintSlotInfo {
+	bool isAllowCopy = 9;
+	uint32 createTime = 8;
+	uint32 sceneId = 3;
+	uint32 blockId = 2;
+	uint32 slotId = 12;
+	uint32 moduleId = 1;
+	string shareCode = 4;
+}

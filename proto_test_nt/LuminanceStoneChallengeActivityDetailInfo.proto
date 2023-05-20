@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message LuminanceStoneChallengeActivityDetailInfo {
+	uint32 bestScore = 10;
+	bool IsFinalGalleryComplete = 12;
+	bool leftMonsters = 4;
+	uint32 CurrentStageId = 11;
+}

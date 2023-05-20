@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message WaterSpritePhaseFinishNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2095;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+}

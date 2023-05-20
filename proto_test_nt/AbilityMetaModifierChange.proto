@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityAttachedModifier.proto";
+import "AbilityString.proto";
+import "ModifierAction.proto";
+import "ModifierProperty.proto";
+
+message AbilityMetaModifierChange {
+	uint32 applyEntityId = 8;
+	AbilityAttachedModifier attachedInstancedModifier = 7;
+	bool IsDurabilityZero = 1;
+	repeated ModifierProperty Properties = 13;
+	AbilityString parentAbilityName = 10;
+	AbilityString parentAbilityOverride = 5;
+	bool IsMuteRemote = 11;
+	bool isAttachedParentAbility = 3;
+	uint32 serverBuffUid = 9;
+	int32 modifierLocalId = 6;
+	ModifierAction Action = 2;
+}

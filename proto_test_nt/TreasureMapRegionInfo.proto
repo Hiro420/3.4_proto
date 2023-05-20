@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message TreasureMapRegionInfo {
+	uint32 LKEMEDPMIGM = 5;
+	uint32 MNEKJILFHOA = 12;
+	uint32 startTime = 6;
+	uint32 sceneId = 1;
+	uint32 regionId = 14;
+	uint32 regionRadius = 8;
+	bool HHBHLPHLHIL = 15;
+	bool NIBJOAJLCJI = 2;
+	Vector regionCenterPos = 13;
+}

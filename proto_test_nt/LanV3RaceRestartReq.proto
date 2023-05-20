@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message LanV3RaceRestartReq {
+	//enum CFHINOHGIPO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23737;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 galleryId = 10;
+}

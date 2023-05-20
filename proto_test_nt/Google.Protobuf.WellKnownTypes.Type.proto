@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.WellKnownTypes.SourceContext.proto";
+import "Google.Protobuf.WellKnownTypes.Syntax.proto";
+import "Google.Protobuf.WellKnownTypes.Field.proto";
+import "Google.Protobuf.WellKnownTypes.Option.proto";
+
+message Google.Protobuf.WellKnownTypes.Type {
+	string createTime = 1;
+	repeated Google.Protobuf.WellKnownTypes.Field Fields = 2;
+	repeated string Oneofs = 3;
+	repeated Google.Protobuf.WellKnownTypes.Option Options = 4;
+	Google.Protobuf.WellKnownTypes.SourceContext SourceContext = 5;
+	Google.Protobuf.WellKnownTypes.Syntax Syntax = 6;
+}

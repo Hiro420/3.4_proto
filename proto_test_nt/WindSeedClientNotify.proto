@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message WindSeedClientNotify {
+	//enum CmdId {
+	//	option allow_alias = true;
+	//	NONE = 0;
+	//	CMD_ID = 1114;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	message RefreshNotify {
+		uint32 refreshNum = 13;
+	}
+	message AddWindBulletNotify {
+		uint32 CKIKKCAFJBC = 1;
+		Vector seedPos = 10;
+		uint32 MPDFAPBDJAH = 13;
+	}
+	message AreaNotify {
+		uint32 areaType = 5;
+		uint32 areaId = 12;
+		bytes areaCode = 1;
+	}
+
+	oneof notify {
+		RefreshNotify refresh_notify = 11;
+		AddWindBulletNotify add_wind_bullet_notify = 8;
+		AreaNotify area_notify = 2;
+	}
+}

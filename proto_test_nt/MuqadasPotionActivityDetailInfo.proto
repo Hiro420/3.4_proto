@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MuqadasPotionLevelData.proto";
+
+message MuqadasPotionActivityDetailInfo {
+	repeated MuqadasPotionLevelData MuqadasPotionLevelDataList = 10;
+}

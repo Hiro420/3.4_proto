@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ShowTemplateReminderNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3353;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool AENIIBBBPJC = 13;
+	bool LABCNBEGCED = 11;
+	repeated uint32 paramUidList = 6;
+	repeated int32 paramList = 12;
+	uint32 templateReminderId = 9;
+}

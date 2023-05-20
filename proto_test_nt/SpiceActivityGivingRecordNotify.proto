@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SpiceActivityGivingRecordNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8085;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 LAKPMMIPBMI = 3;
+	uint32 avatarId = 8;
+	uint32 CIHIAJEGCBO = 4;
+}

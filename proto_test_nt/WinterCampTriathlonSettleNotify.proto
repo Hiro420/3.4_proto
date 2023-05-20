@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message WinterCampTriathlonSettleNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8723;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 EMNKJGKNCMP = 12;
+	bool isSuccess = 6;
+	uint32 OEFOGONENFN = 8;
+	bool isNewRecord = 2;
+	uint32 galleryId = 13;
+	uint32 ACDOMBHMNJG = 4;
+	uint32 remainTime = 7;
+	uint32 score = 1;
+}

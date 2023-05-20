@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MistTrialBestAvatar.proto";
+
+message MistTrialLevelData {
+	uint32 openTime = 2;
+	uint32 firstPassTime = 4;
+	uint32 levelId = 12;
+	bool isOpen = 6;
+	MistTrialBestAvatar bestHitAvatar = 14;
+	repeated MistTrialBestAvatar bestAvatarList = 13;
+}

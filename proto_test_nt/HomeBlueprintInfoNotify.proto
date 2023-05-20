@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeBlueprintInfoNotify {
+	//enum KAKDGDJKIHJ {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4870;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isAllowFriendCopy = 11;
+}

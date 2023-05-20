@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeSearchBlueprintReq {
+	//enum OLPKDIPAOHO {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4713;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	string shareCode = 4;
+}

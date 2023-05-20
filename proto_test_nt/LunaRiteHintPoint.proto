@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+import "LunaRiteHintPointType.proto";
+
+message LunaRiteHintPoint {
+	uint32 index = 4;
+	Vector pos = 11;
+	uint32 areaId = 2;
+	LunaRiteHintPointType type = 15;
+}

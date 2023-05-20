@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeExchangeWoodReq {
+	//enum NIIPNNDOJGL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4672;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	map<uint32, uint32> materialCountMap = 1;
+	uint32 woodId = 8;
+}

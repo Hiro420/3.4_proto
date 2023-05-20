@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GalleryStopReason.proto";
+
+message FungusFighterTrainingSettleInfo {
+	uint32 usedTime = 6;
+	string transaction = 5;
+	GalleryStopReason reason = 13;
+}

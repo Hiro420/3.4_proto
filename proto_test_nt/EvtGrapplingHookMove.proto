@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message EvtGrapplingHookMove {
+	uint32 entityId = 2;
+	float MaxSpeed = 14;
+	float speed = 10;
+	repeated uint32 AnimatorStateIdList = 7;
+	string OverrideCollider = 12;
+	float Acceleration = 5;
+	bool NeedSetIsInAir = 4;
+	Vector TargetPos = 3;
+	bool CheckAnimatorStateOnExitOnly = 13;
+}

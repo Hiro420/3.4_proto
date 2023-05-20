@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.WellKnownTypes.SourceContext.proto";
+import "Google.Protobuf.WellKnownTypes.Syntax.proto";
+import "Google.Protobuf.WellKnownTypes.EnumValue.proto";
+import "Google.Protobuf.WellKnownTypes.Option.proto";
+
+message Google.Protobuf.WellKnownTypes.Enum {
+	string createTime = 1;
+	repeated Google.Protobuf.WellKnownTypes.EnumValue Enumvalue = 2;
+	repeated Google.Protobuf.WellKnownTypes.Option Options = 3;
+	Google.Protobuf.WellKnownTypes.SourceContext SourceContext = 4;
+	Google.Protobuf.WellKnownTypes.Syntax Syntax = 5;
+}

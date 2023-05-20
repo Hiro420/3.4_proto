@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeResource.proto";
+
+message HomeResourceNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4639;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	HomeResource fetterExp = 9;
+	HomeResource homeCoin = 1;
+}

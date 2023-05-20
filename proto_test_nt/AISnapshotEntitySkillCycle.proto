@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AISnapshotEntitySkillCycle {
+	bool Selected = 4;
+	bool Trydoskill = 12;
+	bool Failed = 3;
+	uint32 skillId = 15;
+	bool Success = 9;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriChessEntranceDetailInfo.proto";
+
+message IrodoriChessMapData {
+	uint32 mapId = 13;
+	uint32 bestScore = 3;
+	repeated uint32 EquipedCardList = 4;
+	IrodoriChessEntranceDetailInfo EntranceDetailInfo = 5;
+}

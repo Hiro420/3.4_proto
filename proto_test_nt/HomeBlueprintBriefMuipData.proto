@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeBlueprintBriefMuipData {
+	string shareCode = 1;
+	uint32 ownerUid = 2;
+	uint32 moduleId = 3;
+	uint32 sceneId = 4;
+	uint32 blockId = 5;
+	bool isAllowCopy = 6;
+	uint32 createTime = 7;
+}

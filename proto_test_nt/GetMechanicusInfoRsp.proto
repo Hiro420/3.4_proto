@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MechanicusInfo.proto";
+
+message GetMechanicusInfoRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3955;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	MechanicusInfo mechanicusInfo = 1;
+	int32 retcode = 12;
+}

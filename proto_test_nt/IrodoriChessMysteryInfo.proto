@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriChessEntranceDetailInfo.proto";
+
+message IrodoriChessMysteryInfo {
+	repeated uint32 ExitPointIdList = 5;
+	IrodoriChessEntranceDetailInfo EntranceDetailInfo = 8;
+	repeated uint32 EntrancePointIdList = 2;
+}

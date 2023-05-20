@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GalleryStopReason.proto";
+
+message GravenInnocenceRaceSettleNotify {
+	//enum GECMEJKBGJK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20447;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 score = 6;
+	bool isNewRecord = 11;
+	bool isSuccess = 1;
+	uint32 OHAHHKNAJKL = 13;
+	GalleryStopReason reason = 9;
+	uint32 IPGJKKFDPJJ = 8;
+	uint32 galleryId = 14;
+	uint32 remainTime = 12;
+	uint32 BOIPHOPMHJM = 3;
+	uint32 levelId = 2;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+enum Google.Protobuf.WellKnownTypes.Syntax {
+	Proto2 = 0;
+	Proto3 = 1;
+}

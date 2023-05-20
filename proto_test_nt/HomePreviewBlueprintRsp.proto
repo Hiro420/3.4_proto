@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeSceneArrangementInfo.proto";
+
+message HomePreviewBlueprintRsp {
+	//enum GACMGFBMJLD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4625;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string shareCode = 3;
+	int32 retcode = 4;
+	HomeSceneArrangementInfo sceneArrangementInfo = 15;
+}

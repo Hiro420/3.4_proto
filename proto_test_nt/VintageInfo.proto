@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "VintageBoothUsedItemData.proto";
+import "VintageMarketInfo.proto";
+import "VintageHuntingStageData.proto";
+import "VintagePresentStageData.proto";
+import "VintageCampChallengeStageData.proto";
+
+message VintageInfo {
+	bool leftMonsters = 12;
+	VintageBoothUsedItemData boothData = 15;
+	map<uint32, VintageHuntingStageData> EHHPFKIOKOO = 7;
+	map<uint32, VintagePresentStageData> PCIIGPJJHGF = 2;
+	map<uint32, VintageCampChallengeStageData> NPKMDFCLGBJ = 3;
+	VintageMarketInfo marketInfo = 1;
+}

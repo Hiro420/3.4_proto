@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SealBattleType.proto";
+
+message SealBattleBeginNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 261;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 sealRadius = 12;
+	uint32 sealMaxProgress = 2;
+	uint32 sealEntityId = 15;
+	SealBattleType battleType = 4;
+}

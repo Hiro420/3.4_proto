@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ShopConcertProduct {
+	string productId = 1;
+	string priceTier = 2;
+	uint32 obtainCount = 3;
+	uint32 obtainLimit = 4;
+	uint32 beginTime = 5;
+	uint32 endTime = 6;
+	uint32 buyTimes = 7;
+}

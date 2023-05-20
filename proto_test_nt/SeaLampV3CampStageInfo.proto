@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SeaLampV3CampStageInfo {
+	bool isFinished = 2;
+	bool isOpen = 4;
+	uint32 stageId = 12;
+	uint32 levelId = 5;
+}

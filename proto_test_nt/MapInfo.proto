@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CellInfo.proto";
+
+message MapInfo {
+	int32 Minx = 1;
+	int32 Maxx = 2;
+	int32 Minz = 3;
+	int32 Maxz = 4;
+	repeated CellInfo Cells = 5;
+}

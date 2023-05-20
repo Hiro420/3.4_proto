@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MPLevelEntityInfo.proto";
+import "TeamEnterSceneInfo.proto";
+import "AvatarEnterSceneInfo.proto";
+
+message PlayerEnterSceneInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 212;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	MPLevelEntityInfo mpLevelEntityInfo = 7;
+	TeamEnterSceneInfo teamEnterInfo = 5;
+	uint32 curAvatarEntityId = 8;
+	uint32 enterSceneToken = 13;
+	repeated AvatarEnterSceneInfo avatarEnterInfo = 12;
+}

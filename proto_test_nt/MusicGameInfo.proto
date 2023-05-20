@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MusicBriefInfo.proto";
+import "MusicGameRecord.proto";
+
+message MusicGameInfo {
+	repeated MusicBriefInfo AAGCDCOIPJM = 2;
+	repeated MusicBriefInfo OKHAACGHMAP = 6;
+	map<uint32, MusicGameRecord> musicGameRecordMap = 8;
+}

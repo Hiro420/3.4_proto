@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeFurnitureArrangementMuipData.proto";
+
+message HomeBlockArrangementMuipData {
+	uint32 blockId = 1;
+	repeated HomeFurnitureArrangementMuipData FurnitureDataList = 2;
+}

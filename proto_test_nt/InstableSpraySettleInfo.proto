@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message InstableSpraySettleInfo {
+	bool isNewRecord = 5;
+	uint32 stageId = 4;
+	uint32 difficulty = 15;
+	repeated uint32 scoreList = 10;
+}

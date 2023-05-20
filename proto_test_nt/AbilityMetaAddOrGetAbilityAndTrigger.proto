@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AbilityString.proto";
+
+message AbilityMetaAddOrGetAbilityAndTrigger {
+	AbilityString abilityOverride = 4;
+	float TriggerArgument = 15;
+	AbilityString abilityName = 6;
+}

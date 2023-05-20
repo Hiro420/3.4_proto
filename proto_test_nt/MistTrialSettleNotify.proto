@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MistTrialBestAvatar.proto";
+
+message MistTrialSettleNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8408;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	MistTrialBestAvatar bestHitAvatar = 2;
+	map<uint32, uint32> KFKHAACDJDJ = 10;
+	repeated MistTrialBestAvatar bestAvatarList = 5;
+	uint32 firstPassTime = 9;
+	uint32 dungeonSceneId = 14;
+	map<uint32, uint32> GMPEELLANLI = 11;
+}

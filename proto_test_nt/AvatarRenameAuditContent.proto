@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AvatarRenameAuditContent {
+	string type = 1;
+	string content = 2;
+	uint32 AutoFailTime = 3;
+}

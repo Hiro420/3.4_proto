@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message InterpretInferenceWordReq {
+	//enum MHPKOLNLDKH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 423;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 wordId = 12;
+	uint32 pageId = 10;
+}

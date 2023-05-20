@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+enum SceneSurfaceMaterial {
+	SceneSurfaceMaterial_NONE = 0;
+	Grass = 1;
+	Dirt = 2;
+	Rock = 3;
+	Snow = 4;
+	SceneSurfaceMaterial_FIFTH = 5;
+	Tile = 6;
+	Sand = 7;
+}

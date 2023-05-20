@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GearColumnInfo {
+	bool HGIKKDOBANK = 9;
+	uint32 gearId = 6;
+	bool KEEGLHMBAKM = 8;
+	uint32 GHIBPOIAIGF = 11;
+	uint32 EDLLMBGNDEH = 15;
+}

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OptionType.proto";
+import "Vector.proto";
+import "AStarMethod.proto";
+import "FilterType.proto";
+
+message ToTheMoonQueryPathReq {
+	//enum MAJKIHKKGFG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6105;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	OptionType queryType = 15;
+	int32 queryId = 3;
+	Vector sourcePos = 12;
+	uint32 sceneId = 6;
+	AStarMethod astarMethod = 1;
+	FilterType filterType = 8;
+	int32 fuzzyRange = 7;
+	bool OFGONAMNIJG = 10;
+	bool BBLMBILIOGP = 2;
+	Vector destinationPos = 5;
+}

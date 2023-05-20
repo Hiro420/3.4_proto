@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TreasureMapMpChallengeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2054;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+}

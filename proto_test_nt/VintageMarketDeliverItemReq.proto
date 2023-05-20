@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+message VintageMarketDeliverItemReq {
+	//enum IADAEOHIPCK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21636;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	repeated ItemParam deliverItemList = 15;
+	uint32 traderId = 4;
+}

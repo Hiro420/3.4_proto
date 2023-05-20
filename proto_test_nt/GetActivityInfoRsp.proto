@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ActivityInfo.proto";
+import "Uint32Pair.proto";
+
+message GetActivityInfoRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2073;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated ActivityInfo activityInfoList = 13;
+	repeated Uint32Pair disableTransferPointInteractionList = 3;
+	repeated uint32 activatedSaleIdList = 7;
+	int32 retcode = 14;
+}

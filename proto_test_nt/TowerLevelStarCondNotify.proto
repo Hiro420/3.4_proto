@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerLevelStarCondData.proto";
+
+message TowerLevelStarCondNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2485;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 floorId = 13;
+	uint32 levelIndex = 4;
+	repeated TowerLevelStarCondData condDataList = 15;
+}

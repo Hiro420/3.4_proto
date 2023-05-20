@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AbilityMixinFireworksLauncher {
+	uint32 FiredBulletCount = 13;
+	uint32 TurnIndex = 2;
+	uint32 InvokeType = 15;
+	uint32 phase = 4;
+	uint32 StartCountDownTime = 6;
+	repeated uint32 FireworksConfig = 11;
+}

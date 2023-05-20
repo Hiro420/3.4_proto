@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetSlotOp.proto";
+import "WidgetSlotData.proto";
+
+message WidgetSlotChangeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4283;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	WidgetSlotOp op = 14;
+	WidgetSlotData slot = 2;
+}

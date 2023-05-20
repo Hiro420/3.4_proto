@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message IrodoriChessMonsterInfo {
+	uint32 monsterId = 12;
+	uint32 level = 13;
+	uint32 GrantPoints = 14;
+	repeated uint32 affixList = 1;
+}

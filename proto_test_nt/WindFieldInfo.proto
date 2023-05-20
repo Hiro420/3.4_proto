@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message WindFieldInfo {
+	uint32 GNKCFHMDOHJ = 13;
+	uint32 GLNHBJJJINK = 4;
+	uint32 OJHJPBCAONA = 12;
+	uint32 EKMHMHJDHIL = 10;
+	uint32 NBIBKFKOCFK = 15;
+	uint32 GNJKOCLJFNM = 8;
+	uint32 FFODAKMKGEK = 7;
+	uint32 MMONPDMIEBN = 9;
+}

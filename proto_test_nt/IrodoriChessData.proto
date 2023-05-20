@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriChessLevelData.proto";
+
+message IrodoriChessData {
+	repeated IrodoriChessLevelData levelDataList = 9;
+	bool isOpen = 7;
+}

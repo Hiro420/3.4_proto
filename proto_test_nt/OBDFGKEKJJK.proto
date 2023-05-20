@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message OBDFGKEKJJK {
+	//enum PKCBBJPGNKL {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6548;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 playIndex = 11;
+}

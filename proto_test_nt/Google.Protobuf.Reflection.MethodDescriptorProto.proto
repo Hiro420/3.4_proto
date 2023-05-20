@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.Reflection.MethodOptions.proto";
+
+message Google.Protobuf.Reflection.MethodDescriptorProto {
+	string createTime = 1;
+	string inputType = 2;
+	string OutputType = 3;
+	Google.Protobuf.Reflection.MethodOptions Options = 4;
+	bool ClientStreaming = 5;
+	bool ServerStreaming = 6;
+}

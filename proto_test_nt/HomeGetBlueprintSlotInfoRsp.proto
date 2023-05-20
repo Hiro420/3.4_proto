@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeBlueprintSlotInfo.proto";
+
+message HomeGetBlueprintSlotInfoRsp {
+	//enum PBAPEFNPDAF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4541;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 10;
+	repeated uint32 deleteSlotIdList = 6;
+	repeated HomeBlueprintSlotInfo slotInfoList = 11;
+}

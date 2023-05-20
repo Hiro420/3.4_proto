@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message EvtLightCoreMove {
+	uint32 entityId = 5;
+	float Acelerate = 2;
+	float MaxAbsorbTime = 14;
+	Vector TargetPos = 12;
+	float speed = 6;
+}

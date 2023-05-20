@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Birthday.proto";
+import "FriendOnlineState.proto";
+import "FriendEnterHomeOption.proto";
+import "ProfilePicture.proto";
+import "SocialShowAvatarInfo.proto";
+
+message SocialDetail {
+	uint32 uid = 1;
+	string nickname = 2;
+	uint32 level = 3;
+	uint32 avatarId = 4;
+	string signature = 5;
+	Birthday birthday = 6;
+	uint32 worldLevel = 7;
+	repeated uint32 reservedList = 8;
+	FriendOnlineState onlineState = 9;
+	uint32 param = 10;
+	bool isFriend = 11;
+	bool isMpModeAvailable = 12;
+	string onlineId = 13;
+	uint32 nameCardId = 14;
+	bool isInBlacklist = 15;
+	bool isChatNoDisturb = 16;
+	string remarkName = 17;
+	uint32 finishAchievementNum = 18;
+	uint32 towerFloorIndex = 19;
+	uint32 towerLevelIndex = 20;
+	bool isShowAvatar = 21;
+	repeated SocialShowAvatarInfo showAvatarInfoList = 22;
+	repeated uint32 showNameCardIdList = 23;
+	FriendEnterHomeOption friendEnterHomeOption = 24;
+	ProfilePicture profilePicture = 25;
+	string IpCode = 26;
+}

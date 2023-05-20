@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerGCGMatchConfirmNotify {
+	//enum CHFJHDNIIHH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4160;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isAgree = 6;
+	uint32 matchId = 8;
+	uint32 uid = 7;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlantFlowerFriendFlowerWishData.proto";
+
+message PlantFlowerGetFriendFlowerWishListRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8025;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 15;
+	uint32 scheduleId = 7;
+	repeated PlantFlowerFriendFlowerWishData friendFlowerWishList = 1;
+}

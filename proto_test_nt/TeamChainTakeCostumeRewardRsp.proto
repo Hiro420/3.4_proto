@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TeamChainTakeCostumeRewardRsp {
+	//enum MFCBBKLDHAP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 22700;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+}

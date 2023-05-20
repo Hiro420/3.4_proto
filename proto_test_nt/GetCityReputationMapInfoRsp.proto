@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GetCityReputationMapInfoRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2878;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool NCMHMODIIKM = 13;
+	int32 retcode = 4;
+	repeated uint32 unlockHuntingCityList = 12;
+	bool GJFNOPNMFNG = 7;
+	repeated uint32 rewardCityList = 1;
+}

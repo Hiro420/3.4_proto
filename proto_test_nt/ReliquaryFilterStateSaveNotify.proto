@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ReliquaryFilterStateSaveNotify {
+	//enum LBCPMMCKAIH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 672;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	map<uint32, uint32> reliquaryFilterStateMap = 3;
+}

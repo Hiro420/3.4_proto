@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MusicGameSettleRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8735;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 9;
+	bool isUnlockNextLevel = 1;
+	uint64 ugcGuid = 7;
+	uint32 musicBasicId = 4;
+	bool isNewRecord = 14;
+}

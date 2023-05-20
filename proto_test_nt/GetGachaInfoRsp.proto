@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GachaInfo.proto";
+
+message GetGachaInfoRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 1555;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 14;
+	bool OHFMHIHJHPJ = 11;
+	uint32 dailyGachaTimes = 1;
+	uint32 gachaRandom = 6;
+	bool HBILIAEIHNK = 13;
+	repeated GachaInfo gachaInfoList = 3;
+}

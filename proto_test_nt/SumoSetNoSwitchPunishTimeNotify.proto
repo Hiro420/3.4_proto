@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SumoDungeonTeam.proto";
+
+message SumoSetNoSwitchPunishTimeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8554;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 BNJBIGHIJOC = 11;
+	repeated SumoDungeonTeam dungeonTeamList = 3;
+	uint32 CBAMLHDMKJF = 14;
+	uint32 stageId = 1;
+	uint32 activityId = 7;
+	uint32 DJBJACGHGDM = 2;
+}

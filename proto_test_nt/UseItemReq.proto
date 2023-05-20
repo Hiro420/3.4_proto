@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message UseItemReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 670;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint64 guid = 8;
+	uint32 optionIdx = 14;
+	uint32 count = 12;
+	bool isEnterMpDungeonTeam = 13;
+	uint64 targetGuid = 6;
+}

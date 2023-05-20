@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ElectroherculesBattleLevelInfo.proto";
+
+message ElectroherculesBattleStageInfo {
+	repeated ElectroherculesBattleLevelInfo levelInfoList = 10;
+	uint32 stageId = 1;
+	bool IsStageOpen = 3;
+}

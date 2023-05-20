@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message RequestLiveInfoRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 828;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string DNGGIOIKLHC = 3;
+	int32 retcode = 15;
+	uint32 liveId = 11;
+	string BDOGCPKPLOK = 1;
+}

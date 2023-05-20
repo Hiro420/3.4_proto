@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message HomeNpcData {
+	Vector spawnPos = 4;
+	uint32 costumeId = 13;
+	uint32 avatarId = 5;
+	Vector spawnRot = 6;
+}

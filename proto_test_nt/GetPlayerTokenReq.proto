@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GetPlayerTokenReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 105;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 platformType = 10;
+	string PHNOHCKIHIA = 6;
+	string countryCode = 1;
+	string clientIpStr = 8;
+	uint32 PMGFBMJNNCL = 13;
+	uint32 keyId = 294;
+	string PKONAOIDNFK = 9;
+	uint32 accountType = 5;
+	bool isGuest = 14;
+	uint32 cloudClientIp = 1399;
+	string birthday = 65;
+	string onlineId = 12;
+	uint32 uid = 11;
+	string clientRandKey = 776;
+	uint32 subChannelId = 7;
+	string accountUid = 4;
+	string accountToken = 2;
+	string psnId = 15;
+	uint32 channelId = 3;
+	uint32 lang = 904;
+}

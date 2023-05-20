@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeScenePointFishFarmingInfo.proto";
+
+message HomeScenePointFishFarmingInfoNotify {
+	//enum JNJIJCHNAMH {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4895;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated HomeScenePointFishFarmingInfo fishFarmingInfoList = 9;
+}

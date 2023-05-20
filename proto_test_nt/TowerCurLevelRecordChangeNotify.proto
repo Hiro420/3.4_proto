@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerCurLevelRecord.proto";
+
+message TowerCurLevelRecordChangeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2487;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	TowerCurLevelRecord curLevelRecord = 5;
+}

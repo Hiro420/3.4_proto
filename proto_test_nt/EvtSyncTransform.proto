@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message EvtSyncTransform {
+	uint32 entityId = 10;
+	Vector EntityRot = 5;
+	Vector EntityPos = 9;
+}

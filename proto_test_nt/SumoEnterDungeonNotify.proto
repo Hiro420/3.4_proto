@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SumoDungeonTeam.proto";
+
+message SumoEnterDungeonNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8559;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 BNJBIGHIJOC = 8;
+	uint32 activityId = 6;
+	uint32 stageId = 15;
+	uint32 CBAMLHDMKJF = 7;
+	uint32 DJBJACGHGDM = 14;
+	repeated SumoDungeonTeam dungeonTeamList = 1;
+}

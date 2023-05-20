@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message InstableSprayLevelFinishNotify {
+	//enum EOIABCFNAIK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 24172;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool DHKHBKLBIPA = 14;
+	uint32 round = 2;
+	uint32 stageId = 11;
+	uint32 levelId = 9;
+	bool AMEBAPIPLGL = 6;
+}

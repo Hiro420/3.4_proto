@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ToTheMoonObstacleInfo.proto";
+
+message ToTheMoonObstaclesModifyNotify {
+	//enum ONFMOJALOCB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6114;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	bool useEdge = 10;
+	uint32 sceneId = 11;
+	repeated int32 removeObstacleIds = 4;
+	repeated ToTheMoonObstacleInfo addObstacles = 14;
+}

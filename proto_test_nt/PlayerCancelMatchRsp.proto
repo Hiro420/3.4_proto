@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MatchType.proto";
+
+message PlayerCancelMatchRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4169;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	MatchType matchType = 1;
+	int32 retcode = 15;
+}

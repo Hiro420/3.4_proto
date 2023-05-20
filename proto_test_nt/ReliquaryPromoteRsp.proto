@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ReliquaryPromoteRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 675;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated uint32 curAppendPropList = 12;
+	uint64 targetReliquaryGuid = 2;
+	int32 retcode = 6;
+	repeated uint32 oldAppendPropList = 11;
+	uint32 oldPromoteLevel = 7;
+	uint32 curPromoteLevel = 15;
+}

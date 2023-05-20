@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TrackingIOInfo {
+	string rydevicetype = 2;
+	string clientTz = 6;
+	string CCOGBICMHKG = 15;
+	string NMDNLHLAKAM = 11;
+	string PIBFPDAMJLE = 5;
+	string DJHKHEFPCDK = 9;
+	string CNPIGDOEJPB = 3;
+}

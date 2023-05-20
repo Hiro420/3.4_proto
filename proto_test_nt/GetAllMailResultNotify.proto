@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MailData.proto";
+
+message GetAllMailResultNotify {
+	//enum IGKIIEJOOAC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 1413;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isCollected = 12;
+	repeated MailData mailList = 1;
+	uint32 totalPageCount = 7;
+	int32 retcode = 8;
+	uint32 pageIndex = 6;
+	string transaction = 15;
+}

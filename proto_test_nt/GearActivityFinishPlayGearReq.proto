@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GearColumnInfo.proto";
+
+message GearActivityFinishPlayGearReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20920;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	bool isSuccess = 15;
+	repeated GearColumnInfo gearColumnInfoList = 9;
+	bool useClue = 13;
+	uint32 levelId = 2;
+}

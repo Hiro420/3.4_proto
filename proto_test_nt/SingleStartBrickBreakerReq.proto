@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SingleStartBrickBreakerReq {
+	//enum FOGKEKLDMHI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23861;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 levelId = 1;
+	bool isDungeon = 15;
+	repeated uint32 chosenSkillList = 12;
+	repeated uint32 chosenAvatarList = 10;
+}

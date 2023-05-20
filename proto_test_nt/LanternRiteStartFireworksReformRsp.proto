@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LanternRiteFireworksReformFactorInfo.proto";
+import "LanternRiteFireworksReformSkillInfo.proto";
+
+message LanternRiteStartFireworksReformRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8757;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 LKOFBPDKEGG = 2;
+	uint32 OMHPIGGDCBO = 7;
+	repeated LanternRiteFireworksReformFactorInfo factorInfoList = 1;
+	uint32 challengeId = 12;
+	uint32 BJHGCFANMBI = 11;
+	uint32 LKKBPAJOCML = 14;
+	uint32 stageId = 4;
+	int32 retcode = 10;
+	repeated LanternRiteFireworksReformSkillInfo skillInfoList = 15;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Google.Protobuf.WellKnownTypes.Int32Value {
+	int32 value = 1;
+}

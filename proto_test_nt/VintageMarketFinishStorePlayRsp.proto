@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageMarketFinishStorePlayRsp {
+	//enum MNGADGCMBJB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23367;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 DGECJOKMDGN = 4;
+	uint32 DJILELFHFHJ = 14;
+	int32 retcode = 11;
+	repeated uint32 HJIHIOIGAPP = 2;
+	uint32 DLNFCBPDBBH = 15;
+	uint32 GCDNOPJEIBG = 7;
+	map<uint32, uint32> storeIncomeMap = 1;
+	uint32 storeRound = 6;
+	repeated uint32 BDAIONEPKIK = 5;
+	repeated uint32 OCIMKEPJOOL = 9;
+}

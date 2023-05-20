@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ReunionBriefInfo.proto";
+
+message ReunionDailyRefreshNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5098;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	ReunionBriefInfo reunionBriefInfo = 13;
+}

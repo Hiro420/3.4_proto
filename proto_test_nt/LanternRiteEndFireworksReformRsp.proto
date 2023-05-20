@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message LanternRiteEndFireworksReformRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8114;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 finalScore = 8;
+	uint32 challengeId = 10;
+	uint32 stageId = 9;
+	bool ALMNEGCIILA = 6;
+	bool isFullScore = 4;
+	int32 retcode = 13;
+	bool FPEFIADFBNI = 7;
+	bool CGJNBGAKFAD = 11;
+	bool isNewRecord = 12;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "IrodoriPoetryThemeData.proto";
+
+message IrodoriScanEntityRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8540;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool isGetInspiration = 4;
+	IrodoriPoetryThemeData themeData = 8;
+	int32 retcode = 12;
+}

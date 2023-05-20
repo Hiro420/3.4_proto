@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.Reflection.EnumOptions.proto";
+import "Google.Protobuf.Reflection.EnumValueDescriptorproto";
+
+message Google.Protobuf.Reflection.EnumDescriptorProto {
+	string createTime = 1;
+	repeated Google.Protobuf.Reflection.EnumValueDescriptorProto value = 2;
+	Google.Protobuf.Reflection.EnumOptions Options = 3;
+}

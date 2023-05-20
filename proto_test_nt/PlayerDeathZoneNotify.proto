@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerDeathZoneNotify {
+	//enum IGJOFKIKAAG {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6296;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 curDeathZoneId = 11;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.Reflection.FieldOptions/Google.Protobuf.Reflection.FieldOptions/Types/CType.proto";
+import "Google.Protobuf.Reflection.FieldOptions/Google.Protobuf.Reflection.FieldOptions/Types/JSType.proto";
+import "Google.Protobuf.Reflection.UninterpretedOption.proto";
+
+message Google.Protobuf.Reflection.FieldOptions {
+	Google.Protobuf.Reflection.FieldOptions/Google.Protobuf.Reflection.FieldOptions/Types/CType Ctype = 1;
+	bool Packed = 2;
+	Google.Protobuf.Reflection.FieldOptions/Google.Protobuf.Reflection.FieldOptions/Types/JSType Jstype = 6;
+	bool Lazy = 5;
+	bool Deprecated = 3;
+	bool Weak = 10;
+	repeated Google.Protobuf.Reflection.UninterpretedOption UninterpretedOption = 999;
+}

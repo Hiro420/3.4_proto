@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SpiceStageData.proto";
+
+message SpiceInfo {
+	uint32 CIHIAJEGCBO = 8;
+	repeated SpiceStageData spiceStageDataList = 11;
+	uint32 LAKPMMIPBMI = 14;
+}

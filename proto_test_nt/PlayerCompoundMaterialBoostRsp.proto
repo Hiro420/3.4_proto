@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerCompoundMaterialBoostRsp {
+	//enum MIMNLEBNAHI {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 121;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 uid = 9;
+	uint32 SimSpeed = 1;
+	uint32 gameTime = 8;
+}

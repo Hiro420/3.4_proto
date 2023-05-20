@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AttackResultCreateCount {
+	repeated uint32 CreateCountNoCostList = 4;
+	repeated uint32 CreateCountList = 12;
+}

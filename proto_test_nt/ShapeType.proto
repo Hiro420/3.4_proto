@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+enum ShapeType {
+	SHAPE_TYPE_OBSTACLE_SHAPE_CAPSULE = 0;
+	SHAPE_TYPE_OBSTACLE_SHAPE_BOX = 1;
+}

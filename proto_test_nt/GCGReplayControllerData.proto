@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GCGReplayControllerData {
+	uint32 controllerId = 7;
+	repeated uint32 cardIdList = 9;
+}

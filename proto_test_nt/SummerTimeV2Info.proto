@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SummerTimeV2BoatStageInfo.proto";
+import "SummerTimeV2DungeonStageInfo.proto";
+
+message SummerTimeV2Info {
+	bool leftMonsters = 7;
+	uint32 BNNMNCKEHHO = 10;
+	repeated SummerTimeV2BoatStageInfo boatStageInfoList = 6;
+	uint32 JHBCHFHAGFO = 14;
+	repeated SummerTimeV2DungeonStageInfo dungeonStageInfoList = 11;
+}

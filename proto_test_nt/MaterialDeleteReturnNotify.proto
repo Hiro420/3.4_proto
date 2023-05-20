@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "MaterialDeleteReturnType.proto";
+
+message MaterialDeleteReturnNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 615;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	map<uint32, uint32> OFOKFKBALJD = 7;
+	map<uint32, uint32> LAIHDKJAHAF = 10;
+	MaterialDeleteReturnType type = 11;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GetBattlePassProductRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2625;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string priceTier = 15;
+	int32 retcode = 4;
+	uint32 battlePassProductPlayType = 9;
+	uint32 curScheduleId = 6;
+	string productId = 7;
+}

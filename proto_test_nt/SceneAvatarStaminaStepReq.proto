@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message SceneAvatarStaminaStepReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 214;
+	//	enetChannelId = 1;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	Vector rot = 4;
+	bool useClientRot = 9;
+}

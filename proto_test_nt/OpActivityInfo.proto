@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "BonusInfo.proto";
+
+message OpActivityInfo {
+	uint32 scheduleId = 1;
+	uint32 beginTime = 8;
+	uint32 activityId = 15;
+	bool isHasChange = 3;
+	oneof detail {
+		BonusInfo bonus_info = 11;
+	}
+	uint32 endTime = 10;
+}

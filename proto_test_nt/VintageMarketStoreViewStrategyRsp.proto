@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageMarketStoreViewStrategyRsp {
+	//enum BMHPOHCPOPC {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21369;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated uint32 strategyList = 7;
+	uint32 strategyId = 15;
+	int32 retcode = 1;
+}

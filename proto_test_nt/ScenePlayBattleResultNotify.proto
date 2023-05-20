@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ScenePlayBattleSettleRewardInfo.proto";
+import "ScenePlayBattleSettlePlayerInfo.proto";
+
+message ScenePlayBattleResultNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4428;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated ScenePlayBattleSettleRewardInfo settleRewardInfoList = 9;
+	uint32 playId = 2;
+	repeated ScenePlayBattleSettlePlayerInfo settlePlayerInfoList = 4;
+	uint32 costTime = 8;
+	uint32 playType = 13;
+	bool isWin = 12;
+}

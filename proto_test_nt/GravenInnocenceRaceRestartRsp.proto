@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GravenInnocenceRaceRestartRsp {
+	//enum KALBMOGIAAD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 24627;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 12;
+	uint32 galleryId = 8;
+}

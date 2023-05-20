@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message RoutePointChangeInfo {
+	float targetVelocity = 7;
+	uint32 pointIndex = 11;
+	float waitTime = 15;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetGadgetData.proto";
+
+message WidgetGadgetDataNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4282;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	WidgetGadgetData widgetGadgetData = 10;
+}

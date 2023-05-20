@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MaterialDeleteUpdateNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 654;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+}

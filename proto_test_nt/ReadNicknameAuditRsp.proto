@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ReadNicknameAuditRsp {
+	//enum OKPDCPFCLNP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 102;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 ConsumeMaterialId = 13;
+	bool IsBoostAll = 8;
+	uint32 ConsumeMaterialCount = 9;
+	uint32 TargetCompoundGroupId = 3;
+}

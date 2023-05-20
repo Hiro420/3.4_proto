@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message WidgetReportReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4287;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	bool BCAIBKDIHHF = 15;
+	bool isClearSkyCrystalHint = 9;
+	uint32 weatherWizardShieldValue = 12;
+	uint32 materialId = 5;
+	bool APDFKKNKIJJ = 7;
+}

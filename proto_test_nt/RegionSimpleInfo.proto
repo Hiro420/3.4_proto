@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message RegionSimpleInfo {
+	string createTime = 1;
+	string title = 2;
+	string type = 3;
+	string DispatchUrl = 4;
+}

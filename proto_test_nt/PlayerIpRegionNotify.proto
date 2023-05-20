@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerIpRegionNotify {
+	//enum PPJDKEJDOGN {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 108;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	bool isForceSet = 3;
+	uint32 clientGameTime = 1;
+	uint32 gameTime = 15;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GearLevelData {
+	uint32 DFGHKDBENED = 1;
+	uint32 openTime = 4;
+	uint32 levelId = 7;
+	uint32 FIKPLGJIBGP = 12;
+	bool isFinished = 13;
+	bool isOpen = 9;
+}

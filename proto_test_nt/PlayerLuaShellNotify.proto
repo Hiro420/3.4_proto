@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerLuaShellNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 191;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	enum LuaShellType {
+		LUA_SHELL_TYPE_LUASHELL_NONE = 0;
+		LUA_SHELL_TYPE_LUASHELL_NORMAL = 1;
+		LUA_SHELL_TYPE_LUASHELL_SECURITY = 2;
+		LUA_SHELL_TYPE_LUASHELL_SHELL_CODE = 3;
+	}
+
+	bytes luaShell = 5;
+	uint32 useType = 8;
+	LuaShellType shellType = 7;
+	uint32 id = 12;
+}

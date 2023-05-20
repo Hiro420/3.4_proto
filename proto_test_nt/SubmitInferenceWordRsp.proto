@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SubmitInferenceWordRsp {
+	//enum HDBJOOIELFD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 495;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 conclusionId = 7;
+	uint32 pageId = 13;
+	uint32 wordId = 6;
+	int32 retcode = 8;
+}

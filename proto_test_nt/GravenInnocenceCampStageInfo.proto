@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GravenInnocenceCampStageInfo {
+	bool isOpen = 8;
+	uint32 stageId = 14;
+	bool isFinished = 13;
+	uint32 levelId = 12;
+}

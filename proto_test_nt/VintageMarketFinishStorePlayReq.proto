@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "VintageMarketStoreOpInfo.proto";
+
+message VintageMarketFinishStorePlayReq {
+	//enum DBOLEHNGBHM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23780;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 storeRound = 8;
+	repeated VintageMarketStoreOpInfo storeOpList = 12;
+}

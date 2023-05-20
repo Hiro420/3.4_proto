@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "InteractType.proto";
+import "InterOpType.proto";
+
+message MiracleRingDeliverItemRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5235;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 gadgetEntityId = 14;
+	int32 retcode = 5;
+	InteractType interactType = 7;
+	uint32 gadgetId = 4;
+	InterOpType opType = 15;
+}

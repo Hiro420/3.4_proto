@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+import "CylinderSize.proto";
+import "PolygonSize.proto";
+
+message PlayerEyePointStateNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3435;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	bool KFOHOBLMMLB = 1;
+	Vector eyePointPos = 14;
+	uint32 EOPFNBBBGPK = 11;
+	uint32 GNFJIOEGHOE = 2;
+	uint32 BIHEKNFDDDI = 4;
+	int32 fixLodLevel = 6;
+	uint32 JGEMKKJAHKA = 5;
+	bool NIPFCFCBFAE = 10;
+	oneof region_size {
+		float sphere_radius = 152;
+		Vector cubic_size = 879;
+		CylinderSize cylinder_size = 1320;
+		PolygonSize polygon_size = 1996;
+	}
+}

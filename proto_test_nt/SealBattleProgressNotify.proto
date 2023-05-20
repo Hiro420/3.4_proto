@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SealBattleProgressNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 226;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 maxProgress = 15;
+	uint32 sealRadius = 8;
+	uint32 progress = 4;
+	uint32 endTime = 14;
+	uint32 sealEntityId = 7;
+}

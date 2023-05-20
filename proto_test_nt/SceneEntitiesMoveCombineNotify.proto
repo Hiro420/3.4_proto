@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "EntityMoveInfo.proto";
+
+message SceneEntitiesMoveCombineNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3025;
+	//	enetChannelId = 1;
+	//	EnetIsReliable = 0;
+	//}
+
+	repeated EntityMoveInfo entityMoveInfoList = 9;
+}

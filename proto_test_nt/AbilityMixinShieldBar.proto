@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AbilityMixinShieldBar {
+	float Shield = 8;
+	float MaxShield = 11;
+	uint32 elementType = 1;
+	uint32 PlayerNum = 7;
+}

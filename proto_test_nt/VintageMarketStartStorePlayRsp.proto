@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageMarketStartStorePlayRsp {
+	//enum ENOKLJEALMK {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 21141;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 3;
+	uint32 LCCNEKGONFG = 1;
+	uint32 ADJKIIJFNME = 13;
+	uint32 storeRound = 6;
+}

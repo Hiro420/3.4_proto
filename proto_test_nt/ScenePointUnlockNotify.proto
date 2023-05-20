@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ScenePointUnlockNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 239;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated uint32 lockedPointList = 5;
+	uint32 sceneId = 12;
+	repeated uint32 pointList = 9;
+	repeated uint32 hidePointList = 15;
+	repeated uint32 unhidePointList = 7;
+}

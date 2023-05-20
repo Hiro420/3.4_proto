@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OnlinePlayerInfo.proto";
+import "PlayerWidgetInfo.proto";
+
+message WorldPlayerInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3125;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	repeated uint32 playerUidList = 10;
+	repeated OnlinePlayerInfo playerInfoList = 12;
+	repeated PlayerWidgetInfo playerWidgetInfoList = 1;
+}

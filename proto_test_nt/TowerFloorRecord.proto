@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "TowerLevelRecord.proto";
+
+message TowerFloorRecord {
+	uint32 floorStarRewardProgress = 4;
+	map<uint32, uint32> passedLevelMap = 6;
+	repeated TowerLevelRecord passedLevelRecordList = 7;
+	uint32 floorId = 15;
+}

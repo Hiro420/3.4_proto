@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message SalvageEscortInfo {
+	uint32 FGDPFNPENNC = 6;
+	uint32 HDMPOAJLPED = 2;
+	uint32 maxMonsterCount = 4;
+	uint32 monsterCount = 1;
+}

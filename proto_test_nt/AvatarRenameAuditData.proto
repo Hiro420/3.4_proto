@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AvatarRenameContentAuditField.proto";
+import "ContentAuditAuxiliaryField.proto";
+
+message AvatarRenameAuditData {
+	string Aid = 1;
+	string entityId = 2;
+	string lang = 3;
+	string QueueKey = 4;
+	string Region = 5;
+	uint32 uid = 6;
+	repeated AvatarRenameContentAuditField AuditFieldList = 7;
+	repeated ContentAuditAuxiliaryField AuxFieldList = 8;
+}

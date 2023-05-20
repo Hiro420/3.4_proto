@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ProtoLog.ClientLogBodyPing {
+	string Xg = 1;
+	uint32 SignalLevel = 2;
+	uint32 Ping = 3;
+	string Servertype = 4;
+	string Serverip = 5;
+	string Serverport = 6;
+	uint32 Pcount = 7;
+	uint32 Plost = 8;
+	string Dns = 9;
+}

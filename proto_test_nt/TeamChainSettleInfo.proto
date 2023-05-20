@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TeamChainSettleInfo {
+	bool isNewRecord = 13;
+	uint32 stageId = 4;
+	uint32 totalScore = 3;
+	uint32 difficulty = 15;
+	repeated uint32 scoreList = 9;
+}

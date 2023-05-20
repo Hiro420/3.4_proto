@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "WidgetCoolDownData.proto";
+
+message WidgetCoolDownNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4290;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated WidgetCoolDownData normalCoolDownDataList = 15;
+	repeated WidgetCoolDownData groupCoolDownDataList = 10;
+}

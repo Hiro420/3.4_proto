@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SvrMsgId.proto";
+import "MsgParam.proto";
+
+message ShowMessageNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 98;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	SvrMsgId msgId = 7;
+	repeated MsgParam params = 5;
+}

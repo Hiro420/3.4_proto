@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message PlayerLogoutNotify {
+	//enum CmdId {
+	//	NONE = 0;
+	//	CMD_ID = 180;
+	//}
+
+	int32 retcode = 7;
+}

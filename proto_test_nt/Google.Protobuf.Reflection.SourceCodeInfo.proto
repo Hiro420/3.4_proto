@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Google.Protobuf.Reflection.SourceCodeInfo {
+	message Google.Protobuf.Reflection.SourceCodeInfo/Google.Protobuf.Reflection.SourceCodeInfo/Types/Location {
+		repeated int32 Path = 1;
+		repeated int32 Span = 2;
+		string LeadingComments = 3;
+		string TrailingComments = 4;
+		repeated string LeadingDetachedComments = 6;
+	}
+
+	repeated Google.Protobuf.Reflection.SourceCodeInfo/Google.Protobuf.Reflection.SourceCodeInfo/Types/Location Location = 1;
+}

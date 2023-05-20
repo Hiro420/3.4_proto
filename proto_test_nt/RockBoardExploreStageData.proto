@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message RockBoardExploreStageData {
+	bool isFinish = 1;
+	uint32 stageId = 9;
+	bool isOpen = 6;
+	uint32 openTime = 7;
+}

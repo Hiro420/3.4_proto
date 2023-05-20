@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Vector.proto";
+
+message MichiaeMatsuriChallengePositionInfo {
+	uint32 groupId = 5;
+	uint32 gadgetId = 14;
+	Vector pos = 13;
+}

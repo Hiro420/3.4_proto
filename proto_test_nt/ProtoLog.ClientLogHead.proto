@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ProtoLog.ClientLogHead {
+	string EventTime = 1;
+	string LogSerialNumber = 2;
+	uint32 ActionId = 3;
+	string ActionName = 4;
+	string UploadIp = 5;
+	string productId = 6;
+	string channelId = 7;
+	string RegionName = 8;
+	string GameVersion = 9;
+	string DeviceType = 10;
+	string deviceUuid = 11;
+	string MacAddr = 12;
+	string AccountName = 13;
+	string AccountUuid = 14;
+}

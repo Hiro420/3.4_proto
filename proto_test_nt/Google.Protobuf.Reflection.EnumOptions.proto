@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.Reflection.UninterpretedOption.proto";
+
+message Google.Protobuf.Reflection.EnumOptions {
+	bool AllowAlias = 2;
+	bool Deprecated = 3;
+	repeated Google.Protobuf.Reflection.UninterpretedOption UninterpretedOption = 999;
+}

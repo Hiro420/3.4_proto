@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GravenInnocenceCarveInfo.proto";
+import "GravenInnocencePhotoInfo.proto";
+import "GravenInnocenceRaceInfo.proto";
+import "GravenInnocenceCampInfo.proto";
+
+message GravenInnocenceInfo {
+	GravenInnocenceCarveInfo carveInfo = 12;
+	GravenInnocencePhotoInfo photoInfo = 5;
+	GravenInnocenceRaceInfo raceInfo = 13;
+	bool leftMonsters = 8;
+	GravenInnocenceCampInfo campInfo = 11;
+}

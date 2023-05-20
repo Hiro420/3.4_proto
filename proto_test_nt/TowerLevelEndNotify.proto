@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ItemParam.proto";
+
+message TowerLevelEndNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 2445;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	enum ContinueStateType {
+    	CONTINUE_STATE_TYPE_CAN_NOT_CONTINUE = 0;
+    	CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_LEVEL = 1;
+    	CONTINUE_STATE_TYPE_CAN_ENTER_NEXT_FLOOR = 2;
+  	}
+
+	repeated uint32 finishedStarCondList = 9;
+	uint32 nextFloorId = 12;
+	bool isSuccess = 15;
+	repeated ItemParam rewardItemList = 8;
+	uint32 continueState = 6;
+}

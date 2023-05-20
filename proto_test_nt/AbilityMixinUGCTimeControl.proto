@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AbilityMixinUGCTimeControl {
+	uint32 StartMoveTime = 6;
+	uint64 StartMoveTimeMs = 5;
+}

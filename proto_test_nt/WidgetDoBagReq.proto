@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LocationInfo.proto";
+import "CreatorInfo.proto";
+
+message WidgetDoBagReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4255;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 materialId = 12;
+	oneof op_info {
+		LocationInfo location_info = 135;
+		CreatorInfo widget_creator_info = 362;
+	}
+}

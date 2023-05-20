@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message IslandPartyRaftInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5588;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 HNECEGNMKNK = 9;
+	uint32 FBACMOFGPGJ = 12;
+	uint32 pointId = 6;
+	uint32 coin = 5;
+}

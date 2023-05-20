@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "SeaLampV3CampStageInfo.proto";
+
+message SeaLampV3CampInfo {
+	repeated SeaLampV3CampStageInfo stageInfoList = 12;
+}

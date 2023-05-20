@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "AvatarRenameAuditContent.proto";
+
+message AvatarRenameContentAuditField {
+	repeated AvatarRenameAuditContent SegmentList = 1;
+	string createTime = 2;
+}

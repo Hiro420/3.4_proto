@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ShowCommonTipsNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 3048;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string content = 4;
+	uint32 closeTime = 7;
+	string title = 8;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeSceneArrangementInfo.proto";
+
+message HomeCreateBlueprintReq {
+	//enum LHOAMCJJEGB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4645;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	HomeSceneArrangementInfo sceneArrangementInfo = 15;
+	uint32 slotId = 13;
+	string serverShareCode = 8;
+	uint32 genShareCodeCount = 1;
+}

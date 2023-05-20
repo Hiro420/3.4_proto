@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message InstableSpraySwitchTeamRsp {
+	//enum AFDJAOMJLNB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20452;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 levelId = 14;
+	int32 retcode = 12;
+}

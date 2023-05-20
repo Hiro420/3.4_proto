@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "CustomDungeonBanInfo.proto";
+import "CustomDungeonBrief.proto";
+
+message GetCustomDungeonRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6234;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	CustomDungeonBanInfo banInfo = 14;
+	int32 retcode = 8;
+	repeated CustomDungeonBrief briefList = 12;
+}

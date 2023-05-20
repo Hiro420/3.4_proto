@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.Reflection.ServiceOptions.proto";
+import "Google.Protobuf.Reflection.MethodDescriptorproto";
+
+message Google.Protobuf.Reflection.ServiceDescriptorProto {
+	string createTime = 1;
+	repeated Google.Protobuf.Reflection.MethodDescriptorProto Method = 2;
+	Google.Protobuf.Reflection.ServiceOptions Options = 3;
+}

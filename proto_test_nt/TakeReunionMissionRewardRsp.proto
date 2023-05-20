@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ReunionMissionInfo.proto";
+
+message TakeReunionMissionRewardRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5092;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	ReunionMissionInfo missionInfo = 12;
+	uint32 rewardIndex = 5;
+	int32 retcode = 4;
+	uint32 rewardId = 11;
+}

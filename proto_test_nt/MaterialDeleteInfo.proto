@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MaterialDeleteInfo {
+	message CountDownDelete {
+		map<uint32, uint32> deleteTimeNumMap = 1;
+		uint32 configCountDownTime = 2;
+	}
+	message DateTimeDelete {
+		uint32 deleteTime = 1;
+	}
+	message DelayWeekCountDownDelete {
+		map<uint32, uint32> deleteTimeNumMap = 1;
+		uint32 configDelayWeek = 2;
+		uint32 configCountDownTime = 3;
+	}
+
+	bool hasDeleteConfig = 1;
+	oneof delete_info {
+		CountDownDelete count_down_delete = 2;
+		DateTimeDelete date_delete = 3;
+		DelayWeekCountDownDelete delay_week_count_down_delete = 4;
+	}
+}

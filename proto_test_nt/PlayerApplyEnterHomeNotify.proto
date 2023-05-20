@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "OnlinePlayerInfo.proto";
+
+message PlayerApplyEnterHomeNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4771;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	OnlinePlayerInfo srcPlayerInfo = 7;
+	uint32 srcAppId = 13;
+}

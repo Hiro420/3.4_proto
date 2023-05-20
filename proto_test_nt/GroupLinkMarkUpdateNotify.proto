@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GroupLinkBundle.proto";
+
+message GroupLinkMarkUpdateNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 5791;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	GroupLinkBundle bundle = 7;
+}

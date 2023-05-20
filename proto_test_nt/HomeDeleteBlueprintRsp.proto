@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeDeleteBlueprintRsp {
+	//enum BAMMGLKEGBD {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4564;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 9;
+	uint32 slotId = 10;
+}

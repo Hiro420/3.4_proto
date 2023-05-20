@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "InBattleMechanicusBuildingInfo.proto";
+
+message InBattleMechanicusPlayerInfo {
+	repeated InBattleMechanicusBuildingInfo buildingList = 12;
+	uint32 uid = 6;
+	uint32 PickCardId = 15;
+	bool IsCardConfirmed = 9;
+	uint32 buildingPoints = 3;
+}

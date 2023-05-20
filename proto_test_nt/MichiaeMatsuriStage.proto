@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MichiaeMatsuriStage {
+	bool isOpen = 8;
+	uint32 stageId = 11;
+	uint32 openTime = 13;
+}

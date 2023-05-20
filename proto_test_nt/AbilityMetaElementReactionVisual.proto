@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message AbilityMetaElementReactionVisual {
+	uint32 ElementSourceType = 3;
+	int32 hitIndex = 12;
+	uint32 ElementReactorType = 2;
+	uint32 ElementReactionType = 7;
+}

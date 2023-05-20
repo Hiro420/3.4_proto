@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message ItemRenameAvatarRsp {
+	//enum BDEOFMOFEEF {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 1628;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 15;
+	uint32 renameId = 8;
+	uint32 cdTime = 7;
+}

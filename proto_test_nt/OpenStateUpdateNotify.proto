@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message OpenStateUpdateNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 158;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	map<uint32, uint32> openStateMap = 9;
+}

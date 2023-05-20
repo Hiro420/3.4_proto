@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "HomeLimitedShop.proto";
+
+message HomeLimitedShopGoodsListRsp {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4770;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	HomeLimitedShop shop = 13;
+	int32 retcode = 9;
+}

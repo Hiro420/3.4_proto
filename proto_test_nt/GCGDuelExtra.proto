@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "PlatformType.proto";
+import "GCGChallengeData.proto";
+
+message GCGDuelExtra {
+	repeated uint32 cardIdList = 1;
+	uint32 FieldId = 2;
+	uint32 faceType = 3;
+	map<uint32, uint32> cardFaceMap = 4;
+	repeated GCGChallengeData challengeList = 5;
+	uint32 score = 6;
+	bool IsMatchAi = 7;
+	uint32 AiDeckId = 8;
+	bool IsInternal = 9;
+	repeated uint32 forbidFinishChallengeList = 10;
+	uint32 level = 11;
+	uint32 clientVersion = 12;
+	PlatformType platformType = 13;
+}

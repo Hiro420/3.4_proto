@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LuaOptionType.proto";
+
+message LuaSetOptionNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 395;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	string luaSetParam = 4;
+	LuaOptionType optionType = 14;
+}

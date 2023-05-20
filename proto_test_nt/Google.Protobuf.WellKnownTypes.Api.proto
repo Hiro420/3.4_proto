@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "Google.Protobuf.WellKnownTypes.SourceContext.proto";
+import "Google.Protobuf.WellKnownTypes.Syntax.proto";
+import "Google.Protobuf.WellKnownTypes.Method.proto";
+import "Google.Protobuf.WellKnownTypes.Option.proto";
+import "Google.Protobuf.WellKnownTypes.Mixin.proto";
+
+message Google.Protobuf.WellKnownTypes.Api {
+	string createTime = 1;
+	repeated Google.Protobuf.WellKnownTypes.Method Methods = 2;
+	repeated Google.Protobuf.WellKnownTypes.Option Options = 3;
+	string version = 4;
+	Google.Protobuf.WellKnownTypes.SourceContext SourceContext = 5;
+	repeated Google.Protobuf.WellKnownTypes.Mixin Mixins = 6;
+	Google.Protobuf.WellKnownTypes.Syntax Syntax = 7;
+}

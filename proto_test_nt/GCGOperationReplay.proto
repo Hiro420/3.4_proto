@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "GCGReplayControllerData.proto";
+import "GCGReplayOperationData.proto";
+import "NJAPCNDDMBH.proto";
+
+message GCGOperationReplay {
+	repeated GCGReplayControllerData ControllerDataList = 9;
+	uint32 gameId = 8;
+	repeated GCGReplayOperationData OperationDataList = 6;
+	uint32 Seed = 12;
+	repeated NJAPCNDDMBH cpmjjejogbm = 3;
+}

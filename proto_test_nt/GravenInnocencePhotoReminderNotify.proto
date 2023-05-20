@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GravenInnocencePhotoReminderNotify {
+	//enum PBOIDLBBNDM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20385;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 reminderId = 9;
+	uint32 groupBundleId = 11;
+}

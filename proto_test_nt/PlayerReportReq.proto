@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "ReportReasonType.proto";
+
+message PlayerReportReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4053;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	string content = 10;
+	ReportReasonType reason = 8;
+	uint32 targetUid = 6;
+	uint32 targetHomeModuleId = 12;
+	string targetHomeModuleName = 2;
+}

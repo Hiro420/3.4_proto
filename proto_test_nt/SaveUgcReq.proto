@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "UgcType.proto";
+import "MusicRecord.proto";
+
+message SaveUgcReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 6331;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	UgcType ugcType = 1;
+	oneof record {
+		MusicRecord music_record = 15;
+	}
+}

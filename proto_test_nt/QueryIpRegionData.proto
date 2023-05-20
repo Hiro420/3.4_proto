@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message QueryIpRegionData {
+	string Ip = 1;
+	string gameBiz = 2;
+	string Source = 3;
+}

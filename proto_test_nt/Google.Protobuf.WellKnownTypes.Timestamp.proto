@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message Google.Protobuf.WellKnownTypes.Timestamp {
+	int64 Seconds = 1;
+	int32 Nanos = 2;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RogueDiaryDungeonRecord.proto";
+
+message RogueDiaryStageInfo {
+	uint32 stageId = 3;
+	RogueDiaryDungeonRecord bestRecord = 4;
+	bool isHaveTry = 9;
+}

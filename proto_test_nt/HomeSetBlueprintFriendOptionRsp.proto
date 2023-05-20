@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message HomeSetBlueprintFriendOptionRsp {
+	//enum NJMIPNFDCKE {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4818;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	int32 retcode = 6;
+	bool isAllowFriendCopy = 9;
+}

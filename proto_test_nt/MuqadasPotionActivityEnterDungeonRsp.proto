@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message MuqadasPotionActivityEnterDungeonRsp {
+	//enum PFCAJHFEFDM {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20138;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	uint32 levelId = 8;
+	int32 retcode = 15;
+}

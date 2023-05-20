@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "RogueDiaryAvatar.proto";
+import "RogueDiaryRoomInfo.proto";
+
+message RogueDiaryRepairInfoNotify {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 8681;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 stageId = 10;
+	repeated RogueDiaryAvatar avatarList = 13;
+	repeated RogueDiaryAvatar selectAvatarList = 7;
+	repeated uint32 randCardList = 12;
+	repeated uint32 selectCardList = 1;
+	repeated uint32 chosenCardList = 8;
+	repeated RogueDiaryAvatar trialAvatarList = 3;
+	repeated RogueDiaryRoomInfo roomList = 5;
+}

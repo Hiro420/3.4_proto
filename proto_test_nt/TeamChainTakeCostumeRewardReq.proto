@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message TeamChainTakeCostumeRewardReq {
+	//enum NIJONKEJPPP {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 20331;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//}
+
+	repeated uint32 SkillNoList = 12;
+	uint32 stageId = 11;
+}

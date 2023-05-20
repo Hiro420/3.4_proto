@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message GravenInnocencePhotoFinishReq {
+	//enum NDBMIJAJMLB {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 23521;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	uint32 param = 9;
+	uint32 objectId = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+message VintageHuntingFirstStageInfo {
+	uint32 NILGNHOPGLD = 14;
+	uint32 HIKADHBLPEB = 1;
+	uint32 IPAJLKOBDKC = 12;
+	uint32 score = 15;
+}

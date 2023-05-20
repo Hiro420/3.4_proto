@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+
+import "LocationInfo.proto";
+import "CameraInfo.proto";
+import "CreatorInfo.proto";
+import "ThunderBirdFeatherInfo.proto";
+
+message QuickUseWidgetReq {
+	//enum CmdId {
+	//	option allow_alias= true;
+	//	NONE = 0;
+	//	CMD_ID = 4275;
+	//	enetChannelId = 0;
+	//	EnetIsReliable = 1;
+	//	IsAllowClient = 1;
+	//}
+
+	oneof param {
+		LocationInfo location_info = 1542;
+		CameraInfo camera_info = 1754;
+		CreatorInfo creator_info = 825;
+		ThunderBirdFeatherInfo thunder_bird_feather_info = 1365;
+	}
+}
